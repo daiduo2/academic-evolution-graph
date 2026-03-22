@@ -187,6 +187,26 @@ make kg-visualization
 make deploy
 ```
 
+## 开发时怎么验证
+
+这个仓库已经从主项目里独立出来，所以日常开发不需要再跑主仓库那套 daily fetch / raw-data 流程。
+
+通常只需要按改动范围跑最小验证：
+
+```bash
+# 规则 / benchmark
+pytest tests/test_evolution_analysis.py -q
+
+# KG exporter / visualization exporter
+pytest tests/test_math_kg_visualization_export.py -q
+
+# 前端
+npm --prefix frontend run test -- --run
+npm --prefix frontend run build
+```
+
+除非你正在改原始数据 ingestion 或依赖 `data/raw/*.jsonl` 的逻辑，否则不要把 `make test` 当成默认阻塞条件。
+
 ## 备注
 
 - 这是一个静态部署项目，没有运行时后端
