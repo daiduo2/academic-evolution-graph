@@ -1,0 +1,560 @@
+{
+  "case_id": "global_42-2025-02",
+  "anchor_topic_id": "global_42",
+  "anchor_topic_name": "黎曼曲面曲率研究",
+  "anchor_topic_mode": "hybrid",
+  "anchor_topic_profile": {
+    "primary_mode": "hybrid",
+    "secondary_mode": null,
+    "method_score": 1,
+    "problem_score": 1,
+    "theory_score": 0
+  },
+  "start_period": "2025-02",
+  "observation_horizon": 4,
+  "neighbor_topics": [
+    "global_67",
+    "global_22",
+    "global_216",
+    "global_213",
+    "global_108"
+  ],
+  "evolution_path": [
+    {
+      "period": "2025-02",
+      "anchor_paper_count": 35,
+      "active_neighbor_count": 2,
+      "top_neighbors": [
+        {
+          "topic_id": "global_17",
+          "topic_name": "接触辛凯勒流形",
+          "paper_count": 31,
+          "weight": 0.2653,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "method",
+            "method_score": 1,
+            "problem_score": 0,
+            "theory_score": 4
+          }
+        },
+        {
+          "topic_id": "global_22",
+          "topic_name": "曲率流与毛细曲面",
+          "paper_count": 17,
+          "weight": 0.44,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_67",
+          "topic_name": "黎曼流形与边界曲率",
+          "paper_count": 0,
+          "weight": 0.5545,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-03",
+      "anchor_paper_count": 0,
+      "active_neighbor_count": 2,
+      "top_neighbors": [
+        {
+          "topic_id": "global_67",
+          "topic_name": "黎曼流形与边界曲率",
+          "paper_count": 106,
+          "weight": 0.5545,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_17",
+          "topic_name": "接触辛凯勒流形",
+          "paper_count": 55,
+          "weight": 0.2653,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "method",
+            "method_score": 1,
+            "problem_score": 0,
+            "theory_score": 4
+          }
+        },
+        {
+          "topic_id": "global_22",
+          "topic_name": "曲率流与毛细曲面",
+          "paper_count": 0,
+          "weight": 0.44,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-04",
+      "anchor_paper_count": 0,
+      "active_neighbor_count": 1,
+      "top_neighbors": [
+        {
+          "topic_id": "global_67",
+          "topic_name": "黎曼流形与边界曲率",
+          "paper_count": 274,
+          "weight": 0.5545,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_22",
+          "topic_name": "曲率流与毛细曲面",
+          "paper_count": 0,
+          "weight": 0.44,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_216",
+          "topic_name": "黎曼流形与金属性联络",
+          "paper_count": 0,
+          "weight": 0.4333,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-05",
+      "anchor_paper_count": 96,
+      "active_neighbor_count": 2,
+      "top_neighbors": [
+        {
+          "topic_id": "global_108",
+          "topic_name": "凯勒流形爱因斯坦度量",
+          "paper_count": 26,
+          "weight": 0.3808,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_122",
+          "topic_name": "李叶层结构与δ_τ",
+          "paper_count": 13,
+          "weight": 0.3292,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "method",
+            "method_score": 1,
+            "problem_score": 0,
+            "theory_score": 4
+          }
+        },
+        {
+          "topic_id": "global_67",
+          "topic_name": "黎曼流形与边界曲率",
+          "paper_count": 0,
+          "weight": 0.5545,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-06",
+      "anchor_paper_count": 0,
+      "active_neighbor_count": 2,
+      "top_neighbors": [
+        {
+          "topic_id": "global_67",
+          "topic_name": "黎曼流形与边界曲率",
+          "paper_count": 117,
+          "weight": 0.5545,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_17",
+          "topic_name": "接触辛凯勒流形",
+          "paper_count": 60,
+          "weight": 0.2653,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "method",
+            "method_score": 1,
+            "problem_score": 0,
+            "theory_score": 4
+          }
+        },
+        {
+          "topic_id": "global_22",
+          "topic_name": "曲率流与毛细曲面",
+          "paper_count": 0,
+          "weight": 0.44,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "type": "emerged",
+      "period": "2025-02",
+      "summary": "Anchor topic first appears in the replay window."
+    },
+    {
+      "type": "diffused_to_neighbor",
+      "period": "2025-04",
+      "summary": "Semantic neighbors absorb momentum from the anchor topic around 2025-04.",
+      "evidence": {
+        "target_topic_id": "global_67",
+        "target_topic_name": "黎曼流形与边界曲率",
+        "target_topic_mode": "hybrid",
+        "transfer_kind": "mixed_diffusion",
+        "transfer_pattern": "migration",
+        "weight": 0.5545,
+        "increase": 274,
+        "bridge_evidence": {
+          "shared_keywords": [
+            "boundary",
+            "curvature",
+            "hypersurfaces",
+            "manifold",
+            "manifolds",
+            "riemannian"
+          ],
+          "bridge_topics": [
+            "曲率流与毛细曲面",
+            "黎曼流形与金属性联络",
+            "超曲面曲率与Ricci收缩子"
+          ],
+          "target_evidence_titles": [
+            "Index estimates for constant mean curvature surfaces in three-manifolds by energy comparison",
+            "Divergence Identity for the scalar curvature and Rigidity of Codazzi Tensors"
+          ],
+          "category_flow": {
+            "source_category": "math",
+            "target_category": "math",
+            "source_top_level": "math",
+            "target_top_level": "math",
+            "relation": "same_category"
+          },
+          "pipeline_relation": {
+            "relation": "none",
+            "source_stage_terms": [],
+            "target_stage_terms": [],
+            "shared_domain_terms": [],
+            "representation_stage_terms": [],
+            "perception_stage_terms": [],
+            "shared_3d_terms": [],
+            "shared_formal_terms": [
+              "surfaces"
+            ],
+            "shared_math_ag_objects": [
+              "surfaces"
+            ],
+            "shared_math_ag_methods": [],
+            "shared_math_lo_objects": [],
+            "shared_math_lo_methods": [],
+            "shared_math_lo_core_objects": [],
+            "shared_math_lo_modal_objects": [],
+            "shared_math_lo_modal_methods": [],
+            "shared_math_lo_set_objects": [],
+            "shared_math_lo_set_methods": [],
+            "shared_math_lo_forcing_objects": [],
+            "shared_math_lo_forcing_methods": [],
+            "shared_math_lo_type_objects": [],
+            "source_type_terms": [],
+            "target_type_terms": [],
+            "shared_math_lo_definability_objects": [],
+            "shared_math_lo_definability_methods": [],
+            "math_ag_object_matches": {
+              "anchor": {
+                "variety_family": [
+                  "surfaces"
+                ]
+              },
+              "target": {
+                "variety_family": [
+                  "surfaces"
+                ]
+              },
+              "overlap": {
+                "score": 1.0,
+                "shared_exact_terms": [
+                  "surfaces"
+                ],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            },
+            "math_ag_method_matches": {
+              "anchor": {},
+              "target": {},
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            }
+          },
+          "evidence_title_overlap": {
+            "anchor_titles": [
+              "Index estimates for constant mean curvature surfaces in three-manifolds by energy comparison",
+              "Divergence Identity for the scalar curvature and Rigidity of Codazzi Tensors"
+            ],
+            "target_titles": [
+              "Index estimates for constant mean curvature surfaces in three-manifolds by energy comparison",
+              "Divergence Identity for the scalar curvature and Rigidity of Codazzi Tensors"
+            ],
+            "shared_terms": [
+              "codazzi",
+              "comparison",
+              "constant",
+              "curvature",
+              "divergence",
+              "energy"
+            ],
+            "shared_term_count": 6
+          },
+          "bridge_strength": 1.0,
+          "alias_risk": {
+            "level": "low",
+            "reason": "distinct_concepts"
+          }
+        },
+        "post_transfer_persistence": {
+          "lookahead_periods": [
+            "2025-05",
+            "2025-06"
+          ],
+          "active_periods_after_event": 1,
+          "paper_counts_after_event": [
+            0,
+            117
+          ],
+          "sustained": false
+        },
+        "anchor_post_event_persistence": {
+          "lookahead_periods": [
+            "2025-05",
+            "2025-06"
+          ],
+          "active_periods_after_event": 1,
+          "paper_counts_after_event": [
+            96,
+            0
+          ],
+          "sustained": false
+        },
+        "relative_persistence": {
+          "anchor_total": 96,
+          "target_total": 117,
+          "target_to_anchor_ratio": 1.219,
+          "status": "competitive_with_source"
+        },
+        "consistency_check": {
+          "status": "consistent",
+          "flags": [],
+          "relation": "same_category",
+          "pipeline_relation": "none",
+          "bridge_strength": 1.0,
+          "relative_persistence_status": "competitive_with_source",
+          "event_type": "diffused_to_neighbor"
+        }
+      }
+    },
+    {
+      "type": "expanded",
+      "period": "2025-05",
+      "summary": "Anchor topic grows materially during the replay horizon."
+    },
+    {
+      "type": "specialized_into_child",
+      "period": "2025-06",
+      "summary": "A deeper child-like topic grows within the anchor neighborhood."
+    },
+    {
+      "type": "weakened",
+      "period": "2025-06",
+      "summary": "Anchor topic shows sustained decline without strong absorption evidence."
+    }
+  ],
+  "cross_category_moves": [],
+  "growth_summary": "黎曼曲面曲率研究 (hybrid) expands from 2025-02 to 2025-06 and diffuses into nearby topics.",
+  "decline_summary": "Momentum softens by 2025-06, suggesting the topic loses local centrality.",
+  "review_flags": [],
+  "key_supporting_topics": [
+    {
+      "topic_id": "global_67",
+      "topic_name": "黎曼流形与边界曲率",
+      "category": "math",
+      "weight": 0.5545,
+      "peak_period": "2025-04",
+      "peak_count": 274,
+      "increase": 274,
+      "topic_mode": "hybrid",
+      "topic_profile": {
+        "primary_mode": "hybrid",
+        "secondary_mode": null,
+        "method_score": 1,
+        "problem_score": 1,
+        "theory_score": 0
+      }
+    },
+    {
+      "topic_id": "global_17",
+      "topic_name": "接触辛凯勒流形",
+      "category": "math",
+      "weight": 0.2653,
+      "peak_period": "2025-06",
+      "peak_count": 60,
+      "increase": 29,
+      "topic_mode": "theory",
+      "topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": "method",
+        "method_score": 1,
+        "problem_score": 0,
+        "theory_score": 4
+      }
+    },
+    {
+      "topic_id": "global_108",
+      "topic_name": "凯勒流形爱因斯坦度量",
+      "category": "math",
+      "weight": 0.3808,
+      "peak_period": "2025-05",
+      "peak_count": 26,
+      "increase": 26,
+      "topic_mode": "theory",
+      "topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": null,
+        "method_score": 0,
+        "problem_score": 0,
+        "theory_score": 1
+      }
+    },
+    {
+      "topic_id": "global_122",
+      "topic_name": "李叶层结构与δ_τ",
+      "category": "math",
+      "weight": 0.3292,
+      "peak_period": "2025-05",
+      "peak_count": 13,
+      "increase": 13,
+      "topic_mode": "theory",
+      "topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": "method",
+        "method_score": 1,
+        "problem_score": 0,
+        "theory_score": 4
+      }
+    }
+  ],
+  "key_turning_points": [
+    {
+      "period": "2025-03",
+      "delta": -35,
+      "anchor_paper_count": 0
+    },
+    {
+      "period": "2025-05",
+      "delta": 96,
+      "anchor_paper_count": 96
+    },
+    {
+      "period": "2025-06",
+      "delta": -96,
+      "anchor_paper_count": 0
+    }
+  ]
+}

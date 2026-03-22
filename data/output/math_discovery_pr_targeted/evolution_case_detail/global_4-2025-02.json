@@ -1,0 +1,707 @@
+{
+  "case_id": "global_4-2025-02",
+  "anchor_topic_id": "global_4",
+  "anchor_topic_name": "分级范畴聚类",
+  "anchor_topic_mode": "theory",
+  "anchor_topic_profile": {
+    "primary_mode": "theory",
+    "secondary_mode": "problem",
+    "method_score": 0,
+    "problem_score": 1,
+    "theory_score": 1
+  },
+  "start_period": "2025-02",
+  "observation_horizon": 4,
+  "neighbor_topics": [
+    "global_5",
+    "global_337",
+    "global_55",
+    "global_201",
+    "global_237"
+  ],
+  "evolution_path": [
+    {
+      "period": "2025-02",
+      "anchor_paper_count": 28,
+      "active_neighbor_count": 2,
+      "top_neighbors": [
+        {
+          "topic_id": "global_5",
+          "topic_name": "卢斯蒂格代数上同调",
+          "paper_count": 45,
+          "weight": 0.4077,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "problem",
+            "method_score": 0,
+            "problem_score": 1,
+            "theory_score": 3
+          }
+        },
+        {
+          "topic_id": "global_1",
+          "topic_name": "AW代数与希尔伯特代数",
+          "paper_count": 14,
+          "weight": 0.2077,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 2
+          }
+        },
+        {
+          "topic_id": "global_337",
+          "topic_name": "可积系统与Bethe拟设",
+          "paper_count": 0,
+          "weight": 0.3292,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "problem",
+            "method_score": 0,
+            "problem_score": 1,
+            "theory_score": 1
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-03",
+      "anchor_paper_count": 44,
+      "active_neighbor_count": 1,
+      "top_neighbors": [
+        {
+          "topic_id": "global_55",
+          "topic_name": "李代数与Hopf代数",
+          "paper_count": 117,
+          "weight": 0.313,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "problem",
+            "method_score": 0,
+            "problem_score": 1,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_5",
+          "topic_name": "卢斯蒂格代数上同调",
+          "paper_count": 0,
+          "weight": 0.4077,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "problem",
+            "method_score": 0,
+            "problem_score": 1,
+            "theory_score": 3
+          }
+        },
+        {
+          "topic_id": "global_337",
+          "topic_name": "可积系统与Bethe拟设",
+          "paper_count": 0,
+          "weight": 0.3292,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "problem",
+            "method_score": 0,
+            "problem_score": 1,
+            "theory_score": 1
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-04",
+      "anchor_paper_count": 0,
+      "active_neighbor_count": 1,
+      "top_neighbors": [
+        {
+          "topic_id": "global_5",
+          "topic_name": "卢斯蒂格代数上同调",
+          "paper_count": 75,
+          "weight": 0.4077,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "problem",
+            "method_score": 0,
+            "problem_score": 1,
+            "theory_score": 3
+          }
+        },
+        {
+          "topic_id": "global_337",
+          "topic_name": "可积系统与Bethe拟设",
+          "paper_count": 0,
+          "weight": 0.3292,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "problem",
+            "method_score": 0,
+            "problem_score": 1,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_55",
+          "topic_name": "李代数与Hopf代数",
+          "paper_count": 0,
+          "weight": 0.313,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "problem",
+            "method_score": 0,
+            "problem_score": 1,
+            "theory_score": 1
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-05",
+      "anchor_paper_count": 0,
+      "active_neighbor_count": 2,
+      "top_neighbors": [
+        {
+          "topic_id": "global_55",
+          "topic_name": "李代数与Hopf代数",
+          "paper_count": 309,
+          "weight": 0.313,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "problem",
+            "method_score": 0,
+            "problem_score": 1,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_1",
+          "topic_name": "AW代数与希尔伯特代数",
+          "paper_count": 37,
+          "weight": 0.2077,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 2
+          }
+        },
+        {
+          "topic_id": "global_5",
+          "topic_name": "卢斯蒂格代数上同调",
+          "paper_count": 0,
+          "weight": 0.4077,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "problem",
+            "method_score": 0,
+            "problem_score": 1,
+            "theory_score": 3
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-06",
+      "anchor_paper_count": 0,
+      "active_neighbor_count": 1,
+      "top_neighbors": [
+        {
+          "topic_id": "global_55",
+          "topic_name": "李代数与Hopf代数",
+          "paper_count": 165,
+          "weight": 0.313,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "problem",
+            "method_score": 0,
+            "problem_score": 1,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_5",
+          "topic_name": "卢斯蒂格代数上同调",
+          "paper_count": 0,
+          "weight": 0.4077,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "problem",
+            "method_score": 0,
+            "problem_score": 1,
+            "theory_score": 3
+          }
+        },
+        {
+          "topic_id": "global_337",
+          "topic_name": "可积系统与Bethe拟设",
+          "paper_count": 0,
+          "weight": 0.3292,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "problem",
+            "method_score": 0,
+            "problem_score": 1,
+            "theory_score": 1
+          }
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "type": "emerged",
+      "period": "2025-02",
+      "summary": "Anchor topic first appears in the replay window."
+    },
+    {
+      "type": "expanded",
+      "period": "2025-03",
+      "summary": "Anchor topic grows materially during the replay horizon."
+    },
+    {
+      "type": "diffused_to_neighbor",
+      "period": "2025-05",
+      "summary": "Semantic neighbors absorb momentum from the anchor topic around 2025-05.",
+      "evidence": {
+        "target_topic_id": "global_55",
+        "target_topic_name": "李代数与Hopf代数",
+        "target_topic_mode": "theory",
+        "transfer_kind": "theory_spillover",
+        "transfer_pattern": "spillover",
+        "weight": 0.313,
+        "increase": 309,
+        "bridge_evidence": {
+          "shared_keywords": [
+            "algebra",
+            "categories",
+            "graded",
+            "lie",
+            "mathcal",
+            "mathfrak"
+          ],
+          "bridge_topics": [
+            "卢斯蒂格代数上同调",
+            "可积系统与Bethe拟设",
+            "幺半无穷范畴理论"
+          ],
+          "target_evidence_titles": [
+            "Zero-level integrable modules over twisted affine Lie superalgebras",
+            "Vidinli algebras"
+          ],
+          "category_flow": {
+            "source_category": "math",
+            "target_category": "math",
+            "source_top_level": "math",
+            "target_top_level": "math",
+            "relation": "same_category"
+          },
+          "pipeline_relation": {
+            "relation": "none",
+            "source_stage_terms": [],
+            "target_stage_terms": [],
+            "shared_domain_terms": [],
+            "representation_stage_terms": [],
+            "perception_stage_terms": [],
+            "shared_3d_terms": [],
+            "shared_formal_terms": [
+              "lie"
+            ],
+            "shared_math_ag_objects": [],
+            "shared_math_ag_methods": [
+              "categories"
+            ],
+            "shared_math_lo_objects": [
+              "categories"
+            ],
+            "shared_math_lo_methods": [],
+            "shared_math_lo_core_objects": [],
+            "shared_math_lo_modal_objects": [],
+            "shared_math_lo_modal_methods": [],
+            "shared_math_lo_set_objects": [],
+            "shared_math_lo_set_methods": [],
+            "shared_math_lo_forcing_objects": [],
+            "shared_math_lo_forcing_methods": [],
+            "shared_math_lo_type_objects": [],
+            "source_type_terms": [],
+            "target_type_terms": [],
+            "shared_math_lo_definability_objects": [],
+            "shared_math_lo_definability_methods": [],
+            "math_ag_object_matches": {
+              "anchor": {},
+              "target": {},
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            },
+            "math_ag_method_matches": {
+              "anchor": {
+                "cohomological": [
+                  "homotopy"
+                ],
+                "derived_categorical": [
+                  "categorical",
+                  "categories"
+                ]
+              },
+              "target": {
+                "derived_categorical": [
+                  "categories"
+                ]
+              },
+              "overlap": {
+                "score": 1.0,
+                "shared_exact_terms": [
+                  "categories"
+                ],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            }
+          },
+          "evidence_title_overlap": {
+            "anchor_titles": [
+              "Zero-level integrable modules over twisted affine Lie superalgebras",
+              "Vidinli algebras"
+            ],
+            "target_titles": [
+              "Zero-level integrable modules over twisted affine Lie superalgebras",
+              "Vidinli algebras"
+            ],
+            "shared_terms": [
+              "affine",
+              "algebras",
+              "integrable",
+              "level",
+              "modules",
+              "over"
+            ],
+            "shared_term_count": 6
+          },
+          "bridge_strength": 1.0,
+          "alias_risk": {
+            "level": "low",
+            "reason": "distinct_concepts"
+          }
+        },
+        "post_transfer_persistence": {
+          "lookahead_periods": [
+            "2025-06",
+            "2025-07"
+          ],
+          "active_periods_after_event": 2,
+          "paper_counts_after_event": [
+            165,
+            16
+          ],
+          "sustained": true
+        },
+        "anchor_post_event_persistence": {
+          "lookahead_periods": [
+            "2025-06",
+            "2025-07"
+          ],
+          "active_periods_after_event": 0,
+          "paper_counts_after_event": [
+            0,
+            0
+          ],
+          "sustained": false
+        },
+        "relative_persistence": {
+          "anchor_total": 0,
+          "target_total": 181,
+          "target_to_anchor_ratio": null,
+          "status": "target_outlasts_source"
+        },
+        "consistency_check": {
+          "status": "consistent",
+          "flags": [],
+          "relation": "same_category",
+          "pipeline_relation": "none",
+          "bridge_strength": 1.0,
+          "relative_persistence_status": "target_outlasts_source",
+          "event_type": "diffused_to_neighbor"
+        }
+      }
+    },
+    {
+      "type": "merged_into_parent",
+      "period": "2025-05",
+      "summary": "Activity appears to reconverge into broader topic 李代数与Hopf代数.",
+      "evidence": {
+        "target_topic_id": "global_55",
+        "target_topic_name": "李代数与Hopf代数",
+        "target_topic_mode": "theory",
+        "transfer_kind": "mixed_transfer",
+        "transfer_pattern": "spillover",
+        "weight": 0.313,
+        "bridge_evidence": {
+          "shared_keywords": [
+            "algebra",
+            "categories",
+            "graded",
+            "lie",
+            "mathcal",
+            "mathfrak"
+          ],
+          "bridge_topics": [
+            "卢斯蒂格代数上同调",
+            "可积系统与Bethe拟设",
+            "幺半无穷范畴理论"
+          ],
+          "target_evidence_titles": [
+            "Zero-level integrable modules over twisted affine Lie superalgebras",
+            "Vidinli algebras"
+          ],
+          "category_flow": {
+            "source_category": "math",
+            "target_category": "math",
+            "source_top_level": "math",
+            "target_top_level": "math",
+            "relation": "same_category"
+          },
+          "pipeline_relation": {
+            "relation": "none",
+            "source_stage_terms": [],
+            "target_stage_terms": [],
+            "shared_domain_terms": [],
+            "representation_stage_terms": [],
+            "perception_stage_terms": [],
+            "shared_3d_terms": [],
+            "shared_formal_terms": [
+              "lie"
+            ],
+            "shared_math_ag_objects": [],
+            "shared_math_ag_methods": [
+              "categories"
+            ],
+            "shared_math_lo_objects": [
+              "categories"
+            ],
+            "shared_math_lo_methods": [],
+            "shared_math_lo_core_objects": [],
+            "shared_math_lo_modal_objects": [],
+            "shared_math_lo_modal_methods": [],
+            "shared_math_lo_set_objects": [],
+            "shared_math_lo_set_methods": [],
+            "shared_math_lo_forcing_objects": [],
+            "shared_math_lo_forcing_methods": [],
+            "shared_math_lo_type_objects": [],
+            "source_type_terms": [],
+            "target_type_terms": [],
+            "shared_math_lo_definability_objects": [],
+            "shared_math_lo_definability_methods": [],
+            "math_ag_object_matches": {
+              "anchor": {},
+              "target": {},
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            },
+            "math_ag_method_matches": {
+              "anchor": {
+                "cohomological": [
+                  "homotopy"
+                ],
+                "derived_categorical": [
+                  "categorical",
+                  "categories"
+                ]
+              },
+              "target": {
+                "derived_categorical": [
+                  "categories"
+                ]
+              },
+              "overlap": {
+                "score": 1.0,
+                "shared_exact_terms": [
+                  "categories"
+                ],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            }
+          },
+          "evidence_title_overlap": {
+            "anchor_titles": [
+              "Zero-level integrable modules over twisted affine Lie superalgebras",
+              "Vidinli algebras"
+            ],
+            "target_titles": [
+              "Zero-level integrable modules over twisted affine Lie superalgebras",
+              "Vidinli algebras"
+            ],
+            "shared_terms": [
+              "affine",
+              "algebras",
+              "integrable",
+              "level",
+              "modules",
+              "over"
+            ],
+            "shared_term_count": 6
+          },
+          "bridge_strength": 1.0,
+          "alias_risk": {
+            "level": "low",
+            "reason": "distinct_concepts"
+          }
+        },
+        "post_transfer_persistence": {
+          "lookahead_periods": [
+            "2025-06",
+            "2025-07"
+          ],
+          "active_periods_after_event": 2,
+          "paper_counts_after_event": [
+            165,
+            16
+          ],
+          "sustained": true
+        },
+        "anchor_post_event_persistence": {
+          "lookahead_periods": [
+            "2025-06",
+            "2025-07"
+          ],
+          "active_periods_after_event": 0,
+          "paper_counts_after_event": [
+            0,
+            0
+          ],
+          "sustained": false
+        },
+        "relative_persistence": {
+          "anchor_total": 0,
+          "target_total": 181,
+          "target_to_anchor_ratio": null,
+          "status": "target_outlasts_source"
+        },
+        "consistency_check": {
+          "status": "consistent",
+          "flags": [],
+          "relation": "same_category",
+          "pipeline_relation": "none",
+          "bridge_strength": 1.0,
+          "relative_persistence_status": "target_outlasts_source",
+          "event_type": "merged_into_parent"
+        }
+      }
+    },
+    {
+      "type": "specialized_into_child",
+      "period": "2025-05",
+      "summary": "A deeper child-like topic grows within the anchor neighborhood."
+    }
+  ],
+  "cross_category_moves": [],
+  "growth_summary": "分级范畴聚类 (theory) expands from 2025-02 to 2025-06 and diffuses into nearby topics.",
+  "decline_summary": "Some activity appears to reconverge into a broader parent topic by 2025-06.",
+  "review_flags": [],
+  "key_supporting_topics": [
+    {
+      "topic_id": "global_55",
+      "topic_name": "李代数与Hopf代数",
+      "category": "math",
+      "weight": 0.313,
+      "peak_period": "2025-05",
+      "peak_count": 309,
+      "increase": 309,
+      "topic_mode": "theory",
+      "topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": "problem",
+        "method_score": 0,
+        "problem_score": 1,
+        "theory_score": 1
+      }
+    },
+    {
+      "topic_id": "global_5",
+      "topic_name": "卢斯蒂格代数上同调",
+      "category": "math",
+      "weight": 0.4077,
+      "peak_period": "2025-04",
+      "peak_count": 75,
+      "increase": 30,
+      "topic_mode": "theory",
+      "topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": "problem",
+        "method_score": 0,
+        "problem_score": 1,
+        "theory_score": 3
+      }
+    },
+    {
+      "topic_id": "global_1",
+      "topic_name": "AW代数与希尔伯特代数",
+      "category": "math",
+      "weight": 0.2077,
+      "peak_period": "2025-05",
+      "peak_count": 37,
+      "increase": 23,
+      "topic_mode": "theory",
+      "topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": null,
+        "method_score": 0,
+        "problem_score": 0,
+        "theory_score": 2
+      }
+    }
+  ],
+  "key_turning_points": [
+    {
+      "period": "2025-03",
+      "delta": 16,
+      "anchor_paper_count": 44
+    },
+    {
+      "period": "2025-04",
+      "delta": -44,
+      "anchor_paper_count": 0
+    }
+  ]
+}

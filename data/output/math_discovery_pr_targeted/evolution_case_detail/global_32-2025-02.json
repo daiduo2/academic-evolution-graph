@@ -1,0 +1,505 @@
+{
+  "case_id": "global_32-2025-02",
+  "anchor_topic_id": "global_32",
+  "anchor_topic_name": "素数与狄利克雷和",
+  "anchor_topic_mode": "theory",
+  "anchor_topic_profile": {
+    "primary_mode": "theory",
+    "secondary_mode": null,
+    "method_score": 0,
+    "problem_score": 0,
+    "theory_score": 1
+  },
+  "start_period": "2025-02",
+  "observation_horizon": 4,
+  "neighbor_topics": [
+    "global_120",
+    "global_88",
+    "global_279",
+    "global_379",
+    "global_109"
+  ],
+  "evolution_path": [
+    {
+      "period": "2025-02",
+      "anchor_paper_count": 102,
+      "active_neighbor_count": 1,
+      "top_neighbors": [
+        {
+          "topic_id": "global_18",
+          "topic_name": "数字置换倍数与Salem数",
+          "paper_count": 13,
+          "weight": 0.2167,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_120",
+          "topic_name": "整数素数分拆猜想",
+          "paper_count": 0,
+          "weight": 0.5211,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_88",
+          "topic_name": "素数猜想与整数",
+          "paper_count": 0,
+          "weight": 0.44,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 2
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-03",
+      "anchor_paper_count": 0,
+      "active_neighbor_count": 0,
+      "top_neighbors": [
+        {
+          "topic_id": "global_120",
+          "topic_name": "整数素数分拆猜想",
+          "paper_count": 0,
+          "weight": 0.5211,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_88",
+          "topic_name": "素数猜想与整数",
+          "paper_count": 0,
+          "weight": 0.44,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 2
+          }
+        },
+        {
+          "topic_id": "global_279",
+          "topic_name": "二次域整数点问题",
+          "paper_count": 0,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-04",
+      "anchor_paper_count": 0,
+      "active_neighbor_count": 1,
+      "top_neighbors": [
+        {
+          "topic_id": "global_88",
+          "topic_name": "素数猜想与整数",
+          "paper_count": 141,
+          "weight": 0.44,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 2
+          }
+        },
+        {
+          "topic_id": "global_120",
+          "topic_name": "整数素数分拆猜想",
+          "paper_count": 0,
+          "weight": 0.5211,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_279",
+          "topic_name": "二次域整数点问题",
+          "paper_count": 0,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-05",
+      "anchor_paper_count": 0,
+      "active_neighbor_count": 2,
+      "top_neighbors": [
+        {
+          "topic_id": "global_120",
+          "topic_name": "整数素数分拆猜想",
+          "paper_count": 115,
+          "weight": 0.5211,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_109",
+          "topic_name": "分圆域与素数平方根",
+          "paper_count": 26,
+          "weight": 0.3519,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_88",
+          "topic_name": "素数猜想与整数",
+          "paper_count": 0,
+          "weight": 0.44,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 2
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-06",
+      "anchor_paper_count": 90,
+      "active_neighbor_count": 0,
+      "top_neighbors": [
+        {
+          "topic_id": "global_120",
+          "topic_name": "整数素数分拆猜想",
+          "paper_count": 0,
+          "weight": 0.5211,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_88",
+          "topic_name": "素数猜想与整数",
+          "paper_count": 0,
+          "weight": 0.44,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 2
+          }
+        },
+        {
+          "topic_id": "global_279",
+          "topic_name": "二次域整数点问题",
+          "paper_count": 0,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "type": "emerged",
+      "period": "2025-02",
+      "summary": "Anchor topic first appears in the replay window."
+    },
+    {
+      "type": "diffused_to_neighbor",
+      "period": "2025-04",
+      "summary": "Semantic neighbors absorb momentum from the anchor topic around 2025-04.",
+      "evidence": {
+        "target_topic_id": "global_88",
+        "target_topic_name": "素数猜想与整数",
+        "target_topic_mode": "theory",
+        "transfer_kind": "theory_spillover",
+        "transfer_pattern": "spillover",
+        "weight": 0.44,
+        "increase": 141,
+        "bridge_evidence": {
+          "shared_keywords": [
+            "integer",
+            "integers",
+            "log",
+            "number",
+            "prime"
+          ],
+          "bridge_topics": [
+            "整数素数分拆猜想",
+            "二次域整数点问题",
+            "分圆域与素数平方根"
+          ],
+          "target_evidence_titles": [
+            "Cyclotomic Factors and LRS-Degeneracy",
+            "On Monogeneity of reciprocal polynomials"
+          ],
+          "category_flow": {
+            "source_category": "math",
+            "target_category": "math",
+            "source_top_level": "math",
+            "target_top_level": "math",
+            "relation": "same_category"
+          },
+          "pipeline_relation": {
+            "relation": "none",
+            "source_stage_terms": [],
+            "target_stage_terms": [],
+            "shared_domain_terms": [],
+            "representation_stage_terms": [],
+            "perception_stage_terms": [],
+            "shared_3d_terms": [],
+            "shared_formal_terms": [],
+            "shared_math_ag_objects": [],
+            "shared_math_ag_methods": [],
+            "shared_math_lo_objects": [],
+            "shared_math_lo_methods": [],
+            "shared_math_lo_core_objects": [],
+            "shared_math_lo_modal_objects": [],
+            "shared_math_lo_modal_methods": [],
+            "shared_math_lo_set_objects": [],
+            "shared_math_lo_set_methods": [],
+            "shared_math_lo_forcing_objects": [],
+            "shared_math_lo_forcing_methods": [],
+            "shared_math_lo_type_objects": [],
+            "source_type_terms": [],
+            "target_type_terms": [],
+            "shared_math_lo_definability_objects": [],
+            "shared_math_lo_definability_methods": [],
+            "math_ag_object_matches": {
+              "anchor": {},
+              "target": {},
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            },
+            "math_ag_method_matches": {
+              "anchor": {},
+              "target": {},
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            }
+          },
+          "evidence_title_overlap": {
+            "anchor_titles": [
+              "Pseudodifferential arithmetic, disproof of Riemann and proof of Lindelöf hypotheses",
+              "Quartic Gauss sums over primes and metaplectic theta functions"
+            ],
+            "target_titles": [
+              "Cyclotomic Factors and LRS-Degeneracy",
+              "On Monogeneity of reciprocal polynomials"
+            ],
+            "shared_terms": [],
+            "shared_term_count": 0
+          },
+          "bridge_strength": 0.75,
+          "alias_risk": {
+            "level": "low",
+            "reason": "distinct_concepts"
+          }
+        },
+        "post_transfer_persistence": {
+          "lookahead_periods": [
+            "2025-05",
+            "2025-06"
+          ],
+          "active_periods_after_event": 0,
+          "paper_counts_after_event": [
+            0,
+            0
+          ],
+          "sustained": false
+        },
+        "anchor_post_event_persistence": {
+          "lookahead_periods": [
+            "2025-05",
+            "2025-06"
+          ],
+          "active_periods_after_event": 1,
+          "paper_counts_after_event": [
+            0,
+            90
+          ],
+          "sustained": false
+        },
+        "relative_persistence": {
+          "anchor_total": 90,
+          "target_total": 0,
+          "target_to_anchor_ratio": 0.0,
+          "status": "weak_carryover"
+        },
+        "consistency_check": {
+          "status": "needs_review",
+          "flags": [
+            "same_category_high_bridge_weak_carryover"
+          ],
+          "relation": "same_category",
+          "pipeline_relation": "none",
+          "bridge_strength": 0.75,
+          "relative_persistence_status": "weak_carryover",
+          "event_type": "diffused_to_neighbor"
+        }
+      }
+    }
+  ],
+  "cross_category_moves": [],
+  "growth_summary": "素数与狄利克雷和 (hybrid) remains active without a strong expansion signal by 2025-06. Some transfer links remain flagged for manual review.",
+  "decline_summary": "No dominant decline pattern is detected before 2025-06.",
+  "review_flags": [
+    "same_category_high_bridge_weak_carryover"
+  ],
+  "key_supporting_topics": [
+    {
+      "topic_id": "global_88",
+      "topic_name": "素数猜想与整数",
+      "category": "math",
+      "weight": 0.44,
+      "peak_period": "2025-04",
+      "peak_count": 141,
+      "increase": 141,
+      "topic_mode": "theory",
+      "topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": null,
+        "method_score": 0,
+        "problem_score": 0,
+        "theory_score": 2
+      }
+    },
+    {
+      "topic_id": "global_120",
+      "topic_name": "整数素数分拆猜想",
+      "category": "math",
+      "weight": 0.5211,
+      "peak_period": "2025-05",
+      "peak_count": 115,
+      "increase": 115,
+      "topic_mode": "theory",
+      "topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": null,
+        "method_score": 0,
+        "problem_score": 0,
+        "theory_score": 1
+      }
+    },
+    {
+      "topic_id": "global_109",
+      "topic_name": "分圆域与素数平方根",
+      "category": "math",
+      "weight": 0.3519,
+      "peak_period": "2025-05",
+      "peak_count": 26,
+      "increase": 26,
+      "topic_mode": "theory",
+      "topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": null,
+        "method_score": 0,
+        "problem_score": 0,
+        "theory_score": 1
+      }
+    }
+  ],
+  "key_turning_points": [
+    {
+      "period": "2025-03",
+      "delta": -102,
+      "anchor_paper_count": 0
+    },
+    {
+      "period": "2025-06",
+      "delta": 90,
+      "anchor_paper_count": 90
+    }
+  ]
+}

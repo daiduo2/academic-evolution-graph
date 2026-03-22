@@ -1,0 +1,553 @@
+{
+  "case_id": "global_23-2025-02",
+  "anchor_topic_id": "global_23",
+  "anchor_topic_name": "有限元伽辽金方法",
+  "anchor_topic_mode": "method",
+  "anchor_topic_profile": {
+    "primary_mode": "method",
+    "secondary_mode": null,
+    "method_score": 4,
+    "problem_score": 0,
+    "theory_score": 0
+  },
+  "start_period": "2025-02",
+  "observation_horizon": 4,
+  "neighbor_topics": [
+    "global_148",
+    "global_62",
+    "global_123",
+    "global_190",
+    "global_90"
+  ],
+  "evolution_path": [
+    {
+      "period": "2025-02",
+      "anchor_paper_count": 114,
+      "active_neighbor_count": 1,
+      "top_neighbors": [
+        {
+          "topic_id": "global_31",
+          "topic_name": "物理信息神经网络",
+          "paper_count": 100,
+          "weight": 0.2359,
+          "category": "math",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 3,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_148",
+          "topic_name": "磁流体动力学线圈梯度方案",
+          "paper_count": 0,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 3,
+            "problem_score": 0,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_62",
+          "topic_name": "间断伽辽金格式",
+          "paper_count": 0,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 3,
+            "problem_score": 0,
+            "theory_score": 0
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-03",
+      "anchor_paper_count": 60,
+      "active_neighbor_count": 1,
+      "top_neighbors": [
+        {
+          "topic_id": "global_62",
+          "topic_name": "间断伽辽金格式",
+          "paper_count": 13,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 3,
+            "problem_score": 0,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_148",
+          "topic_name": "磁流体动力学线圈梯度方案",
+          "paper_count": 0,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 3,
+            "problem_score": 0,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_123",
+          "topic_name": "玻尔兹曼BGK守恒格式",
+          "paper_count": 0,
+          "weight": 0.3292,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-04",
+      "anchor_paper_count": 96,
+      "active_neighbor_count": 1,
+      "top_neighbors": [
+        {
+          "topic_id": "global_90",
+          "topic_name": "蒙特卡洛马尔可夫链",
+          "paper_count": 14,
+          "weight": 0.325,
+          "category": "math",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 2,
+            "problem_score": 0,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_148",
+          "topic_name": "磁流体动力学线圈梯度方案",
+          "paper_count": 0,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 3,
+            "problem_score": 0,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_62",
+          "topic_name": "间断伽辽金格式",
+          "paper_count": 0,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 3,
+            "problem_score": 0,
+            "theory_score": 0
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-05",
+      "anchor_paper_count": 57,
+      "active_neighbor_count": 2,
+      "top_neighbors": [
+        {
+          "topic_id": "global_121",
+          "topic_name": "有限元网格方法",
+          "paper_count": 62,
+          "weight": 0.2333,
+          "category": "math",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 4,
+            "problem_score": 0,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_123",
+          "topic_name": "玻尔兹曼BGK守恒格式",
+          "paper_count": 12,
+          "weight": 0.3292,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_148",
+          "topic_name": "磁流体动力学线圈梯度方案",
+          "paper_count": 0,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 3,
+            "problem_score": 0,
+            "theory_score": 0
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-06",
+      "anchor_paper_count": 131,
+      "active_neighbor_count": 2,
+      "top_neighbors": [
+        {
+          "topic_id": "global_31",
+          "topic_name": "物理信息神经网络",
+          "paper_count": 219,
+          "weight": 0.2359,
+          "category": "math",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 3,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_148",
+          "topic_name": "磁流体动力学线圈梯度方案",
+          "paper_count": 11,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 3,
+            "problem_score": 0,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_62",
+          "topic_name": "间断伽辽金格式",
+          "paper_count": 0,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 3,
+            "problem_score": 0,
+            "theory_score": 0
+          }
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "type": "emerged",
+      "period": "2025-02",
+      "summary": "Anchor topic first appears in the replay window."
+    },
+    {
+      "type": "diffused_to_neighbor",
+      "period": "2025-06",
+      "summary": "Semantic neighbors absorb momentum from the anchor topic around 2025-06.",
+      "evidence": {
+        "target_topic_id": "global_31",
+        "target_topic_name": "物理信息神经网络",
+        "target_topic_mode": "method",
+        "transfer_kind": "method_diffusion",
+        "transfer_pattern": "spillover",
+        "weight": 0.2359,
+        "increase": 119,
+        "bridge_evidence": {
+          "shared_keywords": [
+            "equations"
+          ],
+          "bridge_topics": [
+            "有限元数值方法阶次",
+            "分数阶微积分数值方法"
+          ],
+          "target_evidence_titles": [
+            "SDFs from Unoriented Point Clouds using Neural Variational Heat Distances",
+            "Physics-Informed Neural Networks and Neural Operators for Parametric PDEs"
+          ],
+          "category_flow": {
+            "source_category": "math",
+            "target_category": "math",
+            "source_top_level": "math",
+            "target_top_level": "math",
+            "relation": "same_category"
+          },
+          "pipeline_relation": {
+            "relation": "none",
+            "source_stage_terms": [],
+            "target_stage_terms": [],
+            "shared_domain_terms": [],
+            "representation_stage_terms": [
+              "mesh"
+            ],
+            "perception_stage_terms": [],
+            "shared_3d_terms": [],
+            "shared_formal_terms": [],
+            "shared_math_ag_objects": [],
+            "shared_math_ag_methods": [],
+            "shared_math_lo_objects": [],
+            "shared_math_lo_methods": [],
+            "shared_math_lo_core_objects": [],
+            "shared_math_lo_modal_objects": [],
+            "shared_math_lo_modal_methods": [],
+            "shared_math_lo_set_objects": [],
+            "shared_math_lo_set_methods": [],
+            "shared_math_lo_forcing_objects": [],
+            "shared_math_lo_forcing_methods": [],
+            "shared_math_lo_type_objects": [],
+            "source_type_terms": [],
+            "target_type_terms": [],
+            "shared_math_lo_definability_objects": [],
+            "shared_math_lo_definability_methods": [],
+            "math_ag_object_matches": {
+              "anchor": {
+                "scheme_level": [
+                  "schemes"
+                ]
+              },
+              "target": {},
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            },
+            "math_ag_method_matches": {
+              "anchor": {},
+              "target": {},
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            }
+          },
+          "evidence_title_overlap": {
+            "anchor_titles": [
+              "Numerical analysis of a constrained strain energy minimization problem",
+              "The lightning method for the heat equation"
+            ],
+            "target_titles": [
+              "SDFs from Unoriented Point Clouds using Neural Variational Heat Distances",
+              "Physics-Informed Neural Networks and Neural Operators for Parametric PDEs"
+            ],
+            "shared_terms": [
+              "heat"
+            ],
+            "shared_term_count": 1
+          },
+          "bridge_strength": 0.45,
+          "alias_risk": {
+            "level": "low",
+            "reason": "distinct_concepts"
+          }
+        },
+        "post_transfer_persistence": {
+          "lookahead_periods": [
+            "2025-07",
+            "2025-08"
+          ],
+          "active_periods_after_event": 0,
+          "paper_counts_after_event": [
+            0,
+            0
+          ],
+          "sustained": false
+        },
+        "anchor_post_event_persistence": {
+          "lookahead_periods": [
+            "2025-07",
+            "2025-08"
+          ],
+          "active_periods_after_event": 2,
+          "paper_counts_after_event": [
+            94,
+            123
+          ],
+          "sustained": true
+        },
+        "relative_persistence": {
+          "anchor_total": 217,
+          "target_total": 0,
+          "target_to_anchor_ratio": 0.0,
+          "status": "weak_carryover"
+        },
+        "consistency_check": {
+          "status": "consistent",
+          "flags": [],
+          "relation": "same_category",
+          "pipeline_relation": "none",
+          "bridge_strength": 0.45,
+          "relative_persistence_status": "weak_carryover",
+          "event_type": "diffused_to_neighbor"
+        }
+      }
+    },
+    {
+      "type": "specialized_into_child",
+      "period": "2025-06",
+      "summary": "A deeper child-like topic grows within the anchor neighborhood."
+    }
+  ],
+  "cross_category_moves": [],
+  "growth_summary": "有限元伽辽金方法 (method) remains active without a strong expansion signal by 2025-06.",
+  "decline_summary": "No dominant decline pattern is detected before 2025-06.",
+  "review_flags": [],
+  "key_supporting_topics": [
+    {
+      "topic_id": "global_31",
+      "topic_name": "物理信息神经网络",
+      "category": "math",
+      "weight": 0.2359,
+      "peak_period": "2025-06",
+      "peak_count": 219,
+      "increase": 119,
+      "topic_mode": "method",
+      "topic_profile": {
+        "primary_mode": "method",
+        "secondary_mode": null,
+        "method_score": 3,
+        "problem_score": 0,
+        "theory_score": 1
+      }
+    },
+    {
+      "topic_id": "global_121",
+      "topic_name": "有限元网格方法",
+      "category": "math",
+      "weight": 0.2333,
+      "peak_period": "2025-05",
+      "peak_count": 62,
+      "increase": 62,
+      "topic_mode": "method",
+      "topic_profile": {
+        "primary_mode": "method",
+        "secondary_mode": null,
+        "method_score": 4,
+        "problem_score": 0,
+        "theory_score": 0
+      }
+    },
+    {
+      "topic_id": "global_90",
+      "topic_name": "蒙特卡洛马尔可夫链",
+      "category": "math",
+      "weight": 0.325,
+      "peak_period": "2025-04",
+      "peak_count": 14,
+      "increase": 14,
+      "topic_mode": "method",
+      "topic_profile": {
+        "primary_mode": "method",
+        "secondary_mode": null,
+        "method_score": 2,
+        "problem_score": 0,
+        "theory_score": 0
+      }
+    },
+    {
+      "topic_id": "global_62",
+      "topic_name": "间断伽辽金格式",
+      "category": "math",
+      "weight": 0.3609,
+      "peak_period": "2025-03",
+      "peak_count": 13,
+      "increase": 13,
+      "topic_mode": "method",
+      "topic_profile": {
+        "primary_mode": "method",
+        "secondary_mode": null,
+        "method_score": 3,
+        "problem_score": 0,
+        "theory_score": 0
+      }
+    },
+    {
+      "topic_id": "global_123",
+      "topic_name": "玻尔兹曼BGK守恒格式",
+      "category": "math",
+      "weight": 0.3292,
+      "peak_period": "2025-05",
+      "peak_count": 12,
+      "increase": 12,
+      "topic_mode": "theory",
+      "topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": null,
+        "method_score": 0,
+        "problem_score": 0,
+        "theory_score": 1
+      }
+    }
+  ],
+  "key_turning_points": [
+    {
+      "period": "2025-03",
+      "delta": -54,
+      "anchor_paper_count": 60
+    },
+    {
+      "period": "2025-04",
+      "delta": 36,
+      "anchor_paper_count": 96
+    },
+    {
+      "period": "2025-05",
+      "delta": -39,
+      "anchor_paper_count": 57
+    },
+    {
+      "period": "2025-06",
+      "delta": 74,
+      "anchor_paper_count": 131
+    }
+  ]
+}

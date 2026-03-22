@@ -1,0 +1,665 @@
+{
+  "case_id": "global_15-2025-02",
+  "anchor_topic_id": "global_15",
+  "anchor_topic_name": "戈伦斯坦单项式环",
+  "anchor_topic_mode": "theory",
+  "anchor_topic_profile": {
+    "primary_mode": "theory",
+    "secondary_mode": null,
+    "method_score": 0,
+    "problem_score": 0,
+    "theory_score": 1
+  },
+  "start_period": "2025-02",
+  "observation_horizon": 4,
+  "neighbor_topics": [
+    "global_43",
+    "global_152",
+    "global_273",
+    "global_55",
+    "global_330"
+  ],
+  "evolution_path": [
+    {
+      "period": "2025-02",
+      "anchor_paper_count": 35,
+      "active_neighbor_count": 0,
+      "top_neighbors": [
+        {
+          "topic_id": "global_43",
+          "topic_name": "Gorenstein环模",
+          "paper_count": 0,
+          "weight": 0.475,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_152",
+          "topic_name": "诺特环模理想",
+          "paper_count": 0,
+          "weight": 0.4333,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_273",
+          "topic_name": "理想幂与代数几何",
+          "paper_count": 0,
+          "weight": 0.3955,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-03",
+      "anchor_paper_count": 0,
+      "active_neighbor_count": 2,
+      "top_neighbors": [
+        {
+          "topic_id": "global_55",
+          "topic_name": "李代数与Hopf代数",
+          "paper_count": 117,
+          "weight": 0.275,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "problem",
+            "method_score": 0,
+            "problem_score": 1,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_43",
+          "topic_name": "Gorenstein环模",
+          "paper_count": 34,
+          "weight": 0.475,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_152",
+          "topic_name": "诺特环模理想",
+          "paper_count": 0,
+          "weight": 0.4333,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-04",
+      "anchor_paper_count": 73,
+      "active_neighbor_count": 0,
+      "top_neighbors": [
+        {
+          "topic_id": "global_43",
+          "topic_name": "Gorenstein环模",
+          "paper_count": 0,
+          "weight": 0.475,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_152",
+          "topic_name": "诺特环模理想",
+          "paper_count": 0,
+          "weight": 0.4333,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_273",
+          "topic_name": "理想幂与代数几何",
+          "paper_count": 0,
+          "weight": 0.3955,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-05",
+      "anchor_paper_count": 0,
+      "active_neighbor_count": 1,
+      "top_neighbors": [
+        {
+          "topic_id": "global_55",
+          "topic_name": "李代数与Hopf代数",
+          "paper_count": 309,
+          "weight": 0.275,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "problem",
+            "method_score": 0,
+            "problem_score": 1,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_43",
+          "topic_name": "Gorenstein环模",
+          "paper_count": 0,
+          "weight": 0.475,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_152",
+          "topic_name": "诺特环模理想",
+          "paper_count": 0,
+          "weight": 0.4333,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-06",
+      "anchor_paper_count": 0,
+      "active_neighbor_count": 2,
+      "top_neighbors": [
+        {
+          "topic_id": "global_55",
+          "topic_name": "李代数与Hopf代数",
+          "paper_count": 165,
+          "weight": 0.275,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "problem",
+            "method_score": 0,
+            "problem_score": 1,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_152",
+          "topic_name": "诺特环模理想",
+          "paper_count": 14,
+          "weight": 0.4333,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_43",
+          "topic_name": "Gorenstein环模",
+          "paper_count": 0,
+          "weight": 0.475,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "type": "emerged",
+      "period": "2025-02",
+      "summary": "Anchor topic first appears in the replay window."
+    },
+    {
+      "type": "expanded",
+      "period": "2025-04",
+      "summary": "Anchor topic grows materially during the replay horizon."
+    },
+    {
+      "type": "diffused_to_neighbor",
+      "period": "2025-05",
+      "summary": "Semantic neighbors absorb momentum from the anchor topic around 2025-05.",
+      "evidence": {
+        "target_topic_id": "global_55",
+        "target_topic_name": "李代数与Hopf代数",
+        "target_topic_mode": "theory",
+        "transfer_kind": "theory_spillover",
+        "transfer_pattern": "spillover",
+        "weight": 0.275,
+        "increase": 309,
+        "bridge_evidence": {
+          "shared_keywords": [
+            "algebra",
+            "graded",
+            "mathfrak",
+            "modules",
+            "noetherian",
+            "rings"
+          ],
+          "bridge_topics": [
+            "Gorenstein环模",
+            "诺特环模理想"
+          ],
+          "target_evidence_titles": [
+            "Zero-level integrable modules over twisted affine Lie superalgebras",
+            "Vidinli algebras"
+          ],
+          "category_flow": {
+            "source_category": "math",
+            "target_category": "math",
+            "source_top_level": "math",
+            "target_top_level": "math",
+            "relation": "same_category"
+          },
+          "pipeline_relation": {
+            "relation": "none",
+            "source_stage_terms": [],
+            "target_stage_terms": [],
+            "shared_domain_terms": [],
+            "representation_stage_terms": [],
+            "perception_stage_terms": [],
+            "shared_3d_terms": [],
+            "shared_formal_terms": [],
+            "shared_math_ag_objects": [],
+            "shared_math_ag_methods": [],
+            "shared_math_lo_objects": [],
+            "shared_math_lo_methods": [],
+            "shared_math_lo_core_objects": [],
+            "shared_math_lo_modal_objects": [],
+            "shared_math_lo_modal_methods": [],
+            "shared_math_lo_set_objects": [],
+            "shared_math_lo_set_methods": [],
+            "shared_math_lo_forcing_objects": [],
+            "shared_math_lo_forcing_methods": [],
+            "shared_math_lo_type_objects": [],
+            "source_type_terms": [],
+            "target_type_terms": [],
+            "shared_math_lo_definability_objects": [],
+            "shared_math_lo_definability_methods": [],
+            "math_ag_object_matches": {
+              "anchor": {},
+              "target": {},
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            },
+            "math_ag_method_matches": {
+              "anchor": {},
+              "target": {
+                "derived_categorical": [
+                  "categories"
+                ]
+              },
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            }
+          },
+          "evidence_title_overlap": {
+            "anchor_titles": [
+              "Seminoetherian Modules over Non-Primitive HNP rings",
+              "Lifting systems for finite length modules"
+            ],
+            "target_titles": [
+              "Zero-level integrable modules over twisted affine Lie superalgebras",
+              "Vidinli algebras"
+            ],
+            "shared_terms": [
+              "modules",
+              "over"
+            ],
+            "shared_term_count": 2
+          },
+          "bridge_strength": 0.833,
+          "alias_risk": {
+            "level": "low",
+            "reason": "distinct_concepts"
+          }
+        },
+        "post_transfer_persistence": {
+          "lookahead_periods": [
+            "2025-06",
+            "2025-07"
+          ],
+          "active_periods_after_event": 2,
+          "paper_counts_after_event": [
+            165,
+            16
+          ],
+          "sustained": true
+        },
+        "anchor_post_event_persistence": {
+          "lookahead_periods": [
+            "2025-06",
+            "2025-07"
+          ],
+          "active_periods_after_event": 1,
+          "paper_counts_after_event": [
+            0,
+            84
+          ],
+          "sustained": false
+        },
+        "relative_persistence": {
+          "anchor_total": 84,
+          "target_total": 181,
+          "target_to_anchor_ratio": 2.155,
+          "status": "competitive_with_source"
+        },
+        "consistency_check": {
+          "status": "consistent",
+          "flags": [],
+          "relation": "same_category",
+          "pipeline_relation": "none",
+          "bridge_strength": 0.833,
+          "relative_persistence_status": "competitive_with_source",
+          "event_type": "diffused_to_neighbor"
+        }
+      }
+    },
+    {
+      "type": "merged_into_parent",
+      "period": "2025-05",
+      "summary": "Activity appears to reconverge into broader topic 李代数与Hopf代数.",
+      "evidence": {
+        "target_topic_id": "global_55",
+        "target_topic_name": "李代数与Hopf代数",
+        "target_topic_mode": "theory",
+        "transfer_kind": "mixed_transfer",
+        "transfer_pattern": "spillover",
+        "weight": 0.275,
+        "bridge_evidence": {
+          "shared_keywords": [
+            "algebra",
+            "graded",
+            "mathfrak",
+            "modules",
+            "noetherian",
+            "rings"
+          ],
+          "bridge_topics": [
+            "Gorenstein环模",
+            "诺特环模理想"
+          ],
+          "target_evidence_titles": [
+            "Zero-level integrable modules over twisted affine Lie superalgebras",
+            "Vidinli algebras"
+          ],
+          "category_flow": {
+            "source_category": "math",
+            "target_category": "math",
+            "source_top_level": "math",
+            "target_top_level": "math",
+            "relation": "same_category"
+          },
+          "pipeline_relation": {
+            "relation": "none",
+            "source_stage_terms": [],
+            "target_stage_terms": [],
+            "shared_domain_terms": [],
+            "representation_stage_terms": [],
+            "perception_stage_terms": [],
+            "shared_3d_terms": [],
+            "shared_formal_terms": [],
+            "shared_math_ag_objects": [],
+            "shared_math_ag_methods": [],
+            "shared_math_lo_objects": [],
+            "shared_math_lo_methods": [],
+            "shared_math_lo_core_objects": [],
+            "shared_math_lo_modal_objects": [],
+            "shared_math_lo_modal_methods": [],
+            "shared_math_lo_set_objects": [],
+            "shared_math_lo_set_methods": [],
+            "shared_math_lo_forcing_objects": [],
+            "shared_math_lo_forcing_methods": [],
+            "shared_math_lo_type_objects": [],
+            "source_type_terms": [],
+            "target_type_terms": [],
+            "shared_math_lo_definability_objects": [],
+            "shared_math_lo_definability_methods": [],
+            "math_ag_object_matches": {
+              "anchor": {},
+              "target": {},
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            },
+            "math_ag_method_matches": {
+              "anchor": {},
+              "target": {
+                "derived_categorical": [
+                  "categories"
+                ]
+              },
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            }
+          },
+          "evidence_title_overlap": {
+            "anchor_titles": [
+              "Seminoetherian Modules over Non-Primitive HNP rings",
+              "Lifting systems for finite length modules"
+            ],
+            "target_titles": [
+              "Zero-level integrable modules over twisted affine Lie superalgebras",
+              "Vidinli algebras"
+            ],
+            "shared_terms": [
+              "modules",
+              "over"
+            ],
+            "shared_term_count": 2
+          },
+          "bridge_strength": 0.833,
+          "alias_risk": {
+            "level": "low",
+            "reason": "distinct_concepts"
+          }
+        },
+        "post_transfer_persistence": {
+          "lookahead_periods": [
+            "2025-06",
+            "2025-07"
+          ],
+          "active_periods_after_event": 2,
+          "paper_counts_after_event": [
+            165,
+            16
+          ],
+          "sustained": true
+        },
+        "anchor_post_event_persistence": {
+          "lookahead_periods": [
+            "2025-06",
+            "2025-07"
+          ],
+          "active_periods_after_event": 1,
+          "paper_counts_after_event": [
+            0,
+            84
+          ],
+          "sustained": false
+        },
+        "relative_persistence": {
+          "anchor_total": 84,
+          "target_total": 181,
+          "target_to_anchor_ratio": 2.155,
+          "status": "competitive_with_source"
+        },
+        "consistency_check": {
+          "status": "consistent",
+          "flags": [],
+          "relation": "same_category",
+          "pipeline_relation": "none",
+          "bridge_strength": 0.833,
+          "relative_persistence_status": "competitive_with_source",
+          "event_type": "merged_into_parent"
+        }
+      }
+    }
+  ],
+  "cross_category_moves": [],
+  "growth_summary": "戈伦斯坦单项式环 (theory) expands from 2025-02 to 2025-06 and diffuses into nearby topics.",
+  "decline_summary": "Some activity appears to reconverge into a broader parent topic by 2025-06.",
+  "review_flags": [],
+  "key_supporting_topics": [
+    {
+      "topic_id": "global_55",
+      "topic_name": "李代数与Hopf代数",
+      "category": "math",
+      "weight": 0.275,
+      "peak_period": "2025-05",
+      "peak_count": 309,
+      "increase": 309,
+      "topic_mode": "theory",
+      "topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": "problem",
+        "method_score": 0,
+        "problem_score": 1,
+        "theory_score": 1
+      }
+    },
+    {
+      "topic_id": "global_43",
+      "topic_name": "Gorenstein环模",
+      "category": "math",
+      "weight": 0.475,
+      "peak_period": "2025-03",
+      "peak_count": 34,
+      "increase": 34,
+      "topic_mode": "hybrid",
+      "topic_profile": {
+        "primary_mode": "hybrid",
+        "secondary_mode": null,
+        "method_score": 1,
+        "problem_score": 1,
+        "theory_score": 0
+      }
+    },
+    {
+      "topic_id": "global_152",
+      "topic_name": "诺特环模理想",
+      "category": "math",
+      "weight": 0.4333,
+      "peak_period": "2025-06",
+      "peak_count": 14,
+      "increase": 14,
+      "topic_mode": "hybrid",
+      "topic_profile": {
+        "primary_mode": "hybrid",
+        "secondary_mode": null,
+        "method_score": 1,
+        "problem_score": 1,
+        "theory_score": 0
+      }
+    }
+  ],
+  "key_turning_points": [
+    {
+      "period": "2025-03",
+      "delta": -35,
+      "anchor_paper_count": 0
+    },
+    {
+      "period": "2025-04",
+      "delta": 73,
+      "anchor_paper_count": 73
+    },
+    {
+      "period": "2025-05",
+      "delta": -73,
+      "anchor_paper_count": 0
+    }
+  ]
+}

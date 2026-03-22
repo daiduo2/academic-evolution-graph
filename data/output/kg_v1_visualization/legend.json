@@ -1,0 +1,209 @@
+{
+  "version": "kg_v1_visualization",
+  "generated_at": "2026-03-22T19:22:48.920404",
+  "node_kinds": {
+    "topic": {
+      "description": "Research topic from topic model",
+      "display_attrs": [
+        "id",
+        "label",
+        "status",
+        "display_size",
+        "active_periods",
+        "total_papers"
+      ]
+    },
+    "subcategory": {
+      "description": "arXiv subcategory (e.g., math.LO)",
+      "display_attrs": [
+        "id",
+        "label",
+        "status",
+        "display_size",
+        "topic_count"
+      ]
+    },
+    "period": {
+      "description": "Time period (month)",
+      "display_attrs": [
+        "id",
+        "label",
+        "display_size"
+      ]
+    }
+  },
+  "edge_kinds": {
+    "CONTAINS_TOPIC": {
+      "description": "Subcategory contains topic",
+      "display_color": "#94a3b8",
+      "display_style": "dashed"
+    },
+    "ACTIVE_IN": {
+      "description": "Topic active in period",
+      "display_color": "#cbd5e1",
+      "display_style": "solid"
+    },
+    "NEIGHBOR_OF": {
+      "description": "Topics are neighbors",
+      "display_color": "#64748b",
+      "display_style": "solid"
+    },
+    "PARENT_OF": {
+      "description": "Parent-child in hierarchy",
+      "display_color": "#475569",
+      "display_style": "solid"
+    },
+    "EVOLVES_TO": {
+      "description": "Topic evolves to another",
+      "display_color": "#3b82f6",
+      "display_style": "solid"
+    }
+  },
+  "evidence_types": {
+    "benchmark-confirmed": {
+      "description": "Verified by benchmark",
+      "badge": "⭐",
+      "color": "#22c55e"
+    },
+    "data-derived": {
+      "description": "Derived from graph data",
+      "badge": "📊",
+      "color": "#64748b"
+    },
+    "hierarchy-derived": {
+      "description": "Derived from hierarchy",
+      "badge": "📁",
+      "color": "#475569"
+    },
+    "provisional": {
+      "description": "Curated inferred relation (conditional, requires paper review)",
+      "badge": "⚑",
+      "color": "#a855f7"
+    }
+  },
+  "integration_scopes": {
+    "baseline": {
+      "description": "Included in production baseline (LO+AG benchmark-verified)",
+      "color": "#22c55e"
+    },
+    "conditional": {
+      "description": "Conditional layer only (math.PR curated, not baseline-included)",
+      "color": "#a855f7"
+    }
+  },
+  "graph_bands": {
+    "baseline": {
+      "description": "Mainline baseline truth already encoded as an EVOLVES_TO edge",
+      "color": "#2563eb"
+    },
+    "bridge": {
+      "description": "Bridge-level support worth narrating around the mainline, without upgrading it to baseline truth",
+      "color": "#0f766e"
+    },
+    "boundary": {
+      "description": "Nearby negative boundary that should stay outside the positive continuity story",
+      "color": "#dc2626"
+    },
+    "review": {
+      "description": "Near-miss or disputed case kept review-only",
+      "color": "#d97706"
+    },
+    "contract": {
+      "description": "Selected rule contract metadata, not baseline graph topology",
+      "color": "#7c3aed"
+    },
+    "deferred": {
+      "description": "Deferred branch noted in metadata only",
+      "color": "#6b7280"
+    }
+  },
+  "graph_export_statuses": {
+    "encoded_as_evolves_to": {
+      "description": "Present as an exported EVOLVES_TO edge"
+    },
+    "in_scope_metadata_only": {
+      "description": "Both topics are in the exported subgraph, but the case remains metadata-only"
+    },
+    "docs_only_outside_baseline_hierarchy": {
+      "description": "Tracked in docs, but at least one endpoint is outside the current baseline hierarchy slice"
+    },
+    "docs_only_outside_export_scope": {
+      "description": "Tracked in docs, but the domain is not part of the current baseline export scope"
+    }
+  },
+  "domain_export_presence": {
+    "baseline_subgraph": {
+      "description": "Domain has exported baseline topology plus narrative metadata"
+    },
+    "docs_only_narrative": {
+      "description": "Domain is represented through graph-facing narrative metadata only; no baseline nodes or EVOLVES_TO edges are exported"
+    },
+    "docs_only_contract": {
+      "description": "Domain is represented only through metadata/contract layers in this export"
+    }
+  },
+  "domain_layer_fields": {
+    "baseline_truth_layer_keys": {
+      "description": "Layer keys allowed to count as confirmed baseline truth when encoded"
+    },
+    "narrative_only_layer_keys": {
+      "description": "Layer keys that may be narrated or annotated, but must not be read as confirmed baseline truth"
+    },
+    "visible_graph_bands": {
+      "description": "Graph bands visible for this domain across encoded edges and metadata-only layers"
+    }
+  },
+  "topology_statuses": {
+    "baseline_topology_included": {
+      "description": "Domain contributes nodes/edges to the exported baseline topology"
+    },
+    "not_in_baseline_topology": {
+      "description": "Domain is visible only through metadata; baseline topology remains unchanged"
+    }
+  },
+  "confidence_levels": {
+    "confirmed": {
+      "description": "Confirmed evolution relation",
+      "badge": "✓",
+      "color": "#22c55e"
+    },
+    "negative": {
+      "description": "Negative case (no evolution)",
+      "badge": "✗",
+      "color": "#ef4444"
+    },
+    "ambiguous": {
+      "description": "Ambiguous relation",
+      "badge": "?",
+      "color": "#f59e0b"
+    },
+    "inferred": {
+      "description": "Inferred relation",
+      "badge": "~",
+      "color": "#3b82f6"
+    },
+    "data-derived": {
+      "description": "Data-derived relation",
+      "badge": "",
+      "color": "#64748b"
+    }
+  },
+  "status_values": {
+    "persistent": {
+      "description": "Topic active 3+ periods",
+      "color": "#22c55e"
+    },
+    "transient": {
+      "description": "Topic active 1-2 periods",
+      "color": "#f59e0b"
+    },
+    "ready": {
+      "description": "Subcategory ready for analysis",
+      "color": "#22c55e"
+    },
+    "provisional": {
+      "description": "Subcategory needs curation",
+      "color": "#f59e0b"
+    }
+  }
+}

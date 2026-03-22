@@ -1,0 +1,494 @@
+{
+  "case_id": "global_19-2025-02",
+  "anchor_topic_id": "global_19",
+  "anchor_topic_name": "数学算子与无穷空间",
+  "anchor_topic_mode": "theory",
+  "anchor_topic_profile": {
+    "primary_mode": "theory",
+    "secondary_mode": null,
+    "method_score": 0,
+    "problem_score": 0,
+    "theory_score": 1
+  },
+  "start_period": "2025-02",
+  "observation_horizon": 4,
+  "neighbor_topics": [
+    "global_25",
+    "global_131",
+    "global_250",
+    "global_338",
+    "global_174"
+  ],
+  "evolution_path": [
+    {
+      "period": "2025-02",
+      "anchor_paper_count": 145,
+      "active_neighbor_count": 1,
+      "top_neighbors": [
+        {
+          "topic_id": "global_25",
+          "topic_name": "椭圆方程求解方法",
+          "paper_count": 82,
+          "weight": 0.3778,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_131",
+          "topic_name": "严格特征值不等式",
+          "paper_count": 0,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_250",
+          "topic_name": "分数阶半线性方程",
+          "paper_count": 0,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-03",
+      "anchor_paper_count": 143,
+      "active_neighbor_count": 0,
+      "top_neighbors": [
+        {
+          "topic_id": "global_25",
+          "topic_name": "椭圆方程求解方法",
+          "paper_count": 0,
+          "weight": 0.3778,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_131",
+          "topic_name": "严格特征值不等式",
+          "paper_count": 0,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_250",
+          "topic_name": "分数阶半线性方程",
+          "paper_count": 0,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-04",
+      "anchor_paper_count": 81,
+      "active_neighbor_count": 1,
+      "top_neighbors": [
+        {
+          "topic_id": "global_25",
+          "topic_name": "椭圆方程求解方法",
+          "paper_count": 124,
+          "weight": 0.3778,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_131",
+          "topic_name": "严格特征值不等式",
+          "paper_count": 0,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_250",
+          "topic_name": "分数阶半线性方程",
+          "paper_count": 0,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-05",
+      "anchor_paper_count": 122,
+      "active_neighbor_count": 0,
+      "top_neighbors": [
+        {
+          "topic_id": "global_25",
+          "topic_name": "椭圆方程求解方法",
+          "paper_count": 0,
+          "weight": 0.3778,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_131",
+          "topic_name": "严格特征值不等式",
+          "paper_count": 0,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_250",
+          "topic_name": "分数阶半线性方程",
+          "paper_count": 0,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-06",
+      "anchor_paper_count": 140,
+      "active_neighbor_count": 2,
+      "top_neighbors": [
+        {
+          "topic_id": "global_25",
+          "topic_name": "椭圆方程求解方法",
+          "paper_count": 153,
+          "weight": 0.3778,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_131",
+          "topic_name": "严格特征值不等式",
+          "paper_count": 21,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_250",
+          "topic_name": "分数阶半线性方程",
+          "paper_count": 0,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "type": "emerged",
+      "period": "2025-02",
+      "summary": "Anchor topic first appears in the replay window."
+    },
+    {
+      "type": "diffused_to_neighbor",
+      "period": "2025-06",
+      "summary": "Semantic neighbors absorb momentum from the anchor topic around 2025-06.",
+      "evidence": {
+        "target_topic_id": "global_25",
+        "target_topic_name": "椭圆方程求解方法",
+        "target_topic_mode": "hybrid",
+        "transfer_kind": "theory_spillover",
+        "transfer_pattern": "spillover",
+        "weight": 0.3778,
+        "increase": 71,
+        "bridge_evidence": {
+          "shared_keywords": [
+            "bounded",
+            "fractional",
+            "sobolev"
+          ],
+          "bridge_topics": [
+            "严格特征值不等式",
+            "分数阶半线性方程",
+            "哈代-索伯列夫分数阶不等式"
+          ],
+          "target_evidence_titles": [
+            "Simplicity of eigenvalues for elliptic problems with mixed Steklov-Robin boundary condition",
+            "The spectrum of Dirichlet-to-Neumann maps for radial conductivities"
+          ],
+          "category_flow": {
+            "source_category": "math",
+            "target_category": "math",
+            "source_top_level": "math",
+            "target_top_level": "math",
+            "relation": "same_category"
+          },
+          "pipeline_relation": {
+            "relation": "none",
+            "source_stage_terms": [],
+            "target_stage_terms": [],
+            "shared_domain_terms": [],
+            "representation_stage_terms": [],
+            "perception_stage_terms": [],
+            "shared_3d_terms": [],
+            "shared_formal_terms": [],
+            "shared_math_ag_objects": [],
+            "shared_math_ag_methods": [],
+            "shared_math_lo_objects": [],
+            "shared_math_lo_methods": [],
+            "shared_math_lo_core_objects": [],
+            "shared_math_lo_modal_objects": [],
+            "shared_math_lo_modal_methods": [],
+            "shared_math_lo_set_objects": [],
+            "shared_math_lo_set_methods": [],
+            "shared_math_lo_forcing_objects": [],
+            "shared_math_lo_forcing_methods": [],
+            "shared_math_lo_type_objects": [],
+            "source_type_terms": [],
+            "target_type_terms": [],
+            "shared_math_lo_definability_objects": [],
+            "shared_math_lo_definability_methods": [],
+            "math_ag_object_matches": {
+              "anchor": {
+                "moduli_and_stack": [
+                  "space"
+                ]
+              },
+              "target": {},
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            },
+            "math_ag_method_matches": {
+              "anchor": {},
+              "target": {},
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            }
+          },
+          "evidence_title_overlap": {
+            "anchor_titles": [
+              "Discrete analogues of second-order Riesz transforms",
+              "Calderón-Zygmund estimates for double phase problems with matrix weights"
+            ],
+            "target_titles": [
+              "Simplicity of eigenvalues for elliptic problems with mixed Steklov-Robin boundary condition",
+              "The spectrum of Dirichlet-to-Neumann maps for radial conductivities"
+            ],
+            "shared_terms": [
+              "problems",
+              "with"
+            ],
+            "shared_term_count": 2
+          },
+          "bridge_strength": 0.817,
+          "alias_risk": {
+            "level": "low",
+            "reason": "distinct_concepts"
+          }
+        },
+        "post_transfer_persistence": {
+          "lookahead_periods": [
+            "2025-07",
+            "2025-08"
+          ],
+          "active_periods_after_event": 2,
+          "paper_counts_after_event": [
+            127,
+            181
+          ],
+          "sustained": true
+        },
+        "anchor_post_event_persistence": {
+          "lookahead_periods": [
+            "2025-07",
+            "2025-08"
+          ],
+          "active_periods_after_event": 2,
+          "paper_counts_after_event": [
+            56,
+            48
+          ],
+          "sustained": true
+        },
+        "relative_persistence": {
+          "anchor_total": 104,
+          "target_total": 308,
+          "target_to_anchor_ratio": 2.962,
+          "status": "competitive_with_source"
+        },
+        "consistency_check": {
+          "status": "consistent",
+          "flags": [],
+          "relation": "same_category",
+          "pipeline_relation": "none",
+          "bridge_strength": 0.817,
+          "relative_persistence_status": "competitive_with_source",
+          "event_type": "diffused_to_neighbor"
+        }
+      }
+    },
+    {
+      "type": "stabilized",
+      "period": "2025-06",
+      "summary": "Anchor topic settles into a plateau rather than a sharp decline."
+    }
+  ],
+  "cross_category_moves": [],
+  "growth_summary": "数学算子与无穷空间 (theory) remains active without a strong expansion signal by 2025-06.",
+  "decline_summary": "Activity stabilizes into a plateau by 2025-06 instead of collapsing.",
+  "review_flags": [],
+  "key_supporting_topics": [
+    {
+      "topic_id": "global_25",
+      "topic_name": "椭圆方程求解方法",
+      "category": "math",
+      "weight": 0.3778,
+      "peak_period": "2025-06",
+      "peak_count": 153,
+      "increase": 71,
+      "topic_mode": "hybrid",
+      "topic_profile": {
+        "primary_mode": "hybrid",
+        "secondary_mode": null,
+        "method_score": 1,
+        "problem_score": 1,
+        "theory_score": 0
+      }
+    },
+    {
+      "topic_id": "global_131",
+      "topic_name": "严格特征值不等式",
+      "category": "math",
+      "weight": 0.3609,
+      "peak_period": "2025-06",
+      "peak_count": 21,
+      "increase": 21,
+      "topic_mode": "theory",
+      "topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": null,
+        "method_score": 0,
+        "problem_score": 0,
+        "theory_score": 1
+      }
+    }
+  ],
+  "key_turning_points": [
+    {
+      "period": "2025-04",
+      "delta": -62,
+      "anchor_paper_count": 81
+    },
+    {
+      "period": "2025-05",
+      "delta": 41,
+      "anchor_paper_count": 122
+    }
+  ]
+}

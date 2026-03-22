@@ -1,0 +1,640 @@
+{
+  "case_id": "global_58-2025-03",
+  "anchor_topic_id": "global_58",
+  "anchor_topic_name": "薛定谔方程偏解研究",
+  "anchor_topic_mode": "hybrid",
+  "anchor_topic_profile": {
+    "primary_mode": "hybrid",
+    "secondary_mode": null,
+    "method_score": 1,
+    "problem_score": 1,
+    "theory_score": 0
+  },
+  "start_period": "2025-03",
+  "observation_horizon": 4,
+  "neighbor_topics": [
+    "global_189",
+    "global_21",
+    "global_25",
+    "global_40",
+    "global_66"
+  ],
+  "evolution_path": [
+    {
+      "period": "2025-03",
+      "anchor_paper_count": 12,
+      "active_neighbor_count": 3,
+      "top_neighbors": [
+        {
+          "topic_id": "global_66",
+          "topic_name": "非局部抛物方程解",
+          "paper_count": 99,
+          "weight": 0.284,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_21",
+          "topic_name": "斯托克斯方程正则性",
+          "paper_count": 80,
+          "weight": 0.375,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_40",
+          "topic_name": "非线性波方程爆破解",
+          "paper_count": 20,
+          "weight": 0.3077,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-04",
+      "anchor_paper_count": 0,
+      "active_neighbor_count": 2,
+      "top_neighbors": [
+        {
+          "topic_id": "global_25",
+          "topic_name": "椭圆方程求解方法",
+          "paper_count": 124,
+          "weight": 0.375,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_21",
+          "topic_name": "斯托克斯方程正则性",
+          "paper_count": 37,
+          "weight": 0.375,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_189",
+          "topic_name": "非线性薛定谔方程",
+          "paper_count": 0,
+          "weight": 0.3958,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-05",
+      "anchor_paper_count": 0,
+      "active_neighbor_count": 1,
+      "top_neighbors": [
+        {
+          "topic_id": "global_66",
+          "topic_name": "非局部抛物方程解",
+          "paper_count": 142,
+          "weight": 0.284,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_189",
+          "topic_name": "非线性薛定谔方程",
+          "paper_count": 0,
+          "weight": 0.3958,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_21",
+          "topic_name": "斯托克斯方程正则性",
+          "paper_count": 0,
+          "weight": 0.375,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-06",
+      "anchor_paper_count": 0,
+      "active_neighbor_count": 1,
+      "top_neighbors": [
+        {
+          "topic_id": "global_25",
+          "topic_name": "椭圆方程求解方法",
+          "paper_count": 153,
+          "weight": 0.375,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_189",
+          "topic_name": "非线性薛定谔方程",
+          "paper_count": 0,
+          "weight": 0.3958,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_21",
+          "topic_name": "斯托克斯方程正则性",
+          "paper_count": 0,
+          "weight": 0.375,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-07",
+      "anchor_paper_count": 0,
+      "active_neighbor_count": 3,
+      "top_neighbors": [
+        {
+          "topic_id": "global_25",
+          "topic_name": "椭圆方程求解方法",
+          "paper_count": 127,
+          "weight": 0.375,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_21",
+          "topic_name": "斯托克斯方程正则性",
+          "paper_count": 76,
+          "weight": 0.375,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_189",
+          "topic_name": "非线性薛定谔方程",
+          "paper_count": 14,
+          "weight": 0.3958,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "type": "emerged",
+      "period": "2025-03",
+      "summary": "Anchor topic first appears in the replay window."
+    },
+    {
+      "type": "diffused_to_neighbor",
+      "period": "2025-06",
+      "summary": "Semantic neighbors absorb momentum from the anchor topic around 2025-06.",
+      "evidence": {
+        "target_topic_id": "global_25",
+        "target_topic_name": "椭圆方程求解方法",
+        "target_topic_mode": "hybrid",
+        "transfer_kind": "mixed_diffusion",
+        "transfer_pattern": "migration",
+        "weight": 0.375,
+        "increase": 153,
+        "bridge_evidence": {
+          "shared_keywords": [
+            "boundary",
+            "equations",
+            "existence",
+            "regularity",
+            "schrödinger",
+            "sobolev"
+          ],
+          "bridge_topics": [
+            "非线性薛定谔方程",
+            "斯托克斯方程正则性",
+            "非线性波方程爆破解"
+          ],
+          "target_evidence_titles": [
+            "Simplicity of eigenvalues for elliptic problems with mixed Steklov-Robin boundary condition",
+            "The spectrum of Dirichlet-to-Neumann maps for radial conductivities"
+          ],
+          "category_flow": {
+            "source_category": "math",
+            "target_category": "math",
+            "source_top_level": "math",
+            "target_top_level": "math",
+            "relation": "same_category"
+          },
+          "pipeline_relation": {
+            "relation": "none",
+            "source_stage_terms": [],
+            "target_stage_terms": [],
+            "shared_domain_terms": [],
+            "representation_stage_terms": [],
+            "perception_stage_terms": [],
+            "shared_3d_terms": [],
+            "shared_formal_terms": [],
+            "shared_math_ag_objects": [],
+            "shared_math_ag_methods": [],
+            "shared_math_lo_objects": [],
+            "shared_math_lo_methods": [],
+            "shared_math_lo_core_objects": [],
+            "shared_math_lo_modal_objects": [],
+            "shared_math_lo_modal_methods": [],
+            "shared_math_lo_set_objects": [],
+            "shared_math_lo_set_methods": [],
+            "shared_math_lo_forcing_objects": [],
+            "shared_math_lo_forcing_methods": [],
+            "shared_math_lo_type_objects": [],
+            "source_type_terms": [],
+            "target_type_terms": [],
+            "shared_math_lo_definability_objects": [],
+            "shared_math_lo_definability_methods": [],
+            "math_ag_object_matches": {
+              "anchor": {},
+              "target": {},
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            },
+            "math_ag_method_matches": {
+              "anchor": {},
+              "target": {},
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            }
+          },
+          "evidence_title_overlap": {
+            "anchor_titles": [
+              "Simplicity of eigenvalues for elliptic problems with mixed Steklov-Robin boundary condition",
+              "The spectrum of Dirichlet-to-Neumann maps for radial conductivities"
+            ],
+            "target_titles": [
+              "Simplicity of eigenvalues for elliptic problems with mixed Steklov-Robin boundary condition",
+              "The spectrum of Dirichlet-to-Neumann maps for radial conductivities"
+            ],
+            "shared_terms": [
+              "boundary",
+              "condition",
+              "conductivities",
+              "dirichlet",
+              "eigenvalues",
+              "elliptic"
+            ],
+            "shared_term_count": 6
+          },
+          "bridge_strength": 1.0,
+          "alias_risk": {
+            "level": "low",
+            "reason": "distinct_concepts"
+          }
+        },
+        "post_transfer_persistence": {
+          "lookahead_periods": [
+            "2025-07",
+            "2025-08"
+          ],
+          "active_periods_after_event": 2,
+          "paper_counts_after_event": [
+            127,
+            181
+          ],
+          "sustained": true
+        },
+        "anchor_post_event_persistence": {
+          "lookahead_periods": [
+            "2025-07",
+            "2025-08"
+          ],
+          "active_periods_after_event": 0,
+          "paper_counts_after_event": [
+            0,
+            0
+          ],
+          "sustained": false
+        },
+        "relative_persistence": {
+          "anchor_total": 0,
+          "target_total": 308,
+          "target_to_anchor_ratio": null,
+          "status": "target_outlasts_source"
+        },
+        "consistency_check": {
+          "status": "consistent",
+          "flags": [],
+          "relation": "same_category",
+          "pipeline_relation": "none",
+          "bridge_strength": 1.0,
+          "relative_persistence_status": "target_outlasts_source",
+          "event_type": "diffused_to_neighbor"
+        }
+      }
+    },
+    {
+      "type": "merged_into_parent",
+      "period": "2025-06",
+      "summary": "Activity appears to reconverge into broader topic 椭圆方程求解方法.",
+      "evidence": {
+        "target_topic_id": "global_25",
+        "target_topic_name": "椭圆方程求解方法",
+        "target_topic_mode": "hybrid",
+        "transfer_kind": "mixed_transfer",
+        "transfer_pattern": "migration",
+        "weight": 0.375,
+        "bridge_evidence": {
+          "shared_keywords": [
+            "boundary",
+            "equations",
+            "existence",
+            "regularity",
+            "schrödinger",
+            "sobolev"
+          ],
+          "bridge_topics": [
+            "非线性薛定谔方程",
+            "斯托克斯方程正则性",
+            "非线性波方程爆破解"
+          ],
+          "target_evidence_titles": [
+            "Simplicity of eigenvalues for elliptic problems with mixed Steklov-Robin boundary condition",
+            "The spectrum of Dirichlet-to-Neumann maps for radial conductivities"
+          ],
+          "category_flow": {
+            "source_category": "math",
+            "target_category": "math",
+            "source_top_level": "math",
+            "target_top_level": "math",
+            "relation": "same_category"
+          },
+          "pipeline_relation": {
+            "relation": "none",
+            "source_stage_terms": [],
+            "target_stage_terms": [],
+            "shared_domain_terms": [],
+            "representation_stage_terms": [],
+            "perception_stage_terms": [],
+            "shared_3d_terms": [],
+            "shared_formal_terms": [],
+            "shared_math_ag_objects": [],
+            "shared_math_ag_methods": [],
+            "shared_math_lo_objects": [],
+            "shared_math_lo_methods": [],
+            "shared_math_lo_core_objects": [],
+            "shared_math_lo_modal_objects": [],
+            "shared_math_lo_modal_methods": [],
+            "shared_math_lo_set_objects": [],
+            "shared_math_lo_set_methods": [],
+            "shared_math_lo_forcing_objects": [],
+            "shared_math_lo_forcing_methods": [],
+            "shared_math_lo_type_objects": [],
+            "source_type_terms": [],
+            "target_type_terms": [],
+            "shared_math_lo_definability_objects": [],
+            "shared_math_lo_definability_methods": [],
+            "math_ag_object_matches": {
+              "anchor": {},
+              "target": {},
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            },
+            "math_ag_method_matches": {
+              "anchor": {},
+              "target": {},
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            }
+          },
+          "evidence_title_overlap": {
+            "anchor_titles": [
+              "Simplicity of eigenvalues for elliptic problems with mixed Steklov-Robin boundary condition",
+              "The spectrum of Dirichlet-to-Neumann maps for radial conductivities"
+            ],
+            "target_titles": [
+              "Simplicity of eigenvalues for elliptic problems with mixed Steklov-Robin boundary condition",
+              "The spectrum of Dirichlet-to-Neumann maps for radial conductivities"
+            ],
+            "shared_terms": [
+              "boundary",
+              "condition",
+              "conductivities",
+              "dirichlet",
+              "eigenvalues",
+              "elliptic"
+            ],
+            "shared_term_count": 6
+          },
+          "bridge_strength": 1.0,
+          "alias_risk": {
+            "level": "low",
+            "reason": "distinct_concepts"
+          }
+        },
+        "post_transfer_persistence": {
+          "lookahead_periods": [
+            "2025-07",
+            "2025-08"
+          ],
+          "active_periods_after_event": 2,
+          "paper_counts_after_event": [
+            127,
+            181
+          ],
+          "sustained": true
+        },
+        "anchor_post_event_persistence": {
+          "lookahead_periods": [
+            "2025-07",
+            "2025-08"
+          ],
+          "active_periods_after_event": 0,
+          "paper_counts_after_event": [
+            0,
+            0
+          ],
+          "sustained": false
+        },
+        "relative_persistence": {
+          "anchor_total": 0,
+          "target_total": 308,
+          "target_to_anchor_ratio": null,
+          "status": "target_outlasts_source"
+        },
+        "consistency_check": {
+          "status": "consistent",
+          "flags": [],
+          "relation": "same_category",
+          "pipeline_relation": "none",
+          "bridge_strength": 1.0,
+          "relative_persistence_status": "target_outlasts_source",
+          "event_type": "merged_into_parent"
+        }
+      }
+    },
+    {
+      "type": "specialized_into_child",
+      "period": "2025-07",
+      "summary": "A deeper child-like topic grows within the anchor neighborhood."
+    }
+  ],
+  "cross_category_moves": [],
+  "growth_summary": "薛定谔方程偏解研究 (hybrid) remains active without a strong expansion signal by 2025-07.",
+  "decline_summary": "Some activity appears to reconverge into a broader parent topic by 2025-07.",
+  "review_flags": [],
+  "key_supporting_topics": [
+    {
+      "topic_id": "global_25",
+      "topic_name": "椭圆方程求解方法",
+      "category": "math",
+      "weight": 0.375,
+      "peak_period": "2025-06",
+      "peak_count": 153,
+      "increase": 153,
+      "topic_mode": "hybrid",
+      "topic_profile": {
+        "primary_mode": "hybrid",
+        "secondary_mode": null,
+        "method_score": 1,
+        "problem_score": 1,
+        "theory_score": 0
+      }
+    },
+    {
+      "topic_id": "global_189",
+      "topic_name": "非线性薛定谔方程",
+      "category": "math",
+      "weight": 0.3958,
+      "peak_period": "2025-07",
+      "peak_count": 14,
+      "increase": 14,
+      "topic_mode": "hybrid",
+      "topic_profile": {
+        "primary_mode": "hybrid",
+        "secondary_mode": null,
+        "method_score": 1,
+        "problem_score": 1,
+        "theory_score": 0
+      }
+    }
+  ],
+  "key_turning_points": [
+    {
+      "period": "2025-04",
+      "delta": -12,
+      "anchor_paper_count": 0
+    }
+  ]
+}

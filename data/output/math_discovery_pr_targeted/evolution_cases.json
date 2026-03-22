@@ -1,0 +1,2100 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-03-20T12:10:38.249613+00:00",
+  "analysis_periods": [
+    "2025-02",
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01"
+  ],
+  "horizon_months": 4,
+  "total_cases": 20,
+  "cases": [
+    {
+      "case_id": "global_14-2025-02",
+      "anchor_topic_id": "global_14",
+      "anchor_topic_name": "志村簇阿贝尔雅可比同源",
+      "anchor_topic_mode": "theory",
+      "anchor_topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": null,
+        "method_score": 0,
+        "problem_score": 0,
+        "theory_score": 4
+      },
+      "category": "math",
+      "start_period": "2025-02",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_26",
+        "global_2",
+        "global_343",
+        "global_28",
+        "global_355"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "expanded",
+        "merged_into_parent"
+      ],
+      "cross_category_moves": [],
+      "growth_summary": "志村簇阿贝尔雅可比同源 (theory) expands from 2025-02 to 2025-06 and diffuses into nearby topics.",
+      "decline_summary": "Some activity appears to reconverge into a broader parent topic by 2025-06.",
+      "review_flags": [],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_26",
+          "topic_name": "椭圆曲线塞尔默群",
+          "category": "math",
+          "weight": 0.442,
+          "peak_period": "2025-05",
+          "peak_count": 45,
+          "increase": 33,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 4
+          }
+        },
+        {
+          "topic_id": "global_2",
+          "topic_name": "p进伽罗瓦表示理论",
+          "category": "math",
+          "weight": 0.44,
+          "peak_period": "2025-06",
+          "peak_count": 33,
+          "increase": 14,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 3
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-03",
+          "delta": -15,
+          "anchor_paper_count": 0
+        },
+        {
+          "period": "2025-04",
+          "delta": 89,
+          "anchor_paper_count": 89
+        },
+        {
+          "period": "2025-05",
+          "delta": -89,
+          "anchor_paper_count": 0
+        }
+      ]
+    },
+    {
+      "case_id": "global_15-2025-02",
+      "anchor_topic_id": "global_15",
+      "anchor_topic_name": "戈伦斯坦单项式环",
+      "anchor_topic_mode": "theory",
+      "anchor_topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": null,
+        "method_score": 0,
+        "problem_score": 0,
+        "theory_score": 1
+      },
+      "category": "math",
+      "start_period": "2025-02",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_43",
+        "global_152",
+        "global_273",
+        "global_55",
+        "global_330"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "expanded",
+        "merged_into_parent"
+      ],
+      "cross_category_moves": [],
+      "growth_summary": "戈伦斯坦单项式环 (theory) expands from 2025-02 to 2025-06 and diffuses into nearby topics.",
+      "decline_summary": "Some activity appears to reconverge into a broader parent topic by 2025-06.",
+      "review_flags": [],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_55",
+          "topic_name": "李代数与Hopf代数",
+          "category": "math",
+          "weight": 0.275,
+          "peak_period": "2025-05",
+          "peak_count": 309,
+          "increase": 309,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "problem",
+            "method_score": 0,
+            "problem_score": 1,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_43",
+          "topic_name": "Gorenstein环模",
+          "category": "math",
+          "weight": 0.475,
+          "peak_period": "2025-03",
+          "peak_count": 34,
+          "increase": 34,
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_152",
+          "topic_name": "诺特环模理想",
+          "category": "math",
+          "weight": 0.4333,
+          "peak_period": "2025-06",
+          "peak_count": 14,
+          "increase": 14,
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-03",
+          "delta": -35,
+          "anchor_paper_count": 0
+        },
+        {
+          "period": "2025-04",
+          "delta": 73,
+          "anchor_paper_count": 73
+        },
+        {
+          "period": "2025-05",
+          "delta": -73,
+          "anchor_paper_count": 0
+        }
+      ]
+    },
+    {
+      "case_id": "global_19-2025-02",
+      "anchor_topic_id": "global_19",
+      "anchor_topic_name": "数学算子与无穷空间",
+      "anchor_topic_mode": "theory",
+      "anchor_topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": null,
+        "method_score": 0,
+        "problem_score": 0,
+        "theory_score": 1
+      },
+      "category": "math",
+      "start_period": "2025-02",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_25",
+        "global_131",
+        "global_250",
+        "global_338",
+        "global_174"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "stabilized"
+      ],
+      "cross_category_moves": [],
+      "growth_summary": "数学算子与无穷空间 (theory) remains active without a strong expansion signal by 2025-06.",
+      "decline_summary": "Activity stabilizes into a plateau by 2025-06 instead of collapsing.",
+      "review_flags": [],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_25",
+          "topic_name": "椭圆方程求解方法",
+          "category": "math",
+          "weight": 0.3778,
+          "peak_period": "2025-06",
+          "peak_count": 153,
+          "increase": 71,
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_131",
+          "topic_name": "严格特征值不等式",
+          "category": "math",
+          "weight": 0.3609,
+          "peak_period": "2025-06",
+          "peak_count": 21,
+          "increase": 21,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-04",
+          "delta": -62,
+          "anchor_paper_count": 81
+        },
+        {
+          "period": "2025-05",
+          "delta": 41,
+          "anchor_paper_count": 122
+        }
+      ]
+    },
+    {
+      "case_id": "global_2-2025-02",
+      "anchor_topic_id": "global_2",
+      "anchor_topic_name": "p进伽罗瓦表示理论",
+      "anchor_topic_mode": "theory",
+      "anchor_topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": null,
+        "method_score": 0,
+        "problem_score": 0,
+        "theory_score": 3
+      },
+      "category": "math",
+      "start_period": "2025-02",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_14",
+        "global_28",
+        "global_296",
+        "global_343",
+        "global_26"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "expanded"
+      ],
+      "cross_category_moves": [],
+      "growth_summary": "p进伽罗瓦表示理论 (theory) expands from 2025-02 to 2025-06 and diffuses into nearby topics.",
+      "decline_summary": "No dominant decline pattern is detected before 2025-06.",
+      "review_flags": [],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_14",
+          "topic_name": "志村簇阿贝尔雅可比同源",
+          "category": "math",
+          "weight": 0.44,
+          "peak_period": "2025-04",
+          "peak_count": 89,
+          "increase": 74,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 4
+          }
+        },
+        {
+          "topic_id": "global_26",
+          "topic_name": "椭圆曲线塞尔默群",
+          "category": "math",
+          "weight": 0.2653,
+          "peak_period": "2025-05",
+          "peak_count": 45,
+          "increase": 33,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 4
+          }
+        },
+        {
+          "topic_id": "global_68",
+          "topic_name": "Hitchin系统特征表示",
+          "category": "math",
+          "weight": 0.2333,
+          "peak_period": "2025-04",
+          "peak_count": 10,
+          "increase": 10,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-03",
+          "delta": -19,
+          "anchor_paper_count": 0
+        },
+        {
+          "period": "2025-06",
+          "delta": 33,
+          "anchor_paper_count": 33
+        }
+      ]
+    },
+    {
+      "case_id": "global_21-2025-02",
+      "anchor_topic_id": "global_21",
+      "anchor_topic_name": "斯托克斯方程正则性",
+      "anchor_topic_mode": "hybrid",
+      "anchor_topic_profile": {
+        "primary_mode": "hybrid",
+        "secondary_mode": null,
+        "method_score": 1,
+        "problem_score": 1,
+        "theory_score": 0
+      },
+      "category": "math",
+      "start_period": "2025-02",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_25",
+        "global_66",
+        "global_173",
+        "global_277",
+        "global_74"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "expanded",
+        "migrated_to_new_category",
+        "specialized_into_child"
+      ],
+      "cross_category_moves": [
+        "math-ph"
+      ],
+      "growth_summary": "斯托克斯方程正则性 (hybrid) expands from 2025-02 to 2025-06 and diffuses into nearby topics. Some transfer links remain flagged for manual review.",
+      "decline_summary": "No dominant decline pattern is detected before 2025-06.",
+      "review_flags": [
+        "same_category_high_bridge_weak_carryover"
+      ],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_66",
+          "topic_name": "非局部抛物方程解",
+          "category": "math",
+          "weight": 0.4167,
+          "peak_period": "2025-05",
+          "peak_count": 142,
+          "increase": 142,
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_2138",
+          "topic_name": "欧拉方程初值解",
+          "category": "math-ph",
+          "weight": 0.2211,
+          "peak_period": "2025-05",
+          "peak_count": 135,
+          "increase": 135,
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_25",
+          "topic_name": "椭圆方程求解方法",
+          "category": "math",
+          "weight": 0.44,
+          "peak_period": "2025-06",
+          "peak_count": 153,
+          "increase": 71,
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_74",
+          "topic_name": "可压缩理想磁流体贝尔特拉米方程",
+          "category": "math",
+          "weight": 0.3955,
+          "peak_period": "2025-04",
+          "peak_count": 12,
+          "increase": 12,
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_58",
+          "topic_name": "薛定谔方程偏解研究",
+          "category": "math",
+          "weight": 0.375,
+          "peak_period": "2025-03",
+          "peak_count": 12,
+          "increase": 12,
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-03",
+          "delta": 52,
+          "anchor_paper_count": 80
+        },
+        {
+          "period": "2025-04",
+          "delta": -43,
+          "anchor_paper_count": 37
+        },
+        {
+          "period": "2025-05",
+          "delta": -37,
+          "anchor_paper_count": 0
+        }
+      ]
+    },
+    {
+      "case_id": "global_23-2025-02",
+      "anchor_topic_id": "global_23",
+      "anchor_topic_name": "有限元伽辽金方法",
+      "anchor_topic_mode": "method",
+      "anchor_topic_profile": {
+        "primary_mode": "method",
+        "secondary_mode": null,
+        "method_score": 4,
+        "problem_score": 0,
+        "theory_score": 0
+      },
+      "category": "math",
+      "start_period": "2025-02",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_148",
+        "global_62",
+        "global_123",
+        "global_190",
+        "global_90"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "specialized_into_child"
+      ],
+      "cross_category_moves": [],
+      "growth_summary": "有限元伽辽金方法 (method) remains active without a strong expansion signal by 2025-06.",
+      "decline_summary": "No dominant decline pattern is detected before 2025-06.",
+      "review_flags": [],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_31",
+          "topic_name": "物理信息神经网络",
+          "category": "math",
+          "weight": 0.2359,
+          "peak_period": "2025-06",
+          "peak_count": 219,
+          "increase": 119,
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 3,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_121",
+          "topic_name": "有限元网格方法",
+          "category": "math",
+          "weight": 0.2333,
+          "peak_period": "2025-05",
+          "peak_count": 62,
+          "increase": 62,
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 4,
+            "problem_score": 0,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_90",
+          "topic_name": "蒙特卡洛马尔可夫链",
+          "category": "math",
+          "weight": 0.325,
+          "peak_period": "2025-04",
+          "peak_count": 14,
+          "increase": 14,
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 2,
+            "problem_score": 0,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_62",
+          "topic_name": "间断伽辽金格式",
+          "category": "math",
+          "weight": 0.3609,
+          "peak_period": "2025-03",
+          "peak_count": 13,
+          "increase": 13,
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 3,
+            "problem_score": 0,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_123",
+          "topic_name": "玻尔兹曼BGK守恒格式",
+          "category": "math",
+          "weight": 0.3292,
+          "peak_period": "2025-05",
+          "peak_count": 12,
+          "increase": 12,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-03",
+          "delta": -54,
+          "anchor_paper_count": 60
+        },
+        {
+          "period": "2025-04",
+          "delta": 36,
+          "anchor_paper_count": 96
+        },
+        {
+          "period": "2025-05",
+          "delta": -39,
+          "anchor_paper_count": 57
+        },
+        {
+          "period": "2025-06",
+          "delta": 74,
+          "anchor_paper_count": 131
+        }
+      ]
+    },
+    {
+      "case_id": "global_24-2025-02",
+      "anchor_topic_id": "global_24",
+      "anchor_topic_name": "有限群共轭子群",
+      "anchor_topic_mode": "theory",
+      "anchor_topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": null,
+        "method_score": 0,
+        "problem_score": 0,
+        "theory_score": 1
+      },
+      "category": "math",
+      "start_period": "2025-02",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_303",
+        "global_351",
+        "global_294",
+        "global_304",
+        "global_366"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "expanded"
+      ],
+      "cross_category_moves": [],
+      "growth_summary": "有限群共轭子群 (theory) expands from 2025-02 to 2025-06 and diffuses into nearby topics. Some transfer links remain flagged for manual review.",
+      "decline_summary": "No dominant decline pattern is detected before 2025-06.",
+      "review_flags": [
+        "same_category_high_bridge_weak_carryover"
+      ],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_137",
+          "topic_name": "双曲群与子群结构",
+          "category": "math",
+          "weight": 0.2333,
+          "peak_period": "2025-06",
+          "peak_count": 11,
+          "increase": 11,
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-05",
+          "delta": -43,
+          "anchor_paper_count": 78
+        }
+      ]
+    },
+    {
+      "case_id": "global_25-2025-02",
+      "anchor_topic_id": "global_25",
+      "anchor_topic_name": "椭圆方程求解方法",
+      "anchor_topic_mode": "hybrid",
+      "anchor_topic_profile": {
+        "primary_mode": "hybrid",
+        "secondary_mode": null,
+        "method_score": 1,
+        "problem_score": 1,
+        "theory_score": 0
+      },
+      "category": "math",
+      "start_period": "2025-02",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_66",
+        "global_21",
+        "global_223",
+        "global_50",
+        "global_173"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "expanded",
+        "specialized_into_child"
+      ],
+      "cross_category_moves": [],
+      "growth_summary": "椭圆方程求解方法 (hybrid) expands from 2025-02 to 2025-06 and diffuses into nearby topics. Some transfer links remain flagged for manual review.",
+      "decline_summary": "No dominant decline pattern is detected before 2025-06.",
+      "review_flags": [
+        "same_category_high_bridge_weak_carryover"
+      ],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_66",
+          "topic_name": "非局部抛物方程解",
+          "category": "math",
+          "weight": 0.5333,
+          "peak_period": "2025-05",
+          "peak_count": 142,
+          "increase": 142,
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_21",
+          "topic_name": "斯托克斯方程正则性",
+          "category": "math",
+          "weight": 0.44,
+          "peak_period": "2025-03",
+          "peak_count": 80,
+          "increase": 52,
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_50",
+          "topic_name": "双曲障碍反边界问题",
+          "category": "math",
+          "weight": 0.4077,
+          "peak_period": "2025-05",
+          "peak_count": 48,
+          "increase": 48,
+          "topic_mode": "problem",
+          "topic_profile": {
+            "primary_mode": "problem",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_91",
+          "topic_name": "薛定谔算子特征值",
+          "category": "math",
+          "weight": 0.3028,
+          "peak_period": "2025-04",
+          "peak_count": 24,
+          "increase": 24,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_83",
+          "topic_name": "渐近解与方程",
+          "category": "math",
+          "weight": 0.1955,
+          "peak_period": "2025-04",
+          "peak_count": 15,
+          "increase": 15,
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-03",
+          "delta": -82,
+          "anchor_paper_count": 0
+        },
+        {
+          "period": "2025-04",
+          "delta": 124,
+          "anchor_paper_count": 124
+        },
+        {
+          "period": "2025-05",
+          "delta": -124,
+          "anchor_paper_count": 0
+        },
+        {
+          "period": "2025-06",
+          "delta": 153,
+          "anchor_paper_count": 153
+        }
+      ]
+    },
+    {
+      "case_id": "global_3-2025-02",
+      "anchor_topic_id": "global_3",
+      "anchor_topic_name": "凸优化牛顿收敛性",
+      "anchor_topic_mode": "method",
+      "anchor_topic_profile": {
+        "primary_mode": "method",
+        "secondary_mode": null,
+        "method_score": 7,
+        "problem_score": 0,
+        "theory_score": 0
+      },
+      "category": "math",
+      "start_period": "2025-02",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_48",
+        "global_155",
+        "global_163",
+        "global_169",
+        "global_239"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "expanded"
+      ],
+      "cross_category_moves": [],
+      "growth_summary": "凸优化牛顿收敛性 (method) expands from 2025-02 to 2025-06 and diffuses into nearby topics. Some transfer links remain flagged for manual review.",
+      "decline_summary": "No dominant decline pattern is detected before 2025-06.",
+      "review_flags": [
+        "same_category_high_bridge_weak_carryover"
+      ],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_155",
+          "topic_name": "随机梯度下降收敛性",
+          "category": "math",
+          "weight": 0.3833,
+          "peak_period": "2025-06",
+          "peak_count": 26,
+          "increase": 26,
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 4,
+            "problem_score": 0,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_48",
+          "topic_name": "分布式凸优化共识",
+          "category": "math",
+          "weight": 0.513,
+          "peak_period": "2025-03",
+          "peak_count": 23,
+          "increase": 23,
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 6,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-03",
+          "delta": -82,
+          "anchor_paper_count": 0
+        },
+        {
+          "period": "2025-04",
+          "delta": 105,
+          "anchor_paper_count": 105
+        }
+      ]
+    },
+    {
+      "case_id": "global_30-2025-02",
+      "anchor_topic_id": "global_30",
+      "anchor_topic_name": "法诺簇模空间曲线",
+      "anchor_topic_mode": "theory",
+      "anchor_topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": null,
+        "method_score": 0,
+        "problem_score": 0,
+        "theory_score": 3
+      },
+      "category": "math",
+      "start_period": "2025-02",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_215",
+        "global_355",
+        "global_5",
+        "global_117",
+        "global_349"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "expanded",
+        "specialized_into_child"
+      ],
+      "cross_category_moves": [],
+      "growth_summary": "法诺簇模空间曲线 (theory) expands from 2025-02 to 2025-06 and diffuses into nearby topics.",
+      "decline_summary": "No dominant decline pattern is detected before 2025-06.",
+      "review_flags": [],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_5",
+          "topic_name": "卢斯蒂格代数上同调",
+          "category": "math",
+          "weight": 0.3241,
+          "peak_period": "2025-04",
+          "peak_count": 75,
+          "increase": 30,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "problem",
+            "method_score": 0,
+            "problem_score": 1,
+            "theory_score": 3
+          }
+        },
+        {
+          "topic_id": "global_117",
+          "topic_name": "志村簇与Theta积分",
+          "category": "math",
+          "weight": 0.2542,
+          "peak_period": "2025-05",
+          "peak_count": 16,
+          "increase": 16,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 2
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-03",
+          "delta": 104,
+          "anchor_paper_count": 213
+        },
+        {
+          "period": "2025-04",
+          "delta": -119,
+          "anchor_paper_count": 94
+        },
+        {
+          "period": "2025-05",
+          "delta": 116,
+          "anchor_paper_count": 210
+        }
+      ]
+    },
+    {
+      "case_id": "global_31-2025-02",
+      "anchor_topic_id": "global_31",
+      "anchor_topic_name": "物理信息神经网络",
+      "anchor_topic_mode": "method",
+      "anchor_topic_profile": {
+        "primary_mode": "method",
+        "secondary_mode": null,
+        "method_score": 3,
+        "problem_score": 0,
+        "theory_score": 1
+      },
+      "category": "math",
+      "start_period": "2025-02",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_566",
+        "global_1878",
+        "global_23"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "expanded",
+        "migrated_to_new_category"
+      ],
+      "cross_category_moves": [
+        "cs"
+      ],
+      "growth_summary": "物理信息神经网络 (method) expands from 2025-02 to 2025-06 and diffuses into nearby topics. Some transfer links remain flagged for manual review.",
+      "decline_summary": "No dominant decline pattern is detected before 2025-06.",
+      "review_flags": [
+        "possible_alias_overlap"
+      ],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_566",
+          "topic_name": "物理信息神经网络方程",
+          "category": "cs",
+          "weight": 0.65,
+          "peak_period": "2025-03",
+          "peak_count": 193,
+          "increase": 193,
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 3,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-03",
+          "delta": -100,
+          "anchor_paper_count": 0
+        },
+        {
+          "period": "2025-06",
+          "delta": 219,
+          "anchor_paper_count": 219
+        }
+      ]
+    },
+    {
+      "case_id": "global_32-2025-02",
+      "anchor_topic_id": "global_32",
+      "anchor_topic_name": "素数与狄利克雷和",
+      "anchor_topic_mode": "theory",
+      "anchor_topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": null,
+        "method_score": 0,
+        "problem_score": 0,
+        "theory_score": 1
+      },
+      "category": "math",
+      "start_period": "2025-02",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_120",
+        "global_88",
+        "global_279",
+        "global_379",
+        "global_109"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged"
+      ],
+      "cross_category_moves": [],
+      "growth_summary": "素数与狄利克雷和 (hybrid) remains active without a strong expansion signal by 2025-06. Some transfer links remain flagged for manual review.",
+      "decline_summary": "No dominant decline pattern is detected before 2025-06.",
+      "review_flags": [
+        "same_category_high_bridge_weak_carryover"
+      ],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_88",
+          "topic_name": "素数猜想与整数",
+          "category": "math",
+          "weight": 0.44,
+          "peak_period": "2025-04",
+          "peak_count": 141,
+          "increase": 141,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 2
+          }
+        },
+        {
+          "topic_id": "global_120",
+          "topic_name": "整数素数分拆猜想",
+          "category": "math",
+          "weight": 0.5211,
+          "peak_period": "2025-05",
+          "peak_count": 115,
+          "increase": 115,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_109",
+          "topic_name": "分圆域与素数平方根",
+          "category": "math",
+          "weight": 0.3519,
+          "peak_period": "2025-05",
+          "peak_count": 26,
+          "increase": 26,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-03",
+          "delta": -102,
+          "anchor_paper_count": 0
+        },
+        {
+          "period": "2025-06",
+          "delta": 90,
+          "anchor_paper_count": 90
+        }
+      ]
+    },
+    {
+      "case_id": "global_34-2025-02",
+      "anchor_topic_id": "global_34",
+      "anchor_topic_name": "纽结与流形同调",
+      "anchor_topic_mode": "theory",
+      "anchor_topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": null,
+        "method_score": 0,
+        "problem_score": 0,
+        "theory_score": 2
+      },
+      "category": "math",
+      "start_period": "2025-02",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_57",
+        "global_151",
+        "global_325",
+        "global_1777",
+        "global_327"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "expanded",
+        "weakened"
+      ],
+      "cross_category_moves": [],
+      "growth_summary": "纽结与流形同调 (theory) expands from 2025-02 to 2025-06 and diffuses into nearby topics. Some transfer links remain flagged for manual review.",
+      "decline_summary": "Momentum softens by 2025-06, suggesting the topic loses local centrality.",
+      "review_flags": [
+        "same_category_high_bridge_weak_carryover"
+      ],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_151",
+          "topic_name": "纽结与流形不变量",
+          "category": "math",
+          "weight": 0.4,
+          "peak_period": "2025-06",
+          "peak_count": 46,
+          "increase": 46,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_57",
+          "topic_name": "纽结与球面同调",
+          "category": "math",
+          "weight": 0.4534,
+          "peak_period": "2025-03",
+          "peak_count": 38,
+          "increase": 38,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 2
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-03",
+          "delta": -44,
+          "anchor_paper_count": 0
+        },
+        {
+          "period": "2025-04",
+          "delta": 60,
+          "anchor_paper_count": 60
+        },
+        {
+          "period": "2025-06",
+          "delta": -73,
+          "anchor_paper_count": 0
+        }
+      ]
+    },
+    {
+      "case_id": "global_39-2025-02",
+      "anchor_topic_id": "global_39",
+      "anchor_topic_name": "随机过程渗流方程",
+      "anchor_topic_mode": "problem",
+      "anchor_topic_profile": {
+        "primary_mode": "problem",
+        "secondary_mode": null,
+        "method_score": 0,
+        "problem_score": 1,
+        "theory_score": 0
+      },
+      "category": "math",
+      "start_period": "2025-02",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_99",
+        "global_116",
+        "global_278",
+        "global_188",
+        "global_222"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "expanded",
+        "specialized_into_child"
+      ],
+      "cross_category_moves": [],
+      "growth_summary": "随机过程渗流方程 (hybrid) expands from 2025-02 to 2025-06 and diffuses into nearby topics. Some transfer links remain flagged for manual review.",
+      "decline_summary": "No dominant decline pattern is detected before 2025-06.",
+      "review_flags": [
+        "same_category_high_bridge_weak_carryover"
+      ],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_65",
+          "topic_name": "随机微分方程收敛",
+          "category": "math",
+          "weight": 0.3327,
+          "peak_period": "2025-05",
+          "peak_count": 96,
+          "increase": 96,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_38",
+          "topic_name": "随机极限与不等式",
+          "category": "math",
+          "weight": 0.3778,
+          "peak_period": "2025-03",
+          "peak_count": 147,
+          "increase": 86,
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_60",
+          "topic_name": "贝叶斯高斯后验采样",
+          "category": "math",
+          "weight": 0.3292,
+          "peak_period": "2025-03",
+          "peak_count": 86,
+          "increase": 86,
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 2,
+            "problem_score": 0,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_97",
+          "topic_name": "随机图与树概率",
+          "category": "math",
+          "weight": 0.3955,
+          "peak_period": "2025-04",
+          "peak_count": 39,
+          "increase": 39,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_98",
+          "topic_name": "随机渗流极限理论",
+          "category": "math",
+          "weight": 0.1955,
+          "peak_period": "2025-04",
+          "peak_count": 35,
+          "increase": 35,
+          "topic_mode": "problem",
+          "topic_profile": {
+            "primary_mode": "problem",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-03",
+          "delta": -194,
+          "anchor_paper_count": 0
+        },
+        {
+          "period": "2025-06",
+          "delta": 344,
+          "anchor_paper_count": 344
+        }
+      ]
+    },
+    {
+      "case_id": "global_4-2025-02",
+      "anchor_topic_id": "global_4",
+      "anchor_topic_name": "分级范畴聚类",
+      "anchor_topic_mode": "theory",
+      "anchor_topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": "problem",
+        "method_score": 0,
+        "problem_score": 1,
+        "theory_score": 1
+      },
+      "category": "math",
+      "start_period": "2025-02",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_5",
+        "global_337",
+        "global_55",
+        "global_201",
+        "global_237"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "expanded",
+        "merged_into_parent",
+        "specialized_into_child"
+      ],
+      "cross_category_moves": [],
+      "growth_summary": "分级范畴聚类 (theory) expands from 2025-02 to 2025-06 and diffuses into nearby topics.",
+      "decline_summary": "Some activity appears to reconverge into a broader parent topic by 2025-06.",
+      "review_flags": [],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_55",
+          "topic_name": "李代数与Hopf代数",
+          "category": "math",
+          "weight": 0.313,
+          "peak_period": "2025-05",
+          "peak_count": 309,
+          "increase": 309,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "problem",
+            "method_score": 0,
+            "problem_score": 1,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_5",
+          "topic_name": "卢斯蒂格代数上同调",
+          "category": "math",
+          "weight": 0.4077,
+          "peak_period": "2025-04",
+          "peak_count": 75,
+          "increase": 30,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "problem",
+            "method_score": 0,
+            "problem_score": 1,
+            "theory_score": 3
+          }
+        },
+        {
+          "topic_id": "global_1",
+          "topic_name": "AW代数与希尔伯特代数",
+          "category": "math",
+          "weight": 0.2077,
+          "peak_period": "2025-05",
+          "peak_count": 37,
+          "increase": 23,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 2
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-03",
+          "delta": 16,
+          "anchor_paper_count": 44
+        },
+        {
+          "period": "2025-04",
+          "delta": -44,
+          "anchor_paper_count": 0
+        }
+      ]
+    },
+    {
+      "case_id": "global_42-2025-02",
+      "anchor_topic_id": "global_42",
+      "anchor_topic_name": "黎曼曲面曲率研究",
+      "anchor_topic_mode": "hybrid",
+      "anchor_topic_profile": {
+        "primary_mode": "hybrid",
+        "secondary_mode": null,
+        "method_score": 1,
+        "problem_score": 1,
+        "theory_score": 0
+      },
+      "category": "math",
+      "start_period": "2025-02",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_67",
+        "global_22",
+        "global_216",
+        "global_213",
+        "global_108"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "expanded",
+        "specialized_into_child",
+        "weakened"
+      ],
+      "cross_category_moves": [],
+      "growth_summary": "黎曼曲面曲率研究 (hybrid) expands from 2025-02 to 2025-06 and diffuses into nearby topics.",
+      "decline_summary": "Momentum softens by 2025-06, suggesting the topic loses local centrality.",
+      "review_flags": [],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_67",
+          "topic_name": "黎曼流形与边界曲率",
+          "category": "math",
+          "weight": 0.5545,
+          "peak_period": "2025-04",
+          "peak_count": 274,
+          "increase": 274,
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_17",
+          "topic_name": "接触辛凯勒流形",
+          "category": "math",
+          "weight": 0.2653,
+          "peak_period": "2025-06",
+          "peak_count": 60,
+          "increase": 29,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "method",
+            "method_score": 1,
+            "problem_score": 0,
+            "theory_score": 4
+          }
+        },
+        {
+          "topic_id": "global_108",
+          "topic_name": "凯勒流形爱因斯坦度量",
+          "category": "math",
+          "weight": 0.3808,
+          "peak_period": "2025-05",
+          "peak_count": 26,
+          "increase": 26,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_122",
+          "topic_name": "李叶层结构与δ_τ",
+          "category": "math",
+          "weight": 0.3292,
+          "peak_period": "2025-05",
+          "peak_count": 13,
+          "increase": 13,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "method",
+            "method_score": 1,
+            "problem_score": 0,
+            "theory_score": 4
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-03",
+          "delta": -35,
+          "anchor_paper_count": 0
+        },
+        {
+          "period": "2025-05",
+          "delta": 96,
+          "anchor_paper_count": 96
+        },
+        {
+          "period": "2025-06",
+          "delta": -96,
+          "anchor_paper_count": 0
+        }
+      ]
+    },
+    {
+      "case_id": "global_8-2025-02",
+      "anchor_topic_id": "global_8",
+      "anchor_topic_name": "图与顶点条件研究",
+      "anchor_topic_mode": "theory",
+      "anchor_topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": null,
+        "method_score": 0,
+        "problem_score": 0,
+        "theory_score": 2
+      },
+      "category": "math",
+      "start_period": "2025-02",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_319",
+        "global_130",
+        "global_142",
+        "global_228",
+        "global_71"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "migrated_to_new_category",
+        "weakened"
+      ],
+      "cross_category_moves": [
+        "cs"
+      ],
+      "growth_summary": "图与顶点条件研究 (theory) remains active without a strong expansion signal by 2025-06.",
+      "decline_summary": "Momentum softens by 2025-06, suggesting the topic loses local centrality.",
+      "review_flags": [],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_534",
+          "topic_name": "图顶点数结构研究",
+          "category": "cs",
+          "weight": 0.3,
+          "peak_period": "2025-03",
+          "peak_count": 183,
+          "increase": 183,
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 0,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_71",
+          "topic_name": "凯莱图与群结构",
+          "category": "math",
+          "weight": 0.35,
+          "peak_period": "2025-04",
+          "peak_count": 23,
+          "increase": 23,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_130",
+          "topic_name": "随机图顶点分布",
+          "category": "math",
+          "weight": 0.3609,
+          "peak_period": "2025-05",
+          "peak_count": 17,
+          "increase": 17,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_142",
+          "topic_name": "序列避免与克莱特曼问题",
+          "category": "math",
+          "weight": 0.3609,
+          "peak_period": "2025-06",
+          "peak_count": 12,
+          "increase": 12,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-03",
+          "delta": -362,
+          "anchor_paper_count": 0
+        },
+        {
+          "period": "2025-04",
+          "delta": 153,
+          "anchor_paper_count": 153
+        },
+        {
+          "period": "2025-06",
+          "delta": 60,
+          "anchor_paper_count": 192
+        }
+      ]
+    },
+    {
+      "case_id": "global_55-2025-03",
+      "anchor_topic_id": "global_55",
+      "anchor_topic_name": "李代数与Hopf代数",
+      "anchor_topic_mode": "theory",
+      "anchor_topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": "problem",
+        "method_score": 0,
+        "problem_score": 1,
+        "theory_score": 1
+      },
+      "category": "math",
+      "start_period": "2025-03",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_301",
+        "global_4",
+        "global_15",
+        "global_82",
+        "global_1"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "expanded",
+        "specialized_into_child"
+      ],
+      "cross_category_moves": [],
+      "growth_summary": "李代数与Hopf代数 (theory) expands from 2025-03 to 2025-07 and diffuses into nearby topics. Some transfer links remain flagged for manual review.",
+      "decline_summary": "No dominant decline pattern is detected before 2025-07.",
+      "review_flags": [
+        "same_category_high_bridge_weak_carryover"
+      ],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_15",
+          "topic_name": "戈伦斯坦单项式环",
+          "category": "math",
+          "weight": 0.275,
+          "peak_period": "2025-07",
+          "peak_count": 84,
+          "increase": 84,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_1",
+          "topic_name": "AW代数与希尔伯特代数",
+          "category": "math",
+          "weight": 0.24,
+          "peak_period": "2025-05",
+          "peak_count": 37,
+          "increase": 37,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 2
+          }
+        },
+        {
+          "topic_id": "global_82",
+          "topic_name": "泊松-巴克斯特李代数",
+          "category": "math",
+          "weight": 0.275,
+          "peak_period": "2025-04",
+          "peak_count": 32,
+          "increase": 32,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "problem",
+            "method_score": 0,
+            "problem_score": 1,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_152",
+          "topic_name": "诺特环模理想",
+          "category": "math",
+          "weight": 0.1955,
+          "peak_period": "2025-06",
+          "peak_count": 14,
+          "increase": 14,
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_177",
+          "topic_name": "约当代数恒等式",
+          "category": "math",
+          "weight": 0.2333,
+          "peak_period": "2025-07",
+          "peak_count": 10,
+          "increase": 10,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "problem",
+            "method_score": 0,
+            "problem_score": 1,
+            "theory_score": 1
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-04",
+          "delta": -117,
+          "anchor_paper_count": 0
+        },
+        {
+          "period": "2025-05",
+          "delta": 309,
+          "anchor_paper_count": 309
+        },
+        {
+          "period": "2025-06",
+          "delta": -144,
+          "anchor_paper_count": 165
+        },
+        {
+          "period": "2025-07",
+          "delta": -149,
+          "anchor_paper_count": 16
+        }
+      ]
+    },
+    {
+      "case_id": "global_58-2025-03",
+      "anchor_topic_id": "global_58",
+      "anchor_topic_name": "薛定谔方程偏解研究",
+      "anchor_topic_mode": "hybrid",
+      "anchor_topic_profile": {
+        "primary_mode": "hybrid",
+        "secondary_mode": null,
+        "method_score": 1,
+        "problem_score": 1,
+        "theory_score": 0
+      },
+      "category": "math",
+      "start_period": "2025-03",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_189",
+        "global_21",
+        "global_25",
+        "global_40",
+        "global_66"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "merged_into_parent",
+        "specialized_into_child"
+      ],
+      "cross_category_moves": [],
+      "growth_summary": "薛定谔方程偏解研究 (hybrid) remains active without a strong expansion signal by 2025-07.",
+      "decline_summary": "Some activity appears to reconverge into a broader parent topic by 2025-07.",
+      "review_flags": [],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_25",
+          "topic_name": "椭圆方程求解方法",
+          "category": "math",
+          "weight": 0.375,
+          "peak_period": "2025-06",
+          "peak_count": 153,
+          "increase": 153,
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_189",
+          "topic_name": "非线性薛定谔方程",
+          "category": "math",
+          "weight": 0.3958,
+          "peak_period": "2025-07",
+          "peak_count": 14,
+          "increase": 14,
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-04",
+          "delta": -12,
+          "anchor_paper_count": 0
+        }
+      ]
+    },
+    {
+      "case_id": "global_67-2025-03",
+      "anchor_topic_id": "global_67",
+      "anchor_topic_name": "黎曼流形与边界曲率",
+      "anchor_topic_mode": "hybrid",
+      "anchor_topic_profile": {
+        "primary_mode": "hybrid",
+        "secondary_mode": null,
+        "method_score": 1,
+        "problem_score": 1,
+        "theory_score": 0
+      },
+      "category": "math",
+      "start_period": "2025-03",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_42",
+        "global_22",
+        "global_162",
+        "global_213",
+        "global_216"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "expanded"
+      ],
+      "cross_category_moves": [],
+      "growth_summary": "黎曼流形与边界曲率 (hybrid) expands from 2025-03 to 2025-07 and diffuses into nearby topics. Some transfer links remain flagged for manual review.",
+      "decline_summary": "No dominant decline pattern is detected before 2025-07.",
+      "review_flags": [
+        "same_category_high_bridge_weak_carryover"
+      ],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_42",
+          "topic_name": "黎曼曲面曲率研究",
+          "category": "math",
+          "weight": 0.5545,
+          "peak_period": "2025-05",
+          "peak_count": 96,
+          "increase": 96,
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_122",
+          "topic_name": "李叶层结构与δ_τ",
+          "category": "math",
+          "weight": 0.3292,
+          "peak_period": "2025-05",
+          "peak_count": 13,
+          "increase": 13,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "method",
+            "method_score": 1,
+            "problem_score": 0,
+            "theory_score": 4
+          }
+        },
+        {
+          "topic_id": "global_162",
+          "topic_name": "凯勒流形与全纯丛",
+          "category": "math",
+          "weight": 0.3955,
+          "peak_period": "2025-07",
+          "peak_count": 12,
+          "increase": 12,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-04",
+          "delta": 168,
+          "anchor_paper_count": 274
+        },
+        {
+          "period": "2025-05",
+          "delta": -274,
+          "anchor_paper_count": 0
+        },
+        {
+          "period": "2025-06",
+          "delta": 117,
+          "anchor_paper_count": 117
+        },
+        {
+          "period": "2025-07",
+          "delta": -117,
+          "anchor_paper_count": 0
+        }
+      ]
+    }
+  ]
+}

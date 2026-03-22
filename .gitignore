@@ -1,0 +1,15 @@
+# Data files - 排除原始数据和临时生成物，但保留受控输出JSON
+data/input/
+data/raw/
+data/processed/
+data/output/kg_v1_fixcheck/
+data/output/kg_benchmark_parsed.json
+frontend/public/data/
+*.pkl
+*.npy
+__pycache__/
+.pytest_cache/
+*.log
+.DS_Store
+node_modules/
+frontend/node_modules/

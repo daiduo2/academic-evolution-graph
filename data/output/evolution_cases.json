@@ -1,0 +1,1063 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-03-12T01:12:26.448087+00:00",
+  "analysis_periods": [
+    "2025-02",
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01"
+  ],
+  "horizon_months": 4,
+  "total_cases": 12,
+  "cases": [
+    {
+      "case_id": "global_1392-2025-02",
+      "anchor_topic_id": "global_1392",
+      "anchor_topic_name": "星系气体射电研究",
+      "anchor_topic_mode": "problem",
+      "anchor_topic_profile": {
+        "primary_mode": "problem",
+        "secondary_mode": null,
+        "method_score": 0,
+        "problem_score": 1,
+        "theory_score": 0
+      },
+      "category": "astro-ph",
+      "start_period": "2025-02",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_1444",
+        "global_1389",
+        "global_1410",
+        "global_1407",
+        "global_1399"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "expanded"
+      ],
+      "cross_category_moves": [],
+      "growth_summary": "星系气体射电研究 (hybrid) expands from 2025-02 to 2025-06 and diffuses into nearby topics. Some transfer links remain flagged for manual review.",
+      "decline_summary": "No dominant decline pattern is detected before 2025-06.",
+      "review_flags": [
+        "same_category_high_bridge_weak_carryover"
+      ],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_1399",
+          "topic_name": "星系巡天与恒星机器学习",
+          "category": "astro-ph",
+          "weight": 0.3538,
+          "peak_period": "2025-03",
+          "peak_count": 42,
+          "increase": 42,
+          "topic_mode": "problem",
+          "topic_profile": {
+            "primary_mode": "problem",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 2,
+            "theory_score": 0
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-03",
+          "delta": -185,
+          "anchor_paper_count": 44
+        },
+        {
+          "period": "2025-04",
+          "delta": -44,
+          "anchor_paper_count": 0
+        },
+        {
+          "period": "2025-05",
+          "delta": 1062,
+          "anchor_paper_count": 1062
+        },
+        {
+          "period": "2025-06",
+          "delta": -1062,
+          "anchor_paper_count": 0
+        }
+      ]
+    },
+    {
+      "case_id": "global_1455-2025-02",
+      "anchor_topic_id": "global_1455",
+      "anchor_topic_name": "自旋磁性与霍尔薄膜",
+      "anchor_topic_mode": "theory",
+      "anchor_topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": "problem",
+        "method_score": 1,
+        "problem_score": 1,
+        "theory_score": 2
+      },
+      "category": "cond-mat",
+      "start_period": "2025-02",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_1504",
+        "global_1473",
+        "global_1493",
+        "global_1499",
+        "global_1524"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged"
+      ],
+      "cross_category_moves": [],
+      "growth_summary": "自旋磁性与霍尔薄膜 (hybrid) remains active without a strong expansion signal by 2025-06.",
+      "decline_summary": "No dominant decline pattern is detected before 2025-06.",
+      "review_flags": [],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_1493",
+          "topic_name": "量子自旋磁相态",
+          "category": "cond-mat",
+          "weight": 0.3609,
+          "peak_period": "2025-05",
+          "peak_count": 3407,
+          "increase": 3407,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 2
+          }
+        },
+        {
+          "topic_id": "global_1473",
+          "topic_name": "钙钛矿铁电薄膜",
+          "category": "cond-mat",
+          "weight": 0.3609,
+          "peak_period": "2025-03",
+          "peak_count": 97,
+          "increase": 97,
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 3,
+            "problem_score": 0,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_1499",
+          "topic_name": "自旋波与磁子学研究",
+          "category": "cond-mat",
+          "weight": 0.3609,
+          "peak_period": "2025-06",
+          "peak_count": 14,
+          "increase": 14,
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-03",
+          "delta": -140,
+          "anchor_paper_count": 0
+        },
+        {
+          "period": "2025-04",
+          "delta": 161,
+          "anchor_paper_count": 161
+        },
+        {
+          "period": "2025-05",
+          "delta": -161,
+          "anchor_paper_count": 0
+        },
+        {
+          "period": "2025-06",
+          "delta": 140,
+          "anchor_paper_count": 140
+        }
+      ]
+    },
+    {
+      "case_id": "global_395-2025-02",
+      "anchor_topic_id": "global_395",
+      "anchor_topic_name": "3D高斯溅射渲染",
+      "anchor_topic_mode": "theory",
+      "anchor_topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": "problem",
+        "method_score": 2,
+        "problem_score": 2,
+        "theory_score": 2
+      },
+      "category": "cs",
+      "start_period": "2025-02",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_480",
+        "global_471",
+        "global_633",
+        "global_955",
+        "global_1070"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "expanded"
+      ],
+      "cross_category_moves": [],
+      "growth_summary": "3D高斯溅射渲染 (hybrid) expands from 2025-02 to 2025-06 and diffuses into nearby topics.",
+      "decline_summary": "No dominant decline pattern is detected before 2025-06.",
+      "review_flags": [],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_633",
+          "topic_name": "点云立体视觉深度估计",
+          "category": "cs",
+          "weight": 0.4077,
+          "peak_period": "2025-04",
+          "peak_count": 39,
+          "increase": 39,
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 3,
+            "problem_score": 3,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_783",
+          "topic_name": "物体6D位姿估计",
+          "category": "cs",
+          "weight": 0.3778,
+          "peak_period": "2025-06",
+          "peak_count": 33,
+          "increase": 33,
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 3,
+            "problem_score": 3,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_715",
+          "topic_name": "相机位姿与三维场景",
+          "category": "cs",
+          "weight": 0.3955,
+          "peak_period": "2025-05",
+          "peak_count": 15,
+          "increase": 15,
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 3,
+            "problem_score": 3,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_673",
+          "topic_name": "三维纹理与几何建模",
+          "category": "cs",
+          "weight": 0.3609,
+          "peak_period": "2025-05",
+          "peak_count": 10,
+          "increase": 10,
+          "topic_mode": "problem",
+          "topic_profile": {
+            "primary_mode": "problem",
+            "secondary_mode": "method",
+            "method_score": 2,
+            "problem_score": 3,
+            "theory_score": 2
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-03",
+          "delta": 1012,
+          "anchor_paper_count": 1058
+        },
+        {
+          "period": "2025-04",
+          "delta": -1058,
+          "anchor_paper_count": 0
+        },
+        {
+          "period": "2025-05",
+          "delta": 68,
+          "anchor_paper_count": 68
+        },
+        {
+          "period": "2025-06",
+          "delta": -50,
+          "anchor_paper_count": 18
+        }
+      ]
+    },
+    {
+      "case_id": "global_1791-2025-07",
+      "anchor_topic_id": "global_1791",
+      "anchor_topic_name": "因果效应与干预结果",
+      "anchor_topic_mode": "method",
+      "anchor_topic_profile": {
+        "primary_mode": "method",
+        "secondary_mode": null,
+        "method_score": 5,
+        "problem_score": 0,
+        "theory_score": 0
+      },
+      "category": "econ",
+      "start_period": "2025-07",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_1799",
+        "global_1972",
+        "global_1788"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "migrated_to_new_category",
+        "weakened"
+      ],
+      "cross_category_moves": [
+        "stat"
+      ],
+      "growth_summary": "因果效应与干预结果 (method) remains active without a strong expansion signal by 2025-11.",
+      "decline_summary": "Momentum softens by 2025-11, suggesting the topic loses local centrality.",
+      "review_flags": [],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_1972",
+          "topic_name": "因果估计与试验处理",
+          "category": "stat",
+          "weight": 0.3889,
+          "peak_period": "2025-10",
+          "peak_count": 161,
+          "increase": 161,
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 6,
+            "problem_score": 0,
+            "theory_score": 0
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-08",
+          "delta": -193,
+          "anchor_paper_count": 0
+        },
+        {
+          "period": "2025-09",
+          "delta": 160,
+          "anchor_paper_count": 160
+        },
+        {
+          "period": "2025-10",
+          "delta": -160,
+          "anchor_paper_count": 0
+        }
+      ]
+    },
+    {
+      "case_id": "global_1611-2025-02",
+      "anchor_topic_id": "global_1611",
+      "anchor_topic_name": "CT与MRI低剂量成像",
+      "anchor_topic_mode": "problem",
+      "anchor_topic_profile": {
+        "primary_mode": "problem",
+        "secondary_mode": "method",
+        "method_score": 1,
+        "problem_score": 6,
+        "theory_score": 0
+      },
+      "category": "eess",
+      "start_period": "2025-02",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_1694",
+        "global_1713",
+        "global_421",
+        "global_1670",
+        "global_1677"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "expanded",
+        "migrated_to_new_category"
+      ],
+      "cross_category_moves": [
+        "cs"
+      ],
+      "growth_summary": "CT与MRI低剂量成像 (problem) expands from 2025-02 to 2025-06 and diffuses into nearby topics.",
+      "decline_summary": "No dominant decline pattern is detected before 2025-06.",
+      "review_flags": [],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_421",
+          "topic_name": "医学图像癌症分割",
+          "category": "cs",
+          "weight": 0.4053,
+          "peak_period": "2025-04",
+          "peak_count": 484,
+          "increase": 275,
+          "topic_mode": "problem",
+          "topic_profile": {
+            "primary_mode": "problem",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 5,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_1635",
+          "topic_name": "三维高斯溅射渲染",
+          "category": "eess",
+          "weight": 0.3292,
+          "peak_period": "2025-04",
+          "peak_count": 165,
+          "increase": 165,
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": "problem",
+            "method_score": 3,
+            "problem_score": 1,
+            "theory_score": 2
+          }
+        },
+        {
+          "topic_id": "global_1627",
+          "topic_name": "多尺度正则化PDHG展开",
+          "category": "eess",
+          "weight": 0.3292,
+          "peak_period": "2025-03",
+          "peak_count": 12,
+          "increase": 12,
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 3,
+            "problem_score": 0,
+            "theory_score": 0
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-03",
+          "delta": 399,
+          "anchor_paper_count": 447
+        },
+        {
+          "period": "2025-04",
+          "delta": -447,
+          "anchor_paper_count": 0
+        },
+        {
+          "period": "2025-05",
+          "delta": 295,
+          "anchor_paper_count": 295
+        },
+        {
+          "period": "2025-06",
+          "delta": 192,
+          "anchor_paper_count": 487
+        }
+      ]
+    },
+    {
+      "case_id": "global_1598-2025-02",
+      "anchor_topic_id": "global_1598",
+      "anchor_topic_name": "黑洞与引力视界",
+      "anchor_topic_mode": "theory",
+      "anchor_topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": null,
+        "method_score": 0,
+        "problem_score": 0,
+        "theory_score": 1
+      },
+      "category": "gr-qc",
+      "start_period": "2025-02",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_1603",
+        "global_1607",
+        "global_1610",
+        "global_1595",
+        "global_1599"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "expanded"
+      ],
+      "cross_category_moves": [],
+      "growth_summary": "黑洞与引力视界 (hybrid) expands from 2025-02 to 2025-06 and diffuses into nearby topics.",
+      "decline_summary": "No dominant decline pattern is detected before 2025-06.",
+      "review_flags": [],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_1599",
+          "topic_name": "巴罗宇宙暗能量研究",
+          "category": "gr-qc",
+          "weight": 0.35,
+          "peak_period": "2025-03",
+          "peak_count": 32,
+          "increase": 32,
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 0,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_1603",
+          "topic_name": "量子引力时空理论",
+          "category": "gr-qc",
+          "weight": 0.3955,
+          "peak_period": "2025-05",
+          "peak_count": 23,
+          "increase": 23,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "method",
+            "method_score": 1,
+            "problem_score": 0,
+            "theory_score": 4
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-03",
+          "delta": 180,
+          "anchor_paper_count": 339
+        },
+        {
+          "period": "2025-04",
+          "delta": -339,
+          "anchor_paper_count": 0
+        },
+        {
+          "period": "2025-05",
+          "delta": 221,
+          "anchor_paper_count": 221
+        },
+        {
+          "period": "2025-06",
+          "delta": -221,
+          "anchor_paper_count": 0
+        }
+      ]
+    },
+    {
+      "case_id": "global_1728-2025-02",
+      "anchor_topic_id": "global_1728",
+      "anchor_topic_name": "规范理论与共形弦论",
+      "anchor_topic_mode": "theory",
+      "anchor_topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": null,
+        "method_score": 0,
+        "problem_score": 0,
+        "theory_score": 2
+      },
+      "category": "hep",
+      "start_period": "2025-02",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_1735",
+        "global_1766",
+        "global_1729",
+        "global_1771",
+        "global_1748"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "specialized_into_child",
+        "weakened"
+      ],
+      "cross_category_moves": [],
+      "growth_summary": "规范理论与共形弦论 (theory) remains active without a strong expansion signal by 2025-06.",
+      "decline_summary": "Momentum softens by 2025-06, suggesting the topic loses local centrality.",
+      "review_flags": [],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_1735",
+          "topic_name": "圈振幅与关联函数",
+          "category": "hep",
+          "weight": 0.475,
+          "peak_period": "2025-03",
+          "peak_count": 59,
+          "increase": 59,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_1740",
+          "topic_name": "共形场论模结构",
+          "category": "hep",
+          "weight": 0.3455,
+          "peak_period": "2025-05",
+          "peak_count": 21,
+          "increase": 21,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 2
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-04",
+          "delta": -125,
+          "anchor_paper_count": 0
+        },
+        {
+          "period": "2025-05",
+          "delta": 65,
+          "anchor_paper_count": 65
+        },
+        {
+          "period": "2025-06",
+          "delta": -65,
+          "anchor_paper_count": 0
+        }
+      ]
+    },
+    {
+      "case_id": "global_30-2025-02",
+      "anchor_topic_id": "global_30",
+      "anchor_topic_name": "法诺簇模空间曲线",
+      "anchor_topic_mode": "theory",
+      "anchor_topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": null,
+        "method_score": 0,
+        "problem_score": 0,
+        "theory_score": 3
+      },
+      "category": "math",
+      "start_period": "2025-02",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_215",
+        "global_355",
+        "global_5",
+        "global_117",
+        "global_349"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "expanded",
+        "specialized_into_child"
+      ],
+      "cross_category_moves": [],
+      "growth_summary": "法诺簇模空间曲线 (theory) expands from 2025-02 to 2025-06 and diffuses into nearby topics.",
+      "decline_summary": "No dominant decline pattern is detected before 2025-06.",
+      "review_flags": [],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_5",
+          "topic_name": "卢斯蒂格代数上同调",
+          "category": "math",
+          "weight": 0.3241,
+          "peak_period": "2025-04",
+          "peak_count": 75,
+          "increase": 30,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": "problem",
+            "method_score": 0,
+            "problem_score": 1,
+            "theory_score": 3
+          }
+        },
+        {
+          "topic_id": "global_117",
+          "topic_name": "志村簇与Theta积分",
+          "category": "math",
+          "weight": 0.2542,
+          "peak_period": "2025-05",
+          "peak_count": 16,
+          "increase": 16,
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 2
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-03",
+          "delta": 104,
+          "anchor_paper_count": 213
+        },
+        {
+          "period": "2025-04",
+          "delta": -119,
+          "anchor_paper_count": 94
+        },
+        {
+          "period": "2025-05",
+          "delta": 116,
+          "anchor_paper_count": 210
+        }
+      ]
+    },
+    {
+      "case_id": "global_2126-2025-03",
+      "anchor_topic_id": "global_2126",
+      "anchor_topic_name": "安德森局域化与相变",
+      "anchor_topic_mode": "theory",
+      "anchor_topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": "problem",
+        "method_score": 1,
+        "problem_score": 1,
+        "theory_score": 1
+      },
+      "category": "nlin",
+      "start_period": "2025-03",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_2132",
+        "global_1522",
+        "global_1805",
+        "global_1893",
+        "global_1550"
+      ],
+      "event_types": [
+        "emerged",
+        "weakened"
+      ],
+      "cross_category_moves": [],
+      "growth_summary": "安德森局域化与相变 (problem) remains active without a strong expansion signal by 2025-07.",
+      "decline_summary": "Momentum softens by 2025-07, suggesting the topic loses local centrality.",
+      "review_flags": [],
+      "key_supporting_topics": [],
+      "key_turning_points": [
+        {
+          "period": "2025-04",
+          "delta": -36,
+          "anchor_paper_count": 0
+        }
+      ]
+    },
+    {
+      "case_id": "global_2101-2025-03",
+      "anchor_topic_id": "global_2101",
+      "anchor_topic_name": "核壳结构与同位素",
+      "anchor_topic_mode": "hybrid",
+      "anchor_topic_profile": {
+        "primary_mode": "hybrid",
+        "secondary_mode": null,
+        "method_score": 1,
+        "problem_score": 1,
+        "theory_score": 0
+      },
+      "category": "nucl",
+      "start_period": "2025-03",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_2108",
+        "global_2099",
+        "global_2106",
+        "global_2102",
+        "global_2105"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "weakened"
+      ],
+      "cross_category_moves": [],
+      "growth_summary": "核壳结构与同位素 (hybrid) remains active without a strong expansion signal by 2025-07.",
+      "decline_summary": "Momentum softens by 2025-07, suggesting the topic loses local centrality.",
+      "review_flags": [],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_2102",
+          "topic_name": "中子星物质状态方程",
+          "category": "nucl",
+          "weight": 0.3292,
+          "peak_period": "2025-05",
+          "peak_count": 28,
+          "increase": 28,
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-04",
+          "delta": -83,
+          "anchor_paper_count": 0
+        },
+        {
+          "period": "2025-05",
+          "delta": 30,
+          "anchor_paper_count": 30
+        },
+        {
+          "period": "2025-06",
+          "delta": -30,
+          "anchor_paper_count": 0
+        }
+      ]
+    },
+    {
+      "case_id": "global_1806-2025-02",
+      "anchor_topic_id": "global_1806",
+      "anchor_topic_name": "湍流与雷诺流动",
+      "anchor_topic_mode": "hybrid",
+      "anchor_topic_profile": {
+        "primary_mode": "hybrid",
+        "secondary_mode": null,
+        "method_score": 1,
+        "problem_score": 1,
+        "theory_score": 0
+      },
+      "category": "physics",
+      "start_period": "2025-02",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_1896",
+        "global_1831",
+        "global_1845",
+        "global_1909",
+        "global_1840"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "weakened"
+      ],
+      "cross_category_moves": [],
+      "growth_summary": "湍流与雷诺流动 (hybrid) remains active without a strong expansion signal by 2025-06.",
+      "decline_summary": "Momentum softens by 2025-06, suggesting the topic loses local centrality.",
+      "review_flags": [],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_1840",
+          "topic_name": "玻尔兹曼流与流体速度",
+          "category": "physics",
+          "weight": 0.3292,
+          "peak_period": "2025-04",
+          "peak_count": 31,
+          "increase": 31,
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 0,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_1831",
+          "topic_name": "风力机气动流场研究",
+          "category": "physics",
+          "weight": 0.3609,
+          "peak_period": "2025-03",
+          "peak_count": 20,
+          "increase": 20,
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_1845",
+          "topic_name": "翼型雷诺流动减阻",
+          "category": "physics",
+          "weight": 0.3609,
+          "peak_period": "2025-04",
+          "peak_count": 16,
+          "increase": 16,
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-04",
+          "delta": -14,
+          "anchor_paper_count": 40
+        },
+        {
+          "period": "2025-05",
+          "delta": 16,
+          "anchor_paper_count": 56
+        },
+        {
+          "period": "2025-06",
+          "delta": -56,
+          "anchor_paper_count": 0
+        }
+      ]
+    },
+    {
+      "case_id": "global_2071-2025-04",
+      "anchor_topic_id": "global_2071",
+      "anchor_topic_name": "蛋白质药物分子预测",
+      "anchor_topic_mode": "problem",
+      "anchor_topic_profile": {
+        "primary_mode": "problem",
+        "secondary_mode": "method",
+        "method_score": 1,
+        "problem_score": 2,
+        "theory_score": 0
+      },
+      "category": "q-bio",
+      "start_period": "2025-04",
+      "observation_horizon": 4,
+      "neighbor_topics": [
+        "global_1904",
+        "global_1514",
+        "global_418",
+        "global_2084",
+        "global_2091"
+      ],
+      "event_types": [
+        "diffused_to_neighbor",
+        "emerged",
+        "expanded",
+        "migrated_to_new_category",
+        "specialized_into_child",
+        "weakened"
+      ],
+      "cross_category_moves": [
+        "cond-mat",
+        "cs"
+      ],
+      "growth_summary": "蛋白质药物分子预测 (problem) expands from 2025-04 to 2025-08 and diffuses into nearby topics.",
+      "decline_summary": "Momentum softens by 2025-08, suggesting the topic loses local centrality.",
+      "review_flags": [],
+      "key_supporting_topics": [
+        {
+          "topic_id": "global_1514",
+          "topic_name": "蛋白质分子药物结合",
+          "category": "cond-mat",
+          "weight": 0.3294,
+          "peak_period": "2025-08",
+          "peak_count": 143,
+          "increase": 143,
+          "topic_mode": "problem",
+          "topic_profile": {
+            "primary_mode": "problem",
+            "secondary_mode": "method",
+            "method_score": 1,
+            "problem_score": 2,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_418",
+          "topic_name": "分子药物化学",
+          "category": "cs",
+          "weight": 0.2545,
+          "peak_period": "2025-06",
+          "peak_count": 138,
+          "increase": 138,
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 3,
+            "problem_score": 3,
+            "theory_score": 0
+          }
+        }
+      ],
+      "key_turning_points": [
+        {
+          "period": "2025-05",
+          "delta": 46,
+          "anchor_paper_count": 161
+        },
+        {
+          "period": "2025-06",
+          "delta": -161,
+          "anchor_paper_count": 0
+        }
+      ]
+    }
+  ]
+}

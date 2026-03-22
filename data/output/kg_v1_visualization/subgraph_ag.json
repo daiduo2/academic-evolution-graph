@@ -1,0 +1,1437 @@
+{
+  "version": "kg_v1_visualization",
+  "subcategory": "AG",
+  "generated_at": "2026-03-22T19:22:48.920366",
+  "metadata": {
+    "domain_code": "math.AG",
+    "export_presence": "baseline_subgraph",
+    "topology_status": "baseline_topology_included",
+    "graph_shape": "confirmed_core_plus_bridge_ring_plus_boundary",
+    "summary": "AG keeps one confirmed core in the baseline topology and exposes the bridge ring / excluded boundary as metadata-only narrative support.",
+    "selected_rule": null,
+    "candidate_rule": null,
+    "narrative_status": null,
+    "baseline_truth_layer_keys": [
+      "confirmed_core"
+    ],
+    "narrative_only_layer_keys": [
+      "bridge_ring",
+      "excluded_boundary",
+      "review_boundary"
+    ],
+    "visible_graph_bands": [
+      "baseline",
+      "bridge",
+      "boundary",
+      "review"
+    ],
+    "narrative_layers": {
+      "confirmed_core": {
+        "graph_band": "baseline",
+        "label": "confirmed core",
+        "summary": "Runner-confirmed event-level core for the current AG mainline.",
+        "case_ids": [
+          "ag-p1"
+        ],
+        "encoded_case_ids": [
+          "ag-p1"
+        ],
+        "metadata_only_case_ids": [],
+        "case_count": 1,
+        "encoded_case_count": 1,
+        "metadata_only_case_count": 0
+      },
+      "bridge_ring": {
+        "graph_band": "bridge",
+        "label": "bridge ring",
+        "summary": "Semantic bridge-level positives worth showing around the core, but not promoted by the current gate or runner.",
+        "case_ids": [
+          "ag-p2",
+          "ag-p3"
+        ],
+        "encoded_case_ids": [],
+        "metadata_only_case_ids": [
+          "ag-p2",
+          "ag-p3"
+        ],
+        "case_count": 2,
+        "encoded_case_count": 0,
+        "metadata_only_case_count": 2
+      },
+      "excluded_boundary": {
+        "graph_band": "boundary",
+        "label": "excluded boundary",
+        "summary": "Nearby negatives that keep the AG region bounded even when vocabulary or taxonomy overlap looks tempting.",
+        "case_ids": [
+          "ag-n1",
+          "ag-n2",
+          "ag-n3"
+        ],
+        "encoded_case_ids": [
+          "ag-n1",
+          "ag-n2",
+          "ag-n3"
+        ],
+        "metadata_only_case_ids": [],
+        "case_count": 3,
+        "encoded_case_count": 3,
+        "metadata_only_case_count": 0
+      },
+      "review_boundary": {
+        "graph_band": "review",
+        "label": "review-only dispute",
+        "summary": "Boundary dispute kept visible for expert review, but intentionally left outside the default bridge ring.",
+        "case_ids": [
+          "ag-amb1"
+        ],
+        "encoded_case_ids": [
+          "ag-amb1"
+        ],
+        "metadata_only_case_ids": [],
+        "case_count": 1,
+        "encoded_case_count": 1,
+        "metadata_only_case_count": 0
+      }
+    },
+    "narrative_case_registry": [
+      {
+        "case_id": "ag-p1",
+        "anchor": "global_69",
+        "target": "global_287",
+        "expected_relation": "math_ag_object_continuity",
+        "level": "event-level",
+        "graph_band": "baseline",
+        "graph_layer": "confirmed_core",
+        "graph_role": "event_baseline",
+        "narrative_note": "唯一稳定 runner-positive；作为 AG 主线 confirmed core 保留。",
+        "source_doc": "docs/plans/2026-03-18-math-ag-benchmark.md",
+        "export_status": "encoded_as_evolves_to",
+        "anchor_in_scope": true,
+        "target_in_scope": true
+      },
+      {
+        "case_id": "ag-p2",
+        "anchor": "global_30",
+        "target": "global_355",
+        "expected_relation": "none",
+        "level": "bridge-level",
+        "graph_band": "bridge",
+        "graph_layer": "bridge_ring",
+        "graph_role": "inner_bridge_support",
+        "narrative_note": "共享 curves；值得作为 bridge ring 呈现，但不通过当前 exact-term gate。",
+        "source_doc": "docs/plans/2026-03-18-math-ag-benchmark.md",
+        "export_status": "in_scope_metadata_only",
+        "anchor_in_scope": true,
+        "target_in_scope": true
+      },
+      {
+        "case_id": "ag-p3",
+        "anchor": "global_355",
+        "target": "global_117",
+        "expected_relation": "none",
+        "level": "bridge-level",
+        "graph_band": "bridge",
+        "graph_layer": "bridge_ring",
+        "graph_role": "outer_bridge_support",
+        "narrative_note": "共享 generic varieties；保留为 bridge ring 的远端支撑，不升级为 runner-positive。",
+        "source_doc": "docs/plans/2026-03-18-math-ag-benchmark.md",
+        "export_status": "in_scope_metadata_only",
+        "anchor_in_scope": true,
+        "target_in_scope": true
+      },
+      {
+        "case_id": "ag-n1",
+        "anchor": "global_69",
+        "target": "global_136",
+        "expected_relation": "none",
+        "level": "boundary",
+        "graph_band": "boundary",
+        "graph_layer": "excluded_boundary",
+        "graph_role": "single_term_boundary",
+        "narrative_note": "仅共享 sheaves (1 个对象词)；不满足当前 >=2 exact-term gate",
+        "source_doc": "docs/plans/2026-03-18-math-ag-benchmark.md",
+        "export_status": "encoded_as_evolves_to",
+        "anchor_in_scope": true,
+        "target_in_scope": true
+      },
+      {
+        "case_id": "ag-n2",
+        "anchor": "global_30",
+        "target": "global_287",
+        "expected_relation": "none",
+        "level": "boundary",
+        "graph_band": "boundary",
+        "graph_layer": "excluded_boundary",
+        "graph_role": "class_overlap_boundary",
+        "narrative_note": "class-overlap-only false positive；无 exact shared AG object terms",
+        "source_doc": "docs/plans/2026-03-18-math-ag-benchmark.md",
+        "export_status": "encoded_as_evolves_to",
+        "anchor_in_scope": true,
+        "target_in_scope": true
+      },
+      {
+        "case_id": "ag-n3",
+        "anchor": "global_134",
+        "target": "global_30",
+        "expected_relation": "none",
+        "level": "boundary",
+        "graph_band": "boundary",
+        "graph_layer": "excluded_boundary",
+        "graph_role": "domain_boundary",
+        "narrative_note": "domain boundary negative；凸几何主题不应进入 math.AG object continuity",
+        "source_doc": "docs/plans/2026-03-18-math-ag-benchmark.md",
+        "export_status": "encoded_as_evolves_to",
+        "anchor_in_scope": true,
+        "target_in_scope": true
+      },
+      {
+        "case_id": "ag-amb1",
+        "anchor": "global_4",
+        "target": "global_287",
+        "expected_relation": "review-needed",
+        "level": "ambiguous",
+        "graph_band": "review",
+        "graph_layer": "review_boundary",
+        "graph_role": "boundary_dispute",
+        "narrative_note": "Review-only AG boundary dispute; keep visible in metadata, not inside the default bridge ring.",
+        "source_doc": "docs/plans/2026-03-18-math-ag-benchmark.md",
+        "export_status": "encoded_as_evolves_to",
+        "anchor_in_scope": true,
+        "target_in_scope": true
+      }
+    ],
+    "encoded_case_ids": [
+      "ag-p1",
+      "ag-n1",
+      "ag-n2",
+      "ag-n3",
+      "ag-amb1"
+    ],
+    "evolves_to_by_graph_band": {
+      "baseline": 1,
+      "boundary": 3,
+      "review": 1
+    },
+    "case_counts_by_graph_band": {
+      "baseline": 1,
+      "bridge": 2,
+      "boundary": 3,
+      "review": 1
+    },
+    "case_counts_by_export_status": {
+      "encoded_as_evolves_to": 5,
+      "in_scope_metadata_only": 2
+    },
+    "layer_counts_by_graph_band": {
+      "baseline": 1,
+      "bridge": 1,
+      "boundary": 1,
+      "review": 1
+    }
+  },
+  "nodes": {
+    "topics": [
+      {
+        "id": "global_4",
+        "label": "分级范畴聚类",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "persistent",
+        "display_size": 45,
+        "active_periods": 5,
+        "total_papers": 511,
+        "keywords": [
+          "mathcal",
+          "lie",
+          "categories",
+          "homotopy",
+          "mathfrak"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_107",
+        "label": "仿射代数群挠子",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 25.0,
+        "active_periods": 1,
+        "total_papers": 19,
+        "keywords": [
+          "reductive",
+          "torsors",
+          "group",
+          "affine",
+          "algebraic"
+        ],
+        "hierarchy_depth": 4
+      },
+      {
+        "id": "global_349",
+        "label": "热带几何与曲线热带化",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 23.2,
+        "active_periods": 1,
+        "total_papers": 13,
+        "keywords": [
+          "tropical",
+          "tropicalization",
+          "tevelev",
+          "curves",
+          "cohomologically"
+        ],
+        "hierarchy_depth": 3
+      },
+      {
+        "id": "global_337",
+        "label": "可积系统与Bethe拟设",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 25.7,
+        "active_periods": 1,
+        "total_papers": 22,
+        "keywords": [
+          "opers",
+          "bethe",
+          "ansatz",
+          "qq",
+          "integrable"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_5",
+        "label": "卢斯蒂格代数上同调",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 39.0,
+        "active_periods": 2,
+        "total_papers": 120,
+        "keywords": [
+          "lie",
+          "mathfrak",
+          "modules",
+          "algebra",
+          "sheaves"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_259",
+        "label": "多项式递推求根",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 24.7,
+        "active_periods": 1,
+        "total_papers": 18,
+        "keywords": [
+          "polynomials",
+          "polynomial",
+          "roots",
+          "ghasemi",
+          "recurrence"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_215",
+        "label": "霍奇商上同调猜想",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 26.1,
+        "active_periods": 1,
+        "total_papers": 24,
+        "keywords": [
+          "hodge",
+          "conjecture",
+          "quot",
+          "cohomology",
+          "algebraic"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_263",
+        "label": "平展上同调与光滑性",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 25.0,
+        "active_periods": 1,
+        "total_papers": 19,
+        "keywords": [
+          "_q",
+          "cohomology",
+          "tame",
+          "smooth",
+          "étale"
+        ],
+        "hierarchy_depth": 4
+      },
+      {
+        "id": "global_136",
+        "label": "动机层与亨泽尔层",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 26.1,
+        "active_periods": 1,
+        "total_papers": 24,
+        "keywords": [
+          "motivic",
+          "schemes",
+          "sheaves",
+          "henselian",
+          "mathbb"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_355",
+        "label": "超椭圆曲线阿贝尔簇",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 26.5,
+        "active_periods": 1,
+        "total_papers": 26,
+        "keywords": [
+          "abelian",
+          "varieties",
+          "hyperelliptic",
+          "curves",
+          "adic"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_237",
+        "label": "母题上同调与规范群",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 26.3,
+        "active_periods": 1,
+        "total_papers": 25,
+        "keywords": [
+          "cohomology",
+          "motivic",
+          "motives",
+          "group",
+          "gauges"
+        ],
+        "hierarchy_depth": 4
+      },
+      {
+        "id": "global_30",
+        "label": "法诺簇模空间曲线",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "persistent",
+        "display_size": 45,
+        "active_periods": 13,
+        "total_papers": 2627,
+        "keywords": [
+          "toric",
+          "conjecture",
+          "k3",
+          "hodge",
+          "moduli"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_287",
+        "label": "导出代数叠范畴",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 26.7,
+        "active_periods": 1,
+        "total_papers": 27,
+        "keywords": [
+          "stacks",
+          "derived",
+          "stack",
+          "algebraic",
+          "categories"
+        ],
+        "hierarchy_depth": 4
+      },
+      {
+        "id": "global_69",
+        "label": "代数叠与层理论",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 23.2,
+        "active_periods": 1,
+        "total_papers": 13,
+        "keywords": [
+          "stacks",
+          "algebraic",
+          "zariski",
+          "sheaves",
+          "stack"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_117",
+        "label": "志村簇与Theta积分",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 24.2,
+        "active_periods": 1,
+        "total_papers": 16,
+        "keywords": [
+          "shimura",
+          "varieties",
+          "theta",
+          "integral",
+          "ramified"
+        ],
+        "hierarchy_depth": 4
+      },
+      {
+        "id": "global_135",
+        "label": "出租车几何与三角",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 25.7,
+        "active_periods": 1,
+        "total_papers": 22,
+        "keywords": [
+          "taxicab",
+          "quadrilateral",
+          "triangle",
+          "geometry",
+          "trigonometric"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_134",
+        "label": "凸体与薄饼多面体",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 25.9,
+        "active_periods": 1,
+        "total_papers": 23,
+        "keywords": [
+          "polytopes",
+          "polytope",
+          "convex",
+          "bodies",
+          "pancake"
+        ],
+        "hierarchy_depth": 2
+      }
+    ],
+    "subcategory": {
+      "id": "math.AG",
+      "code": "math.AG",
+      "label": "Algebraic Geometry",
+      "kind": "subcategory",
+      "subcategory": "AG",
+      "status": "ready",
+      "display_size": 25,
+      "topic_count": 17,
+      "multi_period_count": 3,
+      "evidence_quality": "benchmark-verified"
+    },
+    "total_topics": 17
+  },
+  "edges": [
+    {
+      "source": "math.AG",
+      "target": "global_4",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.AG",
+      "target": "global_107",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.AG",
+      "target": "global_349",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.AG",
+      "target": "global_337",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.AG",
+      "target": "global_5",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.AG",
+      "target": "global_259",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.AG",
+      "target": "global_215",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.AG",
+      "target": "global_263",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.AG",
+      "target": "global_136",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.AG",
+      "target": "global_355",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.AG",
+      "target": "global_237",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.AG",
+      "target": "global_30",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.AG",
+      "target": "global_287",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.AG",
+      "target": "global_69",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.AG",
+      "target": "global_117",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.AG",
+      "target": "global_135",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.AG",
+      "target": "global_134",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "global_4",
+      "target": "2025-02",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 28
+    },
+    {
+      "source": "global_4",
+      "target": "2025-03",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 44
+    },
+    {
+      "source": "global_4",
+      "target": "2025-09",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 60
+    },
+    {
+      "source": "global_4",
+      "target": "2025-11",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 65
+    },
+    {
+      "source": "global_4",
+      "target": "2026-01",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 314
+    },
+    {
+      "source": "global_107",
+      "target": "2025-05",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 19
+    },
+    {
+      "source": "global_349",
+      "target": "2026-01",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 13
+    },
+    {
+      "source": "global_337",
+      "target": "2026-01",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 22
+    },
+    {
+      "source": "global_5",
+      "target": "2025-02",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 45
+    },
+    {
+      "source": "global_5",
+      "target": "2025-04",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 75
+    },
+    {
+      "source": "global_259",
+      "target": "2025-10",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 18
+    },
+    {
+      "source": "global_215",
+      "target": "2025-08",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 24
+    },
+    {
+      "source": "global_263",
+      "target": "2025-10",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 19
+    },
+    {
+      "source": "global_136",
+      "target": "2025-06",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 24
+    },
+    {
+      "source": "global_355",
+      "target": "2026-01",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 26
+    },
+    {
+      "source": "global_237",
+      "target": "2025-09",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 25
+    },
+    {
+      "source": "global_30",
+      "target": "2025-02",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 109
+    },
+    {
+      "source": "global_30",
+      "target": "2025-03",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 213
+    },
+    {
+      "source": "global_30",
+      "target": "2025-04",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 94
+    },
+    {
+      "source": "global_30",
+      "target": "2025-05",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 210
+    },
+    {
+      "source": "global_30",
+      "target": "2025-06",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 189
+    },
+    {
+      "source": "global_30",
+      "target": "2025-07",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 244
+    },
+    {
+      "source": "global_30",
+      "target": "2025-08",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 83
+    },
+    {
+      "source": "global_30",
+      "target": "2025-09",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 188
+    },
+    {
+      "source": "global_30",
+      "target": "2025-10",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 166
+    },
+    {
+      "source": "global_30",
+      "target": "2025-11",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 154
+    },
+    {
+      "source": "global_30",
+      "target": "2025-12",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 547
+    },
+    {
+      "source": "global_30",
+      "target": "2026-01",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 117
+    },
+    {
+      "source": "global_30",
+      "target": "2026-02",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 313
+    },
+    {
+      "source": "global_287",
+      "target": "2025-11",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 27
+    },
+    {
+      "source": "global_69",
+      "target": "2025-04",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 13
+    },
+    {
+      "source": "global_117",
+      "target": "2025-05",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 16
+    },
+    {
+      "source": "global_135",
+      "target": "2025-06",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 22
+    },
+    {
+      "source": "global_134",
+      "target": "2025-06",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 23
+    },
+    {
+      "source": "global_107",
+      "target": "global_136",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.5306,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.2653,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_107",
+      "target": "global_215",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.4485999999999999,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.2243,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_107",
+      "target": "global_237",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6219999999999999,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.311,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_107",
+      "target": "global_263",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.4485999999999999,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.2243,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_107",
+      "target": "global_287",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.5236,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.2618,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_117",
+      "target": "global_215",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.5236,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.2618,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_117",
+      "target": "global_30",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.5084,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.2542,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_117",
+      "target": "global_355",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.5236,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.2618,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_134",
+      "target": "global_69",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6736,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3368,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_135",
+      "target": "global_287",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.5306,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.2653,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_135",
+      "target": "global_349",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.4736,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.2368,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_136",
+      "target": "global_237",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.5306,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.2653,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_136",
+      "target": "global_263",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6219999999999999,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.311,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_136",
+      "target": "global_5",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6583999999999999,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3292,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_136",
+      "target": "global_69",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6736,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3368,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_215",
+      "target": "global_237",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.4485999999999999,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.2243,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_215",
+      "target": "global_263",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.4485999999999999,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.2243,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_215",
+      "target": "global_287",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.4485999999999999,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.2243,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_215",
+      "target": "global_30",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.95,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.475,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_215",
+      "target": "global_355",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6736,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3368,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_215",
+      "target": "global_5",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.7218,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3609,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_215",
+      "target": "global_69",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6736,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3368,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_237",
+      "target": "global_263",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.8,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.4,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_237",
+      "target": "global_4",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.4334,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.2167,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_263",
+      "target": "global_5",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.4968,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.2484,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_287",
+      "target": "global_349",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.4485999999999999,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.2243,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_287",
+      "target": "global_69",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.725,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3625,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_30",
+      "target": "global_349",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.4584,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.2292,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_30",
+      "target": "global_355",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.7218,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3609,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_30",
+      "target": "global_5",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6482,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3241,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_337",
+      "target": "global_4",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6583999999999999,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3292,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_337",
+      "target": "global_5",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6583999999999999,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3292,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_349",
+      "target": "global_355",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.4736,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.2368,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_4",
+      "target": "global_5",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.8154,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.4077,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_5",
+      "target": "global_69",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6583999999999999,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3292,
+      "subcategory": "math.AG"
+    },
+    {
+      "source": "global_69",
+      "target": "global_287",
+      "kind": "EVOLVES_TO",
+      "display_weight": 3.0,
+      "evidence_type": "benchmark-confirmed",
+      "confidence": "confirmed",
+      "benchmark_status": "positive",
+      "benchmark_case_id": "ag-p1",
+      "expected_relation": "math_ag_object_continuity",
+      "subcategory": "math.AG",
+      "graph_band": "baseline",
+      "graph_layer": "confirmed_core",
+      "graph_role": "event_baseline",
+      "narrative_level": "event-level",
+      "narrative_note": "唯一稳定 runner-positive；作为 AG 主线 confirmed core 保留。",
+      "graph_export_status": "encoded_as_evolves_to",
+      "is_bidirectional": false
+    },
+    {
+      "source": "global_69",
+      "target": "global_136",
+      "kind": "EVOLVES_TO",
+      "display_weight": 1.5,
+      "evidence_type": "benchmark-confirmed",
+      "confidence": "negative",
+      "benchmark_status": "negative",
+      "benchmark_case_id": "ag-n1",
+      "expected_relation": "none",
+      "subcategory": "math.AG",
+      "graph_band": "boundary",
+      "graph_layer": "excluded_boundary",
+      "graph_role": "single_term_boundary",
+      "narrative_level": "boundary",
+      "narrative_note": "仅共享 sheaves (1 个对象词)；不满足当前 >=2 exact-term gate",
+      "graph_export_status": "encoded_as_evolves_to",
+      "is_bidirectional": false
+    },
+    {
+      "source": "global_30",
+      "target": "global_287",
+      "kind": "EVOLVES_TO",
+      "display_weight": 1.5,
+      "evidence_type": "benchmark-confirmed",
+      "confidence": "negative",
+      "benchmark_status": "negative",
+      "benchmark_case_id": "ag-n2",
+      "expected_relation": "none",
+      "subcategory": "math.AG",
+      "graph_band": "boundary",
+      "graph_layer": "excluded_boundary",
+      "graph_role": "class_overlap_boundary",
+      "narrative_level": "boundary",
+      "narrative_note": "class-overlap-only false positive；无 exact shared AG object terms",
+      "graph_export_status": "encoded_as_evolves_to",
+      "is_bidirectional": false
+    },
+    {
+      "source": "global_134",
+      "target": "global_30",
+      "kind": "EVOLVES_TO",
+      "display_weight": 1.5,
+      "evidence_type": "benchmark-confirmed",
+      "confidence": "negative",
+      "benchmark_status": "negative",
+      "benchmark_case_id": "ag-n3",
+      "expected_relation": "none",
+      "subcategory": "math.AG",
+      "graph_band": "boundary",
+      "graph_layer": "excluded_boundary",
+      "graph_role": "domain_boundary",
+      "narrative_level": "boundary",
+      "narrative_note": "domain boundary negative；凸几何主题不应进入 math.AG object continuity",
+      "graph_export_status": "encoded_as_evolves_to",
+      "is_bidirectional": false
+    },
+    {
+      "source": "global_4",
+      "target": "global_287",
+      "kind": "EVOLVES_TO",
+      "display_weight": 2.0,
+      "evidence_type": "benchmark-confirmed",
+      "confidence": "ambiguous",
+      "benchmark_status": "ambiguous",
+      "benchmark_case_id": "ag-amb1",
+      "expected_relation": "review-needed",
+      "subcategory": "math.AG",
+      "graph_band": "review",
+      "graph_layer": "review_boundary",
+      "graph_role": "boundary_dispute",
+      "narrative_level": "ambiguous",
+      "narrative_note": "Review-only AG boundary dispute; keep visible in metadata, not inside the default bridge ring.",
+      "graph_export_status": "encoded_as_evolves_to",
+      "is_bidirectional": false
+    }
+  ],
+  "stats": {
+    "topic_count": 17,
+    "edge_count": 91,
+    "evolves_to_count": 5,
+    "evolves_to_by_graph_band": {
+      "baseline": 1,
+      "boundary": 3,
+      "review": 1
+    },
+    "narrative_case_count": 7,
+    "narrative_case_counts_by_graph_band": {
+      "baseline": 1,
+      "bridge": 2,
+      "boundary": 3,
+      "review": 1
+    },
+    "narrative_case_counts_by_export_status": {
+      "encoded_as_evolves_to": 5,
+      "in_scope_metadata_only": 2
+    },
+    "narrative_layer_counts_by_graph_band": {
+      "baseline": 1,
+      "bridge": 1,
+      "boundary": 1,
+      "review": 1
+    }
+  }
+}

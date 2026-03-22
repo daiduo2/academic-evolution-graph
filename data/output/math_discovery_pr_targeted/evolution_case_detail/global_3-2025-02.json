@@ -1,0 +1,499 @@
+{
+  "case_id": "global_3-2025-02",
+  "anchor_topic_id": "global_3",
+  "anchor_topic_name": "凸优化牛顿收敛性",
+  "anchor_topic_mode": "method",
+  "anchor_topic_profile": {
+    "primary_mode": "method",
+    "secondary_mode": null,
+    "method_score": 7,
+    "problem_score": 0,
+    "theory_score": 0
+  },
+  "start_period": "2025-02",
+  "observation_horizon": 4,
+  "neighbor_topics": [
+    "global_48",
+    "global_155",
+    "global_163",
+    "global_169",
+    "global_239"
+  ],
+  "evolution_path": [
+    {
+      "period": "2025-02",
+      "anchor_paper_count": 82,
+      "active_neighbor_count": 0,
+      "top_neighbors": [
+        {
+          "topic_id": "global_48",
+          "topic_name": "分布式凸优化共识",
+          "paper_count": 0,
+          "weight": 0.513,
+          "category": "math",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 6,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_155",
+          "topic_name": "随机梯度下降收敛性",
+          "paper_count": 0,
+          "weight": 0.3833,
+          "category": "math",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 4,
+            "problem_score": 0,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_163",
+          "topic_name": "分布式时滞一致性优化",
+          "paper_count": 0,
+          "weight": 0.3109,
+          "category": "math",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 4,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-03",
+      "anchor_paper_count": 0,
+      "active_neighbor_count": 1,
+      "top_neighbors": [
+        {
+          "topic_id": "global_48",
+          "topic_name": "分布式凸优化共识",
+          "paper_count": 23,
+          "weight": 0.513,
+          "category": "math",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 6,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_155",
+          "topic_name": "随机梯度下降收敛性",
+          "paper_count": 0,
+          "weight": 0.3833,
+          "category": "math",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 4,
+            "problem_score": 0,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_163",
+          "topic_name": "分布式时滞一致性优化",
+          "paper_count": 0,
+          "weight": 0.3109,
+          "category": "math",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 4,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-04",
+      "anchor_paper_count": 105,
+      "active_neighbor_count": 1,
+      "top_neighbors": [
+        {
+          "topic_id": "global_48",
+          "topic_name": "分布式凸优化共识",
+          "paper_count": 22,
+          "weight": 0.513,
+          "category": "math",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 6,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_155",
+          "topic_name": "随机梯度下降收敛性",
+          "paper_count": 0,
+          "weight": 0.3833,
+          "category": "math",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 4,
+            "problem_score": 0,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_163",
+          "topic_name": "分布式时滞一致性优化",
+          "paper_count": 0,
+          "weight": 0.3109,
+          "category": "math",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 4,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-05",
+      "anchor_paper_count": 115,
+      "active_neighbor_count": 0,
+      "top_neighbors": [
+        {
+          "topic_id": "global_48",
+          "topic_name": "分布式凸优化共识",
+          "paper_count": 0,
+          "weight": 0.513,
+          "category": "math",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 6,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_155",
+          "topic_name": "随机梯度下降收敛性",
+          "paper_count": 0,
+          "weight": 0.3833,
+          "category": "math",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 4,
+            "problem_score": 0,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_163",
+          "topic_name": "分布式时滞一致性优化",
+          "paper_count": 0,
+          "weight": 0.3109,
+          "category": "math",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 4,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-06",
+      "anchor_paper_count": 111,
+      "active_neighbor_count": 2,
+      "top_neighbors": [
+        {
+          "topic_id": "global_155",
+          "topic_name": "随机梯度下降收敛性",
+          "paper_count": 26,
+          "weight": 0.3833,
+          "category": "math",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 4,
+            "problem_score": 0,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_48",
+          "topic_name": "分布式凸优化共识",
+          "paper_count": 22,
+          "weight": 0.513,
+          "category": "math",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 6,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_163",
+          "topic_name": "分布式时滞一致性优化",
+          "paper_count": 0,
+          "weight": 0.3109,
+          "category": "math",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 4,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "type": "emerged",
+      "period": "2025-02",
+      "summary": "Anchor topic first appears in the replay window."
+    },
+    {
+      "type": "expanded",
+      "period": "2025-05",
+      "summary": "Anchor topic grows materially during the replay horizon."
+    },
+    {
+      "type": "diffused_to_neighbor",
+      "period": "2025-06",
+      "summary": "Semantic neighbors absorb momentum from the anchor topic around 2025-06.",
+      "evidence": {
+        "target_topic_id": "global_155",
+        "target_topic_name": "随机梯度下降收敛性",
+        "target_topic_mode": "method",
+        "transfer_kind": "method_diffusion",
+        "transfer_pattern": "migration",
+        "weight": 0.3833,
+        "increase": 26,
+        "bridge_evidence": {
+          "shared_keywords": [
+            "convergence",
+            "convex",
+            "optimization",
+            "stochastic"
+          ],
+          "bridge_topics": [
+            "分布式凸优化共识",
+            "分布式时滞一致性优化",
+            "多项式凸半定规划"
+          ],
+          "target_evidence_titles": [
+            "Frank--Wolfe algorithms for piecewise star-convex functions with a nonsmooth difference-of-convex structure",
+            "Optimal sampling for stochastic and natural gradient descent"
+          ],
+          "category_flow": {
+            "source_category": "math",
+            "target_category": "math",
+            "source_top_level": "math",
+            "target_top_level": "math",
+            "relation": "same_category"
+          },
+          "pipeline_relation": {
+            "relation": "none",
+            "source_stage_terms": [],
+            "target_stage_terms": [],
+            "shared_domain_terms": [],
+            "representation_stage_terms": [],
+            "perception_stage_terms": [],
+            "shared_3d_terms": [],
+            "shared_formal_terms": [],
+            "shared_math_ag_objects": [],
+            "shared_math_ag_methods": [],
+            "shared_math_lo_objects": [],
+            "shared_math_lo_methods": [],
+            "shared_math_lo_core_objects": [],
+            "shared_math_lo_modal_objects": [],
+            "shared_math_lo_modal_methods": [],
+            "shared_math_lo_set_objects": [],
+            "shared_math_lo_set_methods": [],
+            "shared_math_lo_forcing_objects": [],
+            "shared_math_lo_forcing_methods": [],
+            "shared_math_lo_type_objects": [],
+            "source_type_terms": [],
+            "target_type_terms": [],
+            "shared_math_lo_definability_objects": [],
+            "shared_math_lo_definability_methods": [],
+            "math_ag_object_matches": {
+              "anchor": {},
+              "target": {},
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            },
+            "math_ag_method_matches": {
+              "anchor": {},
+              "target": {},
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            }
+          },
+          "evidence_title_overlap": {
+            "anchor_titles": [
+              "Frank--Wolfe algorithms for piecewise star-convex functions with a nonsmooth difference-of-convex structure",
+              "Optimal sampling for stochastic and natural gradient descent"
+            ],
+            "target_titles": [
+              "Frank--Wolfe algorithms for piecewise star-convex functions with a nonsmooth difference-of-convex structure",
+              "Optimal sampling for stochastic and natural gradient descent"
+            ],
+            "shared_terms": [
+              "algorithms",
+              "convex",
+              "descent",
+              "difference",
+              "frank",
+              "functions"
+            ],
+            "shared_term_count": 6
+          },
+          "bridge_strength": 1.0,
+          "alias_risk": {
+            "level": "low",
+            "reason": "distinct_concepts"
+          }
+        },
+        "post_transfer_persistence": {
+          "lookahead_periods": [
+            "2025-07",
+            "2025-08"
+          ],
+          "active_periods_after_event": 0,
+          "paper_counts_after_event": [
+            0,
+            0
+          ],
+          "sustained": false
+        },
+        "anchor_post_event_persistence": {
+          "lookahead_periods": [
+            "2025-07",
+            "2025-08"
+          ],
+          "active_periods_after_event": 2,
+          "paper_counts_after_event": [
+            98,
+            153
+          ],
+          "sustained": true
+        },
+        "relative_persistence": {
+          "anchor_total": 251,
+          "target_total": 0,
+          "target_to_anchor_ratio": 0.0,
+          "status": "weak_carryover"
+        },
+        "consistency_check": {
+          "status": "needs_review",
+          "flags": [
+            "same_category_high_bridge_weak_carryover"
+          ],
+          "relation": "same_category",
+          "pipeline_relation": "none",
+          "bridge_strength": 1.0,
+          "relative_persistence_status": "weak_carryover",
+          "event_type": "diffused_to_neighbor"
+        }
+      }
+    }
+  ],
+  "cross_category_moves": [],
+  "growth_summary": "凸优化牛顿收敛性 (method) expands from 2025-02 to 2025-06 and diffuses into nearby topics. Some transfer links remain flagged for manual review.",
+  "decline_summary": "No dominant decline pattern is detected before 2025-06.",
+  "review_flags": [
+    "same_category_high_bridge_weak_carryover"
+  ],
+  "key_supporting_topics": [
+    {
+      "topic_id": "global_155",
+      "topic_name": "随机梯度下降收敛性",
+      "category": "math",
+      "weight": 0.3833,
+      "peak_period": "2025-06",
+      "peak_count": 26,
+      "increase": 26,
+      "topic_mode": "method",
+      "topic_profile": {
+        "primary_mode": "method",
+        "secondary_mode": null,
+        "method_score": 4,
+        "problem_score": 0,
+        "theory_score": 0
+      }
+    },
+    {
+      "topic_id": "global_48",
+      "topic_name": "分布式凸优化共识",
+      "category": "math",
+      "weight": 0.513,
+      "peak_period": "2025-03",
+      "peak_count": 23,
+      "increase": 23,
+      "topic_mode": "method",
+      "topic_profile": {
+        "primary_mode": "method",
+        "secondary_mode": null,
+        "method_score": 6,
+        "problem_score": 0,
+        "theory_score": 1
+      }
+    }
+  ],
+  "key_turning_points": [
+    {
+      "period": "2025-03",
+      "delta": -82,
+      "anchor_paper_count": 0
+    },
+    {
+      "period": "2025-04",
+      "delta": 105,
+      "anchor_paper_count": 105
+    }
+  ]
+}

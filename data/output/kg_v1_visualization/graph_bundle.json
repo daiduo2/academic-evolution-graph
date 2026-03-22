@@ -1,0 +1,5310 @@
+{
+  "version": "kg_v1_visualization",
+  "generated_at": "2026-03-22T19:22:48.920247",
+  "source": "data/output/kg_v1",
+  "metadata": {
+    "version": "kg_v1",
+    "generated_at": "2026-03-22T19:19:57.072595",
+    "source": {
+      "input_file": "data/output/aligned_topics_hierarchy.json",
+      "benchmark_lo": "docs/plans/2026-03-12-math-lo-benchmark.md",
+      "benchmark_ag": "docs/plans/2026-03-18-math-ag-benchmark.md",
+      "benchmark_pr": null
+    },
+    "scope": {
+      "included_subcategories": [
+        "math.LO",
+        "math.AG"
+      ],
+      "excluded_subcategories": [
+        "math.PR",
+        "math.QA",
+        "math.RA",
+        "math.RT"
+      ],
+      "integration_scope": "baseline"
+    },
+    "topic_count": 32,
+    "edge_counts": {
+      "contains_topic": 32,
+      "active_in": 55,
+      "parent_of": 22,
+      "neighbor_of": 63,
+      "evolves_to": 9,
+      "total": 181
+    },
+    "benchmark_case_counts": {
+      "math.LO": 4,
+      "math.AG": 5,
+      "total": 9
+    },
+    "domain_knowledge_layers": {
+      "math.LO": {
+        "source_doc": "docs/plans/2026-03-12-math-lo-benchmark.md",
+        "export_presence": "baseline_subgraph",
+        "topology_status": "baseline_topology_included",
+        "graph_shape": "baseline_plus_bridge_ring",
+        "summary": "Modal stays the event-level baseline; type-theory, set theory, forcing, and definability form the bridge-level ring around it.",
+        "selected_rule": null,
+        "candidate_rule": null,
+        "narrative_status": null,
+        "baseline_truth_layer_keys": [
+          "modal_baseline"
+        ],
+        "narrative_only_layer_keys": [
+          "bridge_ring",
+          "boundary_negative",
+          "review_boundary"
+        ],
+        "visible_graph_bands": [
+          "baseline",
+          "bridge",
+          "boundary",
+          "review"
+        ],
+        "layers": {
+          "modal_baseline": {
+            "graph_band": "baseline",
+            "label": "modal baseline",
+            "summary": "The single event-level LO baseline that stays on the mainline.",
+            "case_ids": [
+              "lo-b1"
+            ],
+            "encoded_case_ids": [
+              "lo-b1"
+            ],
+            "metadata_only_case_ids": [],
+            "case_count": 1,
+            "encoded_case_count": 1,
+            "metadata_only_case_count": 0
+          },
+          "bridge_ring": {
+            "graph_band": "bridge",
+            "label": "bridge-level ring",
+            "summary": "Stable LO bridge ring: type-theory contrast, set-theory inner backbone, forcing outer branch, definability capstone.",
+            "case_ids": [
+              "lo-b2",
+              "lo-b3",
+              "lo-b4",
+              "lo-b5"
+            ],
+            "encoded_case_ids": [
+              "lo-b3"
+            ],
+            "metadata_only_case_ids": [
+              "lo-b2",
+              "lo-b4",
+              "lo-b5"
+            ],
+            "case_count": 4,
+            "encoded_case_count": 1,
+            "metadata_only_case_count": 3
+          },
+          "boundary_negative": {
+            "graph_band": "boundary",
+            "label": "boundary negatives",
+            "summary": "Boundary negatives that keep the LO ring interpretable instead of absorbing nearby set-theory, modal, or definability neighbors.",
+            "case_ids": [
+              "lo-n1",
+              "lo-n2",
+              "lo-n3",
+              "lo-n4",
+              "lo-n7",
+              "lo-n8"
+            ],
+            "encoded_case_ids": [
+              "lo-n1"
+            ],
+            "metadata_only_case_ids": [
+              "lo-n2",
+              "lo-n3",
+              "lo-n4",
+              "lo-n7",
+              "lo-n8"
+            ],
+            "case_count": 6,
+            "encoded_case_count": 1,
+            "metadata_only_case_count": 5
+          },
+          "review_boundary": {
+            "graph_band": "review",
+            "label": "review near-miss",
+            "summary": "Near-miss cases close to the LO ring that remain review-only.",
+            "case_ids": [
+              "lo-a1",
+              "lo-a2"
+            ],
+            "encoded_case_ids": [
+              "lo-a2"
+            ],
+            "metadata_only_case_ids": [
+              "lo-a1"
+            ],
+            "case_count": 2,
+            "encoded_case_count": 1,
+            "metadata_only_case_count": 1
+          }
+        },
+        "case_registry": [
+          {
+            "case_id": "lo-b1",
+            "anchor": "global_56",
+            "target": "global_27",
+            "expected_relation": "math_lo_modal_continuity",
+            "level": "event-level",
+            "graph_band": "baseline",
+            "graph_layer": "modal_baseline",
+            "graph_role": "event_baseline",
+            "narrative_note": "Current LO event-level baseline; graph-supported and replay-backed.",
+            "source_doc": "docs/plans/2026-03-12-math-lo-benchmark.md",
+            "export_status": "encoded_as_evolves_to",
+            "anchor_in_scope": true,
+            "target_in_scope": true
+          },
+          {
+            "case_id": "lo-b2",
+            "anchor": "global_56",
+            "target": "global_980",
+            "expected_relation": "math_lo_type_theory_continuity",
+            "level": "bridge-level",
+            "graph_band": "bridge",
+            "graph_layer": "bridge_ring",
+            "graph_role": "type_theory_contrast",
+            "narrative_note": "Type-theory contrast branch: lexical bridge only, without graph/event support.",
+            "source_doc": "docs/plans/2026-03-12-math-lo-benchmark.md",
+            "export_status": "docs_only_outside_baseline_hierarchy",
+            "anchor_in_scope": true,
+            "target_in_scope": false
+          },
+          {
+            "case_id": "lo-b3",
+            "anchor": "global_313",
+            "target": "global_360",
+            "expected_relation": "math_lo_set_theory_continuity",
+            "level": "bridge-level",
+            "graph_band": "bridge",
+            "graph_layer": "bridge_ring",
+            "graph_role": "set_theory_inner_backbone",
+            "narrative_note": "Set-theory inner backbone: strongest graph-supported LO bridge branch below event-level.",
+            "source_doc": "docs/plans/2026-03-12-math-lo-benchmark.md",
+            "export_status": "encoded_as_evolves_to",
+            "anchor_in_scope": true,
+            "target_in_scope": true
+          },
+          {
+            "case_id": "lo-b4",
+            "anchor": "global_51",
+            "target": "global_951",
+            "expected_relation": "math_lo_forcing_continuity",
+            "level": "bridge-level",
+            "graph_band": "bridge",
+            "graph_layer": "bridge_ring",
+            "graph_role": "forcing_outer_branch",
+            "narrative_note": "Forcing outer branch: outward bridge into the large-cardinal/forcing neighborhood, not an event edge.",
+            "source_doc": "docs/plans/2026-03-12-math-lo-benchmark.md",
+            "export_status": "docs_only_outside_baseline_hierarchy",
+            "anchor_in_scope": true,
+            "target_in_scope": false
+          },
+          {
+            "case_id": "lo-b5",
+            "anchor": "global_75",
+            "target": "global_778",
+            "expected_relation": "math_lo_definability_continuity",
+            "level": "bridge-level",
+            "graph_band": "bridge",
+            "graph_layer": "bridge_ring",
+            "graph_role": "definability_capstone",
+            "narrative_note": "Definability capstone: narrow branch that closes the forcing/cardinal neighborhood into set-theoretic semantics.",
+            "source_doc": "docs/plans/2026-03-12-math-lo-benchmark.md",
+            "export_status": "docs_only_outside_baseline_hierarchy",
+            "anchor_in_scope": true,
+            "target_in_scope": false
+          },
+          {
+            "case_id": "lo-n1",
+            "anchor": "global_51",
+            "target": "global_75",
+            "expected_relation": "not math_lo_forcing_continuity",
+            "level": "boundary",
+            "graph_band": "boundary",
+            "graph_layer": "boundary_negative",
+            "graph_role": "forcing_boundary",
+            "narrative_note": "Keeps the forcing branch from swallowing the set-theory backbone.",
+            "source_doc": "docs/plans/2026-03-12-math-lo-benchmark.md",
+            "export_status": "encoded_as_evolves_to",
+            "anchor_in_scope": true,
+            "target_in_scope": true
+          },
+          {
+            "case_id": "lo-n2",
+            "anchor": "global_339",
+            "target": "global_951",
+            "expected_relation": "none",
+            "level": "boundary",
+            "graph_band": "boundary",
+            "graph_layer": "boundary_negative",
+            "graph_role": "set_theory_cluster_boundary",
+            "narrative_note": "Shows that shared cardinal/forcing vocabulary does not license the whole set-theory cluster as a positive branch.",
+            "source_doc": "docs/plans/2026-03-12-math-lo-benchmark.md",
+            "export_status": "docs_only_outside_baseline_hierarchy",
+            "anchor_in_scope": true,
+            "target_in_scope": false
+          },
+          {
+            "case_id": "lo-n3",
+            "anchor": "global_167",
+            "target": "global_778",
+            "expected_relation": "none",
+            "level": "boundary",
+            "graph_band": "boundary",
+            "graph_layer": "boundary_negative",
+            "graph_role": "definability_special_object_boundary",
+            "narrative_note": "Definability is not a free pass without the narrower set-theoretic special-object support.",
+            "source_doc": "docs/plans/2026-03-12-math-lo-benchmark.md",
+            "export_status": "docs_only_outside_baseline_hierarchy",
+            "anchor_in_scope": true,
+            "target_in_scope": false
+          },
+          {
+            "case_id": "lo-n4",
+            "anchor": "global_361",
+            "target": "global_778",
+            "expected_relation": "none",
+            "level": "boundary",
+            "graph_band": "boundary",
+            "graph_layer": "boundary_negative",
+            "graph_role": "definability_domain_boundary",
+            "narrative_note": "Domain-mismatch boundary for the definability branch.",
+            "source_doc": "docs/plans/2026-03-12-math-lo-benchmark.md",
+            "export_status": "docs_only_outside_baseline_hierarchy",
+            "anchor_in_scope": true,
+            "target_in_scope": false
+          },
+          {
+            "case_id": "lo-n7",
+            "anchor": "global_56",
+            "target": "global_977",
+            "expected_relation": "not math_lo_type_theory_continuity",
+            "level": "boundary",
+            "graph_band": "boundary",
+            "graph_layer": "boundary_negative",
+            "graph_role": "type_theory_missing_object_boundary",
+            "narrative_note": "Graph-near intuitionistic logic is still not type-theory without type objects.",
+            "source_doc": "docs/plans/2026-03-12-math-lo-benchmark.md",
+            "export_status": "docs_only_outside_baseline_hierarchy",
+            "anchor_in_scope": true,
+            "target_in_scope": false
+          },
+          {
+            "case_id": "lo-n8",
+            "anchor": "global_56",
+            "target": "global_1155",
+            "expected_relation": "not math_lo_type_theory_continuity",
+            "level": "boundary",
+            "graph_band": "boundary",
+            "graph_layer": "boundary_negative",
+            "graph_role": "type_theory_modal_boundary",
+            "narrative_note": "Modal/semantics similarity should remain outside the type-theory branch.",
+            "source_doc": "docs/plans/2026-03-12-math-lo-benchmark.md",
+            "export_status": "docs_only_outside_baseline_hierarchy",
+            "anchor_in_scope": true,
+            "target_in_scope": false
+          },
+          {
+            "case_id": "lo-a1",
+            "anchor": "global_75",
+            "target": "global_951",
+            "expected_relation": "review-needed",
+            "level": "ambiguous",
+            "graph_band": "review",
+            "graph_layer": "review_boundary",
+            "graph_role": "forcing_near_miss",
+            "narrative_note": "Near-miss on the forcing outer branch; keep review-only until the branch boundary changes.",
+            "source_doc": "docs/plans/2026-03-12-math-lo-benchmark.md",
+            "export_status": "docs_only_outside_baseline_hierarchy",
+            "anchor_in_scope": true,
+            "target_in_scope": false
+          },
+          {
+            "case_id": "lo-a2",
+            "anchor": "global_339",
+            "target": "global_51",
+            "expected_relation": "review-needed",
+            "level": "ambiguous",
+            "graph_band": "review",
+            "graph_layer": "review_boundary",
+            "graph_role": "set_theory_near_miss",
+            "narrative_note": "Near-miss inside the set-theory/forcing neighborhood; visible as a review boundary, not as a positive branch.",
+            "source_doc": "docs/plans/2026-03-12-math-lo-benchmark.md",
+            "export_status": "encoded_as_evolves_to",
+            "anchor_in_scope": true,
+            "target_in_scope": true
+          }
+        ],
+        "encoded_case_ids": [
+          "lo-b1",
+          "lo-b3",
+          "lo-n1",
+          "lo-a2"
+        ],
+        "case_count": 13,
+        "case_counts_by_graph_band": {
+          "baseline": 1,
+          "bridge": 4,
+          "boundary": 6,
+          "review": 2
+        },
+        "case_counts_by_export_status": {
+          "encoded_as_evolves_to": 4,
+          "docs_only_outside_baseline_hierarchy": 9
+        },
+        "layer_counts_by_graph_band": {
+          "baseline": 1,
+          "bridge": 1,
+          "boundary": 1,
+          "review": 1
+        }
+      },
+      "math.AG": {
+        "source_doc": "docs/plans/2026-03-18-math-ag-benchmark.md",
+        "export_presence": "baseline_subgraph",
+        "topology_status": "baseline_topology_included",
+        "graph_shape": "confirmed_core_plus_bridge_ring_plus_boundary",
+        "summary": "AG keeps one confirmed core in the baseline topology and exposes the bridge ring / excluded boundary as metadata-only narrative support.",
+        "selected_rule": null,
+        "candidate_rule": null,
+        "narrative_status": null,
+        "baseline_truth_layer_keys": [
+          "confirmed_core"
+        ],
+        "narrative_only_layer_keys": [
+          "bridge_ring",
+          "excluded_boundary",
+          "review_boundary"
+        ],
+        "visible_graph_bands": [
+          "baseline",
+          "bridge",
+          "boundary",
+          "review"
+        ],
+        "layers": {
+          "confirmed_core": {
+            "graph_band": "baseline",
+            "label": "confirmed core",
+            "summary": "Runner-confirmed event-level core for the current AG mainline.",
+            "case_ids": [
+              "ag-p1"
+            ],
+            "encoded_case_ids": [
+              "ag-p1"
+            ],
+            "metadata_only_case_ids": [],
+            "case_count": 1,
+            "encoded_case_count": 1,
+            "metadata_only_case_count": 0
+          },
+          "bridge_ring": {
+            "graph_band": "bridge",
+            "label": "bridge ring",
+            "summary": "Semantic bridge-level positives worth showing around the core, but not promoted by the current gate or runner.",
+            "case_ids": [
+              "ag-p2",
+              "ag-p3"
+            ],
+            "encoded_case_ids": [],
+            "metadata_only_case_ids": [
+              "ag-p2",
+              "ag-p3"
+            ],
+            "case_count": 2,
+            "encoded_case_count": 0,
+            "metadata_only_case_count": 2
+          },
+          "excluded_boundary": {
+            "graph_band": "boundary",
+            "label": "excluded boundary",
+            "summary": "Nearby negatives that keep the AG region bounded even when vocabulary or taxonomy overlap looks tempting.",
+            "case_ids": [
+              "ag-n1",
+              "ag-n2",
+              "ag-n3"
+            ],
+            "encoded_case_ids": [
+              "ag-n1",
+              "ag-n2",
+              "ag-n3"
+            ],
+            "metadata_only_case_ids": [],
+            "case_count": 3,
+            "encoded_case_count": 3,
+            "metadata_only_case_count": 0
+          },
+          "review_boundary": {
+            "graph_band": "review",
+            "label": "review-only dispute",
+            "summary": "Boundary dispute kept visible for expert review, but intentionally left outside the default bridge ring.",
+            "case_ids": [
+              "ag-amb1"
+            ],
+            "encoded_case_ids": [
+              "ag-amb1"
+            ],
+            "metadata_only_case_ids": [],
+            "case_count": 1,
+            "encoded_case_count": 1,
+            "metadata_only_case_count": 0
+          }
+        },
+        "case_registry": [
+          {
+            "case_id": "ag-p1",
+            "anchor": "global_69",
+            "target": "global_287",
+            "expected_relation": "math_ag_object_continuity",
+            "level": "event-level",
+            "graph_band": "baseline",
+            "graph_layer": "confirmed_core",
+            "graph_role": "event_baseline",
+            "narrative_note": "唯一稳定 runner-positive；作为 AG 主线 confirmed core 保留。",
+            "source_doc": "docs/plans/2026-03-18-math-ag-benchmark.md",
+            "export_status": "encoded_as_evolves_to",
+            "anchor_in_scope": true,
+            "target_in_scope": true
+          },
+          {
+            "case_id": "ag-p2",
+            "anchor": "global_30",
+            "target": "global_355",
+            "expected_relation": "none",
+            "level": "bridge-level",
+            "graph_band": "bridge",
+            "graph_layer": "bridge_ring",
+            "graph_role": "inner_bridge_support",
+            "narrative_note": "共享 curves；值得作为 bridge ring 呈现，但不通过当前 exact-term gate。",
+            "source_doc": "docs/plans/2026-03-18-math-ag-benchmark.md",
+            "export_status": "in_scope_metadata_only",
+            "anchor_in_scope": true,
+            "target_in_scope": true
+          },
+          {
+            "case_id": "ag-p3",
+            "anchor": "global_355",
+            "target": "global_117",
+            "expected_relation": "none",
+            "level": "bridge-level",
+            "graph_band": "bridge",
+            "graph_layer": "bridge_ring",
+            "graph_role": "outer_bridge_support",
+            "narrative_note": "共享 generic varieties；保留为 bridge ring 的远端支撑，不升级为 runner-positive。",
+            "source_doc": "docs/plans/2026-03-18-math-ag-benchmark.md",
+            "export_status": "in_scope_metadata_only",
+            "anchor_in_scope": true,
+            "target_in_scope": true
+          },
+          {
+            "case_id": "ag-n1",
+            "anchor": "global_69",
+            "target": "global_136",
+            "expected_relation": "none",
+            "level": "boundary",
+            "graph_band": "boundary",
+            "graph_layer": "excluded_boundary",
+            "graph_role": "single_term_boundary",
+            "narrative_note": "仅共享 sheaves (1 个对象词)；不满足当前 >=2 exact-term gate",
+            "source_doc": "docs/plans/2026-03-18-math-ag-benchmark.md",
+            "export_status": "encoded_as_evolves_to",
+            "anchor_in_scope": true,
+            "target_in_scope": true
+          },
+          {
+            "case_id": "ag-n2",
+            "anchor": "global_30",
+            "target": "global_287",
+            "expected_relation": "none",
+            "level": "boundary",
+            "graph_band": "boundary",
+            "graph_layer": "excluded_boundary",
+            "graph_role": "class_overlap_boundary",
+            "narrative_note": "class-overlap-only false positive；无 exact shared AG object terms",
+            "source_doc": "docs/plans/2026-03-18-math-ag-benchmark.md",
+            "export_status": "encoded_as_evolves_to",
+            "anchor_in_scope": true,
+            "target_in_scope": true
+          },
+          {
+            "case_id": "ag-n3",
+            "anchor": "global_134",
+            "target": "global_30",
+            "expected_relation": "none",
+            "level": "boundary",
+            "graph_band": "boundary",
+            "graph_layer": "excluded_boundary",
+            "graph_role": "domain_boundary",
+            "narrative_note": "domain boundary negative；凸几何主题不应进入 math.AG object continuity",
+            "source_doc": "docs/plans/2026-03-18-math-ag-benchmark.md",
+            "export_status": "encoded_as_evolves_to",
+            "anchor_in_scope": true,
+            "target_in_scope": true
+          },
+          {
+            "case_id": "ag-amb1",
+            "anchor": "global_4",
+            "target": "global_287",
+            "expected_relation": "review-needed",
+            "level": "ambiguous",
+            "graph_band": "review",
+            "graph_layer": "review_boundary",
+            "graph_role": "boundary_dispute",
+            "narrative_note": "Review-only AG boundary dispute; keep visible in metadata, not inside the default bridge ring.",
+            "source_doc": "docs/plans/2026-03-18-math-ag-benchmark.md",
+            "export_status": "encoded_as_evolves_to",
+            "anchor_in_scope": true,
+            "target_in_scope": true
+          }
+        ],
+        "encoded_case_ids": [
+          "ag-p1",
+          "ag-n1",
+          "ag-n2",
+          "ag-n3",
+          "ag-amb1"
+        ],
+        "case_count": 7,
+        "case_counts_by_graph_band": {
+          "baseline": 1,
+          "bridge": 2,
+          "boundary": 3,
+          "review": 1
+        },
+        "case_counts_by_export_status": {
+          "encoded_as_evolves_to": 5,
+          "in_scope_metadata_only": 2
+        },
+        "layer_counts_by_graph_band": {
+          "baseline": 1,
+          "bridge": 1,
+          "boundary": 1,
+          "review": 1
+        }
+      },
+      "math.CO": {
+        "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md",
+        "export_presence": "docs_only_contract",
+        "topology_status": "not_in_baseline_topology",
+        "graph_shape": "matroid_mvp_contract_plus_supporting_bridge",
+        "summary": "CO stays outside the baseline topology; export metadata only exposes the landed matroid MVP, its supporting bridge, and its boundary cases.",
+        "selected_rule": "math_co_matroid_structure_continuity",
+        "candidate_rule": null,
+        "narrative_status": null,
+        "baseline_truth_layer_keys": [],
+        "narrative_only_layer_keys": [
+          "matroid_mvp",
+          "bridge_support",
+          "excluded_boundary",
+          "review_boundary",
+          "deferred_branch"
+        ],
+        "visible_graph_bands": [
+          "bridge",
+          "boundary",
+          "review",
+          "contract",
+          "deferred"
+        ],
+        "layers": {
+          "matroid_mvp": {
+            "graph_band": "contract",
+            "label": "matroid MVP",
+            "summary": "The landed matroid-family MVP contract. This is selected rule metadata, not baseline graph truth.",
+            "case_ids": [
+              "co-m1",
+              "co-m2"
+            ],
+            "encoded_case_ids": [],
+            "metadata_only_case_ids": [
+              "co-m1",
+              "co-m2"
+            ],
+            "case_count": 2,
+            "encoded_case_count": 0,
+            "metadata_only_case_count": 2
+          },
+          "bridge_support": {
+            "graph_band": "bridge",
+            "label": "supporting bridge",
+            "summary": "Graph-facing matroid support kept outside the current MVP gate.",
+            "case_ids": [
+              "co-b2"
+            ],
+            "encoded_case_ids": [],
+            "metadata_only_case_ids": [
+              "co-b2"
+            ],
+            "case_count": 1,
+            "encoded_case_count": 0,
+            "metadata_only_case_count": 1
+          },
+          "excluded_boundary": {
+            "graph_band": "boundary",
+            "label": "excluded boundary",
+            "summary": "Boundary negatives that keep the matroid MVP conservative.",
+            "case_ids": [
+              "co-mn1",
+              "co-mn2"
+            ],
+            "encoded_case_ids": [],
+            "metadata_only_case_ids": [
+              "co-mn1",
+              "co-mn2"
+            ],
+            "case_count": 2,
+            "encoded_case_count": 0,
+            "metadata_only_case_count": 2
+          },
+          "review_boundary": {
+            "graph_band": "review",
+            "label": "review near-miss",
+            "summary": "Near-miss cases parked outside the matroid MVP until a broader rule exists.",
+            "case_ids": [
+              "co-ma1"
+            ],
+            "encoded_case_ids": [],
+            "metadata_only_case_ids": [
+              "co-ma1"
+            ],
+            "case_count": 1,
+            "encoded_case_count": 0,
+            "metadata_only_case_count": 1
+          },
+          "deferred_branch": {
+            "graph_band": "deferred",
+            "label": "deferred branch",
+            "summary": "Documented bridge branch deferred from the first landed rule.",
+            "case_ids": [
+              "co-b1"
+            ],
+            "encoded_case_ids": [],
+            "metadata_only_case_ids": [
+              "co-b1"
+            ],
+            "case_count": 1,
+            "encoded_case_count": 0,
+            "metadata_only_case_count": 1
+          }
+        },
+        "case_registry": [
+          {
+            "case_id": "co-b1",
+            "anchor": "global_63",
+            "target": "global_308",
+            "expected_relation": "math_co_random_process_continuity",
+            "level": "bridge-level",
+            "graph_band": "deferred",
+            "graph_layer": "deferred_branch",
+            "graph_role": "random_process_bridge",
+            "narrative_note": "Deferred random/percolation bridge branch; documented, but not the landed first-rule contract.",
+            "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md",
+            "export_status": "docs_only_outside_export_scope",
+            "anchor_in_scope": false,
+            "target_in_scope": false
+          },
+          {
+            "case_id": "co-b2",
+            "anchor": "global_16",
+            "target": "global_292",
+            "expected_relation": "math_co_matroid_structure_continuity",
+            "level": "bridge-level",
+            "graph_band": "bridge",
+            "graph_layer": "bridge_support",
+            "graph_role": "matroid_supporting_bridge",
+            "narrative_note": "Supporting matroid bridge positive kept outside the landed MVP gate.",
+            "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md",
+            "export_status": "docs_only_outside_export_scope",
+            "anchor_in_scope": false,
+            "target_in_scope": false
+          },
+          {
+            "case_id": "co-m1",
+            "anchor": "global_292",
+            "target": "global_319",
+            "expected_relation": "math_co_matroid_structure_continuity",
+            "level": "contract",
+            "graph_band": "contract",
+            "graph_layer": "matroid_mvp",
+            "graph_role": "mvp_positive",
+            "narrative_note": "Primary landed matroid MVP positive.",
+            "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md",
+            "export_status": "docs_only_outside_export_scope",
+            "anchor_in_scope": false,
+            "target_in_scope": false
+          },
+          {
+            "case_id": "co-m2",
+            "anchor": "global_118",
+            "target": "global_204",
+            "expected_relation": "math_co_matroid_structure_continuity",
+            "level": "contract",
+            "graph_band": "contract",
+            "graph_layer": "matroid_mvp",
+            "graph_role": "supporting_positive",
+            "narrative_note": "Second landed matroid MVP positive inside the selected contract.",
+            "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md",
+            "export_status": "docs_only_outside_export_scope",
+            "anchor_in_scope": false,
+            "target_in_scope": false
+          },
+          {
+            "case_id": "co-mn1",
+            "anchor": "global_292",
+            "target": "global_324",
+            "expected_relation": "not math_co_matroid_structure_continuity",
+            "level": "boundary",
+            "graph_band": "boundary",
+            "graph_layer": "excluded_boundary",
+            "graph_role": "rank_polynomial_boundary",
+            "narrative_note": "Rank/polynomial overlap boundary for the matroid MVP.",
+            "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md",
+            "export_status": "docs_only_outside_export_scope",
+            "anchor_in_scope": false,
+            "target_in_scope": false
+          },
+          {
+            "case_id": "co-mn2",
+            "anchor": "global_8",
+            "target": "global_319",
+            "expected_relation": "none",
+            "level": "boundary",
+            "graph_band": "boundary",
+            "graph_layer": "excluded_boundary",
+            "graph_role": "graph_wide_term_boundary",
+            "narrative_note": "Generic graph-vocabulary boundary that must stay outside the matroid branch.",
+            "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md",
+            "export_status": "docs_only_outside_export_scope",
+            "anchor_in_scope": false,
+            "target_in_scope": false
+          },
+          {
+            "case_id": "co-ma1",
+            "anchor": "global_220",
+            "target": "global_292",
+            "expected_relation": "review-needed / near-miss",
+            "level": "ambiguous",
+            "graph_band": "review",
+            "graph_layer": "review_boundary",
+            "graph_role": "polytope_only_near_miss",
+            "narrative_note": "Polytope-only near-miss that stays outside the first matroid rule.",
+            "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md",
+            "export_status": "docs_only_outside_export_scope",
+            "anchor_in_scope": false,
+            "target_in_scope": false
+          }
+        ],
+        "encoded_case_ids": [],
+        "case_count": 7,
+        "case_counts_by_graph_band": {
+          "bridge": 1,
+          "boundary": 2,
+          "review": 1,
+          "contract": 2,
+          "deferred": 1
+        },
+        "case_counts_by_export_status": {
+          "docs_only_outside_export_scope": 7
+        },
+        "layer_counts_by_graph_band": {
+          "bridge": 1,
+          "boundary": 1,
+          "review": 1,
+          "contract": 1,
+          "deferred": 1
+        }
+      },
+      "math.DS": {
+        "source_doc": "docs/plans/2026-04-02-math-ds-benchmark.md",
+        "export_presence": "docs_only_narrative",
+        "topology_status": "not_in_baseline_topology",
+        "graph_shape": "bridge_skeleton_plus_boundary_review",
+        "summary": "DS contributes only a bridge-level benchmark skeleton around ergodic/entropy continuity; no DS nodes or baseline EVOLVES_TO edges are exported yet.",
+        "selected_rule": null,
+        "candidate_rule": "math_ds_ergodic_entropy_continuity",
+        "narrative_status": "benchmark_skeleton_ready",
+        "baseline_truth_layer_keys": [],
+        "narrative_only_layer_keys": [
+          "ergodic_entropy_skeleton",
+          "excluded_boundary",
+          "review_boundary"
+        ],
+        "visible_graph_bands": [
+          "bridge",
+          "boundary",
+          "review"
+        ],
+        "layers": {
+          "ergodic_entropy_skeleton": {
+            "graph_band": "bridge",
+            "label": "ergodic/entropy skeleton",
+            "summary": "Bridge-level DS skeleton around ergodic/entropy continuity; graph-facing metadata only, not baseline topology.",
+            "case_ids": [
+              "ds-b1",
+              "ds-b2"
+            ],
+            "encoded_case_ids": [],
+            "metadata_only_case_ids": [
+              "ds-b1",
+              "ds-b2"
+            ],
+            "case_count": 2,
+            "encoded_case_count": 0,
+            "metadata_only_case_count": 2
+          },
+          "excluded_boundary": {
+            "graph_band": "boundary",
+            "label": "excluded boundary",
+            "summary": "Boundary negatives that keep broad topological or measure overlap from becoming DS continuity truth.",
+            "case_ids": [
+              "ds-n1",
+              "ds-n2"
+            ],
+            "encoded_case_ids": [],
+            "metadata_only_case_ids": [
+              "ds-n1",
+              "ds-n2"
+            ],
+            "case_count": 2,
+            "encoded_case_count": 0,
+            "metadata_only_case_count": 2
+          },
+          "review_boundary": {
+            "graph_band": "review",
+            "label": "review boundary",
+            "summary": "Near-miss case kept review-only while the DS ergodic/fractal boundary remains unsettled.",
+            "case_ids": [
+              "ds-a1"
+            ],
+            "encoded_case_ids": [],
+            "metadata_only_case_ids": [
+              "ds-a1"
+            ],
+            "case_count": 1,
+            "encoded_case_count": 0,
+            "metadata_only_case_count": 1
+          }
+        },
+        "case_registry": [
+          {
+            "case_id": "ds-b1",
+            "anchor": "global_154",
+            "target": "global_186",
+            "expected_relation": "math_ds_ergodic_entropy_continuity",
+            "level": "bridge-level",
+            "graph_band": "bridge",
+            "graph_layer": "ergodic_entropy_skeleton",
+            "graph_role": "ergodic_measure_bridge",
+            "narrative_note": "Bridge-level DS positive inside the ergodic/entropy neighborhood; stable enough for metadata, not for baseline topology.",
+            "source_doc": "docs/plans/2026-04-02-math-ds-benchmark.md",
+            "export_status": "docs_only_outside_export_scope",
+            "anchor_in_scope": false,
+            "target_in_scope": false
+          },
+          {
+            "case_id": "ds-b2",
+            "anchor": "global_154",
+            "target": "global_367",
+            "expected_relation": "math_ds_ergodic_entropy_continuity",
+            "level": "bridge-level",
+            "graph_band": "bridge",
+            "graph_layer": "ergodic_entropy_skeleton",
+            "graph_role": "topological_entropy_extension",
+            "narrative_note": "Second bridge-level DS positive; exposes the local ergodic/entropy stretch without claiming event-level continuity.",
+            "source_doc": "docs/plans/2026-04-02-math-ds-benchmark.md",
+            "export_status": "docs_only_outside_export_scope",
+            "anchor_in_scope": false,
+            "target_in_scope": false
+          },
+          {
+            "case_id": "ds-n1",
+            "anchor": "global_119",
+            "target": "global_367",
+            "expected_relation": "none",
+            "level": "boundary",
+            "graph_band": "boundary",
+            "graph_layer": "excluded_boundary",
+            "graph_role": "topological_term_boundary",
+            "narrative_note": "Shared topological vocabulary alone should not open the DS ergodic/entropy contract.",
+            "source_doc": "docs/plans/2026-04-02-math-ds-benchmark.md",
+            "export_status": "docs_only_outside_export_scope",
+            "anchor_in_scope": false,
+            "target_in_scope": false
+          },
+          {
+            "case_id": "ds-n2",
+            "anchor": "global_12",
+            "target": "global_154",
+            "expected_relation": "none",
+            "level": "boundary",
+            "graph_band": "boundary",
+            "graph_layer": "excluded_boundary",
+            "graph_role": "measure_metric_boundary",
+            "narrative_note": "Broad measure/metric overlap should remain outside the DS continuity story.",
+            "source_doc": "docs/plans/2026-04-02-math-ds-benchmark.md",
+            "export_status": "docs_only_outside_export_scope",
+            "anchor_in_scope": false,
+            "target_in_scope": false
+          },
+          {
+            "case_id": "ds-a1",
+            "anchor": "global_49",
+            "target": "global_154",
+            "expected_relation": "review-needed",
+            "level": "ambiguous",
+            "graph_band": "review",
+            "graph_layer": "review_boundary",
+            "graph_role": "fractal_entropy_near_miss",
+            "narrative_note": "Real DS near-miss between fractal/measure and ergodic/entropy branches; keep review-only.",
+            "source_doc": "docs/plans/2026-04-02-math-ds-benchmark.md",
+            "export_status": "docs_only_outside_export_scope",
+            "anchor_in_scope": false,
+            "target_in_scope": false
+          }
+        ],
+        "encoded_case_ids": [],
+        "case_count": 5,
+        "case_counts_by_graph_band": {
+          "bridge": 2,
+          "boundary": 2,
+          "review": 1
+        },
+        "case_counts_by_export_status": {
+          "docs_only_outside_export_scope": 5
+        },
+        "layer_counts_by_graph_band": {
+          "bridge": 1,
+          "boundary": 1,
+          "review": 1
+        }
+      },
+      "math.NA": {
+        "source_doc": "docs/plans/2026-04-03-math-na-benchmark.md",
+        "export_presence": "docs_only_narrative",
+        "topology_status": "not_in_baseline_topology",
+        "graph_shape": "krylov_bridge_skeleton_plus_boundary_review",
+        "summary": "NA contributes a bridge-level Krylov iterative skeleton plus boundary/review metadata; no NA nodes or baseline EVOLVES_TO edges are exported yet.",
+        "selected_rule": null,
+        "candidate_rule": "math_na_krylov_iterative_continuity",
+        "narrative_status": "benchmark_skeleton_ready",
+        "baseline_truth_layer_keys": [],
+        "narrative_only_layer_keys": [
+          "krylov_iterative_skeleton",
+          "excluded_boundary",
+          "review_boundary"
+        ],
+        "visible_graph_bands": [
+          "bridge",
+          "boundary",
+          "review"
+        ],
+        "layers": {
+          "krylov_iterative_skeleton": {
+            "graph_band": "bridge",
+            "label": "krylov iterative skeleton",
+            "summary": "Bridge-level NA skeleton around Krylov/GMRES continuity; graph-facing metadata only until NA has a real event-level or runner-ready baseline.",
+            "case_ids": [
+              "na-b1",
+              "na-b2"
+            ],
+            "encoded_case_ids": [],
+            "metadata_only_case_ids": [
+              "na-b1",
+              "na-b2"
+            ],
+            "case_count": 2,
+            "encoded_case_count": 0,
+            "metadata_only_case_count": 2
+          },
+          "excluded_boundary": {
+            "graph_band": "boundary",
+            "label": "excluded boundary",
+            "summary": "Boundary negatives that keep broad approximation or convergence overlap from becoming NA continuity truth.",
+            "case_ids": [
+              "na-n1",
+              "na-n2"
+            ],
+            "encoded_case_ids": [],
+            "metadata_only_case_ids": [
+              "na-n1",
+              "na-n2"
+            ],
+            "case_count": 2,
+            "encoded_case_count": 0,
+            "metadata_only_case_count": 2
+          },
+          "review_boundary": {
+            "graph_band": "review",
+            "label": "review boundary",
+            "summary": "Near-miss case kept review-only while the Krylov-to-application boundary remains unsettled.",
+            "case_ids": [
+              "na-a1"
+            ],
+            "encoded_case_ids": [],
+            "metadata_only_case_ids": [
+              "na-a1"
+            ],
+            "case_count": 1,
+            "encoded_case_count": 0,
+            "metadata_only_case_count": 1
+          }
+        },
+        "case_registry": [
+          {
+            "case_id": "na-b1",
+            "anchor": "global_105",
+            "target": "global_140",
+            "expected_relation": "math_na_krylov_iterative_continuity",
+            "level": "bridge-level",
+            "graph_band": "bridge",
+            "graph_layer": "krylov_iterative_skeleton",
+            "graph_role": "gmres_to_krylov_bridge",
+            "narrative_note": "Bridge-level NA positive from a narrow GMRES anchor into the broader Krylov family; export as narrative only, not baseline topology.",
+            "source_doc": "docs/plans/2026-04-03-math-na-benchmark.md",
+            "export_status": "docs_only_outside_export_scope",
+            "anchor_in_scope": false,
+            "target_in_scope": false
+          },
+          {
+            "case_id": "na-b2",
+            "anchor": "global_140",
+            "target": "global_9",
+            "expected_relation": "math_na_krylov_iterative_continuity",
+            "level": "bridge-level",
+            "graph_band": "bridge",
+            "graph_layer": "krylov_iterative_skeleton",
+            "graph_role": "krylov_block_acceleration_branch",
+            "narrative_note": "Second bridge-level NA positive along the current Krylov/block-iterative backbone; stable enough for metadata, not for baseline truth.",
+            "source_doc": "docs/plans/2026-04-03-math-na-benchmark.md",
+            "export_status": "docs_only_outside_export_scope",
+            "anchor_in_scope": false,
+            "target_in_scope": false
+          },
+          {
+            "case_id": "na-n1",
+            "anchor": "global_105",
+            "target": "global_378",
+            "expected_relation": "not math_na_krylov_iterative_continuity",
+            "level": "boundary",
+            "graph_band": "boundary",
+            "graph_layer": "excluded_boundary",
+            "graph_role": "approximation_term_boundary",
+            "narrative_note": "Shared approximation vocabulary alone must not pull interpolation/kernel-approximation topics into the Krylov continuity story.",
+            "source_doc": "docs/plans/2026-04-03-math-na-benchmark.md",
+            "export_status": "docs_only_outside_export_scope",
+            "anchor_in_scope": false,
+            "target_in_scope": false
+          },
+          {
+            "case_id": "na-n2",
+            "anchor": "global_140",
+            "target": "global_90",
+            "expected_relation": "none",
+            "level": "boundary",
+            "graph_band": "boundary",
+            "graph_layer": "excluded_boundary",
+            "graph_role": "convergence_term_boundary",
+            "narrative_note": "Shared convergence language should stay outside the Krylov iterative contract.",
+            "source_doc": "docs/plans/2026-04-03-math-na-benchmark.md",
+            "export_status": "docs_only_outside_export_scope",
+            "anchor_in_scope": false,
+            "target_in_scope": false
+          },
+          {
+            "case_id": "na-a1",
+            "anchor": "global_86",
+            "target": "global_307",
+            "expected_relation": "review-needed",
+            "level": "ambiguous",
+            "graph_band": "review",
+            "graph_layer": "review_boundary",
+            "graph_role": "krylov_application_near_miss",
+            "narrative_note": "Real NA near-miss where a single Krylov overlap reaches into quantum/tensor application space; keep review-only.",
+            "source_doc": "docs/plans/2026-04-03-math-na-benchmark.md",
+            "export_status": "docs_only_outside_export_scope",
+            "anchor_in_scope": false,
+            "target_in_scope": false
+          }
+        ],
+        "encoded_case_ids": [],
+        "case_count": 5,
+        "case_counts_by_graph_band": {
+          "bridge": 2,
+          "boundary": 2,
+          "review": 1
+        },
+        "case_counts_by_export_status": {
+          "docs_only_outside_export_scope": 5
+        },
+        "layer_counts_by_graph_band": {
+          "bridge": 1,
+          "boundary": 1,
+          "review": 1
+        }
+      }
+    }
+  },
+  "nodes": {
+    "topics": [
+      {
+        "id": "global_4",
+        "label": "分级范畴聚类",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "persistent",
+        "display_size": 45,
+        "active_periods": 5,
+        "total_papers": 511,
+        "keywords": [
+          "mathcal",
+          "lie",
+          "categories",
+          "homotopy",
+          "mathfrak"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_321",
+        "label": "模态S5代数与钻石公理",
+        "kind": "topic",
+        "subcategory": "LO",
+        "category": "math",
+        "status": "transient",
+        "display_size": 22.0,
+        "active_periods": 1,
+        "total_papers": 10,
+        "keywords": [
+          "pa",
+          "s5",
+          "potentialist",
+          "coalgebras",
+          "diamond"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_107",
+        "label": "仿射代数群挠子",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 25.0,
+        "active_periods": 1,
+        "total_papers": 19,
+        "keywords": [
+          "reductive",
+          "torsors",
+          "group",
+          "affine",
+          "algebraic"
+        ],
+        "hierarchy_depth": 4
+      },
+      {
+        "id": "global_349",
+        "label": "热带几何与曲线热带化",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 23.2,
+        "active_periods": 1,
+        "total_papers": 13,
+        "keywords": [
+          "tropical",
+          "tropicalization",
+          "tevelev",
+          "curves",
+          "cohomologically"
+        ],
+        "hierarchy_depth": 3
+      },
+      {
+        "id": "global_337",
+        "label": "可积系统与Bethe拟设",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 25.7,
+        "active_periods": 1,
+        "total_papers": 22,
+        "keywords": [
+          "opers",
+          "bethe",
+          "ansatz",
+          "qq",
+          "integrable"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_360",
+        "label": "ZF基数选择公理",
+        "kind": "topic",
+        "subcategory": "LO",
+        "category": "math",
+        "status": "transient",
+        "display_size": 28.2,
+        "active_periods": 1,
+        "total_papers": 37,
+        "keywords": [
+          "cardinals",
+          "mathsf",
+          "cardinal",
+          "zf",
+          "choice"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_5",
+        "label": "卢斯蒂格代数上同调",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 39.0,
+        "active_periods": 2,
+        "total_papers": 120,
+        "keywords": [
+          "lie",
+          "mathfrak",
+          "modules",
+          "algebra",
+          "sheaves"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_259",
+        "label": "多项式递推求根",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 24.7,
+        "active_periods": 1,
+        "total_papers": 18,
+        "keywords": [
+          "polynomials",
+          "polynomial",
+          "roots",
+          "ghasemi",
+          "recurrence"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_75",
+        "label": "基数迭代强制法",
+        "kind": "topic",
+        "subcategory": "LO",
+        "category": "math",
+        "status": "transient",
+        "display_size": 25.5,
+        "active_periods": 1,
+        "total_papers": 21,
+        "keywords": [
+          "cardinal",
+          "forcing",
+          "mathfrak",
+          "cardinals",
+          "iterable"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_27",
+        "label": "概率逻辑与自动机语义",
+        "kind": "topic",
+        "subcategory": "LO",
+        "category": "math",
+        "status": "persistent",
+        "display_size": 45,
+        "active_periods": 3,
+        "total_papers": 403,
+        "keywords": [
+          "sets",
+          "axiom",
+          "logics",
+          "languages",
+          "semantics"
+        ],
+        "hierarchy_depth": 4
+      },
+      {
+        "id": "global_215",
+        "label": "霍奇商上同调猜想",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 26.1,
+        "active_periods": 1,
+        "total_papers": 24,
+        "keywords": [
+          "hodge",
+          "conjecture",
+          "quot",
+          "cohomology",
+          "algebraic"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_56",
+        "label": "直觉主义逻辑证明",
+        "kind": "topic",
+        "subcategory": "LO",
+        "category": "math",
+        "status": "persistent",
+        "display_size": 41.1,
+        "active_periods": 3,
+        "total_papers": 184,
+        "keywords": [
+          "proofs",
+          "logics",
+          "interpolation",
+          "quantifier",
+          "propositional"
+        ],
+        "hierarchy_depth": 4
+      },
+      {
+        "id": "global_345",
+        "label": "模态逻辑与哥德尔联结词",
+        "kind": "topic",
+        "subcategory": "LO",
+        "category": "math",
+        "status": "transient",
+        "display_size": 30.0,
+        "active_periods": 1,
+        "total_papers": 54,
+        "keywords": [
+          "logic",
+          "logics",
+          "modal",
+          "connectives",
+          "godel"
+        ],
+        "hierarchy_depth": 3
+      },
+      {
+        "id": "global_339",
+        "label": "基数、理想与力迫法",
+        "kind": "topic",
+        "subcategory": "LO",
+        "category": "math",
+        "status": "transient",
+        "display_size": 27.3,
+        "active_periods": 1,
+        "total_papers": 31,
+        "keywords": [
+          "mathsf",
+          "cardinal",
+          "countable",
+          "ideals",
+          "forcing"
+        ],
+        "hierarchy_depth": 3
+      },
+      {
+        "id": "global_263",
+        "label": "平展上同调与光滑性",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 25.0,
+        "active_periods": 1,
+        "total_papers": 19,
+        "keywords": [
+          "_q",
+          "cohomology",
+          "tame",
+          "smooth",
+          "étale"
+        ],
+        "hierarchy_depth": 4
+      },
+      {
+        "id": "global_226",
+        "label": "可计算伪熵",
+        "kind": "topic",
+        "subcategory": "LO",
+        "category": "math",
+        "status": "transient",
+        "display_size": 22.4,
+        "active_periods": 1,
+        "total_papers": 11,
+        "keywords": [
+          "randomness",
+          "belief",
+          "entropy",
+          "computable",
+          "pseudoentropy"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_136",
+        "label": "动机层与亨泽尔层",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 26.1,
+        "active_periods": 1,
+        "total_papers": 24,
+        "keywords": [
+          "motivic",
+          "schemes",
+          "sheaves",
+          "henselian",
+          "mathbb"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_208",
+        "label": "模态逻辑可满足性",
+        "kind": "topic",
+        "subcategory": "LO",
+        "category": "math",
+        "status": "transient",
+        "display_size": 31.5,
+        "active_periods": 1,
+        "total_papers": 72,
+        "keywords": [
+          "logic",
+          "logics",
+          "modal",
+          "satisfiability",
+          "semantics"
+        ],
+        "hierarchy_depth": 3
+      },
+      {
+        "id": "global_342",
+        "label": "强化推理奖励机制",
+        "kind": "topic",
+        "subcategory": "LO",
+        "category": "math",
+        "status": "transient",
+        "display_size": 40,
+        "active_periods": 1,
+        "total_papers": 521,
+        "keywords": [
+          "reasoning",
+          "reward",
+          "rl",
+          "reinforcement",
+          "cot"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_355",
+        "label": "超椭圆曲线阿贝尔簇",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 26.5,
+        "active_periods": 1,
+        "total_papers": 26,
+        "keywords": [
+          "abelian",
+          "varieties",
+          "hyperelliptic",
+          "curves",
+          "adic"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_237",
+        "label": "母题上同调与规范群",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 26.3,
+        "active_periods": 1,
+        "total_papers": 25,
+        "keywords": [
+          "cohomology",
+          "motivic",
+          "motives",
+          "group",
+          "gauges"
+        ],
+        "hierarchy_depth": 4
+      },
+      {
+        "id": "global_30",
+        "label": "法诺簇模空间曲线",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "persistent",
+        "display_size": 45,
+        "active_periods": 13,
+        "total_papers": 2627,
+        "keywords": [
+          "toric",
+          "conjecture",
+          "k3",
+          "hodge",
+          "moduli"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_287",
+        "label": "导出代数叠范畴",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 26.7,
+        "active_periods": 1,
+        "total_papers": 27,
+        "keywords": [
+          "stacks",
+          "derived",
+          "stack",
+          "algebraic",
+          "categories"
+        ],
+        "hierarchy_depth": 4
+      },
+      {
+        "id": "global_167",
+        "label": "可定义基数塔基序",
+        "kind": "topic",
+        "subcategory": "LO",
+        "category": "math",
+        "status": "transient",
+        "display_size": 27.3,
+        "active_periods": 1,
+        "total_papers": 31,
+        "keywords": [
+          "ω_1",
+          "tukey",
+          "preccurlyeq",
+          "definable",
+          "cardinals"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_313",
+        "label": "基数与超滤子公理",
+        "kind": "topic",
+        "subcategory": "LO",
+        "category": "math",
+        "status": "transient",
+        "display_size": 28.6,
+        "active_periods": 1,
+        "total_papers": 40,
+        "keywords": [
+          "cardinal",
+          "ultrafilters",
+          "ultrafilter",
+          "axiom",
+          "sets"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_51",
+        "label": "基数与波莱尔公理",
+        "kind": "topic",
+        "subcategory": "LO",
+        "category": "math",
+        "status": "persistent",
+        "display_size": 38.2,
+        "active_periods": 3,
+        "total_papers": 102,
+        "keywords": [
+          "forcing",
+          "aleph_",
+          "axiom",
+          "aleph_1",
+          "set"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_69",
+        "label": "代数叠与层理论",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 23.2,
+        "active_periods": 1,
+        "total_papers": 13,
+        "keywords": [
+          "stacks",
+          "algebraic",
+          "zariski",
+          "sheaves",
+          "stack"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_117",
+        "label": "志村簇与Theta积分",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 24.2,
+        "active_periods": 1,
+        "total_papers": 16,
+        "keywords": [
+          "shimura",
+          "varieties",
+          "theta",
+          "integral",
+          "ramified"
+        ],
+        "hierarchy_depth": 4
+      },
+      {
+        "id": "global_192",
+        "label": "Banach空间闭余逼近理论",
+        "kind": "topic",
+        "subcategory": "LO",
+        "category": "math",
+        "status": "transient",
+        "display_size": 27.0,
+        "active_periods": 1,
+        "total_papers": 29,
+        "keywords": [
+          "banach",
+          "spaces",
+          "space",
+          "closed",
+          "coproximinal"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_135",
+        "label": "出租车几何与三角",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 25.7,
+        "active_periods": 1,
+        "total_papers": 22,
+        "keywords": [
+          "taxicab",
+          "quadrilateral",
+          "triangle",
+          "geometry",
+          "trigonometric"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_134",
+        "label": "凸体与薄饼多面体",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 25.9,
+        "active_periods": 1,
+        "total_papers": 23,
+        "keywords": [
+          "polytopes",
+          "polytope",
+          "convex",
+          "bodies",
+          "pancake"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_361",
+        "label": "亨泽尔域存在可定义性",
+        "kind": "topic",
+        "subcategory": "LO",
+        "category": "math",
+        "status": "transient",
+        "display_size": 22.8,
+        "active_periods": 1,
+        "total_papers": 12,
+        "keywords": [
+          "existential",
+          "fields",
+          "valued",
+          "henselian",
+          "definable"
+        ],
+        "hierarchy_depth": 2
+      }
+    ],
+    "subcategories": [
+      {
+        "id": "math.LO",
+        "code": "math.LO",
+        "label": "Logic",
+        "kind": "subcategory",
+        "subcategory": "LO",
+        "status": "ready",
+        "display_size": 25,
+        "topic_count": 15,
+        "multi_period_count": 3,
+        "evidence_quality": "benchmark-verified"
+      },
+      {
+        "id": "math.AG",
+        "code": "math.AG",
+        "label": "Algebraic Geometry",
+        "kind": "subcategory",
+        "subcategory": "AG",
+        "status": "ready",
+        "display_size": 25,
+        "topic_count": 17,
+        "multi_period_count": 3,
+        "evidence_quality": "benchmark-verified"
+      }
+    ],
+    "periods": [
+      {
+        "id": "2025-02",
+        "label": "2025-02",
+        "kind": "period",
+        "display_size": 8,
+        "start_date": "2025-02-01",
+        "end_date": "2025-02-28"
+      },
+      {
+        "id": "2025-03",
+        "label": "2025-03",
+        "kind": "period",
+        "display_size": 8,
+        "start_date": "2025-03-01",
+        "end_date": "2025-03-31"
+      },
+      {
+        "id": "2025-04",
+        "label": "2025-04",
+        "kind": "period",
+        "display_size": 8,
+        "start_date": "2025-04-01",
+        "end_date": "2025-04-30"
+      },
+      {
+        "id": "2025-05",
+        "label": "2025-05",
+        "kind": "period",
+        "display_size": 8,
+        "start_date": "2025-05-01",
+        "end_date": "2025-05-31"
+      },
+      {
+        "id": "2025-06",
+        "label": "2025-06",
+        "kind": "period",
+        "display_size": 8,
+        "start_date": "2025-06-01",
+        "end_date": "2025-06-30"
+      },
+      {
+        "id": "2025-07",
+        "label": "2025-07",
+        "kind": "period",
+        "display_size": 8,
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-31"
+      },
+      {
+        "id": "2025-08",
+        "label": "2025-08",
+        "kind": "period",
+        "display_size": 8,
+        "start_date": "2025-08-01",
+        "end_date": "2025-08-31"
+      },
+      {
+        "id": "2025-09",
+        "label": "2025-09",
+        "kind": "period",
+        "display_size": 8,
+        "start_date": "2025-09-01",
+        "end_date": "2025-09-30"
+      },
+      {
+        "id": "2025-10",
+        "label": "2025-10",
+        "kind": "period",
+        "display_size": 8,
+        "start_date": "2025-10-01",
+        "end_date": "2025-10-31"
+      },
+      {
+        "id": "2025-11",
+        "label": "2025-11",
+        "kind": "period",
+        "display_size": 8,
+        "start_date": "2025-11-01",
+        "end_date": "2025-11-30"
+      },
+      {
+        "id": "2025-12",
+        "label": "2025-12",
+        "kind": "period",
+        "display_size": 8,
+        "start_date": "2025-12-01",
+        "end_date": "2025-12-31"
+      },
+      {
+        "id": "2026-01",
+        "label": "2026-01",
+        "kind": "period",
+        "display_size": 8,
+        "start_date": "2026-01-01",
+        "end_date": "2026-01-31"
+      },
+      {
+        "id": "2026-02",
+        "label": "2026-02",
+        "kind": "period",
+        "display_size": 8,
+        "start_date": "2026-02-01",
+        "end_date": "2026-02-28"
+      }
+    ],
+    "total": 47
+  },
+  "edges": {
+    "all": [
+      {
+        "source": "math.AG",
+        "target": "global_4",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.LO",
+        "target": "global_321",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.AG",
+        "target": "global_107",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.AG",
+        "target": "global_349",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.AG",
+        "target": "global_337",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.LO",
+        "target": "global_360",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.AG",
+        "target": "global_5",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.AG",
+        "target": "global_259",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.LO",
+        "target": "global_75",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.LO",
+        "target": "global_27",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.AG",
+        "target": "global_215",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.LO",
+        "target": "global_56",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.LO",
+        "target": "global_345",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.LO",
+        "target": "global_339",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.AG",
+        "target": "global_263",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.LO",
+        "target": "global_226",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.AG",
+        "target": "global_136",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.LO",
+        "target": "global_208",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.LO",
+        "target": "global_342",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.AG",
+        "target": "global_355",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.AG",
+        "target": "global_237",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.AG",
+        "target": "global_30",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.AG",
+        "target": "global_287",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.LO",
+        "target": "global_167",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.LO",
+        "target": "global_313",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.LO",
+        "target": "global_51",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.AG",
+        "target": "global_69",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.AG",
+        "target": "global_117",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.LO",
+        "target": "global_192",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.AG",
+        "target": "global_135",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.AG",
+        "target": "global_134",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "math.LO",
+        "target": "global_361",
+        "kind": "CONTAINS_TOPIC",
+        "display_weight": 1.5,
+        "evidence_type": "data-derived"
+      },
+      {
+        "source": "global_4",
+        "target": "2025-02",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 28
+      },
+      {
+        "source": "global_4",
+        "target": "2025-03",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 44
+      },
+      {
+        "source": "global_4",
+        "target": "2025-09",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 60
+      },
+      {
+        "source": "global_4",
+        "target": "2025-11",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 65
+      },
+      {
+        "source": "global_4",
+        "target": "2026-01",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 314
+      },
+      {
+        "source": "global_321",
+        "target": "2025-12",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 10
+      },
+      {
+        "source": "global_107",
+        "target": "2025-05",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 19
+      },
+      {
+        "source": "global_349",
+        "target": "2026-01",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 13
+      },
+      {
+        "source": "global_337",
+        "target": "2026-01",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 22
+      },
+      {
+        "source": "global_360",
+        "target": "2026-02",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 37
+      },
+      {
+        "source": "global_5",
+        "target": "2025-02",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 45
+      },
+      {
+        "source": "global_5",
+        "target": "2025-04",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 75
+      },
+      {
+        "source": "global_259",
+        "target": "2025-10",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 18
+      },
+      {
+        "source": "global_75",
+        "target": "2025-04",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 21
+      },
+      {
+        "source": "global_27",
+        "target": "2025-02",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 112
+      },
+      {
+        "source": "global_27",
+        "target": "2025-04",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 58
+      },
+      {
+        "source": "global_27",
+        "target": "2025-11",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 233
+      },
+      {
+        "source": "global_215",
+        "target": "2025-08",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 24
+      },
+      {
+        "source": "global_56",
+        "target": "2025-03",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 49
+      },
+      {
+        "source": "global_56",
+        "target": "2025-10",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 85
+      },
+      {
+        "source": "global_56",
+        "target": "2026-02",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 50
+      },
+      {
+        "source": "global_345",
+        "target": "2026-01",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 54
+      },
+      {
+        "source": "global_339",
+        "target": "2026-01",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 31
+      },
+      {
+        "source": "global_263",
+        "target": "2025-10",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 19
+      },
+      {
+        "source": "global_226",
+        "target": "2025-09",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 11
+      },
+      {
+        "source": "global_136",
+        "target": "2025-06",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 24
+      },
+      {
+        "source": "global_208",
+        "target": "2025-08",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 72
+      },
+      {
+        "source": "global_342",
+        "target": "2026-01",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 521
+      },
+      {
+        "source": "global_355",
+        "target": "2026-01",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 26
+      },
+      {
+        "source": "global_237",
+        "target": "2025-09",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 25
+      },
+      {
+        "source": "global_30",
+        "target": "2025-02",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 109
+      },
+      {
+        "source": "global_30",
+        "target": "2025-03",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 213
+      },
+      {
+        "source": "global_30",
+        "target": "2025-04",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 94
+      },
+      {
+        "source": "global_30",
+        "target": "2025-05",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 210
+      },
+      {
+        "source": "global_30",
+        "target": "2025-06",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 189
+      },
+      {
+        "source": "global_30",
+        "target": "2025-07",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 244
+      },
+      {
+        "source": "global_30",
+        "target": "2025-08",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 83
+      },
+      {
+        "source": "global_30",
+        "target": "2025-09",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 188
+      },
+      {
+        "source": "global_30",
+        "target": "2025-10",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 166
+      },
+      {
+        "source": "global_30",
+        "target": "2025-11",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 154
+      },
+      {
+        "source": "global_30",
+        "target": "2025-12",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 547
+      },
+      {
+        "source": "global_30",
+        "target": "2026-01",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 117
+      },
+      {
+        "source": "global_30",
+        "target": "2026-02",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 313
+      },
+      {
+        "source": "global_287",
+        "target": "2025-11",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 27
+      },
+      {
+        "source": "global_167",
+        "target": "2025-07",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 31
+      },
+      {
+        "source": "global_313",
+        "target": "2025-12",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 40
+      },
+      {
+        "source": "global_51",
+        "target": "2025-03",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 27
+      },
+      {
+        "source": "global_51",
+        "target": "2025-08",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 16
+      },
+      {
+        "source": "global_51",
+        "target": "2025-10",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 59
+      },
+      {
+        "source": "global_69",
+        "target": "2025-04",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 13
+      },
+      {
+        "source": "global_117",
+        "target": "2025-05",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 16
+      },
+      {
+        "source": "global_192",
+        "target": "2025-08",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 29
+      },
+      {
+        "source": "global_135",
+        "target": "2025-06",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 22
+      },
+      {
+        "source": "global_134",
+        "target": "2025-06",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 23
+      },
+      {
+        "source": "global_361",
+        "target": "2026-02",
+        "kind": "ACTIVE_IN",
+        "display_weight": 1.0,
+        "evidence_type": "data-derived",
+        "paper_count": 12
+      },
+      {
+        "source": "global_107",
+        "target": "global_136",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.5306,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.2653,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_107",
+        "target": "global_215",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.4485999999999999,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.2243,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_107",
+        "target": "global_237",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.6219999999999999,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.311,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_107",
+        "target": "global_263",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.4485999999999999,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.2243,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_107",
+        "target": "global_287",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.5236,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.2618,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_117",
+        "target": "global_215",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.5236,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.2618,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_117",
+        "target": "global_30",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.5084,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.2542,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_117",
+        "target": "global_355",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.5236,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.2618,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_134",
+        "target": "global_69",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.6736,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.3368,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_135",
+        "target": "global_287",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.5306,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.2653,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_135",
+        "target": "global_349",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.4736,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.2368,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_136",
+        "target": "global_237",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.5306,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.2653,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_136",
+        "target": "global_263",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.6219999999999999,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.311,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_136",
+        "target": "global_5",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.6583999999999999,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.3292,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_136",
+        "target": "global_69",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.6736,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.3368,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_167",
+        "target": "global_313",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.7556,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.3778,
+        "subcategory": "math.LO"
+      },
+      {
+        "source": "global_167",
+        "target": "global_360",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.6736,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.3368,
+        "subcategory": "math.LO"
+      },
+      {
+        "source": "global_167",
+        "target": "global_361",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.7556,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.3778,
+        "subcategory": "math.LO"
+      },
+      {
+        "source": "global_167",
+        "target": "global_51",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.7218,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.3609,
+        "subcategory": "math.LO"
+      },
+      {
+        "source": "global_167",
+        "target": "global_75",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.95,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.475,
+        "subcategory": "math.LO"
+      },
+      {
+        "source": "global_208",
+        "target": "global_27",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.5718,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.2859,
+        "subcategory": "math.LO"
+      },
+      {
+        "source": "global_208",
+        "target": "global_339",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.4736,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.2368,
+        "subcategory": "math.LO"
+      },
+      {
+        "source": "global_208",
+        "target": "global_345",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.95,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.475,
+        "subcategory": "math.LO"
+      },
+      {
+        "source": "global_208",
+        "target": "global_56",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.7166000000000001,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.3583,
+        "subcategory": "math.LO"
+      },
+      {
+        "source": "global_215",
+        "target": "global_237",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.4485999999999999,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.2243,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_215",
+        "target": "global_263",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.4485999999999999,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.2243,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_215",
+        "target": "global_287",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.4485999999999999,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.2243,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_215",
+        "target": "global_30",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.95,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.475,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_215",
+        "target": "global_355",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.6736,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.3368,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_215",
+        "target": "global_5",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.7218,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.3609,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_215",
+        "target": "global_69",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.6736,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.3368,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_226",
+        "target": "global_27",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.4334,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.2167,
+        "subcategory": "math.LO"
+      },
+      {
+        "source": "global_237",
+        "target": "global_263",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.8,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.4,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_237",
+        "target": "global_4",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.4334,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.2167,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_263",
+        "target": "global_5",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.4968,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.2484,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_27",
+        "target": "global_313",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.4968,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.2484,
+        "subcategory": "math.LO"
+      },
+      {
+        "source": "global_27",
+        "target": "global_345",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.5084,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.2542,
+        "subcategory": "math.LO"
+      },
+      {
+        "source": "global_27",
+        "target": "global_56",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.8050000000000002,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.4025,
+        "subcategory": "math.LO"
+      },
+      {
+        "source": "global_287",
+        "target": "global_349",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.4485999999999999,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.2243,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_287",
+        "target": "global_69",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.725,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.3625,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_30",
+        "target": "global_349",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.4584,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.2292,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_30",
+        "target": "global_355",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.7218,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.3609,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_30",
+        "target": "global_5",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.6482,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.3241,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_313",
+        "target": "global_339",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.6556,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.3278,
+        "subcategory": "math.LO"
+      },
+      {
+        "source": "global_313",
+        "target": "global_360",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.847,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.4235,
+        "subcategory": "math.LO"
+      },
+      {
+        "source": "global_313",
+        "target": "global_51",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.791,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.3955,
+        "subcategory": "math.LO"
+      },
+      {
+        "source": "global_313",
+        "target": "global_75",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.7556,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.3778,
+        "subcategory": "math.LO"
+      },
+      {
+        "source": "global_321",
+        "target": "global_56",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.4334,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.2167,
+        "subcategory": "math.LO"
+      },
+      {
+        "source": "global_337",
+        "target": "global_4",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.6583999999999999,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.3292,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_337",
+        "target": "global_5",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.6583999999999999,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.3292,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_339",
+        "target": "global_345",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.4736,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.2368,
+        "subcategory": "math.LO"
+      },
+      {
+        "source": "global_339",
+        "target": "global_360",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.6556,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.3278,
+        "subcategory": "math.LO"
+      },
+      {
+        "source": "global_339",
+        "target": "global_51",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.6909999999999998,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.3455,
+        "subcategory": "math.LO"
+      },
+      {
+        "source": "global_339",
+        "target": "global_75",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.6556,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.3278,
+        "subcategory": "math.LO"
+      },
+      {
+        "source": "global_345",
+        "target": "global_360",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.4736,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.2368,
+        "subcategory": "math.LO"
+      },
+      {
+        "source": "global_345",
+        "target": "global_56",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.7166000000000001,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.3583,
+        "subcategory": "math.LO"
+      },
+      {
+        "source": "global_349",
+        "target": "global_355",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.4736,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.2368,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_360",
+        "target": "global_51",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.791,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.3955,
+        "subcategory": "math.LO"
+      },
+      {
+        "source": "global_360",
+        "target": "global_75",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.7556,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.3778,
+        "subcategory": "math.LO"
+      },
+      {
+        "source": "global_361",
+        "target": "global_75",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.6736,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.3368,
+        "subcategory": "math.LO"
+      },
+      {
+        "source": "global_4",
+        "target": "global_5",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.8154,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.4077,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_5",
+        "target": "global_69",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.6583999999999999,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.3292,
+        "subcategory": "math.AG"
+      },
+      {
+        "source": "global_51",
+        "target": "global_75",
+        "kind": "NEIGHBOR_OF",
+        "display_weight": 1.791,
+        "evidence_type": "data-derived",
+        "confidence": "data-derived",
+        "weight": 0.3955,
+        "subcategory": "math.LO"
+      },
+      {
+        "source": "math.AG研究",
+        "target": "代数簇与模空间",
+        "kind": "PARENT_OF",
+        "display_weight": 2.0,
+        "evidence_type": "hierarchy-derived",
+        "confidence": "data-derived"
+      },
+      {
+        "source": "math.LO研究",
+        "target": "集合论与基数理论",
+        "kind": "PARENT_OF",
+        "display_weight": 2.0,
+        "evidence_type": "hierarchy-derived",
+        "confidence": "data-derived"
+      },
+      {
+        "source": "math.AG研究",
+        "target": "代数叠与高阶结构",
+        "kind": "PARENT_OF",
+        "display_weight": 2.0,
+        "evidence_type": "hierarchy-derived",
+        "confidence": "data-derived"
+      },
+      {
+        "source": "代数叠与高阶结构",
+        "target": "叠上的几何结构",
+        "kind": "PARENT_OF",
+        "display_weight": 2.0,
+        "evidence_type": "hierarchy-derived",
+        "confidence": "data-derived"
+      },
+      {
+        "source": "叠上的几何结构",
+        "target": "仿射代数群挠子",
+        "kind": "PARENT_OF",
+        "display_weight": 2.0,
+        "evidence_type": "hierarchy-derived",
+        "confidence": "data-derived"
+      },
+      {
+        "source": "math.AG研究",
+        "target": "几何与组合方法",
+        "kind": "PARENT_OF",
+        "display_weight": 2.0,
+        "evidence_type": "hierarchy-derived",
+        "confidence": "data-derived"
+      },
+      {
+        "source": "几何与组合方法",
+        "target": "热带几何",
+        "kind": "PARENT_OF",
+        "display_weight": 2.0,
+        "evidence_type": "hierarchy-derived",
+        "confidence": "data-derived"
+      },
+      {
+        "source": "math.LO研究",
+        "target": "数理逻辑",
+        "kind": "PARENT_OF",
+        "display_weight": 2.0,
+        "evidence_type": "hierarchy-derived",
+        "confidence": "data-derived"
+      },
+      {
+        "source": "数理逻辑",
+        "target": "非经典逻辑",
+        "kind": "PARENT_OF",
+        "display_weight": 2.0,
+        "evidence_type": "hierarchy-derived",
+        "confidence": "data-derived"
+      },
+      {
+        "source": "非经典逻辑",
+        "target": "概率逻辑",
+        "kind": "PARENT_OF",
+        "display_weight": 2.0,
+        "evidence_type": "hierarchy-derived",
+        "confidence": "data-derived"
+      },
+      {
+        "source": "非经典逻辑",
+        "target": "直觉主义逻辑",
+        "kind": "PARENT_OF",
+        "display_weight": 2.0,
+        "evidence_type": "hierarchy-derived",
+        "confidence": "data-derived"
+      },
+      {
+        "source": "数理逻辑",
+        "target": "模态逻辑",
+        "kind": "PARENT_OF",
+        "display_weight": 2.0,
+        "evidence_type": "hierarchy-derived",
+        "confidence": "data-derived"
+      },
+      {
+        "source": "集合论与基数理论",
+        "target": "力迫法",
+        "kind": "PARENT_OF",
+        "display_weight": 2.0,
+        "evidence_type": "hierarchy-derived",
+        "confidence": "data-derived"
+      },
+      {
+        "source": "math.AG研究",
+        "target": "上同调理论与母题",
+        "kind": "PARENT_OF",
+        "display_weight": 2.0,
+        "evidence_type": "hierarchy-derived",
+        "confidence": "data-derived"
+      },
+      {
+        "source": "上同调理论与母题",
+        "target": "经典上同调理论",
+        "kind": "PARENT_OF",
+        "display_weight": 2.0,
+        "evidence_type": "hierarchy-derived",
+        "confidence": "data-derived"
+      },
+      {
+        "source": "经典上同调理论",
+        "target": "平展上同调",
+        "kind": "PARENT_OF",
+        "display_weight": 2.0,
+        "evidence_type": "hierarchy-derived",
+        "confidence": "data-derived"
+      },
+      {
+        "source": "上同调理论与母题",
+        "target": "现代上同调与母题理论",
+        "kind": "PARENT_OF",
+        "display_weight": 2.0,
+        "evidence_type": "hierarchy-derived",
+        "confidence": "data-derived"
+      },
+      {
+        "source": "现代上同调与母题理论",
+        "target": "母题上同调",
+        "kind": "PARENT_OF",
+        "display_weight": 2.0,
+        "evidence_type": "hierarchy-derived",
+        "confidence": "data-derived"
+      },
+      {
+        "source": "代数叠与高阶结构",
+        "target": "导出几何与高阶范畴",
+        "kind": "PARENT_OF",
+        "display_weight": 2.0,
+        "evidence_type": "hierarchy-derived",
+        "confidence": "data-derived"
+      },
+      {
+        "source": "导出几何与高阶范畴",
+        "target": "导出代数叠",
+        "kind": "PARENT_OF",
+        "display_weight": 2.0,
+        "evidence_type": "hierarchy-derived",
+        "confidence": "data-derived"
+      },
+      {
+        "source": "代数簇与模空间",
+        "target": "簇的分类与模空间",
+        "kind": "PARENT_OF",
+        "display_weight": 2.0,
+        "evidence_type": "hierarchy-derived",
+        "confidence": "data-derived"
+      },
+      {
+        "source": "簇的分类与模空间",
+        "target": "志村簇",
+        "kind": "PARENT_OF",
+        "display_weight": 2.0,
+        "evidence_type": "hierarchy-derived",
+        "confidence": "data-derived"
+      },
+      {
+        "source": "global_56",
+        "target": "global_27",
+        "kind": "EVOLVES_TO",
+        "display_weight": 3.0,
+        "evidence_type": "benchmark-confirmed",
+        "confidence": "confirmed",
+        "benchmark_status": "positive",
+        "benchmark_case_id": "lo-b1",
+        "expected_relation": "math_lo_modal_continuity",
+        "subcategory": "math.LO",
+        "graph_band": "baseline",
+        "graph_layer": "modal_baseline",
+        "graph_role": "event_baseline",
+        "narrative_level": "event-level",
+        "narrative_note": "Current LO event-level baseline; graph-supported and replay-backed.",
+        "graph_export_status": "encoded_as_evolves_to",
+        "is_bidirectional": false
+      },
+      {
+        "source": "global_313",
+        "target": "global_360",
+        "kind": "EVOLVES_TO",
+        "display_weight": 3.0,
+        "evidence_type": "benchmark-confirmed",
+        "confidence": "confirmed",
+        "benchmark_status": "positive",
+        "benchmark_case_id": "lo-b3",
+        "expected_relation": "math_lo_set_theory_continuity",
+        "subcategory": "math.LO",
+        "graph_band": "bridge",
+        "graph_layer": "bridge_ring",
+        "graph_role": "set_theory_inner_backbone",
+        "narrative_level": "bridge-level",
+        "narrative_note": "Set-theory inner backbone: strongest graph-supported LO bridge branch below event-level.",
+        "graph_export_status": "encoded_as_evolves_to",
+        "is_bidirectional": false
+      },
+      {
+        "source": "global_51",
+        "target": "global_75",
+        "kind": "EVOLVES_TO",
+        "display_weight": 1.5,
+        "evidence_type": "benchmark-confirmed",
+        "confidence": "negative",
+        "benchmark_status": "negative",
+        "benchmark_case_id": "lo-n1",
+        "expected_relation": "not math_lo_forcing_continuity",
+        "subcategory": "math.LO",
+        "graph_band": "boundary",
+        "graph_layer": "boundary_negative",
+        "graph_role": "forcing_boundary",
+        "narrative_level": "boundary",
+        "narrative_note": "Keeps the forcing branch from swallowing the set-theory backbone.",
+        "graph_export_status": "encoded_as_evolves_to",
+        "is_bidirectional": false
+      },
+      {
+        "source": "global_339",
+        "target": "global_51",
+        "kind": "EVOLVES_TO",
+        "display_weight": 2.0,
+        "evidence_type": "benchmark-confirmed",
+        "confidence": "ambiguous",
+        "benchmark_status": "ambiguous",
+        "benchmark_case_id": "lo-a2",
+        "expected_relation": "review-needed",
+        "subcategory": "math.LO",
+        "graph_band": "review",
+        "graph_layer": "review_boundary",
+        "graph_role": "set_theory_near_miss",
+        "narrative_level": "ambiguous",
+        "narrative_note": "Near-miss inside the set-theory/forcing neighborhood; visible as a review boundary, not as a positive branch.",
+        "graph_export_status": "encoded_as_evolves_to",
+        "is_bidirectional": false
+      },
+      {
+        "source": "global_69",
+        "target": "global_287",
+        "kind": "EVOLVES_TO",
+        "display_weight": 3.0,
+        "evidence_type": "benchmark-confirmed",
+        "confidence": "confirmed",
+        "benchmark_status": "positive",
+        "benchmark_case_id": "ag-p1",
+        "expected_relation": "math_ag_object_continuity",
+        "subcategory": "math.AG",
+        "graph_band": "baseline",
+        "graph_layer": "confirmed_core",
+        "graph_role": "event_baseline",
+        "narrative_level": "event-level",
+        "narrative_note": "唯一稳定 runner-positive；作为 AG 主线 confirmed core 保留。",
+        "graph_export_status": "encoded_as_evolves_to",
+        "is_bidirectional": false
+      },
+      {
+        "source": "global_69",
+        "target": "global_136",
+        "kind": "EVOLVES_TO",
+        "display_weight": 1.5,
+        "evidence_type": "benchmark-confirmed",
+        "confidence": "negative",
+        "benchmark_status": "negative",
+        "benchmark_case_id": "ag-n1",
+        "expected_relation": "none",
+        "subcategory": "math.AG",
+        "graph_band": "boundary",
+        "graph_layer": "excluded_boundary",
+        "graph_role": "single_term_boundary",
+        "narrative_level": "boundary",
+        "narrative_note": "仅共享 sheaves (1 个对象词)；不满足当前 >=2 exact-term gate",
+        "graph_export_status": "encoded_as_evolves_to",
+        "is_bidirectional": false
+      },
+      {
+        "source": "global_30",
+        "target": "global_287",
+        "kind": "EVOLVES_TO",
+        "display_weight": 1.5,
+        "evidence_type": "benchmark-confirmed",
+        "confidence": "negative",
+        "benchmark_status": "negative",
+        "benchmark_case_id": "ag-n2",
+        "expected_relation": "none",
+        "subcategory": "math.AG",
+        "graph_band": "boundary",
+        "graph_layer": "excluded_boundary",
+        "graph_role": "class_overlap_boundary",
+        "narrative_level": "boundary",
+        "narrative_note": "class-overlap-only false positive；无 exact shared AG object terms",
+        "graph_export_status": "encoded_as_evolves_to",
+        "is_bidirectional": false
+      },
+      {
+        "source": "global_134",
+        "target": "global_30",
+        "kind": "EVOLVES_TO",
+        "display_weight": 1.5,
+        "evidence_type": "benchmark-confirmed",
+        "confidence": "negative",
+        "benchmark_status": "negative",
+        "benchmark_case_id": "ag-n3",
+        "expected_relation": "none",
+        "subcategory": "math.AG",
+        "graph_band": "boundary",
+        "graph_layer": "excluded_boundary",
+        "graph_role": "domain_boundary",
+        "narrative_level": "boundary",
+        "narrative_note": "domain boundary negative；凸几何主题不应进入 math.AG object continuity",
+        "graph_export_status": "encoded_as_evolves_to",
+        "is_bidirectional": false
+      },
+      {
+        "source": "global_4",
+        "target": "global_287",
+        "kind": "EVOLVES_TO",
+        "display_weight": 2.0,
+        "evidence_type": "benchmark-confirmed",
+        "confidence": "ambiguous",
+        "benchmark_status": "ambiguous",
+        "benchmark_case_id": "ag-amb1",
+        "expected_relation": "review-needed",
+        "subcategory": "math.AG",
+        "graph_band": "review",
+        "graph_layer": "review_boundary",
+        "graph_role": "boundary_dispute",
+        "narrative_level": "ambiguous",
+        "narrative_note": "Review-only AG boundary dispute; keep visible in metadata, not inside the default bridge ring.",
+        "graph_export_status": "encoded_as_evolves_to",
+        "is_bidirectional": false
+      }
+    ],
+    "by_kind": {
+      "CONTAINS_TOPIC": [
+        {
+          "source": "math.AG",
+          "target": "global_4",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.LO",
+          "target": "global_321",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.AG",
+          "target": "global_107",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.AG",
+          "target": "global_349",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.AG",
+          "target": "global_337",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.LO",
+          "target": "global_360",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.AG",
+          "target": "global_5",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.AG",
+          "target": "global_259",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.LO",
+          "target": "global_75",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.LO",
+          "target": "global_27",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.AG",
+          "target": "global_215",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.LO",
+          "target": "global_56",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.LO",
+          "target": "global_345",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.LO",
+          "target": "global_339",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.AG",
+          "target": "global_263",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.LO",
+          "target": "global_226",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.AG",
+          "target": "global_136",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.LO",
+          "target": "global_208",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.LO",
+          "target": "global_342",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.AG",
+          "target": "global_355",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.AG",
+          "target": "global_237",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.AG",
+          "target": "global_30",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.AG",
+          "target": "global_287",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.LO",
+          "target": "global_167",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.LO",
+          "target": "global_313",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.LO",
+          "target": "global_51",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.AG",
+          "target": "global_69",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.AG",
+          "target": "global_117",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.LO",
+          "target": "global_192",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.AG",
+          "target": "global_135",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.AG",
+          "target": "global_134",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        },
+        {
+          "source": "math.LO",
+          "target": "global_361",
+          "kind": "CONTAINS_TOPIC",
+          "display_weight": 1.5,
+          "evidence_type": "data-derived"
+        }
+      ],
+      "ACTIVE_IN": [
+        {
+          "source": "global_4",
+          "target": "2025-02",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 28
+        },
+        {
+          "source": "global_4",
+          "target": "2025-03",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 44
+        },
+        {
+          "source": "global_4",
+          "target": "2025-09",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 60
+        },
+        {
+          "source": "global_4",
+          "target": "2025-11",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 65
+        },
+        {
+          "source": "global_4",
+          "target": "2026-01",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 314
+        },
+        {
+          "source": "global_321",
+          "target": "2025-12",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 10
+        },
+        {
+          "source": "global_107",
+          "target": "2025-05",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 19
+        },
+        {
+          "source": "global_349",
+          "target": "2026-01",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 13
+        },
+        {
+          "source": "global_337",
+          "target": "2026-01",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 22
+        },
+        {
+          "source": "global_360",
+          "target": "2026-02",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 37
+        },
+        {
+          "source": "global_5",
+          "target": "2025-02",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 45
+        },
+        {
+          "source": "global_5",
+          "target": "2025-04",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 75
+        },
+        {
+          "source": "global_259",
+          "target": "2025-10",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 18
+        },
+        {
+          "source": "global_75",
+          "target": "2025-04",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 21
+        },
+        {
+          "source": "global_27",
+          "target": "2025-02",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 112
+        },
+        {
+          "source": "global_27",
+          "target": "2025-04",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 58
+        },
+        {
+          "source": "global_27",
+          "target": "2025-11",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 233
+        },
+        {
+          "source": "global_215",
+          "target": "2025-08",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 24
+        },
+        {
+          "source": "global_56",
+          "target": "2025-03",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 49
+        },
+        {
+          "source": "global_56",
+          "target": "2025-10",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 85
+        },
+        {
+          "source": "global_56",
+          "target": "2026-02",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 50
+        },
+        {
+          "source": "global_345",
+          "target": "2026-01",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 54
+        },
+        {
+          "source": "global_339",
+          "target": "2026-01",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 31
+        },
+        {
+          "source": "global_263",
+          "target": "2025-10",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 19
+        },
+        {
+          "source": "global_226",
+          "target": "2025-09",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 11
+        },
+        {
+          "source": "global_136",
+          "target": "2025-06",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 24
+        },
+        {
+          "source": "global_208",
+          "target": "2025-08",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 72
+        },
+        {
+          "source": "global_342",
+          "target": "2026-01",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 521
+        },
+        {
+          "source": "global_355",
+          "target": "2026-01",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 26
+        },
+        {
+          "source": "global_237",
+          "target": "2025-09",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 25
+        },
+        {
+          "source": "global_30",
+          "target": "2025-02",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 109
+        },
+        {
+          "source": "global_30",
+          "target": "2025-03",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 213
+        },
+        {
+          "source": "global_30",
+          "target": "2025-04",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 94
+        },
+        {
+          "source": "global_30",
+          "target": "2025-05",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 210
+        },
+        {
+          "source": "global_30",
+          "target": "2025-06",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 189
+        },
+        {
+          "source": "global_30",
+          "target": "2025-07",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 244
+        },
+        {
+          "source": "global_30",
+          "target": "2025-08",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 83
+        },
+        {
+          "source": "global_30",
+          "target": "2025-09",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 188
+        },
+        {
+          "source": "global_30",
+          "target": "2025-10",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 166
+        },
+        {
+          "source": "global_30",
+          "target": "2025-11",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 154
+        },
+        {
+          "source": "global_30",
+          "target": "2025-12",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 547
+        },
+        {
+          "source": "global_30",
+          "target": "2026-01",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 117
+        },
+        {
+          "source": "global_30",
+          "target": "2026-02",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 313
+        },
+        {
+          "source": "global_287",
+          "target": "2025-11",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 27
+        },
+        {
+          "source": "global_167",
+          "target": "2025-07",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 31
+        },
+        {
+          "source": "global_313",
+          "target": "2025-12",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 40
+        },
+        {
+          "source": "global_51",
+          "target": "2025-03",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 27
+        },
+        {
+          "source": "global_51",
+          "target": "2025-08",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 16
+        },
+        {
+          "source": "global_51",
+          "target": "2025-10",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 59
+        },
+        {
+          "source": "global_69",
+          "target": "2025-04",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 13
+        },
+        {
+          "source": "global_117",
+          "target": "2025-05",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 16
+        },
+        {
+          "source": "global_192",
+          "target": "2025-08",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 29
+        },
+        {
+          "source": "global_135",
+          "target": "2025-06",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 22
+        },
+        {
+          "source": "global_134",
+          "target": "2025-06",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 23
+        },
+        {
+          "source": "global_361",
+          "target": "2026-02",
+          "kind": "ACTIVE_IN",
+          "display_weight": 1.0,
+          "evidence_type": "data-derived",
+          "paper_count": 12
+        }
+      ],
+      "NEIGHBOR_OF": [
+        {
+          "source": "global_107",
+          "target": "global_136",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.5306,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.2653,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_107",
+          "target": "global_215",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.4485999999999999,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.2243,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_107",
+          "target": "global_237",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.6219999999999999,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.311,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_107",
+          "target": "global_263",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.4485999999999999,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.2243,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_107",
+          "target": "global_287",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.5236,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.2618,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_117",
+          "target": "global_215",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.5236,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.2618,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_117",
+          "target": "global_30",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.5084,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.2542,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_117",
+          "target": "global_355",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.5236,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.2618,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_134",
+          "target": "global_69",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.6736,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.3368,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_135",
+          "target": "global_287",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.5306,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.2653,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_135",
+          "target": "global_349",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.4736,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.2368,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_136",
+          "target": "global_237",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.5306,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.2653,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_136",
+          "target": "global_263",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.6219999999999999,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.311,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_136",
+          "target": "global_5",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.6583999999999999,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.3292,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_136",
+          "target": "global_69",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.6736,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.3368,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_167",
+          "target": "global_313",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.7556,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.3778,
+          "subcategory": "math.LO"
+        },
+        {
+          "source": "global_167",
+          "target": "global_360",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.6736,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.3368,
+          "subcategory": "math.LO"
+        },
+        {
+          "source": "global_167",
+          "target": "global_361",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.7556,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.3778,
+          "subcategory": "math.LO"
+        },
+        {
+          "source": "global_167",
+          "target": "global_51",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.7218,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.3609,
+          "subcategory": "math.LO"
+        },
+        {
+          "source": "global_167",
+          "target": "global_75",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.95,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.475,
+          "subcategory": "math.LO"
+        },
+        {
+          "source": "global_208",
+          "target": "global_27",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.5718,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.2859,
+          "subcategory": "math.LO"
+        },
+        {
+          "source": "global_208",
+          "target": "global_339",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.4736,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.2368,
+          "subcategory": "math.LO"
+        },
+        {
+          "source": "global_208",
+          "target": "global_345",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.95,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.475,
+          "subcategory": "math.LO"
+        },
+        {
+          "source": "global_208",
+          "target": "global_56",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.7166000000000001,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.3583,
+          "subcategory": "math.LO"
+        },
+        {
+          "source": "global_215",
+          "target": "global_237",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.4485999999999999,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.2243,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_215",
+          "target": "global_263",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.4485999999999999,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.2243,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_215",
+          "target": "global_287",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.4485999999999999,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.2243,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_215",
+          "target": "global_30",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.95,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.475,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_215",
+          "target": "global_355",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.6736,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.3368,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_215",
+          "target": "global_5",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.7218,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.3609,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_215",
+          "target": "global_69",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.6736,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.3368,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_226",
+          "target": "global_27",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.4334,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.2167,
+          "subcategory": "math.LO"
+        },
+        {
+          "source": "global_237",
+          "target": "global_263",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.8,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.4,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_237",
+          "target": "global_4",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.4334,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.2167,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_263",
+          "target": "global_5",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.4968,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.2484,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_27",
+          "target": "global_313",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.4968,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.2484,
+          "subcategory": "math.LO"
+        },
+        {
+          "source": "global_27",
+          "target": "global_345",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.5084,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.2542,
+          "subcategory": "math.LO"
+        },
+        {
+          "source": "global_27",
+          "target": "global_56",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.8050000000000002,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.4025,
+          "subcategory": "math.LO"
+        },
+        {
+          "source": "global_287",
+          "target": "global_349",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.4485999999999999,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.2243,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_287",
+          "target": "global_69",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.725,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.3625,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_30",
+          "target": "global_349",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.4584,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.2292,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_30",
+          "target": "global_355",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.7218,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.3609,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_30",
+          "target": "global_5",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.6482,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.3241,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_313",
+          "target": "global_339",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.6556,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.3278,
+          "subcategory": "math.LO"
+        },
+        {
+          "source": "global_313",
+          "target": "global_360",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.847,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.4235,
+          "subcategory": "math.LO"
+        },
+        {
+          "source": "global_313",
+          "target": "global_51",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.791,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.3955,
+          "subcategory": "math.LO"
+        },
+        {
+          "source": "global_313",
+          "target": "global_75",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.7556,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.3778,
+          "subcategory": "math.LO"
+        },
+        {
+          "source": "global_321",
+          "target": "global_56",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.4334,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.2167,
+          "subcategory": "math.LO"
+        },
+        {
+          "source": "global_337",
+          "target": "global_4",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.6583999999999999,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.3292,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_337",
+          "target": "global_5",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.6583999999999999,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.3292,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_339",
+          "target": "global_345",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.4736,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.2368,
+          "subcategory": "math.LO"
+        },
+        {
+          "source": "global_339",
+          "target": "global_360",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.6556,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.3278,
+          "subcategory": "math.LO"
+        },
+        {
+          "source": "global_339",
+          "target": "global_51",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.6909999999999998,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.3455,
+          "subcategory": "math.LO"
+        },
+        {
+          "source": "global_339",
+          "target": "global_75",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.6556,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.3278,
+          "subcategory": "math.LO"
+        },
+        {
+          "source": "global_345",
+          "target": "global_360",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.4736,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.2368,
+          "subcategory": "math.LO"
+        },
+        {
+          "source": "global_345",
+          "target": "global_56",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.7166000000000001,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.3583,
+          "subcategory": "math.LO"
+        },
+        {
+          "source": "global_349",
+          "target": "global_355",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.4736,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.2368,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_360",
+          "target": "global_51",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.791,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.3955,
+          "subcategory": "math.LO"
+        },
+        {
+          "source": "global_360",
+          "target": "global_75",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.7556,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.3778,
+          "subcategory": "math.LO"
+        },
+        {
+          "source": "global_361",
+          "target": "global_75",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.6736,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.3368,
+          "subcategory": "math.LO"
+        },
+        {
+          "source": "global_4",
+          "target": "global_5",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.8154,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.4077,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_5",
+          "target": "global_69",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.6583999999999999,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.3292,
+          "subcategory": "math.AG"
+        },
+        {
+          "source": "global_51",
+          "target": "global_75",
+          "kind": "NEIGHBOR_OF",
+          "display_weight": 1.791,
+          "evidence_type": "data-derived",
+          "confidence": "data-derived",
+          "weight": 0.3955,
+          "subcategory": "math.LO"
+        }
+      ],
+      "PARENT_OF": [
+        {
+          "source": "math.AG研究",
+          "target": "代数簇与模空间",
+          "kind": "PARENT_OF",
+          "display_weight": 2.0,
+          "evidence_type": "hierarchy-derived",
+          "confidence": "data-derived"
+        },
+        {
+          "source": "math.LO研究",
+          "target": "集合论与基数理论",
+          "kind": "PARENT_OF",
+          "display_weight": 2.0,
+          "evidence_type": "hierarchy-derived",
+          "confidence": "data-derived"
+        },
+        {
+          "source": "math.AG研究",
+          "target": "代数叠与高阶结构",
+          "kind": "PARENT_OF",
+          "display_weight": 2.0,
+          "evidence_type": "hierarchy-derived",
+          "confidence": "data-derived"
+        },
+        {
+          "source": "代数叠与高阶结构",
+          "target": "叠上的几何结构",
+          "kind": "PARENT_OF",
+          "display_weight": 2.0,
+          "evidence_type": "hierarchy-derived",
+          "confidence": "data-derived"
+        },
+        {
+          "source": "叠上的几何结构",
+          "target": "仿射代数群挠子",
+          "kind": "PARENT_OF",
+          "display_weight": 2.0,
+          "evidence_type": "hierarchy-derived",
+          "confidence": "data-derived"
+        },
+        {
+          "source": "math.AG研究",
+          "target": "几何与组合方法",
+          "kind": "PARENT_OF",
+          "display_weight": 2.0,
+          "evidence_type": "hierarchy-derived",
+          "confidence": "data-derived"
+        },
+        {
+          "source": "几何与组合方法",
+          "target": "热带几何",
+          "kind": "PARENT_OF",
+          "display_weight": 2.0,
+          "evidence_type": "hierarchy-derived",
+          "confidence": "data-derived"
+        },
+        {
+          "source": "math.LO研究",
+          "target": "数理逻辑",
+          "kind": "PARENT_OF",
+          "display_weight": 2.0,
+          "evidence_type": "hierarchy-derived",
+          "confidence": "data-derived"
+        },
+        {
+          "source": "数理逻辑",
+          "target": "非经典逻辑",
+          "kind": "PARENT_OF",
+          "display_weight": 2.0,
+          "evidence_type": "hierarchy-derived",
+          "confidence": "data-derived"
+        },
+        {
+          "source": "非经典逻辑",
+          "target": "概率逻辑",
+          "kind": "PARENT_OF",
+          "display_weight": 2.0,
+          "evidence_type": "hierarchy-derived",
+          "confidence": "data-derived"
+        },
+        {
+          "source": "非经典逻辑",
+          "target": "直觉主义逻辑",
+          "kind": "PARENT_OF",
+          "display_weight": 2.0,
+          "evidence_type": "hierarchy-derived",
+          "confidence": "data-derived"
+        },
+        {
+          "source": "数理逻辑",
+          "target": "模态逻辑",
+          "kind": "PARENT_OF",
+          "display_weight": 2.0,
+          "evidence_type": "hierarchy-derived",
+          "confidence": "data-derived"
+        },
+        {
+          "source": "集合论与基数理论",
+          "target": "力迫法",
+          "kind": "PARENT_OF",
+          "display_weight": 2.0,
+          "evidence_type": "hierarchy-derived",
+          "confidence": "data-derived"
+        },
+        {
+          "source": "math.AG研究",
+          "target": "上同调理论与母题",
+          "kind": "PARENT_OF",
+          "display_weight": 2.0,
+          "evidence_type": "hierarchy-derived",
+          "confidence": "data-derived"
+        },
+        {
+          "source": "上同调理论与母题",
+          "target": "经典上同调理论",
+          "kind": "PARENT_OF",
+          "display_weight": 2.0,
+          "evidence_type": "hierarchy-derived",
+          "confidence": "data-derived"
+        },
+        {
+          "source": "经典上同调理论",
+          "target": "平展上同调",
+          "kind": "PARENT_OF",
+          "display_weight": 2.0,
+          "evidence_type": "hierarchy-derived",
+          "confidence": "data-derived"
+        },
+        {
+          "source": "上同调理论与母题",
+          "target": "现代上同调与母题理论",
+          "kind": "PARENT_OF",
+          "display_weight": 2.0,
+          "evidence_type": "hierarchy-derived",
+          "confidence": "data-derived"
+        },
+        {
+          "source": "现代上同调与母题理论",
+          "target": "母题上同调",
+          "kind": "PARENT_OF",
+          "display_weight": 2.0,
+          "evidence_type": "hierarchy-derived",
+          "confidence": "data-derived"
+        },
+        {
+          "source": "代数叠与高阶结构",
+          "target": "导出几何与高阶范畴",
+          "kind": "PARENT_OF",
+          "display_weight": 2.0,
+          "evidence_type": "hierarchy-derived",
+          "confidence": "data-derived"
+        },
+        {
+          "source": "导出几何与高阶范畴",
+          "target": "导出代数叠",
+          "kind": "PARENT_OF",
+          "display_weight": 2.0,
+          "evidence_type": "hierarchy-derived",
+          "confidence": "data-derived"
+        },
+        {
+          "source": "代数簇与模空间",
+          "target": "簇的分类与模空间",
+          "kind": "PARENT_OF",
+          "display_weight": 2.0,
+          "evidence_type": "hierarchy-derived",
+          "confidence": "data-derived"
+        },
+        {
+          "source": "簇的分类与模空间",
+          "target": "志村簇",
+          "kind": "PARENT_OF",
+          "display_weight": 2.0,
+          "evidence_type": "hierarchy-derived",
+          "confidence": "data-derived"
+        }
+      ],
+      "EVOLVES_TO": [
+        {
+          "source": "global_56",
+          "target": "global_27",
+          "kind": "EVOLVES_TO",
+          "display_weight": 3.0,
+          "evidence_type": "benchmark-confirmed",
+          "confidence": "confirmed",
+          "benchmark_status": "positive",
+          "benchmark_case_id": "lo-b1",
+          "expected_relation": "math_lo_modal_continuity",
+          "subcategory": "math.LO",
+          "graph_band": "baseline",
+          "graph_layer": "modal_baseline",
+          "graph_role": "event_baseline",
+          "narrative_level": "event-level",
+          "narrative_note": "Current LO event-level baseline; graph-supported and replay-backed.",
+          "graph_export_status": "encoded_as_evolves_to",
+          "is_bidirectional": false
+        },
+        {
+          "source": "global_313",
+          "target": "global_360",
+          "kind": "EVOLVES_TO",
+          "display_weight": 3.0,
+          "evidence_type": "benchmark-confirmed",
+          "confidence": "confirmed",
+          "benchmark_status": "positive",
+          "benchmark_case_id": "lo-b3",
+          "expected_relation": "math_lo_set_theory_continuity",
+          "subcategory": "math.LO",
+          "graph_band": "bridge",
+          "graph_layer": "bridge_ring",
+          "graph_role": "set_theory_inner_backbone",
+          "narrative_level": "bridge-level",
+          "narrative_note": "Set-theory inner backbone: strongest graph-supported LO bridge branch below event-level.",
+          "graph_export_status": "encoded_as_evolves_to",
+          "is_bidirectional": false
+        },
+        {
+          "source": "global_51",
+          "target": "global_75",
+          "kind": "EVOLVES_TO",
+          "display_weight": 1.5,
+          "evidence_type": "benchmark-confirmed",
+          "confidence": "negative",
+          "benchmark_status": "negative",
+          "benchmark_case_id": "lo-n1",
+          "expected_relation": "not math_lo_forcing_continuity",
+          "subcategory": "math.LO",
+          "graph_band": "boundary",
+          "graph_layer": "boundary_negative",
+          "graph_role": "forcing_boundary",
+          "narrative_level": "boundary",
+          "narrative_note": "Keeps the forcing branch from swallowing the set-theory backbone.",
+          "graph_export_status": "encoded_as_evolves_to",
+          "is_bidirectional": false
+        },
+        {
+          "source": "global_339",
+          "target": "global_51",
+          "kind": "EVOLVES_TO",
+          "display_weight": 2.0,
+          "evidence_type": "benchmark-confirmed",
+          "confidence": "ambiguous",
+          "benchmark_status": "ambiguous",
+          "benchmark_case_id": "lo-a2",
+          "expected_relation": "review-needed",
+          "subcategory": "math.LO",
+          "graph_band": "review",
+          "graph_layer": "review_boundary",
+          "graph_role": "set_theory_near_miss",
+          "narrative_level": "ambiguous",
+          "narrative_note": "Near-miss inside the set-theory/forcing neighborhood; visible as a review boundary, not as a positive branch.",
+          "graph_export_status": "encoded_as_evolves_to",
+          "is_bidirectional": false
+        },
+        {
+          "source": "global_69",
+          "target": "global_287",
+          "kind": "EVOLVES_TO",
+          "display_weight": 3.0,
+          "evidence_type": "benchmark-confirmed",
+          "confidence": "confirmed",
+          "benchmark_status": "positive",
+          "benchmark_case_id": "ag-p1",
+          "expected_relation": "math_ag_object_continuity",
+          "subcategory": "math.AG",
+          "graph_band": "baseline",
+          "graph_layer": "confirmed_core",
+          "graph_role": "event_baseline",
+          "narrative_level": "event-level",
+          "narrative_note": "唯一稳定 runner-positive；作为 AG 主线 confirmed core 保留。",
+          "graph_export_status": "encoded_as_evolves_to",
+          "is_bidirectional": false
+        },
+        {
+          "source": "global_69",
+          "target": "global_136",
+          "kind": "EVOLVES_TO",
+          "display_weight": 1.5,
+          "evidence_type": "benchmark-confirmed",
+          "confidence": "negative",
+          "benchmark_status": "negative",
+          "benchmark_case_id": "ag-n1",
+          "expected_relation": "none",
+          "subcategory": "math.AG",
+          "graph_band": "boundary",
+          "graph_layer": "excluded_boundary",
+          "graph_role": "single_term_boundary",
+          "narrative_level": "boundary",
+          "narrative_note": "仅共享 sheaves (1 个对象词)；不满足当前 >=2 exact-term gate",
+          "graph_export_status": "encoded_as_evolves_to",
+          "is_bidirectional": false
+        },
+        {
+          "source": "global_30",
+          "target": "global_287",
+          "kind": "EVOLVES_TO",
+          "display_weight": 1.5,
+          "evidence_type": "benchmark-confirmed",
+          "confidence": "negative",
+          "benchmark_status": "negative",
+          "benchmark_case_id": "ag-n2",
+          "expected_relation": "none",
+          "subcategory": "math.AG",
+          "graph_band": "boundary",
+          "graph_layer": "excluded_boundary",
+          "graph_role": "class_overlap_boundary",
+          "narrative_level": "boundary",
+          "narrative_note": "class-overlap-only false positive；无 exact shared AG object terms",
+          "graph_export_status": "encoded_as_evolves_to",
+          "is_bidirectional": false
+        },
+        {
+          "source": "global_134",
+          "target": "global_30",
+          "kind": "EVOLVES_TO",
+          "display_weight": 1.5,
+          "evidence_type": "benchmark-confirmed",
+          "confidence": "negative",
+          "benchmark_status": "negative",
+          "benchmark_case_id": "ag-n3",
+          "expected_relation": "none",
+          "subcategory": "math.AG",
+          "graph_band": "boundary",
+          "graph_layer": "excluded_boundary",
+          "graph_role": "domain_boundary",
+          "narrative_level": "boundary",
+          "narrative_note": "domain boundary negative；凸几何主题不应进入 math.AG object continuity",
+          "graph_export_status": "encoded_as_evolves_to",
+          "is_bidirectional": false
+        },
+        {
+          "source": "global_4",
+          "target": "global_287",
+          "kind": "EVOLVES_TO",
+          "display_weight": 2.0,
+          "evidence_type": "benchmark-confirmed",
+          "confidence": "ambiguous",
+          "benchmark_status": "ambiguous",
+          "benchmark_case_id": "ag-amb1",
+          "expected_relation": "review-needed",
+          "subcategory": "math.AG",
+          "graph_band": "review",
+          "graph_layer": "review_boundary",
+          "graph_role": "boundary_dispute",
+          "narrative_level": "ambiguous",
+          "narrative_note": "Review-only AG boundary dispute; keep visible in metadata, not inside the default bridge ring.",
+          "graph_export_status": "encoded_as_evolves_to",
+          "is_bidirectional": false
+        }
+      ]
+    },
+    "total": 181
+  },
+  "filters": {
+    "subcategories": [
+      "math.LO",
+      "math.AG"
+    ],
+    "edge_kinds": [
+      "CONTAINS_TOPIC",
+      "EVOLVES_TO",
+      "PARENT_OF",
+      "ACTIVE_IN",
+      "NEIGHBOR_OF"
+    ],
+    "confidence_levels": [
+      "data-derived",
+      "negative",
+      "ambiguous",
+      "confirmed"
+    ],
+    "periods": [
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "graph_bands": [
+      "baseline",
+      "bridge",
+      "boundary",
+      "review",
+      "contract",
+      "deferred"
+    ],
+    "encoded_graph_bands": [
+      "baseline",
+      "bridge",
+      "boundary",
+      "review"
+    ],
+    "domain_export_presences": [
+      "baseline_subgraph",
+      "docs_only_contract",
+      "docs_only_narrative"
+    ],
+    "topology_statuses": [
+      "baseline_topology_included",
+      "not_in_baseline_topology"
+    ],
+    "narrative_statuses": [
+      "benchmark_skeleton_ready"
+    ]
+  },
+  "stats": {
+    "topic_count": 32,
+    "subcategory_count": 2,
+    "period_count": 13,
+    "edge_count": 181,
+    "evolves_to_count": 9,
+    "evolves_to_by_confidence": {
+      "confirmed": 3,
+      "negative": 4,
+      "ambiguous": 2
+    },
+    "evolves_to_by_graph_band": {
+      "baseline": 2,
+      "bridge": 1,
+      "boundary": 4,
+      "review": 2
+    },
+    "domain_count": 5,
+    "domain_export_presence_counts": {
+      "baseline_subgraph": 2,
+      "docs_only_contract": 1,
+      "docs_only_narrative": 2
+    },
+    "domain_topology_status_counts": {
+      "baseline_topology_included": 2,
+      "not_in_baseline_topology": 3
+    },
+    "narrative_case_count": 37,
+    "narrative_case_counts_by_graph_band": {
+      "baseline": 2,
+      "bridge": 11,
+      "boundary": 15,
+      "review": 6,
+      "contract": 2,
+      "deferred": 1
+    },
+    "narrative_case_counts_by_export_status": {
+      "encoded_as_evolves_to": 9,
+      "docs_only_outside_baseline_hierarchy": 9,
+      "in_scope_metadata_only": 2,
+      "docs_only_outside_export_scope": 17
+    },
+    "narrative_layer_counts_by_graph_band": {
+      "baseline": 2,
+      "bridge": 5,
+      "boundary": 5,
+      "review": 5,
+      "contract": 1,
+      "deferred": 1
+    }
+  },
+  "is_conditional": false
+}

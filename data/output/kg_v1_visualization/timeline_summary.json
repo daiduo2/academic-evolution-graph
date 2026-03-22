@@ -1,0 +1,84 @@
+{
+  "version": "kg_v1_visualization",
+  "generated_at": "2026-03-22T19:22:48.920401",
+  "timeline": [
+    {
+      "period": "2025-02",
+      "active_topic_count": 4,
+      "benchmark_edge_count": 2,
+      "subcategory_activity": {}
+    },
+    {
+      "period": "2025-03",
+      "active_topic_count": 4,
+      "benchmark_edge_count": 4,
+      "subcategory_activity": {}
+    },
+    {
+      "period": "2025-04",
+      "active_topic_count": 5,
+      "benchmark_edge_count": 3,
+      "subcategory_activity": {}
+    },
+    {
+      "period": "2025-05",
+      "active_topic_count": 3,
+      "benchmark_edge_count": 1,
+      "subcategory_activity": {}
+    },
+    {
+      "period": "2025-06",
+      "active_topic_count": 4,
+      "benchmark_edge_count": 2,
+      "subcategory_activity": {}
+    },
+    {
+      "period": "2025-07",
+      "active_topic_count": 2,
+      "benchmark_edge_count": 1,
+      "subcategory_activity": {}
+    },
+    {
+      "period": "2025-08",
+      "active_topic_count": 5,
+      "benchmark_edge_count": 2,
+      "subcategory_activity": {}
+    },
+    {
+      "period": "2025-09",
+      "active_topic_count": 4,
+      "benchmark_edge_count": 2,
+      "subcategory_activity": {}
+    },
+    {
+      "period": "2025-10",
+      "active_topic_count": 5,
+      "benchmark_edge_count": 3,
+      "subcategory_activity": {}
+    },
+    {
+      "period": "2025-11",
+      "active_topic_count": 4,
+      "benchmark_edge_count": 2,
+      "subcategory_activity": {}
+    },
+    {
+      "period": "2025-12",
+      "active_topic_count": 3,
+      "benchmark_edge_count": 2,
+      "subcategory_activity": {}
+    },
+    {
+      "period": "2026-01",
+      "active_topic_count": 8,
+      "benchmark_edge_count": 3,
+      "subcategory_activity": {}
+    },
+    {
+      "period": "2026-02",
+      "active_topic_count": 4,
+      "benchmark_edge_count": 2,
+      "subcategory_activity": {}
+    }
+  ]
+}

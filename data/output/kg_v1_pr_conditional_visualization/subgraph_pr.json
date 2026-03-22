@@ -1,0 +1,2083 @@
+{
+  "version": "kg_v1_visualization",
+  "subcategory": "PR",
+  "generated_at": "2026-03-22T19:22:48.930820",
+  "metadata": {
+    "domain_code": "math.PR",
+    "export_presence": null,
+    "topology_status": null,
+    "graph_shape": null,
+    "summary": null,
+    "selected_rule": null,
+    "candidate_rule": null,
+    "narrative_status": null,
+    "baseline_truth_layer_keys": [],
+    "narrative_only_layer_keys": [],
+    "visible_graph_bands": [],
+    "narrative_layers": {},
+    "narrative_case_registry": [],
+    "encoded_case_ids": [
+      "pr-p1",
+      "pr-p2",
+      "pr-p3",
+      "pr-p4"
+    ],
+    "evolves_to_by_graph_band": {},
+    "case_counts_by_graph_band": {},
+    "case_counts_by_export_status": {},
+    "layer_counts_by_graph_band": {}
+  },
+  "nodes": {
+    "topics": [
+      {
+        "id": "global_392",
+        "label": "随机矩阵理论",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 30.9,
+        "active_periods": 1,
+        "total_papers": 64,
+        "keywords": [
+          "random",
+          "matrices",
+          "entries",
+          "matrix",
+          "hermitian"
+        ],
+        "hierarchy_depth": 3
+      },
+      {
+        "id": "global_295",
+        "label": "期权波动率定价",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 26.7,
+        "active_periods": 1,
+        "total_papers": 27,
+        "keywords": [
+          "volatility",
+          "options",
+          "martingale",
+          "price",
+          "pricing"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_65",
+        "label": "随机微分方程收敛",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "persistent",
+        "display_size": 44.9,
+        "active_periods": 4,
+        "total_papers": 391,
+        "keywords": [
+          "convergence",
+          "stochastic",
+          "equations",
+          "existence",
+          "noise"
+        ],
+        "hierarchy_depth": 4
+      },
+      {
+        "id": "global_209",
+        "label": "渗流对数多区制研究",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 25.5,
+        "active_periods": 1,
+        "total_papers": 21,
+        "keywords": [
+          "percolation",
+          "logarithmic",
+          "3α",
+          "η_m",
+          "regimes"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_180",
+        "label": "聚合物热测量研究",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 22.8,
+        "active_periods": 1,
+        "total_papers": 12,
+        "keywords": [
+          "shf",
+          "polymer",
+          "μ_γ",
+          "heat",
+          "measure"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_306",
+        "label": "遍历占位与布朗运动",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 22.8,
+        "active_periods": 1,
+        "total_papers": 12,
+        "keywords": [
+          "occupation",
+          "ehi",
+          "boldsymbol",
+          "brownian",
+          "ergodicity"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_211",
+        "label": "种群适应与生态进化",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 37.8,
+        "active_periods": 2,
+        "total_papers": 94,
+        "keywords": [
+          "growth",
+          "ecological",
+          "population",
+          "populations",
+          "competition"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_99",
+        "label": "随机游走与分支",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "persistent",
+        "display_size": 41.0,
+        "active_periods": 3,
+        "total_papers": 179,
+        "keywords": [
+          "ruin",
+          "hawkes",
+          "percolation",
+          "gsaws",
+          "martingale"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_196",
+        "label": "保险风险与分红策略",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 24.2,
+        "active_periods": 1,
+        "total_papers": 16,
+        "keywords": [
+          "insurance",
+          "risk",
+          "reinsurance",
+          "dividend",
+          "ruin"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_278",
+        "label": "马尔可夫分支过程",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 30.0,
+        "active_periods": 1,
+        "total_papers": 54,
+        "keywords": [
+          "markov",
+          "processes",
+          "chains",
+          "branching",
+          "poisson"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_97",
+        "label": "随机图与树概率",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 28.4,
+        "active_periods": 1,
+        "total_papers": 39,
+        "keywords": [
+          "random",
+          "trees",
+          "graphs",
+          "graph",
+          "probability"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_100",
+        "label": "随机矩阵系综累积量",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 36.8,
+        "active_periods": 2,
+        "total_papers": 78,
+        "keywords": [
+          "matrix",
+          "eigenvalues",
+          "matrices",
+          "tensor",
+          "eigenvalue"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_47",
+        "label": "伊辛相变与临界",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 37.9,
+        "active_periods": 2,
+        "total_papers": 96,
+        "keywords": [
+          "scaling",
+          "potts",
+          "xy",
+          "spin",
+          "temperature"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_156",
+        "label": "随机矩阵特征值分析",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 36.8,
+        "active_periods": 2,
+        "total_papers": 78,
+        "keywords": [
+          "fourier",
+          "matrix",
+          "operatorname",
+          "eigenvalues",
+          "matrices"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_222",
+        "label": "分数布朗过程与赫斯特指数",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 26.5,
+        "active_periods": 1,
+        "total_papers": 26,
+        "keywords": [
+          "rough",
+          "hurst",
+          "fractional",
+          "brownian",
+          "processes"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_61",
+        "label": "重交通环形排队",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 31.7,
+        "active_periods": 2,
+        "total_papers": 27,
+        "keywords": [
+          "server",
+          "arrival",
+          "traffic",
+          "servers",
+          "queue"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_39",
+        "label": "随机过程渗流方程",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "persistent",
+        "display_size": 45,
+        "active_periods": 4,
+        "total_papers": 1280,
+        "keywords": [
+          "convergence",
+          "stochastic",
+          "percolation",
+          "equations",
+          "time"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_87",
+        "label": "种群增长与等位基因溯祖",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 22.8,
+        "active_periods": 1,
+        "total_papers": 12,
+        "keywords": [
+          "population",
+          "coalescents",
+          "growth",
+          "allele",
+          "metapopulation"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_60",
+        "label": "贝叶斯高斯后验采样",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 32.3,
+        "active_periods": 1,
+        "total_papers": 86,
+        "keywords": [
+          "sampling",
+          "posterior",
+          "gaussian",
+          "bayesian",
+          "monte"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_116",
+        "label": "强化随机游走渗流",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 35.9,
+        "active_periods": 2,
+        "total_papers": 65,
+        "keywords": [
+          "reinforced",
+          "markov",
+          "step",
+          "elephant",
+          "percolation"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_241",
+        "label": "蚊媒种群分岔",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 22.4,
+        "active_periods": 1,
+        "total_papers": 11,
+        "keywords": [
+          "mosquito",
+          "bifurcation",
+          "population",
+          "disease",
+          "intercropping"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_198",
+        "label": "分支随机移民游走",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 27.6,
+        "active_periods": 1,
+        "total_papers": 33,
+        "keywords": [
+          "branching",
+          "random",
+          "immigration",
+          "markov",
+          "walk"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_125",
+        "label": "种群谱系适合度溯祖",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 23.9,
+        "active_periods": 1,
+        "total_papers": 15,
+        "keywords": [
+          "population",
+          "growth",
+          "pedigree",
+          "coalescent",
+          "fitness"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_271",
+        "label": "渗流与随机行走临界性",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 38.9,
+        "active_periods": 2,
+        "total_papers": 118,
+        "keywords": [
+          "coalescing",
+          "percolation",
+          "kpz",
+          "brownian",
+          "lattice"
+        ],
+        "hierarchy_depth": 4
+      },
+      {
+        "id": "global_394",
+        "label": "随机麦基恩-朗之万方程",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 27.0,
+        "active_periods": 1,
+        "total_papers": 29,
+        "keywords": [
+          "langevin",
+          "dissipation",
+          "stochastic",
+          "particle",
+          "mckean"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_38",
+        "label": "随机极限与不等式",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 41.7,
+        "active_periods": 2,
+        "total_papers": 208,
+        "keywords": [
+          "convergence",
+          "g_n",
+          "matrices",
+          "walk",
+          "infty"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_188",
+        "label": "随机粗糙McKean方程",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "persistent",
+        "display_size": 44.8,
+        "active_periods": 4,
+        "total_papers": 387,
+        "keywords": [
+          "jump",
+          "spdes",
+          "stochastic",
+          "hawkes",
+          "equations"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_147",
+        "label": "淬火与动态相变研究",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 22.0,
+        "active_periods": 1,
+        "total_papers": 10,
+        "keywords": [
+          "quench",
+          "phase",
+          "dqpts",
+          "sk",
+          "transitions"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_393",
+        "label": "随机积分迭代理论",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 25.9,
+        "active_periods": 1,
+        "total_papers": 23,
+        "keywords": [
+          "iterated",
+          "ito",
+          "stratonovich",
+          "integrals",
+          "stochastic"
+        ],
+        "hierarchy_depth": 4
+      }
+    ],
+    "subcategory": {
+      "id": "math.PR",
+      "code": "math.PR",
+      "label": "Probability Theory",
+      "kind": "subcategory",
+      "subcategory": "PR",
+      "status": "ready",
+      "display_size": 25,
+      "topic_count": 29,
+      "multi_period_count": 12,
+      "evidence_quality": "conditional-inferred"
+    },
+    "total_topics": 29
+  },
+  "edges": [
+    {
+      "source": "math.PR",
+      "target": "global_392",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_295",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_65",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_209",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_180",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_306",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_211",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_99",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_196",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_278",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_97",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_100",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_47",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_156",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_222",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_61",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_39",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_87",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_60",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_116",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_241",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_198",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_125",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_271",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_394",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_38",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_188",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_147",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_393",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "global_392",
+      "target": "2026-02",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 64
+    },
+    {
+      "source": "global_295",
+      "target": "2025-11",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 27
+    },
+    {
+      "source": "global_65",
+      "target": "2025-03",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 51
+    },
+    {
+      "source": "global_65",
+      "target": "2025-05",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 96
+    },
+    {
+      "source": "global_65",
+      "target": "2025-08",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 144
+    },
+    {
+      "source": "global_65",
+      "target": "2025-10",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 100
+    },
+    {
+      "source": "global_209",
+      "target": "2025-08",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 21
+    },
+    {
+      "source": "global_180",
+      "target": "2025-07",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 12
+    },
+    {
+      "source": "global_306",
+      "target": "2025-11",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 12
+    },
+    {
+      "source": "global_211",
+      "target": "2025-08",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 42
+    },
+    {
+      "source": "global_211",
+      "target": "2025-12",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 52
+    },
+    {
+      "source": "global_99",
+      "target": "2025-04",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 29
+    },
+    {
+      "source": "global_99",
+      "target": "2025-09",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 125
+    },
+    {
+      "source": "global_99",
+      "target": "2026-02",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 25
+    },
+    {
+      "source": "global_196",
+      "target": "2025-08",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 16
+    },
+    {
+      "source": "global_278",
+      "target": "2025-10",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 54
+    },
+    {
+      "source": "global_97",
+      "target": "2025-04",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 39
+    },
+    {
+      "source": "global_100",
+      "target": "2025-04",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 44
+    },
+    {
+      "source": "global_100",
+      "target": "2025-07",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 34
+    },
+    {
+      "source": "global_47",
+      "target": "2025-03",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 53
+    },
+    {
+      "source": "global_47",
+      "target": "2025-07",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 43
+    },
+    {
+      "source": "global_156",
+      "target": "2025-06",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 28
+    },
+    {
+      "source": "global_156",
+      "target": "2025-09",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 50
+    },
+    {
+      "source": "global_222",
+      "target": "2025-09",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 26
+    },
+    {
+      "source": "global_61",
+      "target": "2025-03",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 11
+    },
+    {
+      "source": "global_61",
+      "target": "2025-05",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 16
+    },
+    {
+      "source": "global_39",
+      "target": "2025-02",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 194
+    },
+    {
+      "source": "global_39",
+      "target": "2025-06",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 344
+    },
+    {
+      "source": "global_39",
+      "target": "2025-12",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 547
+    },
+    {
+      "source": "global_39",
+      "target": "2026-01",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 195
+    },
+    {
+      "source": "global_87",
+      "target": "2025-04",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 12
+    },
+    {
+      "source": "global_60",
+      "target": "2025-03",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 86
+    },
+    {
+      "source": "global_116",
+      "target": "2025-05",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 27
+    },
+    {
+      "source": "global_116",
+      "target": "2025-07",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 38
+    },
+    {
+      "source": "global_241",
+      "target": "2025-09",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 11
+    },
+    {
+      "source": "global_198",
+      "target": "2025-08",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 33
+    },
+    {
+      "source": "global_125",
+      "target": "2025-05",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 15
+    },
+    {
+      "source": "global_271",
+      "target": "2025-10",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 63
+    },
+    {
+      "source": "global_271",
+      "target": "2026-02",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 55
+    },
+    {
+      "source": "global_394",
+      "target": "2026-02",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 29
+    },
+    {
+      "source": "global_38",
+      "target": "2025-02",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 61
+    },
+    {
+      "source": "global_38",
+      "target": "2025-03",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 147
+    },
+    {
+      "source": "global_188",
+      "target": "2025-07",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 96
+    },
+    {
+      "source": "global_188",
+      "target": "2025-09",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 116
+    },
+    {
+      "source": "global_188",
+      "target": "2025-11",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 95
+    },
+    {
+      "source": "global_188",
+      "target": "2026-02",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 80
+    },
+    {
+      "source": "global_147",
+      "target": "2025-06",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 10
+    },
+    {
+      "source": "global_393",
+      "target": "2026-02",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 23
+    },
+    {
+      "source": "global_100",
+      "target": "global_156",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.95,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.475,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_100",
+      "target": "global_198",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6583999999999999,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3292,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_100",
+      "target": "global_278",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6583999999999999,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3292,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_100",
+      "target": "global_38",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.7,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.35,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_100",
+      "target": "global_392",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6665999999999999,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3333,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_116",
+      "target": "global_156",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.7,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.35,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_116",
+      "target": "global_198",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.791,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3955,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_116",
+      "target": "global_209",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6583999999999999,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3292,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_116",
+      "target": "global_271",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.5904,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.2952,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_116",
+      "target": "global_278",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.791,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3955,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_116",
+      "target": "global_38",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.8154,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.4077,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_116",
+      "target": "global_39",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.88,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.44,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_116",
+      "target": "global_97",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.791,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3955,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_116",
+      "target": "global_99",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.88,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.44,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_125",
+      "target": "global_211",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.8666,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.4333,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_125",
+      "target": "global_241",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6736,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3368,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_125",
+      "target": "global_278",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6736,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3368,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_125",
+      "target": "global_87",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.847,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.4235,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_147",
+      "target": "global_47",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.791,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3955,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_156",
+      "target": "global_38",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.8154,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.4077,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_156",
+      "target": "global_392",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.75,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.375,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_156",
+      "target": "global_97",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.7218,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3609,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_180",
+      "target": "global_295",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6736,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3368,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_180",
+      "target": "global_306",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6736,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3368,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_180",
+      "target": "global_39",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.7218,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3609,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_180",
+      "target": "global_393",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.5236,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.2618,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_180",
+      "target": "global_394",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6736,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3368,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_180",
+      "target": "global_47",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6583999999999999,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3292,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_180",
+      "target": "global_60",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6736,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3368,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_188",
+      "target": "global_222",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.8666,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.4333,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_188",
+      "target": "global_295",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.7218,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3609,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_188",
+      "target": "global_39",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.8154,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.4077,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_188",
+      "target": "global_394",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.791,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3955,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_188",
+      "target": "global_60",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6583999999999999,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3292,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_188",
+      "target": "global_65",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.959,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.4795,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_188",
+      "target": "global_99",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.7556,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3778,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_196",
+      "target": "global_295",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6736,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3368,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_196",
+      "target": "global_99",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6583999999999999,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3292,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_198",
+      "target": "global_271",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.4968,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.2484,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_198",
+      "target": "global_278",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.95,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.475,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_198",
+      "target": "global_38",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.95,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.475,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_198",
+      "target": "global_39",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.7218,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3609,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_198",
+      "target": "global_61",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6608,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3304,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_198",
+      "target": "global_97",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6736,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3368,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_198",
+      "target": "global_99",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.7218,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3609,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_209",
+      "target": "global_271",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.5659999999999998,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.283,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_209",
+      "target": "global_39",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6583999999999999,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3292,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_209",
+      "target": "global_47",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.7218,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3609,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_209",
+      "target": "global_99",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6583999999999999,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3292,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_211",
+      "target": "global_241",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6583999999999999,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3292,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_211",
+      "target": "global_87",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.791,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3955,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_222",
+      "target": "global_278",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.847,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.4235,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_222",
+      "target": "global_306",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.7556,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3778,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_222",
+      "target": "global_39",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.791,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3955,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_222",
+      "target": "global_99",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.7218,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3609,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_241",
+      "target": "global_87",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6736,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3368,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_271",
+      "target": "global_39",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.655,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3275,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_271",
+      "target": "global_47",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.475,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.2375,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_271",
+      "target": "global_99",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.655,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3275,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_278",
+      "target": "global_306",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.7556,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3778,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_278",
+      "target": "global_39",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.8666,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.4333,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_278",
+      "target": "global_87",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6736,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3368,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_278",
+      "target": "global_99",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.791,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3955,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_295",
+      "target": "global_393",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.5236,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.2618,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_295",
+      "target": "global_394",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6736,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3368,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_295",
+      "target": "global_60",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6736,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3368,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_306",
+      "target": "global_39",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.791,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3955,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_306",
+      "target": "global_394",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6736,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3368,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_38",
+      "target": "global_39",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.7556,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3778,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_38",
+      "target": "global_392",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.5218,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.2609,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_38",
+      "target": "global_97",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.791,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3955,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_39",
+      "target": "global_394",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.7218,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3609,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_39",
+      "target": "global_60",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6583999999999999,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3292,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_39",
+      "target": "global_65",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.6654,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3327,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_39",
+      "target": "global_97",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.791,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3955,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_39",
+      "target": "global_99",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.95,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.475,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_393",
+      "target": "global_394",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.5236,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.2618,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_393",
+      "target": "global_60",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.5236,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.2618,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_393",
+      "target": "global_65",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.5834000000000001,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.2917,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_394",
+      "target": "global_60",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.7556,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.3778,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_394",
+      "target": "global_65",
+      "kind": "NEIGHBOR_OF",
+      "display_weight": 1.8,
+      "evidence_type": "data-derived",
+      "confidence": "data-derived",
+      "weight": 0.4,
+      "subcategory": "math.PR"
+    },
+    {
+      "source": "global_38",
+      "target": "global_100",
+      "kind": "EVOLVES_TO",
+      "display_weight": 1.0,
+      "evidence_type": "provisional",
+      "confidence": "inferred",
+      "benchmark_status": "positive",
+      "benchmark_case_id": "pr-p1",
+      "expected_relation": "EVOLVES_TO",
+      "subcategory": "math.PR",
+      "graph_band": "",
+      "graph_layer": "",
+      "graph_role": "",
+      "narrative_level": "",
+      "narrative_note": "",
+      "graph_export_status": "",
+      "is_bidirectional": false
+    },
+    {
+      "source": "global_38",
+      "target": "global_156",
+      "kind": "EVOLVES_TO",
+      "display_weight": 1.0,
+      "evidence_type": "provisional",
+      "confidence": "inferred",
+      "benchmark_status": "positive",
+      "benchmark_case_id": "pr-p2",
+      "expected_relation": "EVOLVES_TO",
+      "subcategory": "math.PR",
+      "graph_band": "",
+      "graph_layer": "",
+      "graph_role": "",
+      "narrative_level": "",
+      "narrative_note": "",
+      "graph_export_status": "",
+      "is_bidirectional": false
+    },
+    {
+      "source": "global_38",
+      "target": "global_99",
+      "kind": "EVOLVES_TO",
+      "display_weight": 1.0,
+      "evidence_type": "provisional",
+      "confidence": "inferred",
+      "benchmark_status": "positive",
+      "benchmark_case_id": "pr-p3",
+      "expected_relation": "EVOLVES_TO",
+      "subcategory": "math.PR",
+      "graph_band": "",
+      "graph_layer": "",
+      "graph_role": "",
+      "narrative_level": "",
+      "narrative_note": "",
+      "graph_export_status": "",
+      "is_bidirectional": false
+    },
+    {
+      "source": "global_65",
+      "target": "global_188",
+      "kind": "EVOLVES_TO",
+      "display_weight": 1.0,
+      "evidence_type": "provisional",
+      "confidence": "inferred",
+      "benchmark_status": "positive",
+      "benchmark_case_id": "pr-p4",
+      "expected_relation": "EVOLVES_TO",
+      "subcategory": "math.PR",
+      "graph_band": "",
+      "graph_layer": "",
+      "graph_role": "",
+      "narrative_level": "",
+      "narrative_note": "",
+      "graph_export_status": "",
+      "is_bidirectional": false
+    }
+  ],
+  "stats": {
+    "topic_count": 29,
+    "edge_count": 162,
+    "evolves_to_count": 4,
+    "evolves_to_by_graph_band": {},
+    "narrative_case_count": 0,
+    "narrative_case_counts_by_graph_band": {},
+    "narrative_case_counts_by_export_status": {},
+    "narrative_layer_counts_by_graph_band": {}
+  }
+}

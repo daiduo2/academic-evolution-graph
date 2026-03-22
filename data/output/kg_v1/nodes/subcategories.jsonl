@@ -1,0 +1,2 @@
+{"code": "math.LO", "name": "Logic", "discipline": "math", "topic_count": 15, "multi_period_count": 3, "single_period_count": 12, "eligible_anchor_count": 3, "status": "ready", "evidence_quality": "benchmark-verified"}
+{"code": "math.AG", "name": "Algebraic Geometry", "discipline": "math", "topic_count": 17, "multi_period_count": 3, "single_period_count": 14, "eligible_anchor_count": 3, "status": "ready", "evidence_quality": "benchmark-verified"}

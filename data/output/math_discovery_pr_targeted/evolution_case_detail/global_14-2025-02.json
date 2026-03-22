@@ -1,0 +1,710 @@
+{
+  "case_id": "global_14-2025-02",
+  "anchor_topic_id": "global_14",
+  "anchor_topic_name": "志村簇阿贝尔雅可比同源",
+  "anchor_topic_mode": "theory",
+  "anchor_topic_profile": {
+    "primary_mode": "theory",
+    "secondary_mode": null,
+    "method_score": 0,
+    "problem_score": 0,
+    "theory_score": 4
+  },
+  "start_period": "2025-02",
+  "observation_horizon": 4,
+  "neighbor_topics": [
+    "global_26",
+    "global_2",
+    "global_343",
+    "global_28",
+    "global_355"
+  ],
+  "evolution_path": [
+    {
+      "period": "2025-02",
+      "anchor_paper_count": 15,
+      "active_neighbor_count": 3,
+      "top_neighbors": [
+        {
+          "topic_id": "global_2",
+          "topic_name": "p进伽罗瓦表示理论",
+          "paper_count": 19,
+          "weight": 0.44,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 3
+          }
+        },
+        {
+          "topic_id": "global_28",
+          "topic_name": "模形式与ADIC猜想",
+          "paper_count": 16,
+          "weight": 0.3955,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 4
+          }
+        },
+        {
+          "topic_id": "global_26",
+          "topic_name": "椭圆曲线塞尔默群",
+          "paper_count": 12,
+          "weight": 0.442,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 4
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-03",
+      "anchor_paper_count": 0,
+      "active_neighbor_count": 0,
+      "top_neighbors": [
+        {
+          "topic_id": "global_26",
+          "topic_name": "椭圆曲线塞尔默群",
+          "paper_count": 0,
+          "weight": 0.442,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 4
+          }
+        },
+        {
+          "topic_id": "global_2",
+          "topic_name": "p进伽罗瓦表示理论",
+          "paper_count": 0,
+          "weight": 0.44,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 3
+          }
+        },
+        {
+          "topic_id": "global_343",
+          "topic_name": "志村簇与朗兰兹猜想",
+          "paper_count": 0,
+          "weight": 0.3958,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 5
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-04",
+      "anchor_paper_count": 89,
+      "active_neighbor_count": 0,
+      "top_neighbors": [
+        {
+          "topic_id": "global_26",
+          "topic_name": "椭圆曲线塞尔默群",
+          "paper_count": 0,
+          "weight": 0.442,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 4
+          }
+        },
+        {
+          "topic_id": "global_2",
+          "topic_name": "p进伽罗瓦表示理论",
+          "paper_count": 0,
+          "weight": 0.44,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 3
+          }
+        },
+        {
+          "topic_id": "global_343",
+          "topic_name": "志村簇与朗兰兹猜想",
+          "paper_count": 0,
+          "weight": 0.3958,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 5
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-05",
+      "anchor_paper_count": 0,
+      "active_neighbor_count": 1,
+      "top_neighbors": [
+        {
+          "topic_id": "global_26",
+          "topic_name": "椭圆曲线塞尔默群",
+          "paper_count": 45,
+          "weight": 0.442,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 4
+          }
+        },
+        {
+          "topic_id": "global_2",
+          "topic_name": "p进伽罗瓦表示理论",
+          "paper_count": 0,
+          "weight": 0.44,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 3
+          }
+        },
+        {
+          "topic_id": "global_343",
+          "topic_name": "志村簇与朗兰兹猜想",
+          "paper_count": 0,
+          "weight": 0.3958,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 5
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-06",
+      "anchor_paper_count": 0,
+      "active_neighbor_count": 2,
+      "top_neighbors": [
+        {
+          "topic_id": "global_2",
+          "topic_name": "p进伽罗瓦表示理论",
+          "paper_count": 33,
+          "weight": 0.44,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 3
+          }
+        },
+        {
+          "topic_id": "global_26",
+          "topic_name": "椭圆曲线塞尔默群",
+          "paper_count": 12,
+          "weight": 0.442,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 4
+          }
+        },
+        {
+          "topic_id": "global_343",
+          "topic_name": "志村簇与朗兰兹猜想",
+          "paper_count": 0,
+          "weight": 0.3958,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 5
+          }
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "type": "emerged",
+      "period": "2025-02",
+      "summary": "Anchor topic first appears in the replay window."
+    },
+    {
+      "type": "expanded",
+      "period": "2025-04",
+      "summary": "Anchor topic grows materially during the replay horizon."
+    },
+    {
+      "type": "diffused_to_neighbor",
+      "period": "2025-05",
+      "summary": "Semantic neighbors absorb momentum from the anchor topic around 2025-05.",
+      "evidence": {
+        "target_topic_id": "global_26",
+        "target_topic_name": "椭圆曲线塞尔默群",
+        "target_topic_mode": "theory",
+        "transfer_kind": "theory_spillover",
+        "transfer_pattern": "spillover",
+        "weight": 0.442,
+        "increase": 33,
+        "bridge_evidence": {
+          "shared_keywords": [
+            "abelian",
+            "conjecture",
+            "curve",
+            "curves",
+            "elliptic",
+            "isogeny"
+          ],
+          "bridge_topics": [
+            "p进伽罗瓦表示理论",
+            "志村簇与朗兰兹猜想",
+            "模形式与ADIC猜想"
+          ],
+          "target_evidence_titles": [
+            "On the Identification of Elliptic Curves That Admit Infinitely Many Twists Satisfying the Birch-Swinnerton-Dyer Conjecture",
+            "Absolutely Abelian Hilbert Class Fields and $\\ell-$torsion conjecture"
+          ],
+          "category_flow": {
+            "source_category": "math",
+            "target_category": "math",
+            "source_top_level": "math",
+            "target_top_level": "math",
+            "relation": "same_category"
+          },
+          "pipeline_relation": {
+            "relation": "formal_structure_same_lineage",
+            "source_stage_terms": [],
+            "target_stage_terms": [],
+            "shared_domain_terms": [],
+            "representation_stage_terms": [],
+            "perception_stage_terms": [],
+            "shared_3d_terms": [],
+            "shared_formal_terms": [
+              "curve",
+              "curves",
+              "modular"
+            ],
+            "shared_math_ag_objects": [
+              "abelian",
+              "curve",
+              "curves"
+            ],
+            "shared_math_ag_methods": [],
+            "shared_math_lo_objects": [],
+            "shared_math_lo_methods": [],
+            "shared_math_lo_core_objects": [],
+            "shared_math_lo_modal_objects": [],
+            "shared_math_lo_modal_methods": [],
+            "shared_math_lo_set_objects": [],
+            "shared_math_lo_set_methods": [],
+            "shared_math_lo_forcing_objects": [],
+            "shared_math_lo_forcing_methods": [],
+            "shared_math_lo_type_objects": [],
+            "source_type_terms": [],
+            "target_type_terms": [],
+            "shared_math_lo_definability_objects": [],
+            "shared_math_lo_definability_methods": [],
+            "math_ag_object_matches": {
+              "anchor": {
+                "variety_family": [
+                  "abelian",
+                  "curve",
+                  "curves",
+                  "shimura",
+                  "varieties"
+                ]
+              },
+              "target": {
+                "variety_family": [
+                  "abelian",
+                  "curve",
+                  "curves"
+                ]
+              },
+              "overlap": {
+                "score": 1.0,
+                "shared_exact_terms": [
+                  "abelian",
+                  "curve",
+                  "curves"
+                ],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            },
+            "math_ag_method_matches": {
+              "anchor": {
+                "cohomological": [
+                  "adic"
+                ]
+              },
+              "target": {},
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            }
+          },
+          "evidence_title_overlap": {
+            "anchor_titles": [
+              "On the Identification of Elliptic Curves That Admit Infinitely Many Twists Satisfying the Birch-Swinnerton-Dyer Conjecture",
+              "Absolutely Abelian Hilbert Class Fields and $\\ell-$torsion conjecture"
+            ],
+            "target_titles": [
+              "On the Identification of Elliptic Curves That Admit Infinitely Many Twists Satisfying the Birch-Swinnerton-Dyer Conjecture",
+              "Absolutely Abelian Hilbert Class Fields and $\\ell-$torsion conjecture"
+            ],
+            "shared_terms": [
+              "$\\ell",
+              "$torsion",
+              "abelian",
+              "absolutely",
+              "admit",
+              "birch"
+            ],
+            "shared_term_count": 6
+          },
+          "bridge_strength": 1.0,
+          "alias_risk": {
+            "level": "low",
+            "reason": "distinct_concepts"
+          }
+        },
+        "post_transfer_persistence": {
+          "lookahead_periods": [
+            "2025-06",
+            "2025-07"
+          ],
+          "active_periods_after_event": 1,
+          "paper_counts_after_event": [
+            12,
+            0
+          ],
+          "sustained": false
+        },
+        "anchor_post_event_persistence": {
+          "lookahead_periods": [
+            "2025-06",
+            "2025-07"
+          ],
+          "active_periods_after_event": 1,
+          "paper_counts_after_event": [
+            0,
+            73
+          ],
+          "sustained": false
+        },
+        "relative_persistence": {
+          "anchor_total": 73,
+          "target_total": 12,
+          "target_to_anchor_ratio": 0.164,
+          "status": "weak_carryover"
+        },
+        "consistency_check": {
+          "status": "pipeline_consistent",
+          "flags": [],
+          "relation": "same_category",
+          "pipeline_relation": "formal_structure_same_lineage",
+          "bridge_strength": 1.0,
+          "relative_persistence_status": "weak_carryover",
+          "event_type": "diffused_to_neighbor"
+        }
+      }
+    },
+    {
+      "type": "merged_into_parent",
+      "period": "2025-05",
+      "summary": "Activity appears to reconverge into broader topic 椭圆曲线塞尔默群.",
+      "evidence": {
+        "target_topic_id": "global_26",
+        "target_topic_name": "椭圆曲线塞尔默群",
+        "target_topic_mode": "theory",
+        "transfer_kind": "mixed_transfer",
+        "transfer_pattern": "spillover",
+        "weight": 0.442,
+        "bridge_evidence": {
+          "shared_keywords": [
+            "abelian",
+            "conjecture",
+            "curve",
+            "curves",
+            "elliptic",
+            "isogeny"
+          ],
+          "bridge_topics": [
+            "p进伽罗瓦表示理论",
+            "志村簇与朗兰兹猜想",
+            "模形式与ADIC猜想"
+          ],
+          "target_evidence_titles": [
+            "On the Identification of Elliptic Curves That Admit Infinitely Many Twists Satisfying the Birch-Swinnerton-Dyer Conjecture",
+            "Absolutely Abelian Hilbert Class Fields and $\\ell-$torsion conjecture"
+          ],
+          "category_flow": {
+            "source_category": "math",
+            "target_category": "math",
+            "source_top_level": "math",
+            "target_top_level": "math",
+            "relation": "same_category"
+          },
+          "pipeline_relation": {
+            "relation": "formal_structure_same_lineage",
+            "source_stage_terms": [],
+            "target_stage_terms": [],
+            "shared_domain_terms": [],
+            "representation_stage_terms": [],
+            "perception_stage_terms": [],
+            "shared_3d_terms": [],
+            "shared_formal_terms": [
+              "curve",
+              "curves",
+              "modular"
+            ],
+            "shared_math_ag_objects": [
+              "abelian",
+              "curve",
+              "curves"
+            ],
+            "shared_math_ag_methods": [],
+            "shared_math_lo_objects": [],
+            "shared_math_lo_methods": [],
+            "shared_math_lo_core_objects": [],
+            "shared_math_lo_modal_objects": [],
+            "shared_math_lo_modal_methods": [],
+            "shared_math_lo_set_objects": [],
+            "shared_math_lo_set_methods": [],
+            "shared_math_lo_forcing_objects": [],
+            "shared_math_lo_forcing_methods": [],
+            "shared_math_lo_type_objects": [],
+            "source_type_terms": [],
+            "target_type_terms": [],
+            "shared_math_lo_definability_objects": [],
+            "shared_math_lo_definability_methods": [],
+            "math_ag_object_matches": {
+              "anchor": {
+                "variety_family": [
+                  "abelian",
+                  "curve",
+                  "curves",
+                  "shimura",
+                  "varieties"
+                ]
+              },
+              "target": {
+                "variety_family": [
+                  "abelian",
+                  "curve",
+                  "curves"
+                ]
+              },
+              "overlap": {
+                "score": 1.0,
+                "shared_exact_terms": [
+                  "abelian",
+                  "curve",
+                  "curves"
+                ],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            },
+            "math_ag_method_matches": {
+              "anchor": {
+                "cohomological": [
+                  "adic"
+                ]
+              },
+              "target": {},
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            }
+          },
+          "evidence_title_overlap": {
+            "anchor_titles": [
+              "On the Identification of Elliptic Curves That Admit Infinitely Many Twists Satisfying the Birch-Swinnerton-Dyer Conjecture",
+              "Absolutely Abelian Hilbert Class Fields and $\\ell-$torsion conjecture"
+            ],
+            "target_titles": [
+              "On the Identification of Elliptic Curves That Admit Infinitely Many Twists Satisfying the Birch-Swinnerton-Dyer Conjecture",
+              "Absolutely Abelian Hilbert Class Fields and $\\ell-$torsion conjecture"
+            ],
+            "shared_terms": [
+              "$\\ell",
+              "$torsion",
+              "abelian",
+              "absolutely",
+              "admit",
+              "birch"
+            ],
+            "shared_term_count": 6
+          },
+          "bridge_strength": 1.0,
+          "alias_risk": {
+            "level": "low",
+            "reason": "distinct_concepts"
+          }
+        },
+        "post_transfer_persistence": {
+          "lookahead_periods": [
+            "2025-06",
+            "2025-07"
+          ],
+          "active_periods_after_event": 1,
+          "paper_counts_after_event": [
+            12,
+            0
+          ],
+          "sustained": false
+        },
+        "anchor_post_event_persistence": {
+          "lookahead_periods": [
+            "2025-06",
+            "2025-07"
+          ],
+          "active_periods_after_event": 1,
+          "paper_counts_after_event": [
+            0,
+            73
+          ],
+          "sustained": false
+        },
+        "relative_persistence": {
+          "anchor_total": 73,
+          "target_total": 12,
+          "target_to_anchor_ratio": 0.164,
+          "status": "weak_carryover"
+        },
+        "consistency_check": {
+          "status": "pipeline_consistent",
+          "flags": [],
+          "relation": "same_category",
+          "pipeline_relation": "formal_structure_same_lineage",
+          "bridge_strength": 1.0,
+          "relative_persistence_status": "weak_carryover",
+          "event_type": "merged_into_parent"
+        }
+      }
+    }
+  ],
+  "cross_category_moves": [],
+  "growth_summary": "志村簇阿贝尔雅可比同源 (theory) expands from 2025-02 to 2025-06 and diffuses into nearby topics.",
+  "decline_summary": "Some activity appears to reconverge into a broader parent topic by 2025-06.",
+  "review_flags": [],
+  "key_supporting_topics": [
+    {
+      "topic_id": "global_26",
+      "topic_name": "椭圆曲线塞尔默群",
+      "category": "math",
+      "weight": 0.442,
+      "peak_period": "2025-05",
+      "peak_count": 45,
+      "increase": 33,
+      "topic_mode": "theory",
+      "topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": null,
+        "method_score": 0,
+        "problem_score": 0,
+        "theory_score": 4
+      }
+    },
+    {
+      "topic_id": "global_2",
+      "topic_name": "p进伽罗瓦表示理论",
+      "category": "math",
+      "weight": 0.44,
+      "peak_period": "2025-06",
+      "peak_count": 33,
+      "increase": 14,
+      "topic_mode": "theory",
+      "topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": null,
+        "method_score": 0,
+        "problem_score": 0,
+        "theory_score": 3
+      }
+    }
+  ],
+  "key_turning_points": [
+    {
+      "period": "2025-03",
+      "delta": -15,
+      "anchor_paper_count": 0
+    },
+    {
+      "period": "2025-04",
+      "delta": 89,
+      "anchor_paper_count": 89
+    },
+    {
+      "period": "2025-05",
+      "delta": -89,
+      "anchor_paper_count": 0
+    }
+  ]
+}

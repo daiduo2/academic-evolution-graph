@@ -1,0 +1,674 @@
+{
+  "case_id": "global_8-2025-02",
+  "anchor_topic_id": "global_8",
+  "anchor_topic_name": "图与顶点条件研究",
+  "anchor_topic_mode": "theory",
+  "anchor_topic_profile": {
+    "primary_mode": "theory",
+    "secondary_mode": null,
+    "method_score": 0,
+    "problem_score": 0,
+    "theory_score": 2
+  },
+  "start_period": "2025-02",
+  "observation_horizon": 4,
+  "neighbor_topics": [
+    "global_319",
+    "global_130",
+    "global_142",
+    "global_228",
+    "global_71"
+  ],
+  "evolution_path": [
+    {
+      "period": "2025-02",
+      "anchor_paper_count": 362,
+      "active_neighbor_count": 0,
+      "top_neighbors": [
+        {
+          "topic_id": "global_319",
+          "topic_name": "拟阵与多面体格",
+          "paper_count": 0,
+          "weight": 0.3778,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 2
+          }
+        },
+        {
+          "topic_id": "global_130",
+          "topic_name": "随机图顶点分布",
+          "paper_count": 0,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_142",
+          "topic_name": "序列避免与克莱特曼问题",
+          "paper_count": 0,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-03",
+      "anchor_paper_count": 0,
+      "active_neighbor_count": 1,
+      "top_neighbors": [
+        {
+          "topic_id": "global_534",
+          "topic_name": "图顶点数结构研究",
+          "paper_count": 183,
+          "weight": 0.3,
+          "category": "cs",
+          "topic_mode": "method",
+          "topic_profile": {
+            "primary_mode": "method",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 0,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_319",
+          "topic_name": "拟阵与多面体格",
+          "paper_count": 0,
+          "weight": 0.3778,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 2
+          }
+        },
+        {
+          "topic_id": "global_130",
+          "topic_name": "随机图顶点分布",
+          "paper_count": 0,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-04",
+      "anchor_paper_count": 153,
+      "active_neighbor_count": 1,
+      "top_neighbors": [
+        {
+          "topic_id": "global_71",
+          "topic_name": "凯莱图与群结构",
+          "paper_count": 23,
+          "weight": 0.35,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_319",
+          "topic_name": "拟阵与多面体格",
+          "paper_count": 0,
+          "weight": 0.3778,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 2
+          }
+        },
+        {
+          "topic_id": "global_130",
+          "topic_name": "随机图顶点分布",
+          "paper_count": 0,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-05",
+      "anchor_paper_count": 132,
+      "active_neighbor_count": 1,
+      "top_neighbors": [
+        {
+          "topic_id": "global_130",
+          "topic_name": "随机图顶点分布",
+          "paper_count": 17,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_319",
+          "topic_name": "拟阵与多面体格",
+          "paper_count": 0,
+          "weight": 0.3778,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 2
+          }
+        },
+        {
+          "topic_id": "global_142",
+          "topic_name": "序列避免与克莱特曼问题",
+          "paper_count": 0,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-06",
+      "anchor_paper_count": 192,
+      "active_neighbor_count": 1,
+      "top_neighbors": [
+        {
+          "topic_id": "global_142",
+          "topic_name": "序列避免与克莱特曼问题",
+          "paper_count": 12,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        },
+        {
+          "topic_id": "global_319",
+          "topic_name": "拟阵与多面体格",
+          "paper_count": 0,
+          "weight": 0.3778,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 2
+          }
+        },
+        {
+          "topic_id": "global_130",
+          "topic_name": "随机图顶点分布",
+          "paper_count": 0,
+          "weight": 0.3609,
+          "category": "math",
+          "topic_mode": "theory",
+          "topic_profile": {
+            "primary_mode": "theory",
+            "secondary_mode": null,
+            "method_score": 0,
+            "problem_score": 0,
+            "theory_score": 1
+          }
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "type": "emerged",
+      "period": "2025-02",
+      "summary": "Anchor topic first appears in the replay window."
+    },
+    {
+      "type": "diffused_to_neighbor",
+      "period": "2025-03",
+      "summary": "Semantic neighbors absorb momentum from the anchor topic around 2025-03.",
+      "evidence": {
+        "target_topic_id": "global_534",
+        "target_topic_name": "图顶点数结构研究",
+        "target_topic_mode": "method",
+        "transfer_kind": "theory_spillover",
+        "transfer_pattern": "spillover",
+        "weight": 0.3,
+        "increase": 183,
+        "bridge_evidence": {
+          "shared_keywords": [
+            "coloring",
+            "edge",
+            "edges",
+            "graphs",
+            "if",
+            "mathcal"
+          ],
+          "bridge_topics": [
+            "拟阵与多面体格",
+            "随机图顶点分布",
+            "序列避免与克莱特曼问题"
+          ],
+          "target_evidence_titles": [
+            "What Can Be Computed Locally Revisited: First-Order Logic on Sparse Graphs in Distributed Computing",
+            "Weak consistency of P-time event graphs"
+          ],
+          "category_flow": {
+            "source_category": "math",
+            "target_category": "cs",
+            "source_top_level": "math",
+            "target_top_level": "cs",
+            "relation": "cross_domain"
+          },
+          "pipeline_relation": {
+            "relation": "none",
+            "source_stage_terms": [],
+            "target_stage_terms": [],
+            "shared_domain_terms": [],
+            "representation_stage_terms": [],
+            "perception_stage_terms": [],
+            "shared_3d_terms": [],
+            "shared_formal_terms": [],
+            "shared_math_ag_objects": [],
+            "shared_math_ag_methods": [],
+            "shared_math_lo_objects": [],
+            "shared_math_lo_methods": [],
+            "shared_math_lo_core_objects": [],
+            "shared_math_lo_modal_objects": [],
+            "shared_math_lo_modal_methods": [],
+            "shared_math_lo_set_objects": [],
+            "shared_math_lo_set_methods": [],
+            "shared_math_lo_forcing_objects": [],
+            "shared_math_lo_forcing_methods": [],
+            "shared_math_lo_type_objects": [],
+            "source_type_terms": [],
+            "target_type_terms": [],
+            "shared_math_lo_definability_objects": [],
+            "shared_math_lo_definability_methods": [],
+            "math_ag_object_matches": {
+              "anchor": {},
+              "target": {},
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            },
+            "math_ag_method_matches": {
+              "anchor": {},
+              "target": {},
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            }
+          },
+          "evidence_title_overlap": {
+            "anchor_titles": [
+              "Amending the Lonely Runner Spectrum Conjecture",
+              "Enumeration of minimal transversals of hypergraphs of bounded VC-dimension"
+            ],
+            "target_titles": [
+              "What Can Be Computed Locally Revisited: First-Order Logic on Sparse Graphs in Distributed Computing",
+              "Weak consistency of P-time event graphs"
+            ],
+            "shared_terms": [],
+            "shared_term_count": 0
+          },
+          "bridge_strength": 0.68,
+          "alias_risk": {
+            "level": "low",
+            "reason": "distinct_concepts"
+          }
+        },
+        "post_transfer_persistence": {
+          "lookahead_periods": [
+            "2025-04",
+            "2025-05"
+          ],
+          "active_periods_after_event": 0,
+          "paper_counts_after_event": [
+            0,
+            0
+          ],
+          "sustained": false
+        },
+        "anchor_post_event_persistence": {
+          "lookahead_periods": [
+            "2025-04",
+            "2025-05"
+          ],
+          "active_periods_after_event": 2,
+          "paper_counts_after_event": [
+            153,
+            132
+          ],
+          "sustained": true
+        },
+        "relative_persistence": {
+          "anchor_total": 285,
+          "target_total": 0,
+          "target_to_anchor_ratio": 0.0,
+          "status": "weak_carryover"
+        },
+        "consistency_check": {
+          "status": "consistent",
+          "flags": [],
+          "relation": "cross_domain",
+          "pipeline_relation": "none",
+          "bridge_strength": 0.68,
+          "relative_persistence_status": "weak_carryover",
+          "event_type": "diffused_to_neighbor"
+        }
+      }
+    },
+    {
+      "type": "migrated_to_new_category",
+      "period": "2025-03",
+      "summary": "Related growth propagates from math into cs.",
+      "evidence": {
+        "source_category": "math",
+        "target_category": "cs",
+        "target_topic_id": "global_534",
+        "target_topic_name": "图顶点数结构研究",
+        "target_topic_mode": "method",
+        "transfer_kind": "theory_to_applied_transfer",
+        "transfer_pattern": "spillover",
+        "weight": 0.3,
+        "bridge_evidence": {
+          "shared_keywords": [
+            "coloring",
+            "edge",
+            "edges",
+            "graphs",
+            "if",
+            "mathcal"
+          ],
+          "bridge_topics": [
+            "拟阵与多面体格",
+            "随机图顶点分布",
+            "序列避免与克莱特曼问题"
+          ],
+          "target_evidence_titles": [
+            "What Can Be Computed Locally Revisited: First-Order Logic on Sparse Graphs in Distributed Computing",
+            "Weak consistency of P-time event graphs"
+          ],
+          "category_flow": {
+            "source_category": "math",
+            "target_category": "cs",
+            "source_top_level": "math",
+            "target_top_level": "cs",
+            "relation": "cross_domain"
+          },
+          "pipeline_relation": {
+            "relation": "none",
+            "source_stage_terms": [],
+            "target_stage_terms": [],
+            "shared_domain_terms": [],
+            "representation_stage_terms": [],
+            "perception_stage_terms": [],
+            "shared_3d_terms": [],
+            "shared_formal_terms": [],
+            "shared_math_ag_objects": [],
+            "shared_math_ag_methods": [],
+            "shared_math_lo_objects": [],
+            "shared_math_lo_methods": [],
+            "shared_math_lo_core_objects": [],
+            "shared_math_lo_modal_objects": [],
+            "shared_math_lo_modal_methods": [],
+            "shared_math_lo_set_objects": [],
+            "shared_math_lo_set_methods": [],
+            "shared_math_lo_forcing_objects": [],
+            "shared_math_lo_forcing_methods": [],
+            "shared_math_lo_type_objects": [],
+            "source_type_terms": [],
+            "target_type_terms": [],
+            "shared_math_lo_definability_objects": [],
+            "shared_math_lo_definability_methods": [],
+            "math_ag_object_matches": {
+              "anchor": {},
+              "target": {},
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            },
+            "math_ag_method_matches": {
+              "anchor": {},
+              "target": {},
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            }
+          },
+          "evidence_title_overlap": {
+            "anchor_titles": [
+              "Amending the Lonely Runner Spectrum Conjecture",
+              "Enumeration of minimal transversals of hypergraphs of bounded VC-dimension"
+            ],
+            "target_titles": [
+              "What Can Be Computed Locally Revisited: First-Order Logic on Sparse Graphs in Distributed Computing",
+              "Weak consistency of P-time event graphs"
+            ],
+            "shared_terms": [],
+            "shared_term_count": 0
+          },
+          "bridge_strength": 0.68,
+          "alias_risk": {
+            "level": "low",
+            "reason": "distinct_concepts"
+          }
+        },
+        "post_transfer_persistence": {
+          "lookahead_periods": [
+            "2025-04",
+            "2025-05"
+          ],
+          "active_periods_after_event": 0,
+          "paper_counts_after_event": [
+            0,
+            0
+          ],
+          "sustained": false
+        },
+        "anchor_post_event_persistence": {
+          "lookahead_periods": [
+            "2025-04",
+            "2025-05"
+          ],
+          "active_periods_after_event": 2,
+          "paper_counts_after_event": [
+            153,
+            132
+          ],
+          "sustained": true
+        },
+        "relative_persistence": {
+          "anchor_total": 285,
+          "target_total": 0,
+          "target_to_anchor_ratio": 0.0,
+          "status": "weak_carryover"
+        },
+        "consistency_check": {
+          "status": "consistent",
+          "flags": [],
+          "relation": "cross_domain",
+          "pipeline_relation": "none",
+          "bridge_strength": 0.68,
+          "relative_persistence_status": "weak_carryover",
+          "event_type": "migrated_to_new_category"
+        }
+      }
+    },
+    {
+      "type": "weakened",
+      "period": "2025-06",
+      "summary": "Anchor topic shows sustained decline without strong absorption evidence."
+    }
+  ],
+  "cross_category_moves": [
+    "cs"
+  ],
+  "growth_summary": "图与顶点条件研究 (theory) remains active without a strong expansion signal by 2025-06.",
+  "decline_summary": "Momentum softens by 2025-06, suggesting the topic loses local centrality.",
+  "review_flags": [],
+  "key_supporting_topics": [
+    {
+      "topic_id": "global_534",
+      "topic_name": "图顶点数结构研究",
+      "category": "cs",
+      "weight": 0.3,
+      "peak_period": "2025-03",
+      "peak_count": 183,
+      "increase": 183,
+      "topic_mode": "method",
+      "topic_profile": {
+        "primary_mode": "method",
+        "secondary_mode": null,
+        "method_score": 1,
+        "problem_score": 0,
+        "theory_score": 0
+      }
+    },
+    {
+      "topic_id": "global_71",
+      "topic_name": "凯莱图与群结构",
+      "category": "math",
+      "weight": 0.35,
+      "peak_period": "2025-04",
+      "peak_count": 23,
+      "increase": 23,
+      "topic_mode": "theory",
+      "topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": null,
+        "method_score": 0,
+        "problem_score": 0,
+        "theory_score": 1
+      }
+    },
+    {
+      "topic_id": "global_130",
+      "topic_name": "随机图顶点分布",
+      "category": "math",
+      "weight": 0.3609,
+      "peak_period": "2025-05",
+      "peak_count": 17,
+      "increase": 17,
+      "topic_mode": "theory",
+      "topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": null,
+        "method_score": 0,
+        "problem_score": 0,
+        "theory_score": 1
+      }
+    },
+    {
+      "topic_id": "global_142",
+      "topic_name": "序列避免与克莱特曼问题",
+      "category": "math",
+      "weight": 0.3609,
+      "peak_period": "2025-06",
+      "peak_count": 12,
+      "increase": 12,
+      "topic_mode": "theory",
+      "topic_profile": {
+        "primary_mode": "theory",
+        "secondary_mode": null,
+        "method_score": 0,
+        "problem_score": 0,
+        "theory_score": 1
+      }
+    }
+  ],
+  "key_turning_points": [
+    {
+      "period": "2025-03",
+      "delta": -362,
+      "anchor_paper_count": 0
+    },
+    {
+      "period": "2025-04",
+      "delta": 153,
+      "anchor_paper_count": 153
+    },
+    {
+      "period": "2025-06",
+      "delta": 60,
+      "anchor_paper_count": 192
+    }
+  ]
+}

@@ -1,0 +1,692 @@
+{
+  "case_id": "global_21-2025-02",
+  "anchor_topic_id": "global_21",
+  "anchor_topic_name": "斯托克斯方程正则性",
+  "anchor_topic_mode": "hybrid",
+  "anchor_topic_profile": {
+    "primary_mode": "hybrid",
+    "secondary_mode": null,
+    "method_score": 1,
+    "problem_score": 1,
+    "theory_score": 0
+  },
+  "start_period": "2025-02",
+  "observation_horizon": 4,
+  "neighbor_topics": [
+    "global_25",
+    "global_66",
+    "global_173",
+    "global_277",
+    "global_74"
+  ],
+  "evolution_path": [
+    {
+      "period": "2025-02",
+      "anchor_paper_count": 28,
+      "active_neighbor_count": 2,
+      "top_neighbors": [
+        {
+          "topic_id": "global_25",
+          "topic_name": "椭圆方程求解方法",
+          "paper_count": 82,
+          "weight": 0.44,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_40",
+          "topic_name": "非线性波方程爆破解",
+          "paper_count": 42,
+          "weight": 0.3778,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_66",
+          "topic_name": "非局部抛物方程解",
+          "paper_count": 0,
+          "weight": 0.4167,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-03",
+      "anchor_paper_count": 80,
+      "active_neighbor_count": 3,
+      "top_neighbors": [
+        {
+          "topic_id": "global_66",
+          "topic_name": "非局部抛物方程解",
+          "paper_count": 99,
+          "weight": 0.4167,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_40",
+          "topic_name": "非线性波方程爆破解",
+          "paper_count": 20,
+          "weight": 0.3778,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_58",
+          "topic_name": "薛定谔方程偏解研究",
+          "paper_count": 12,
+          "weight": 0.375,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-04",
+      "anchor_paper_count": 37,
+      "active_neighbor_count": 2,
+      "top_neighbors": [
+        {
+          "topic_id": "global_25",
+          "topic_name": "椭圆方程求解方法",
+          "paper_count": 124,
+          "weight": 0.44,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_74",
+          "topic_name": "可压缩理想磁流体贝尔特拉米方程",
+          "paper_count": 12,
+          "weight": 0.3955,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_66",
+          "topic_name": "非局部抛物方程解",
+          "paper_count": 0,
+          "weight": 0.4167,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-05",
+      "anchor_paper_count": 0,
+      "active_neighbor_count": 2,
+      "top_neighbors": [
+        {
+          "topic_id": "global_66",
+          "topic_name": "非局部抛物方程解",
+          "paper_count": 142,
+          "weight": 0.4167,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_2138",
+          "topic_name": "欧拉方程初值解",
+          "paper_count": 135,
+          "weight": 0.2211,
+          "category": "math-ph",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_25",
+          "topic_name": "椭圆方程求解方法",
+          "paper_count": 0,
+          "weight": 0.44,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        }
+      ]
+    },
+    {
+      "period": "2025-06",
+      "anchor_paper_count": 0,
+      "active_neighbor_count": 1,
+      "top_neighbors": [
+        {
+          "topic_id": "global_25",
+          "topic_name": "椭圆方程求解方法",
+          "paper_count": 153,
+          "weight": 0.44,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_66",
+          "topic_name": "非局部抛物方程解",
+          "paper_count": 0,
+          "weight": 0.4167,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        },
+        {
+          "topic_id": "global_173",
+          "topic_name": "拟线性方程存在性",
+          "paper_count": 0,
+          "weight": 0.3955,
+          "category": "math",
+          "topic_mode": "hybrid",
+          "topic_profile": {
+            "primary_mode": "hybrid",
+            "secondary_mode": null,
+            "method_score": 1,
+            "problem_score": 1,
+            "theory_score": 0
+          }
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "type": "emerged",
+      "period": "2025-02",
+      "summary": "Anchor topic first appears in the replay window."
+    },
+    {
+      "type": "expanded",
+      "period": "2025-03",
+      "summary": "Anchor topic grows materially during the replay horizon."
+    },
+    {
+      "type": "specialized_into_child",
+      "period": "2025-03",
+      "summary": "A deeper child-like topic grows within the anchor neighborhood."
+    },
+    {
+      "type": "diffused_to_neighbor",
+      "period": "2025-05",
+      "summary": "Semantic neighbors absorb momentum from the anchor topic around 2025-05.",
+      "evidence": {
+        "target_topic_id": "global_66",
+        "target_topic_name": "非局部抛物方程解",
+        "target_topic_mode": "hybrid",
+        "transfer_kind": "mixed_diffusion",
+        "transfer_pattern": "migration",
+        "weight": 0.4167,
+        "increase": 142,
+        "bridge_evidence": {
+          "shared_keywords": [
+            "boundary",
+            "equation",
+            "existence",
+            "regularity"
+          ],
+          "bridge_topics": [
+            "椭圆方程求解方法",
+            "拟线性方程存在性",
+            "非局部扩散KPP方程"
+          ],
+          "target_evidence_titles": [
+            "Simplicity of eigenvalues for elliptic problems with mixed Steklov-Robin boundary condition",
+            "The spectrum of Dirichlet-to-Neumann maps for radial conductivities"
+          ],
+          "category_flow": {
+            "source_category": "math",
+            "target_category": "math",
+            "source_top_level": "math",
+            "target_top_level": "math",
+            "relation": "same_category"
+          },
+          "pipeline_relation": {
+            "relation": "none",
+            "source_stage_terms": [],
+            "target_stage_terms": [],
+            "shared_domain_terms": [],
+            "representation_stage_terms": [],
+            "perception_stage_terms": [],
+            "shared_3d_terms": [],
+            "shared_formal_terms": [],
+            "shared_math_ag_objects": [],
+            "shared_math_ag_methods": [],
+            "shared_math_lo_objects": [],
+            "shared_math_lo_methods": [],
+            "shared_math_lo_core_objects": [],
+            "shared_math_lo_modal_objects": [],
+            "shared_math_lo_modal_methods": [],
+            "shared_math_lo_set_objects": [],
+            "shared_math_lo_set_methods": [],
+            "shared_math_lo_forcing_objects": [],
+            "shared_math_lo_forcing_methods": [],
+            "shared_math_lo_type_objects": [],
+            "source_type_terms": [],
+            "target_type_terms": [],
+            "shared_math_lo_definability_objects": [],
+            "shared_math_lo_definability_methods": [],
+            "math_ag_object_matches": {
+              "anchor": {},
+              "target": {},
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            },
+            "math_ag_method_matches": {
+              "anchor": {},
+              "target": {},
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            }
+          },
+          "evidence_title_overlap": {
+            "anchor_titles": [
+              "Spectral stability of shock profiles for the Navier-Stokes-Poisson system",
+              "Existence of a solution of the TV Wasserstein gradient flow"
+            ],
+            "target_titles": [
+              "Simplicity of eigenvalues for elliptic problems with mixed Steklov-Robin boundary condition",
+              "The spectrum of Dirichlet-to-Neumann maps for radial conductivities"
+            ],
+            "shared_terms": [],
+            "shared_term_count": 0
+          },
+          "bridge_strength": 0.75,
+          "alias_risk": {
+            "level": "low",
+            "reason": "distinct_concepts"
+          }
+        },
+        "post_transfer_persistence": {
+          "lookahead_periods": [
+            "2025-06",
+            "2025-07"
+          ],
+          "active_periods_after_event": 0,
+          "paper_counts_after_event": [
+            0,
+            0
+          ],
+          "sustained": false
+        },
+        "anchor_post_event_persistence": {
+          "lookahead_periods": [
+            "2025-06",
+            "2025-07"
+          ],
+          "active_periods_after_event": 1,
+          "paper_counts_after_event": [
+            0,
+            76
+          ],
+          "sustained": false
+        },
+        "relative_persistence": {
+          "anchor_total": 76,
+          "target_total": 0,
+          "target_to_anchor_ratio": 0.0,
+          "status": "weak_carryover"
+        },
+        "consistency_check": {
+          "status": "needs_review",
+          "flags": [
+            "same_category_high_bridge_weak_carryover"
+          ],
+          "relation": "same_category",
+          "pipeline_relation": "none",
+          "bridge_strength": 0.75,
+          "relative_persistence_status": "weak_carryover",
+          "event_type": "diffused_to_neighbor"
+        }
+      }
+    },
+    {
+      "type": "migrated_to_new_category",
+      "period": "2025-05",
+      "summary": "Related growth propagates from math into math-ph.",
+      "evidence": {
+        "source_category": "math",
+        "target_category": "math-ph",
+        "target_topic_id": "global_2138",
+        "target_topic_name": "欧拉方程初值解",
+        "target_topic_mode": "hybrid",
+        "transfer_kind": "mixed_transfer",
+        "transfer_pattern": "migration",
+        "weight": 0.2211,
+        "bridge_evidence": {
+          "shared_keywords": [
+            "compressible",
+            "equation",
+            "equations",
+            "euler",
+            "existence",
+            "initial"
+          ],
+          "bridge_topics": [
+            "椭圆方程求解方法",
+            "非局部抛物方程解",
+            "拟线性方程存在性"
+          ],
+          "target_evidence_titles": [],
+          "category_flow": {
+            "source_category": "math",
+            "target_category": "math-ph",
+            "source_top_level": "math",
+            "target_top_level": "math-ph",
+            "relation": "cross_domain"
+          },
+          "pipeline_relation": {
+            "relation": "none",
+            "source_stage_terms": [],
+            "target_stage_terms": [],
+            "shared_domain_terms": [],
+            "representation_stage_terms": [],
+            "perception_stage_terms": [],
+            "shared_3d_terms": [],
+            "shared_formal_terms": [],
+            "shared_math_ag_objects": [],
+            "shared_math_ag_methods": [],
+            "shared_math_lo_objects": [],
+            "shared_math_lo_methods": [],
+            "shared_math_lo_core_objects": [],
+            "shared_math_lo_modal_objects": [],
+            "shared_math_lo_modal_methods": [],
+            "shared_math_lo_set_objects": [],
+            "shared_math_lo_set_methods": [],
+            "shared_math_lo_forcing_objects": [],
+            "shared_math_lo_forcing_methods": [],
+            "shared_math_lo_type_objects": [],
+            "source_type_terms": [],
+            "target_type_terms": [],
+            "shared_math_lo_definability_objects": [],
+            "shared_math_lo_definability_methods": [],
+            "math_ag_object_matches": {
+              "anchor": {},
+              "target": {},
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            },
+            "math_ag_method_matches": {
+              "anchor": {},
+              "target": {},
+              "overlap": {
+                "score": 0.0,
+                "shared_exact_terms": [],
+                "shared_classes": [],
+                "related_classes": []
+              }
+            }
+          },
+          "evidence_title_overlap": {
+            "anchor_titles": [
+              "Spectral stability of shock profiles for the Navier-Stokes-Poisson system",
+              "Existence of a solution of the TV Wasserstein gradient flow"
+            ],
+            "target_titles": [],
+            "shared_terms": [],
+            "shared_term_count": 0
+          },
+          "bridge_strength": 0.68,
+          "alias_risk": {
+            "level": "low",
+            "reason": "distinct_concepts"
+          }
+        },
+        "post_transfer_persistence": {
+          "lookahead_periods": [
+            "2025-06",
+            "2025-07"
+          ],
+          "active_periods_after_event": 0,
+          "paper_counts_after_event": [
+            0,
+            0
+          ],
+          "sustained": false
+        },
+        "anchor_post_event_persistence": {
+          "lookahead_periods": [
+            "2025-06",
+            "2025-07"
+          ],
+          "active_periods_after_event": 1,
+          "paper_counts_after_event": [
+            0,
+            76
+          ],
+          "sustained": false
+        },
+        "relative_persistence": {
+          "anchor_total": 76,
+          "target_total": 0,
+          "target_to_anchor_ratio": 0.0,
+          "status": "weak_carryover"
+        },
+        "consistency_check": {
+          "status": "consistent",
+          "flags": [],
+          "relation": "cross_domain",
+          "pipeline_relation": "none",
+          "bridge_strength": 0.68,
+          "relative_persistence_status": "weak_carryover",
+          "event_type": "migrated_to_new_category"
+        }
+      }
+    }
+  ],
+  "cross_category_moves": [
+    "math-ph"
+  ],
+  "growth_summary": "斯托克斯方程正则性 (hybrid) expands from 2025-02 to 2025-06 and diffuses into nearby topics. Some transfer links remain flagged for manual review.",
+  "decline_summary": "No dominant decline pattern is detected before 2025-06.",
+  "review_flags": [
+    "same_category_high_bridge_weak_carryover"
+  ],
+  "key_supporting_topics": [
+    {
+      "topic_id": "global_66",
+      "topic_name": "非局部抛物方程解",
+      "category": "math",
+      "weight": 0.4167,
+      "peak_period": "2025-05",
+      "peak_count": 142,
+      "increase": 142,
+      "topic_mode": "hybrid",
+      "topic_profile": {
+        "primary_mode": "hybrid",
+        "secondary_mode": null,
+        "method_score": 1,
+        "problem_score": 1,
+        "theory_score": 0
+      }
+    },
+    {
+      "topic_id": "global_2138",
+      "topic_name": "欧拉方程初值解",
+      "category": "math-ph",
+      "weight": 0.2211,
+      "peak_period": "2025-05",
+      "peak_count": 135,
+      "increase": 135,
+      "topic_mode": "hybrid",
+      "topic_profile": {
+        "primary_mode": "hybrid",
+        "secondary_mode": null,
+        "method_score": 1,
+        "problem_score": 1,
+        "theory_score": 0
+      }
+    },
+    {
+      "topic_id": "global_25",
+      "topic_name": "椭圆方程求解方法",
+      "category": "math",
+      "weight": 0.44,
+      "peak_period": "2025-06",
+      "peak_count": 153,
+      "increase": 71,
+      "topic_mode": "hybrid",
+      "topic_profile": {
+        "primary_mode": "hybrid",
+        "secondary_mode": null,
+        "method_score": 1,
+        "problem_score": 1,
+        "theory_score": 0
+      }
+    },
+    {
+      "topic_id": "global_74",
+      "topic_name": "可压缩理想磁流体贝尔特拉米方程",
+      "category": "math",
+      "weight": 0.3955,
+      "peak_period": "2025-04",
+      "peak_count": 12,
+      "increase": 12,
+      "topic_mode": "hybrid",
+      "topic_profile": {
+        "primary_mode": "hybrid",
+        "secondary_mode": null,
+        "method_score": 1,
+        "problem_score": 1,
+        "theory_score": 0
+      }
+    },
+    {
+      "topic_id": "global_58",
+      "topic_name": "薛定谔方程偏解研究",
+      "category": "math",
+      "weight": 0.375,
+      "peak_period": "2025-03",
+      "peak_count": 12,
+      "increase": 12,
+      "topic_mode": "hybrid",
+      "topic_profile": {
+        "primary_mode": "hybrid",
+        "secondary_mode": null,
+        "method_score": 1,
+        "problem_score": 1,
+        "theory_score": 0
+      }
+    }
+  ],
+  "key_turning_points": [
+    {
+      "period": "2025-03",
+      "delta": 52,
+      "anchor_paper_count": 80
+    },
+    {
+      "period": "2025-04",
+      "delta": -43,
+      "anchor_paper_count": 37
+    },
+    {
+      "period": "2025-05",
+      "delta": -37,
+      "anchor_paper_count": 0
+    }
+  ]
+}
