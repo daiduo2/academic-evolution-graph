@@ -1,7 +1,7 @@
 {
   "version": "kg_v1_visualization",
   "subcategory": "AG",
-  "generated_at": "2026-03-22T19:22:48.923657",
+  "generated_at": "2026-03-22T20:22:57.726967",
   "metadata": {
     "domain_code": "math.AG",
     "export_presence": "baseline_subgraph",
@@ -36,6 +36,7 @@
         "encoded_case_ids": [
           "ag-p1"
         ],
+        "graph_visible_case_ids": [],
         "metadata_only_case_ids": [],
         "case_count": 1,
         "encoded_case_count": 1,
@@ -50,6 +51,7 @@
           "ag-p3"
         ],
         "encoded_case_ids": [],
+        "graph_visible_case_ids": [],
         "metadata_only_case_ids": [
           "ag-p2",
           "ag-p3"
@@ -72,6 +74,7 @@
           "ag-n2",
           "ag-n3"
         ],
+        "graph_visible_case_ids": [],
         "metadata_only_case_ids": [],
         "case_count": 3,
         "encoded_case_count": 3,
@@ -87,6 +90,7 @@
         "encoded_case_ids": [
           "ag-amb1"
         ],
+        "graph_visible_case_ids": [],
         "metadata_only_case_ids": [],
         "case_count": 1,
         "encoded_case_count": 1,
@@ -99,6 +103,8 @@
         "anchor": "global_69",
         "target": "global_287",
         "expected_relation": "math_ag_object_continuity",
+        "benchmark_status": "positive",
+        "confidence": "confirmed",
         "level": "event-level",
         "graph_band": "baseline",
         "graph_layer": "confirmed_core",
@@ -114,6 +120,8 @@
         "anchor": "global_30",
         "target": "global_355",
         "expected_relation": "none",
+        "benchmark_status": "negative",
+        "confidence": "negative",
         "level": "bridge-level",
         "graph_band": "bridge",
         "graph_layer": "bridge_ring",
@@ -129,6 +137,8 @@
         "anchor": "global_355",
         "target": "global_117",
         "expected_relation": "none",
+        "benchmark_status": "negative",
+        "confidence": "negative",
         "level": "bridge-level",
         "graph_band": "bridge",
         "graph_layer": "bridge_ring",
@@ -144,6 +154,8 @@
         "anchor": "global_69",
         "target": "global_136",
         "expected_relation": "none",
+        "benchmark_status": "negative",
+        "confidence": "negative",
         "level": "boundary",
         "graph_band": "boundary",
         "graph_layer": "excluded_boundary",
@@ -159,6 +171,8 @@
         "anchor": "global_30",
         "target": "global_287",
         "expected_relation": "none",
+        "benchmark_status": "negative",
+        "confidence": "negative",
         "level": "boundary",
         "graph_band": "boundary",
         "graph_layer": "excluded_boundary",
@@ -174,6 +188,8 @@
         "anchor": "global_134",
         "target": "global_30",
         "expected_relation": "none",
+        "benchmark_status": "negative",
+        "confidence": "negative",
         "level": "boundary",
         "graph_band": "boundary",
         "graph_layer": "excluded_boundary",
@@ -189,6 +205,8 @@
         "anchor": "global_4",
         "target": "global_287",
         "expected_relation": "review-needed",
+        "benchmark_status": "ambiguous",
+        "confidence": "ambiguous",
         "level": "ambiguous",
         "graph_band": "review",
         "graph_layer": "review_boundary",
@@ -232,215 +250,6 @@
   "nodes": {
     "topics": [
       {
-        "id": "global_263",
-        "label": "平展上同调与光滑性",
-        "kind": "topic",
-        "subcategory": "AG",
-        "category": "math",
-        "status": "transient",
-        "display_size": 25.0,
-        "active_periods": 1,
-        "total_papers": 19,
-        "keywords": [
-          "_q",
-          "cohomology",
-          "tame",
-          "smooth",
-          "étale"
-        ],
-        "hierarchy_depth": 4
-      },
-      {
-        "id": "global_287",
-        "label": "导出代数叠范畴",
-        "kind": "topic",
-        "subcategory": "AG",
-        "category": "math",
-        "status": "transient",
-        "display_size": 26.7,
-        "active_periods": 1,
-        "total_papers": 27,
-        "keywords": [
-          "stacks",
-          "derived",
-          "stack",
-          "algebraic",
-          "categories"
-        ],
-        "hierarchy_depth": 4
-      },
-      {
-        "id": "global_349",
-        "label": "热带几何与曲线热带化",
-        "kind": "topic",
-        "subcategory": "AG",
-        "category": "math",
-        "status": "transient",
-        "display_size": 23.2,
-        "active_periods": 1,
-        "total_papers": 13,
-        "keywords": [
-          "tropical",
-          "tropicalization",
-          "tevelev",
-          "curves",
-          "cohomologically"
-        ],
-        "hierarchy_depth": 3
-      },
-      {
-        "id": "global_134",
-        "label": "凸体与薄饼多面体",
-        "kind": "topic",
-        "subcategory": "AG",
-        "category": "math",
-        "status": "transient",
-        "display_size": 25.9,
-        "active_periods": 1,
-        "total_papers": 23,
-        "keywords": [
-          "polytopes",
-          "polytope",
-          "convex",
-          "bodies",
-          "pancake"
-        ],
-        "hierarchy_depth": 2
-      },
-      {
-        "id": "global_337",
-        "label": "可积系统与Bethe拟设",
-        "kind": "topic",
-        "subcategory": "AG",
-        "category": "math",
-        "status": "transient",
-        "display_size": 25.7,
-        "active_periods": 1,
-        "total_papers": 22,
-        "keywords": [
-          "opers",
-          "bethe",
-          "ansatz",
-          "qq",
-          "integrable"
-        ],
-        "hierarchy_depth": 2
-      },
-      {
-        "id": "global_30",
-        "label": "法诺簇模空间曲线",
-        "kind": "topic",
-        "subcategory": "AG",
-        "category": "math",
-        "status": "persistent",
-        "display_size": 45,
-        "active_periods": 13,
-        "total_papers": 2627,
-        "keywords": [
-          "toric",
-          "conjecture",
-          "k3",
-          "hodge",
-          "moduli"
-        ],
-        "hierarchy_depth": 2
-      },
-      {
-        "id": "global_117",
-        "label": "志村簇与Theta积分",
-        "kind": "topic",
-        "subcategory": "AG",
-        "category": "math",
-        "status": "transient",
-        "display_size": 24.2,
-        "active_periods": 1,
-        "total_papers": 16,
-        "keywords": [
-          "shimura",
-          "varieties",
-          "theta",
-          "integral",
-          "ramified"
-        ],
-        "hierarchy_depth": 4
-      },
-      {
-        "id": "global_135",
-        "label": "出租车几何与三角",
-        "kind": "topic",
-        "subcategory": "AG",
-        "category": "math",
-        "status": "transient",
-        "display_size": 25.7,
-        "active_periods": 1,
-        "total_papers": 22,
-        "keywords": [
-          "taxicab",
-          "quadrilateral",
-          "triangle",
-          "geometry",
-          "trigonometric"
-        ],
-        "hierarchy_depth": 2
-      },
-      {
-        "id": "global_237",
-        "label": "母题上同调与规范群",
-        "kind": "topic",
-        "subcategory": "AG",
-        "category": "math",
-        "status": "transient",
-        "display_size": 26.3,
-        "active_periods": 1,
-        "total_papers": 25,
-        "keywords": [
-          "cohomology",
-          "motivic",
-          "motives",
-          "group",
-          "gauges"
-        ],
-        "hierarchy_depth": 4
-      },
-      {
-        "id": "global_215",
-        "label": "霍奇商上同调猜想",
-        "kind": "topic",
-        "subcategory": "AG",
-        "category": "math",
-        "status": "transient",
-        "display_size": 26.1,
-        "active_periods": 1,
-        "total_papers": 24,
-        "keywords": [
-          "hodge",
-          "conjecture",
-          "quot",
-          "cohomology",
-          "algebraic"
-        ],
-        "hierarchy_depth": 2
-      },
-      {
-        "id": "global_4",
-        "label": "分级范畴聚类",
-        "kind": "topic",
-        "subcategory": "AG",
-        "category": "math",
-        "status": "persistent",
-        "display_size": 45,
-        "active_periods": 5,
-        "total_papers": 511,
-        "keywords": [
-          "mathcal",
-          "lie",
-          "categories",
-          "homotopy",
-          "mathfrak"
-        ],
-        "hierarchy_depth": 2
-      },
-      {
         "id": "global_69",
         "label": "代数叠与层理论",
         "kind": "topic",
@@ -456,6 +265,25 @@
           "zariski",
           "sheaves",
           "stack"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_355",
+        "label": "超椭圆曲线阿贝尔簇",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 26.5,
+        "active_periods": 1,
+        "total_papers": 26,
+        "keywords": [
+          "abelian",
+          "varieties",
+          "hyperelliptic",
+          "curves",
+          "adic"
         ],
         "hierarchy_depth": 2
       },
@@ -479,6 +307,25 @@
         "hierarchy_depth": 2
       },
       {
+        "id": "global_136",
+        "label": "动机层与亨泽尔层",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 26.1,
+        "active_periods": 1,
+        "total_papers": 24,
+        "keywords": [
+          "motivic",
+          "schemes",
+          "sheaves",
+          "henselian",
+          "mathbb"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
         "id": "global_107",
         "label": "仿射代数群挠子",
         "kind": "topic",
@@ -494,6 +341,82 @@
           "group",
           "affine",
           "algebraic"
+        ],
+        "hierarchy_depth": 4
+      },
+      {
+        "id": "global_30",
+        "label": "法诺簇模空间曲线",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "persistent",
+        "display_size": 45,
+        "active_periods": 13,
+        "total_papers": 2627,
+        "keywords": [
+          "toric",
+          "conjecture",
+          "k3",
+          "hodge",
+          "moduli"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_237",
+        "label": "母题上同调与规范群",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 26.3,
+        "active_periods": 1,
+        "total_papers": 25,
+        "keywords": [
+          "cohomology",
+          "motivic",
+          "motives",
+          "group",
+          "gauges"
+        ],
+        "hierarchy_depth": 4
+      },
+      {
+        "id": "global_134",
+        "label": "凸体与薄饼多面体",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 25.9,
+        "active_periods": 1,
+        "total_papers": 23,
+        "keywords": [
+          "polytopes",
+          "polytope",
+          "convex",
+          "bodies",
+          "pancake"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_287",
+        "label": "导出代数叠范畴",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 26.7,
+        "active_periods": 1,
+        "total_papers": 27,
+        "keywords": [
+          "stacks",
+          "derived",
+          "stack",
+          "algebraic",
+          "categories"
         ],
         "hierarchy_depth": 4
       },
@@ -517,8 +440,46 @@
         "hierarchy_depth": 2
       },
       {
-        "id": "global_136",
-        "label": "动机层与亨泽尔层",
+        "id": "global_4",
+        "label": "分级范畴聚类",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "persistent",
+        "display_size": 45,
+        "active_periods": 5,
+        "total_papers": 511,
+        "keywords": [
+          "mathcal",
+          "lie",
+          "categories",
+          "homotopy",
+          "mathfrak"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_135",
+        "label": "出租车几何与三角",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 25.7,
+        "active_periods": 1,
+        "total_papers": 22,
+        "keywords": [
+          "taxicab",
+          "quadrilateral",
+          "triangle",
+          "geometry",
+          "trigonometric"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_215",
+        "label": "霍奇商上同调猜想",
         "kind": "topic",
         "subcategory": "AG",
         "category": "math",
@@ -527,30 +488,87 @@
         "active_periods": 1,
         "total_papers": 24,
         "keywords": [
-          "motivic",
-          "schemes",
-          "sheaves",
-          "henselian",
-          "mathbb"
+          "hodge",
+          "conjecture",
+          "quot",
+          "cohomology",
+          "algebraic"
         ],
         "hierarchy_depth": 2
       },
       {
-        "id": "global_355",
-        "label": "超椭圆曲线阿贝尔簇",
+        "id": "global_349",
+        "label": "热带几何与曲线热带化",
         "kind": "topic",
         "subcategory": "AG",
         "category": "math",
         "status": "transient",
-        "display_size": 26.5,
+        "display_size": 23.2,
         "active_periods": 1,
-        "total_papers": 26,
+        "total_papers": 13,
         "keywords": [
-          "abelian",
-          "varieties",
-          "hyperelliptic",
+          "tropical",
+          "tropicalization",
+          "tevelev",
           "curves",
-          "adic"
+          "cohomologically"
+        ],
+        "hierarchy_depth": 3
+      },
+      {
+        "id": "global_263",
+        "label": "平展上同调与光滑性",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 25.0,
+        "active_periods": 1,
+        "total_papers": 19,
+        "keywords": [
+          "_q",
+          "cohomology",
+          "tame",
+          "smooth",
+          "étale"
+        ],
+        "hierarchy_depth": 4
+      },
+      {
+        "id": "global_117",
+        "label": "志村簇与Theta积分",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 24.2,
+        "active_periods": 1,
+        "total_papers": 16,
+        "keywords": [
+          "shimura",
+          "varieties",
+          "theta",
+          "integral",
+          "ramified"
+        ],
+        "hierarchy_depth": 4
+      },
+      {
+        "id": "global_337",
+        "label": "可积系统与Bethe拟设",
+        "kind": "topic",
+        "subcategory": "AG",
+        "category": "math",
+        "status": "transient",
+        "display_size": 25.7,
+        "active_periods": 1,
+        "total_papers": 22,
+        "keywords": [
+          "opers",
+          "bethe",
+          "ansatz",
+          "qq",
+          "integrable"
         ],
         "hierarchy_depth": 2
       }
@@ -572,84 +590,14 @@
   "edges": [
     {
       "source": "math.AG",
-      "target": "global_263",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.AG",
-      "target": "global_287",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.AG",
-      "target": "global_349",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.AG",
-      "target": "global_134",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.AG",
-      "target": "global_337",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.AG",
-      "target": "global_30",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.AG",
-      "target": "global_117",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.AG",
-      "target": "global_135",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.AG",
-      "target": "global_237",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.AG",
-      "target": "global_215",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.AG",
-      "target": "global_4",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.AG",
       "target": "global_69",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.AG",
+      "target": "global_355",
       "kind": "CONTAINS_TOPIC",
       "display_weight": 1.5,
       "evidence_type": "data-derived"
@@ -663,7 +611,42 @@
     },
     {
       "source": "math.AG",
+      "target": "global_136",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.AG",
       "target": "global_107",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.AG",
+      "target": "global_30",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.AG",
+      "target": "global_237",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.AG",
+      "target": "global_134",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.AG",
+      "target": "global_287",
       "kind": "CONTAINS_TOPIC",
       "display_weight": 1.5,
       "evidence_type": "data-derived"
@@ -677,57 +660,92 @@
     },
     {
       "source": "math.AG",
-      "target": "global_136",
+      "target": "global_4",
       "kind": "CONTAINS_TOPIC",
       "display_weight": 1.5,
       "evidence_type": "data-derived"
     },
     {
       "source": "math.AG",
-      "target": "global_355",
+      "target": "global_135",
       "kind": "CONTAINS_TOPIC",
       "display_weight": 1.5,
       "evidence_type": "data-derived"
     },
     {
-      "source": "global_263",
-      "target": "2025-10",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 19
+      "source": "math.AG",
+      "target": "global_215",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
     },
     {
-      "source": "global_287",
-      "target": "2025-11",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 27
+      "source": "math.AG",
+      "target": "global_349",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
     },
     {
-      "source": "global_349",
-      "target": "2026-01",
+      "source": "math.AG",
+      "target": "global_263",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.AG",
+      "target": "global_117",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.AG",
+      "target": "global_337",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "global_69",
+      "target": "2025-04",
       "kind": "ACTIVE_IN",
       "display_weight": 1.0,
       "evidence_type": "data-derived",
       "paper_count": 13
     },
     {
-      "source": "global_134",
-      "target": "2025-06",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 23
-    },
-    {
-      "source": "global_337",
+      "source": "global_355",
       "target": "2026-01",
       "kind": "ACTIVE_IN",
       "display_weight": 1.0,
       "evidence_type": "data-derived",
-      "paper_count": 22
+      "paper_count": 26
+    },
+    {
+      "source": "global_259",
+      "target": "2025-10",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 18
+    },
+    {
+      "source": "global_136",
+      "target": "2025-06",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 24
+    },
+    {
+      "source": "global_107",
+      "target": "2025-05",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 19
     },
     {
       "source": "global_30",
@@ -834,22 +852,6 @@
       "paper_count": 313
     },
     {
-      "source": "global_117",
-      "target": "2025-05",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 16
-    },
-    {
-      "source": "global_135",
-      "target": "2025-06",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 22
-    },
-    {
       "source": "global_237",
       "target": "2025-09",
       "kind": "ACTIVE_IN",
@@ -858,12 +860,36 @@
       "paper_count": 25
     },
     {
-      "source": "global_215",
-      "target": "2025-08",
+      "source": "global_134",
+      "target": "2025-06",
       "kind": "ACTIVE_IN",
       "display_weight": 1.0,
       "evidence_type": "data-derived",
-      "paper_count": 24
+      "paper_count": 23
+    },
+    {
+      "source": "global_287",
+      "target": "2025-11",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 27
+    },
+    {
+      "source": "global_5",
+      "target": "2025-02",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 45
+    },
+    {
+      "source": "global_5",
+      "target": "2025-04",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 75
     },
     {
       "source": "global_4",
@@ -906,60 +932,52 @@
       "paper_count": 314
     },
     {
-      "source": "global_69",
-      "target": "2025-04",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 13
-    },
-    {
-      "source": "global_259",
-      "target": "2025-10",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 18
-    },
-    {
-      "source": "global_107",
-      "target": "2025-05",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 19
-    },
-    {
-      "source": "global_5",
-      "target": "2025-02",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 45
-    },
-    {
-      "source": "global_5",
-      "target": "2025-04",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 75
-    },
-    {
-      "source": "global_136",
+      "source": "global_135",
       "target": "2025-06",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 22
+    },
+    {
+      "source": "global_215",
+      "target": "2025-08",
       "kind": "ACTIVE_IN",
       "display_weight": 1.0,
       "evidence_type": "data-derived",
       "paper_count": 24
     },
     {
-      "source": "global_355",
+      "source": "global_349",
       "target": "2026-01",
       "kind": "ACTIVE_IN",
       "display_weight": 1.0,
       "evidence_type": "data-derived",
-      "paper_count": 26
+      "paper_count": 13
+    },
+    {
+      "source": "global_263",
+      "target": "2025-10",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 19
+    },
+    {
+      "source": "global_117",
+      "target": "2025-05",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 16
+    },
+    {
+      "source": "global_337",
+      "target": "2026-01",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 22
     },
     {
       "source": "global_107",
@@ -1328,6 +1346,9 @@
       "narrative_level": "event-level",
       "narrative_note": "唯一稳定 runner-positive；作为 AG 主线 confirmed core 保留。",
       "graph_export_status": "encoded_as_evolves_to",
+      "truth_scope": "",
+      "baseline_truth": true,
+      "source_doc": "",
       "is_bidirectional": false
     },
     {
@@ -1347,6 +1368,9 @@
       "narrative_level": "boundary",
       "narrative_note": "仅共享 sheaves (1 个对象词)；不满足当前 >=2 exact-term gate",
       "graph_export_status": "encoded_as_evolves_to",
+      "truth_scope": "",
+      "baseline_truth": true,
+      "source_doc": "",
       "is_bidirectional": false
     },
     {
@@ -1366,6 +1390,9 @@
       "narrative_level": "boundary",
       "narrative_note": "class-overlap-only false positive；无 exact shared AG object terms",
       "graph_export_status": "encoded_as_evolves_to",
+      "truth_scope": "",
+      "baseline_truth": true,
+      "source_doc": "",
       "is_bidirectional": false
     },
     {
@@ -1385,6 +1412,9 @@
       "narrative_level": "boundary",
       "narrative_note": "domain boundary negative；凸几何主题不应进入 math.AG object continuity",
       "graph_export_status": "encoded_as_evolves_to",
+      "truth_scope": "",
+      "baseline_truth": true,
+      "source_doc": "",
       "is_bidirectional": false
     },
     {
@@ -1404,6 +1434,9 @@
       "narrative_level": "ambiguous",
       "narrative_note": "Review-only AG boundary dispute; keep visible in metadata, not inside the default bridge ring.",
       "graph_export_status": "encoded_as_evolves_to",
+      "truth_scope": "",
+      "baseline_truth": true,
+      "source_doc": "",
       "is_bidirectional": false
     }
   ],

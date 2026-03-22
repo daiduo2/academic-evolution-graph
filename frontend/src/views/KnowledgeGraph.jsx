@@ -80,6 +80,7 @@ export default function KnowledgeGraph() {
     filters: availableFilters,
     stats,
     domainKnowledgeLayers,
+    narrativeSubgraphs,
     loading,
     error,
   } = useKnowledgeGraph({ sourceMode });
@@ -96,6 +97,7 @@ export default function KnowledgeGraph() {
   const [timelineData, setTimelineData] = useState(null);
   const [timelineRequested, setTimelineRequested] = useState(false);
   const hideTimeline = prPreviewEnabled && activePresetKey === 'research-preview';
+  const narrativeOverlayEnabled = true;
 
   useEffect(() => {
     if (hideTimeline) {
@@ -160,8 +162,64 @@ export default function KnowledgeGraph() {
   }, [defaultPreset]);
 
   // Get selected topic object
+  const narrativeOverlayTopics = useMemo(
+    () => narrativeOverlayEnabled
+      ? Object.values(narrativeSubgraphs || {}).flatMap((subgraph) => subgraph?.nodes?.topics || [])
+      : [],
+    [narrativeSubgraphs, narrativeOverlayEnabled],
+  );
+
+  const narrativeOverlayEdges = useMemo(
+    () => narrativeOverlayEnabled
+      ? Object.values(narrativeSubgraphs || {}).flatMap((subgraph) => subgraph?.edges || [])
+      : [],
+    [narrativeSubgraphs, narrativeOverlayEnabled],
+  );
+
+  const displayTopics = useMemo(() => {
+    const merged = new Map();
+    topics.forEach((topic) => merged.set(topic.id, topic));
+    narrativeOverlayTopics.forEach((topic) => {
+      if (!merged.has(topic.id)) {
+        merged.set(topic.id, topic);
+      }
+    });
+    return [...merged.values()];
+  }, [topics, narrativeOverlayTopics]);
+
+  const displayEdges = useMemo(() => {
+    const byKind = {
+      ...edges,
+      EVOLVES_TO: [...(edges.EVOLVES_TO || [])],
+    };
+    const seen = new Set(
+      byKind.EVOLVES_TO.map((edge) => `${edge.source}|${edge.target}|${edge.benchmark_case_id || ''}|${edge.graph_export_status || ''}`),
+    );
+
+    narrativeOverlayEdges.forEach((edge) => {
+      const key = `${edge.source}|${edge.target}|${edge.benchmark_case_id || ''}|${edge.graph_export_status || ''}`;
+      if (!seen.has(key)) {
+        byKind.EVOLVES_TO.push(edge);
+        seen.add(key);
+      }
+    });
+
+    return byKind;
+  }, [edges, narrativeOverlayEdges]);
+
+  const displayStats = useMemo(
+    () => ({
+      ...stats,
+      topic_count: displayTopics.length,
+      evolves_to_count: (displayEdges.EVOLVES_TO || []).length,
+      narrative_overlay_topic_count: narrativeOverlayTopics.length,
+      narrative_overlay_edge_count: narrativeOverlayEdges.length,
+    }),
+    [stats, displayTopics.length, displayEdges, narrativeOverlayTopics.length, narrativeOverlayEdges.length],
+  );
+
   const selectedTopic = selectedTopicId
-    ? topics.find((t) => t.id === selectedTopicId) || null
+    ? displayTopics.find((t) => t.id === selectedTopicId) || null
     : null;
 
   useEffect(() => {
@@ -217,7 +275,7 @@ export default function KnowledgeGraph() {
   const selectionSummary = useMemo(() => {
     if (!selectedTopic) return null;
 
-    const connectedCount = Object.values(edges || {})
+    const connectedCount = Object.values(displayEdges || {})
       .flat()
       .filter((edge) => edge.source === selectedTopic.id || edge.target === selectedTopic.id)
       .length;
@@ -226,7 +284,7 @@ export default function KnowledgeGraph() {
       label: selectedTopic.label || selectedTopic.id,
       connectedCount,
     };
-  }, [selectedTopic, edges]);
+  }, [selectedTopic, displayEdges]);
 
   // Handle topic click
   const handleTopicClick = useCallback((topic) => {
@@ -295,13 +353,13 @@ export default function KnowledgeGraph() {
           <p className="text-gray-500 text-sm leading-6 max-w-3xl">
             {prPreviewEnabled
               ? '当前打开的是 opt-in preview bundle，不是默认 baseline 页面。默认 /knowledge-graph 仍然只读 math.LO + math.AG；这里出现的 math.PR 只作为 conditional layer 展示研究中的候选关系。'
-              : '默认展示当前稳定 baseline：math.LO（逻辑）+ math.AG（代数几何）。这不是“数学全域已完成”，而是当前适合 demo 的确认层。'}
+              : '默认展示当前稳定 baseline：math.LO（逻辑）+ math.AG（代数几何），并叠加 CO / DS 的非 baseline 叙事层，让主图更接近当前研究全貌。'}
           </p>
         </div>
         <div className="grid grid-cols-3 gap-6 text-sm sm:max-w-sm">
           <div className="text-right">
             <p className="text-xs text-gray-400">主题</p>
-            <p className="font-semibold text-gray-900">{stats.topic_count || topics.length}</p>
+            <p className="font-semibold text-gray-900">{displayStats.topic_count || displayTopics.length}</p>
           </div>
           <div className="text-right">
             <p className="text-xs text-gray-400">子类别</p>
@@ -405,8 +463,8 @@ export default function KnowledgeGraph() {
         <div className="col-span-12 lg:col-span-7">
           <div className="bg-slate-900 rounded-lg overflow-hidden shadow-sm">
             <GraphVisualization
-              topics={topics}
-              edges={edges}
+              topics={displayTopics}
+              edges={displayEdges}
               filters={filterState}
               selectedTopic={selectedTopicId}
               selectedTopicLabel={selectionSummary?.label || null}
@@ -424,8 +482,8 @@ export default function KnowledgeGraph() {
             <Suspense fallback={<TopicDetailEmptyState sourceMode={sourceMode} loading />}>
               <TopicDetail
                 topic={selectedTopic}
-                topics={topics}
-                edges={edges}
+                topics={displayTopics}
+                edges={displayEdges}
                 onClose={handleCloseDetail}
                 sourceMode={sourceMode}
               />
@@ -440,7 +498,7 @@ export default function KnowledgeGraph() {
         <div className="rounded-xl border border-emerald-200 bg-emerald-50 p-4">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-emerald-700 mb-2">当前稳定层</p>
           <p className="text-sm text-emerald-950 leading-6">
-            LO + AG 仍是默认 baseline。当前可稳定演示的是 {baselineTopics.length} 个主题和 {baselineEvolutionEdges.length} 条 baseline 演化边，它们才是对外 demo 的正式结论层。
+            LO + AG 仍是默认 baseline。当前可稳定演示的是 {baselineTopics.length} 个主题和 {baselineEvolutionEdges.length} 条 baseline 演化边；另外还叠加了 {narrativeOverlayTopics.length} 个 CO / DS narrative topics 和 {narrativeOverlayEdges.length} 条 non-baseline 演化边，让主图更接近今天已经整理好的研究外圈。
           </p>
         </div>
         <div className="rounded-xl border border-slate-200 bg-slate-50 p-4">
@@ -471,7 +529,7 @@ export default function KnowledgeGraph() {
           <p className={`text-sm leading-6 ${prPreviewEnabled ? 'text-purple-950' : 'text-amber-900'}`}>
             {prPreviewEnabled
               ? `本次 preview 额外加载了 ${previewTopics.length} 个 PR 主题和 ${previewEvolutionEdges.length} 条条件性演化边；它们会出现在 preview bundle 中，但不会把 PR 讲成已确认 baseline。`
-              : 'math.PR 与其他数学子域没有被默认当作结论层展示。默认页面不会自动暴露它们。'}
+              : 'math.PR 仍未被默认当作结论层展示；当前额外进入主图的 CO / DS 只属于 non-baseline narrative layer，不代表 baseline truth 被扩张。'}
           </p>
         </div>
       </div>

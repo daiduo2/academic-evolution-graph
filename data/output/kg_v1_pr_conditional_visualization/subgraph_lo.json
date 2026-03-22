@@ -1,7 +1,7 @@
 {
   "version": "kg_v1_visualization",
   "subcategory": "LO",
-  "generated_at": "2026-03-22T19:22:48.923617",
+  "generated_at": "2026-03-22T20:22:57.726890",
   "metadata": {
     "domain_code": "math.LO",
     "export_presence": "baseline_subgraph",
@@ -36,6 +36,7 @@
         "encoded_case_ids": [
           "lo-b1"
         ],
+        "graph_visible_case_ids": [],
         "metadata_only_case_ids": [],
         "case_count": 1,
         "encoded_case_count": 1,
@@ -54,6 +55,7 @@
         "encoded_case_ids": [
           "lo-b3"
         ],
+        "graph_visible_case_ids": [],
         "metadata_only_case_ids": [
           "lo-b2",
           "lo-b4",
@@ -78,6 +80,7 @@
         "encoded_case_ids": [
           "lo-n1"
         ],
+        "graph_visible_case_ids": [],
         "metadata_only_case_ids": [
           "lo-n2",
           "lo-n3",
@@ -100,6 +103,7 @@
         "encoded_case_ids": [
           "lo-a2"
         ],
+        "graph_visible_case_ids": [],
         "metadata_only_case_ids": [
           "lo-a1"
         ],
@@ -114,6 +118,8 @@
         "anchor": "global_56",
         "target": "global_27",
         "expected_relation": "math_lo_modal_continuity",
+        "benchmark_status": "positive",
+        "confidence": "confirmed",
         "level": "event-level",
         "graph_band": "baseline",
         "graph_layer": "modal_baseline",
@@ -129,6 +135,8 @@
         "anchor": "global_56",
         "target": "global_980",
         "expected_relation": "math_lo_type_theory_continuity",
+        "benchmark_status": "positive",
+        "confidence": "confirmed",
         "level": "bridge-level",
         "graph_band": "bridge",
         "graph_layer": "bridge_ring",
@@ -144,6 +152,8 @@
         "anchor": "global_313",
         "target": "global_360",
         "expected_relation": "math_lo_set_theory_continuity",
+        "benchmark_status": "positive",
+        "confidence": "confirmed",
         "level": "bridge-level",
         "graph_band": "bridge",
         "graph_layer": "bridge_ring",
@@ -159,6 +169,8 @@
         "anchor": "global_51",
         "target": "global_951",
         "expected_relation": "math_lo_forcing_continuity",
+        "benchmark_status": "positive",
+        "confidence": "confirmed",
         "level": "bridge-level",
         "graph_band": "bridge",
         "graph_layer": "bridge_ring",
@@ -174,6 +186,8 @@
         "anchor": "global_75",
         "target": "global_778",
         "expected_relation": "math_lo_definability_continuity",
+        "benchmark_status": "positive",
+        "confidence": "confirmed",
         "level": "bridge-level",
         "graph_band": "bridge",
         "graph_layer": "bridge_ring",
@@ -189,6 +203,8 @@
         "anchor": "global_51",
         "target": "global_75",
         "expected_relation": "not math_lo_forcing_continuity",
+        "benchmark_status": "negative",
+        "confidence": "negative",
         "level": "boundary",
         "graph_band": "boundary",
         "graph_layer": "boundary_negative",
@@ -204,6 +220,8 @@
         "anchor": "global_339",
         "target": "global_951",
         "expected_relation": "none",
+        "benchmark_status": "negative",
+        "confidence": "negative",
         "level": "boundary",
         "graph_band": "boundary",
         "graph_layer": "boundary_negative",
@@ -219,6 +237,8 @@
         "anchor": "global_167",
         "target": "global_778",
         "expected_relation": "none",
+        "benchmark_status": "negative",
+        "confidence": "negative",
         "level": "boundary",
         "graph_band": "boundary",
         "graph_layer": "boundary_negative",
@@ -234,6 +254,8 @@
         "anchor": "global_361",
         "target": "global_778",
         "expected_relation": "none",
+        "benchmark_status": "negative",
+        "confidence": "negative",
         "level": "boundary",
         "graph_band": "boundary",
         "graph_layer": "boundary_negative",
@@ -249,6 +271,8 @@
         "anchor": "global_56",
         "target": "global_977",
         "expected_relation": "not math_lo_type_theory_continuity",
+        "benchmark_status": "negative",
+        "confidence": "negative",
         "level": "boundary",
         "graph_band": "boundary",
         "graph_layer": "boundary_negative",
@@ -264,6 +288,8 @@
         "anchor": "global_56",
         "target": "global_1155",
         "expected_relation": "not math_lo_type_theory_continuity",
+        "benchmark_status": "negative",
+        "confidence": "negative",
         "level": "boundary",
         "graph_band": "boundary",
         "graph_layer": "boundary_negative",
@@ -279,6 +305,8 @@
         "anchor": "global_75",
         "target": "global_951",
         "expected_relation": "review-needed",
+        "benchmark_status": "ambiguous",
+        "confidence": "ambiguous",
         "level": "ambiguous",
         "graph_band": "review",
         "graph_layer": "review_boundary",
@@ -294,6 +322,8 @@
         "anchor": "global_339",
         "target": "global_51",
         "expected_relation": "review-needed",
+        "benchmark_status": "ambiguous",
+        "confidence": "ambiguous",
         "level": "ambiguous",
         "graph_band": "review",
         "graph_layer": "review_boundary",
@@ -337,8 +367,8 @@
   "nodes": {
     "topics": [
       {
-        "id": "global_339",
-        "label": "基数、理想与力迫法",
+        "id": "global_167",
+        "label": "可定义基数塔基序",
         "kind": "topic",
         "subcategory": "LO",
         "category": "math",
@@ -347,49 +377,30 @@
         "active_periods": 1,
         "total_papers": 31,
         "keywords": [
-          "mathsf",
-          "cardinal",
-          "countable",
-          "ideals",
-          "forcing"
-        ],
-        "hierarchy_depth": 3
-      },
-      {
-        "id": "global_226",
-        "label": "可计算伪熵",
-        "kind": "topic",
-        "subcategory": "LO",
-        "category": "math",
-        "status": "transient",
-        "display_size": 22.4,
-        "active_periods": 1,
-        "total_papers": 11,
-        "keywords": [
-          "randomness",
-          "belief",
-          "entropy",
-          "computable",
-          "pseudoentropy"
+          "ω_1",
+          "tukey",
+          "preccurlyeq",
+          "definable",
+          "cardinals"
         ],
         "hierarchy_depth": 2
       },
       {
-        "id": "global_361",
-        "label": "亨泽尔域存在可定义性",
+        "id": "global_75",
+        "label": "基数迭代强制法",
         "kind": "topic",
         "subcategory": "LO",
         "category": "math",
         "status": "transient",
-        "display_size": 22.8,
+        "display_size": 25.5,
         "active_periods": 1,
-        "total_papers": 12,
+        "total_papers": 21,
         "keywords": [
-          "existential",
-          "fields",
-          "valued",
-          "henselian",
-          "definable"
+          "cardinal",
+          "forcing",
+          "mathfrak",
+          "cardinals",
+          "iterable"
         ],
         "hierarchy_depth": 2
       },
@@ -432,21 +443,21 @@
         "hierarchy_depth": 2
       },
       {
-        "id": "global_167",
-        "label": "可定义基数塔基序",
+        "id": "global_360",
+        "label": "ZF基数选择公理",
         "kind": "topic",
         "subcategory": "LO",
         "category": "math",
         "status": "transient",
-        "display_size": 27.3,
+        "display_size": 28.2,
         "active_periods": 1,
-        "total_papers": 31,
+        "total_papers": 37,
         "keywords": [
-          "ω_1",
-          "tukey",
-          "preccurlyeq",
-          "definable",
-          "cardinals"
+          "cardinals",
+          "mathsf",
+          "cardinal",
+          "zf",
+          "choice"
         ],
         "hierarchy_depth": 2
       },
@@ -470,116 +481,40 @@
         "hierarchy_depth": 2
       },
       {
-        "id": "global_51",
-        "label": "基数与波莱尔公理",
-        "kind": "topic",
-        "subcategory": "LO",
-        "category": "math",
-        "status": "persistent",
-        "display_size": 38.2,
-        "active_periods": 3,
-        "total_papers": 102,
-        "keywords": [
-          "forcing",
-          "aleph_",
-          "axiom",
-          "aleph_1",
-          "set"
-        ],
-        "hierarchy_depth": 2
-      },
-      {
-        "id": "global_360",
-        "label": "ZF基数选择公理",
+        "id": "global_361",
+        "label": "亨泽尔域存在可定义性",
         "kind": "topic",
         "subcategory": "LO",
         "category": "math",
         "status": "transient",
-        "display_size": 28.2,
+        "display_size": 22.8,
         "active_periods": 1,
-        "total_papers": 37,
+        "total_papers": 12,
         "keywords": [
-          "cardinals",
+          "existential",
+          "fields",
+          "valued",
+          "henselian",
+          "definable"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_339",
+        "label": "基数、理想与力迫法",
+        "kind": "topic",
+        "subcategory": "LO",
+        "category": "math",
+        "status": "transient",
+        "display_size": 27.3,
+        "active_periods": 1,
+        "total_papers": 31,
+        "keywords": [
           "mathsf",
           "cardinal",
-          "zf",
-          "choice"
-        ],
-        "hierarchy_depth": 2
-      },
-      {
-        "id": "global_75",
-        "label": "基数迭代强制法",
-        "kind": "topic",
-        "subcategory": "LO",
-        "category": "math",
-        "status": "transient",
-        "display_size": 25.5,
-        "active_periods": 1,
-        "total_papers": 21,
-        "keywords": [
-          "cardinal",
-          "forcing",
-          "mathfrak",
-          "cardinals",
-          "iterable"
-        ],
-        "hierarchy_depth": 2
-      },
-      {
-        "id": "global_342",
-        "label": "强化推理奖励机制",
-        "kind": "topic",
-        "subcategory": "LO",
-        "category": "math",
-        "status": "transient",
-        "display_size": 40,
-        "active_periods": 1,
-        "total_papers": 521,
-        "keywords": [
-          "reasoning",
-          "reward",
-          "rl",
-          "reinforcement",
-          "cot"
-        ],
-        "hierarchy_depth": 2
-      },
-      {
-        "id": "global_345",
-        "label": "模态逻辑与哥德尔联结词",
-        "kind": "topic",
-        "subcategory": "LO",
-        "category": "math",
-        "status": "transient",
-        "display_size": 30.0,
-        "active_periods": 1,
-        "total_papers": 54,
-        "keywords": [
-          "logic",
-          "logics",
-          "modal",
-          "connectives",
-          "godel"
-        ],
-        "hierarchy_depth": 3
-      },
-      {
-        "id": "global_208",
-        "label": "模态逻辑可满足性",
-        "kind": "topic",
-        "subcategory": "LO",
-        "category": "math",
-        "status": "transient",
-        "display_size": 31.5,
-        "active_periods": 1,
-        "total_papers": 72,
-        "keywords": [
-          "logic",
-          "logics",
-          "modal",
-          "satisfiability",
-          "semantics"
+          "countable",
+          "ideals",
+          "forcing"
         ],
         "hierarchy_depth": 3
       },
@@ -603,6 +538,63 @@
         "hierarchy_depth": 4
       },
       {
+        "id": "global_208",
+        "label": "模态逻辑可满足性",
+        "kind": "topic",
+        "subcategory": "LO",
+        "category": "math",
+        "status": "transient",
+        "display_size": 31.5,
+        "active_periods": 1,
+        "total_papers": 72,
+        "keywords": [
+          "logic",
+          "logics",
+          "modal",
+          "satisfiability",
+          "semantics"
+        ],
+        "hierarchy_depth": 3
+      },
+      {
+        "id": "global_51",
+        "label": "基数与波莱尔公理",
+        "kind": "topic",
+        "subcategory": "LO",
+        "category": "math",
+        "status": "persistent",
+        "display_size": 38.2,
+        "active_periods": 3,
+        "total_papers": 102,
+        "keywords": [
+          "forcing",
+          "aleph_",
+          "axiom",
+          "aleph_1",
+          "set"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_342",
+        "label": "强化推理奖励机制",
+        "kind": "topic",
+        "subcategory": "LO",
+        "category": "math",
+        "status": "transient",
+        "display_size": 40,
+        "active_periods": 1,
+        "total_papers": 521,
+        "keywords": [
+          "reasoning",
+          "reward",
+          "rl",
+          "reinforcement",
+          "cot"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
         "id": "global_313",
         "label": "基数与超滤子公理",
         "kind": "topic",
@@ -620,6 +612,44 @@
           "sets"
         ],
         "hierarchy_depth": 2
+      },
+      {
+        "id": "global_226",
+        "label": "可计算伪熵",
+        "kind": "topic",
+        "subcategory": "LO",
+        "category": "math",
+        "status": "transient",
+        "display_size": 22.4,
+        "active_periods": 1,
+        "total_papers": 11,
+        "keywords": [
+          "randomness",
+          "belief",
+          "entropy",
+          "computable",
+          "pseudoentropy"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_345",
+        "label": "模态逻辑与哥德尔联结词",
+        "kind": "topic",
+        "subcategory": "LO",
+        "category": "math",
+        "status": "transient",
+        "display_size": 30.0,
+        "active_periods": 1,
+        "total_papers": 54,
+        "keywords": [
+          "logic",
+          "logics",
+          "modal",
+          "connectives",
+          "godel"
+        ],
+        "hierarchy_depth": 3
       }
     ],
     "subcategory": {
@@ -639,21 +669,14 @@
   "edges": [
     {
       "source": "math.LO",
-      "target": "global_339",
+      "target": "global_167",
       "kind": "CONTAINS_TOPIC",
       "display_weight": 1.5,
       "evidence_type": "data-derived"
     },
     {
       "source": "math.LO",
-      "target": "global_226",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.LO",
-      "target": "global_361",
+      "target": "global_75",
       "kind": "CONTAINS_TOPIC",
       "display_weight": 1.5,
       "evidence_type": "data-derived"
@@ -674,7 +697,7 @@
     },
     {
       "source": "math.LO",
-      "target": "global_167",
+      "target": "global_360",
       "kind": "CONTAINS_TOPIC",
       "display_weight": 1.5,
       "evidence_type": "data-derived"
@@ -688,42 +711,14 @@
     },
     {
       "source": "math.LO",
-      "target": "global_51",
+      "target": "global_361",
       "kind": "CONTAINS_TOPIC",
       "display_weight": 1.5,
       "evidence_type": "data-derived"
     },
     {
       "source": "math.LO",
-      "target": "global_360",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.LO",
-      "target": "global_75",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.LO",
-      "target": "global_342",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.LO",
-      "target": "global_345",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.LO",
-      "target": "global_208",
+      "target": "global_339",
       "kind": "CONTAINS_TOPIC",
       "display_weight": 1.5,
       "evidence_type": "data-derived"
@@ -737,34 +732,61 @@
     },
     {
       "source": "math.LO",
+      "target": "global_208",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.LO",
+      "target": "global_51",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.LO",
+      "target": "global_342",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.LO",
       "target": "global_313",
       "kind": "CONTAINS_TOPIC",
       "display_weight": 1.5,
       "evidence_type": "data-derived"
     },
     {
-      "source": "global_339",
-      "target": "2026-01",
+      "source": "math.LO",
+      "target": "global_226",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.LO",
+      "target": "global_345",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "global_167",
+      "target": "2025-07",
       "kind": "ACTIVE_IN",
       "display_weight": 1.0,
       "evidence_type": "data-derived",
       "paper_count": 31
     },
     {
-      "source": "global_226",
-      "target": "2025-09",
+      "source": "global_75",
+      "target": "2025-04",
       "kind": "ACTIVE_IN",
       "display_weight": 1.0,
       "evidence_type": "data-derived",
-      "paper_count": 11
-    },
-    {
-      "source": "global_361",
-      "target": "2026-02",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 12
+      "paper_count": 21
     },
     {
       "source": "global_56",
@@ -799,12 +821,12 @@
       "paper_count": 10
     },
     {
-      "source": "global_167",
-      "target": "2025-07",
+      "source": "global_360",
+      "target": "2026-02",
       "kind": "ACTIVE_IN",
       "display_weight": 1.0,
       "evidence_type": "data-derived",
-      "paper_count": 31
+      "paper_count": 37
     },
     {
       "source": "global_192",
@@ -815,68 +837,20 @@
       "paper_count": 29
     },
     {
-      "source": "global_51",
-      "target": "2025-03",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 27
-    },
-    {
-      "source": "global_51",
-      "target": "2025-08",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 16
-    },
-    {
-      "source": "global_51",
-      "target": "2025-10",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 59
-    },
-    {
-      "source": "global_360",
+      "source": "global_361",
       "target": "2026-02",
       "kind": "ACTIVE_IN",
       "display_weight": 1.0,
       "evidence_type": "data-derived",
-      "paper_count": 37
+      "paper_count": 12
     },
     {
-      "source": "global_75",
-      "target": "2025-04",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 21
-    },
-    {
-      "source": "global_342",
+      "source": "global_339",
       "target": "2026-01",
       "kind": "ACTIVE_IN",
       "display_weight": 1.0,
       "evidence_type": "data-derived",
-      "paper_count": 521
-    },
-    {
-      "source": "global_345",
-      "target": "2026-01",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 54
-    },
-    {
-      "source": "global_208",
-      "target": "2025-08",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 72
+      "paper_count": 31
     },
     {
       "source": "global_27",
@@ -903,12 +877,68 @@
       "paper_count": 233
     },
     {
+      "source": "global_208",
+      "target": "2025-08",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 72
+    },
+    {
+      "source": "global_51",
+      "target": "2025-03",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 27
+    },
+    {
+      "source": "global_51",
+      "target": "2025-08",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 16
+    },
+    {
+      "source": "global_51",
+      "target": "2025-10",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 59
+    },
+    {
+      "source": "global_342",
+      "target": "2026-01",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 521
+    },
+    {
       "source": "global_313",
       "target": "2025-12",
       "kind": "ACTIVE_IN",
       "display_weight": 1.0,
       "evidence_type": "data-derived",
       "paper_count": 40
+    },
+    {
+      "source": "global_226",
+      "target": "2025-09",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 11
+    },
+    {
+      "source": "global_345",
+      "target": "2026-01",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 54
     },
     {
       "source": "global_167",
@@ -1207,6 +1237,9 @@
       "narrative_level": "event-level",
       "narrative_note": "Current LO event-level baseline; graph-supported and replay-backed.",
       "graph_export_status": "encoded_as_evolves_to",
+      "truth_scope": "",
+      "baseline_truth": true,
+      "source_doc": "",
       "is_bidirectional": false
     },
     {
@@ -1226,6 +1259,9 @@
       "narrative_level": "bridge-level",
       "narrative_note": "Set-theory inner backbone: strongest graph-supported LO bridge branch below event-level.",
       "graph_export_status": "encoded_as_evolves_to",
+      "truth_scope": "",
+      "baseline_truth": true,
+      "source_doc": "",
       "is_bidirectional": false
     },
     {
@@ -1245,6 +1281,9 @@
       "narrative_level": "boundary",
       "narrative_note": "Keeps the forcing branch from swallowing the set-theory backbone.",
       "graph_export_status": "encoded_as_evolves_to",
+      "truth_scope": "",
+      "baseline_truth": true,
+      "source_doc": "",
       "is_bidirectional": false
     },
     {
@@ -1264,6 +1303,9 @@
       "narrative_level": "ambiguous",
       "narrative_note": "Near-miss inside the set-theory/forcing neighborhood; visible as a review boundary, not as a positive branch.",
       "graph_export_status": "encoded_as_evolves_to",
+      "truth_scope": "",
+      "baseline_truth": true,
+      "source_doc": "",
       "is_bidirectional": false
     }
   ],

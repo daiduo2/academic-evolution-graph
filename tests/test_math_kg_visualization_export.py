@@ -114,6 +114,10 @@ def fresh_visualization_export(fresh_kg_export: Path) -> Path:
             json.dump(timeline, f, indent=2, ensure_ascii=False)
         with open(output_path / 'legend.json', 'w', encoding='utf-8') as f:
             json.dump(legend, f, indent=2, ensure_ascii=False)
+        for domain_code, narrative_subgraph in bundle.get('narrative_subgraphs', {}).items():
+            short_code = domain_code.split('.')[-1].lower()
+            with open(output_path / f'subgraph_{short_code}.json', 'w', encoding='utf-8') as f:
+                json.dump(narrative_subgraph, f, indent=2, ensure_ascii=False)
 
         yield output_path
 
@@ -669,23 +673,52 @@ class TestVisualizationExporterOutput:
 
         assert co_meta['export_presence'] == 'docs_only_contract'
         assert co_meta['selected_rule'] == 'math_co_matroid_structure_continuity'
+        assert co_meta['graph_visible_layer_keys'] == ['matroid_mvp', 'bridge_support', 'excluded_boundary', 'review_boundary']
+        assert co_meta['metadata_only_layer_keys'] == ['deferred_branch']
         assert co_meta['layers']['matroid_mvp']['case_ids'] == ['co-m1', 'co-m2']
+        assert co_meta['layers']['matroid_mvp']['graph_visible_case_ids'] == ['co-m1', 'co-m2']
+        assert co_meta['layers']['bridge_support']['graph_visible_case_ids'] == ['co-b2']
+        assert co_meta['graph_visible_case_ids'] == ['co-b2', 'co-m1', 'co-m2', 'co-mn1', 'co-mn2', 'co-ma1']
+        assert co_meta['case_counts_by_export_status'] == {
+            'narrative_subgraph_only': 6,
+            'docs_only_outside_export_scope': 1,
+        }
+        assert co_meta['graph_visible_subgraph']['stats']['topic_count'] == 8
+        assert co_meta['graph_visible_subgraph']['stats']['edge_count'] == 6
+        assert co_meta['graph_visible_subgraph']['stats']['edges_by_graph_band'] == {
+            'bridge': 1,
+            'boundary': 2,
+            'review': 1,
+            'contract': 2,
+        }
 
         assert ds_meta['export_presence'] == 'docs_only_narrative'
         assert ds_meta['topology_status'] == 'not_in_baseline_topology'
         assert ds_meta['candidate_rule'] == 'math_ds_ergodic_entropy_continuity'
         assert ds_meta['narrative_status'] == 'benchmark_skeleton_ready'
         assert ds_meta['encoded_case_ids'] == []
-        assert ds_meta['layers']['ergodic_entropy_skeleton']['metadata_only_case_ids'] == ['ds-b1', 'ds-b2']
+        assert ds_meta['graph_visible_layer_keys'] == ['ergodic_entropy_skeleton', 'excluded_boundary', 'review_boundary']
+        assert ds_meta['metadata_only_layer_keys'] == []
+        assert ds_meta['graph_visible_case_ids'] == ['ds-b1', 'ds-b2', 'ds-n1', 'ds-n2', 'ds-a1']
+        assert ds_meta['layers']['ergodic_entropy_skeleton']['graph_visible_case_ids'] == ['ds-b1', 'ds-b2']
+        assert ds_meta['layers']['excluded_boundary']['graph_visible_case_ids'] == ['ds-n1', 'ds-n2']
+        assert ds_meta['layers']['review_boundary']['graph_visible_case_ids'] == ['ds-a1']
         assert ds_meta['case_counts_by_graph_band'] == {
             'bridge': 2,
             'boundary': 2,
             'review': 1,
         }
         assert ds_meta['case_counts_by_export_status'] == {
-            'docs_only_outside_export_scope': 5,
+            'narrative_subgraph_only': 5,
         }
         assert ds_meta['visible_graph_bands'] == ['bridge', 'boundary', 'review']
+        assert ds_meta['graph_visible_subgraph']['stats']['topic_count'] == 6
+        assert ds_meta['graph_visible_subgraph']['stats']['edge_count'] == 5
+        assert ds_meta['graph_visible_subgraph']['stats']['edges_by_graph_band'] == {
+            'bridge': 2,
+            'boundary': 2,
+            'review': 1,
+        }
 
         assert na_meta['export_presence'] == 'docs_only_narrative'
         assert na_meta['topology_status'] == 'not_in_baseline_topology'
@@ -748,6 +781,15 @@ class TestVisualizationExporterOutput:
             'contract': 1,
             'deferred': 1,
         }
+        assert bundle['stats']['narrative_subgraph_domain_count'] == 2
+        assert bundle['stats']['narrative_subgraph_edge_count'] == 11
+        assert bundle['stats']['narrative_subgraph_node_count'] == 14
+        assert bundle['stats']['narrative_subgraph_counts_by_graph_band'] == {
+            'bridge': 3,
+            'boundary': 4,
+            'review': 2,
+            'contract': 2,
+        }
 
     def test_graph_bundle_filters_expose_narrative_graph_bands(self, fresh_visualization_export: Path):
         """filters should expose graph bands present in metadata-only narrative layers too."""
@@ -759,6 +801,7 @@ class TestVisualizationExporterOutput:
         assert bundle['filters']['domain_export_presences'] == ['baseline_subgraph', 'docs_only_contract', 'docs_only_narrative']
         assert bundle['filters']['topology_statuses'] == ['baseline_topology_included', 'not_in_baseline_topology']
         assert bundle['filters']['narrative_statuses'] == ['benchmark_skeleton_ready']
+        assert bundle['filters']['narrative_subgraph_domains'] == ['math.CO', 'math.DS']
 
     def test_evolves_to_edges_have_graph_annotations(self, fresh_visualization_export: Path):
         """EVOLVES_TO edges should expose narrative band/layer metadata."""
@@ -833,6 +876,96 @@ class TestVisualizationExporterOutput:
             'review': 1,
         }
 
+    def test_graph_bundle_exposes_co_narrative_subgraph(self, fresh_visualization_export: Path):
+        """graph_bundle.json should expose a graph-visible but non-baseline CO narrative subgraph."""
+        with open(fresh_visualization_export / 'graph_bundle.json', 'r', encoding='utf-8') as f:
+            bundle = json.load(f)
+
+        narrative_subgraphs = bundle.get('narrative_subgraphs', {})
+        assert list(narrative_subgraphs.keys()) == ['math.CO', 'math.DS']
+
+        subgraph_co = narrative_subgraphs['math.CO']
+        assert subgraph_co['metadata']['truth_scope'] == 'narrative_only'
+        assert subgraph_co['metadata']['selected_rule'] == 'math_co_matroid_structure_continuity'
+        assert subgraph_co['metadata']['graph_visible_layer_keys'] == ['matroid_mvp', 'bridge_support', 'excluded_boundary', 'review_boundary']
+        assert subgraph_co['metadata']['metadata_only_layer_keys'] == ['deferred_branch']
+        assert subgraph_co['metadata']['visible_graph_bands'] == ['bridge', 'boundary', 'review', 'contract']
+        assert subgraph_co['stats']['topic_count'] == 8
+        assert subgraph_co['stats']['edge_count'] == 6
+        assert subgraph_co['stats']['edges_by_export_status'] == {
+            'narrative_subgraph_only': 6,
+        }
+        assert subgraph_co['stats']['edges_by_benchmark_status'] == {
+            'positive': 3,
+            'negative': 2,
+            'ambiguous': 1,
+        }
+
+        edge_by_case = {edge['benchmark_case_id']: edge for edge in subgraph_co['edges']}
+        assert edge_by_case['co-m1']['graph_band'] == 'contract'
+        assert edge_by_case['co-m1']['truth_scope'] == 'narrative_only'
+        assert edge_by_case['co-m1']['baseline_truth'] is False
+        assert edge_by_case['co-b2']['graph_band'] == 'bridge'
+        assert edge_by_case['co-mn1']['benchmark_status'] == 'negative'
+        assert edge_by_case['co-ma1']['benchmark_status'] == 'ambiguous'
+
+    def test_subgraph_co_file_exists(self, fresh_visualization_export: Path):
+        """subgraph_co.json should exist for the graph-visible CO narrative layer."""
+        assert (fresh_visualization_export / 'subgraph_co.json').exists()
+
+    def test_subgraph_ds_file_exists(self, fresh_visualization_export: Path):
+        """subgraph_ds.json should exist for the graph-visible DS narrative layer."""
+        assert (fresh_visualization_export / 'subgraph_ds.json').exists()
+
+    def test_subgraph_co_has_non_baseline_graph_visible_edges(self, fresh_visualization_export: Path):
+        """subgraph_co.json should expose CO narrative edges without changing baseline truth scope."""
+        with open(fresh_visualization_export / 'subgraph_co.json', 'r', encoding='utf-8') as f:
+            subgraph_co = json.load(f)
+
+        assert subgraph_co['metadata']['topology_status'] == 'not_in_baseline_topology'
+        assert subgraph_co['metadata']['truth_scope'] == 'narrative_only'
+        assert subgraph_co['metadata']['case_ids'] == ['co-m1', 'co-m2', 'co-b2', 'co-mn1', 'co-mn2', 'co-ma1']
+        assert subgraph_co['metadata']['layer_keys'] == ['matroid_mvp', 'bridge_support', 'excluded_boundary', 'review_boundary']
+        assert subgraph_co['stats']['edges_by_graph_band'] == {
+            'bridge': 1,
+            'boundary': 2,
+            'review': 1,
+            'contract': 2,
+        }
+        assert len(subgraph_co['nodes']['topics']) == 8
+        assert len(subgraph_co['edges']) == 6
+        assert {edge['benchmark_case_id'] for edge in subgraph_co['edges']} == {'co-b2', 'co-m1', 'co-m2', 'co-mn1', 'co-mn2', 'co-ma1'}
+
+    def test_graph_bundle_exposes_ds_narrative_subgraph(self, fresh_visualization_export: Path):
+        """graph_bundle.json should expose DS as a graph-visible but non-baseline narrative subgraph."""
+        with open(fresh_visualization_export / 'graph_bundle.json', 'r', encoding='utf-8') as f:
+            bundle = json.load(f)
+
+        subgraph_ds = bundle['narrative_subgraphs']['math.DS']
+        assert subgraph_ds['metadata']['truth_scope'] == 'narrative_only'
+        assert subgraph_ds['metadata']['candidate_rule'] == 'math_ds_ergodic_entropy_continuity'
+        assert subgraph_ds['metadata']['graph_visible_layer_keys'] == ['ergodic_entropy_skeleton', 'excluded_boundary', 'review_boundary']
+        assert subgraph_ds['metadata']['metadata_only_layer_keys'] == []
+        assert subgraph_ds['metadata']['visible_graph_bands'] == ['bridge', 'boundary', 'review']
+        assert subgraph_ds['stats']['topic_count'] == 6
+        assert subgraph_ds['stats']['edge_count'] == 5
+        assert subgraph_ds['stats']['edges_by_export_status'] == {
+            'narrative_subgraph_only': 5,
+        }
+        assert subgraph_ds['stats']['edges_by_benchmark_status'] == {
+            'positive': 2,
+            'negative': 2,
+            'ambiguous': 1,
+        }
+
+        edge_by_case = {edge['benchmark_case_id']: edge for edge in subgraph_ds['edges']}
+        assert edge_by_case['ds-b1']['confidence'] == 'inferred'
+        assert edge_by_case['ds-b1']['benchmark_status'] == 'positive'
+        assert edge_by_case['ds-b1']['evidence_type'] == 'provisional'
+        assert edge_by_case['ds-b1']['baseline_truth'] is False
+        assert edge_by_case['ds-n1']['confidence'] == 'negative'
+        assert edge_by_case['ds-a1']['confidence'] == 'ambiguous'
+
     def test_timeline_summary_has_periods(self, fresh_visualization_export: Path):
         """timeline_summary.json should have 13 periods."""
         with open(fresh_visualization_export / 'timeline_summary.json', 'r', encoding='utf-8') as f:
@@ -853,6 +986,7 @@ class TestVisualizationExporterOutput:
         assert 'domain_export_presence' in legend
         assert 'domain_layer_fields' in legend
         assert 'topology_statuses' in legend
+        assert 'truth_scopes' in legend
 
     def test_legend_has_docs_only_narrative_presence(self, fresh_visualization_export: Path):
         """legend.json should explain docs_only_narrative domain exposure."""
@@ -861,6 +995,12 @@ class TestVisualizationExporterOutput:
 
         domain_export_presence = legend.get('domain_export_presence', {})
         assert 'docs_only_narrative' in domain_export_presence
+        graph_export_statuses = legend.get('graph_export_statuses', {})
+        assert 'narrative_subgraph_only' in graph_export_statuses
+        evidence_types = legend.get('evidence_types', {})
+        assert 'docs-narrative' in evidence_types
+        truth_scopes = legend.get('truth_scopes', {})
+        assert 'narrative_only' in truth_scopes
         topology_statuses = legend.get('topology_statuses', {})
         assert 'not_in_baseline_topology' in topology_statuses
 

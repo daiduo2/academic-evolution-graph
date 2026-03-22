@@ -48,7 +48,7 @@ const CONFIDENCE_COLORS = {
 };
 
 const CONFIDENCE_LABELS = {
-  confirmed: '已确认 baseline',
+  confirmed: '已确认关系',
   ambiguous: '待复核',
   inferred: 'preview 候选',
   'data-derived': '结构背景',
@@ -72,6 +72,9 @@ const SUBCATEGORY_LABELS = {
 };
 
 function getEdgeDash(edge) {
+  if (edge.graph_export_status === 'narrative_subgraph_only') {
+    return '10,5';
+  }
   if (edge.kind === 'EVOLVES_TO' && edge.confidence === 'inferred') {
     return '8,4';
   }
@@ -79,6 +82,9 @@ function getEdgeDash(edge) {
 }
 
 function getEdgeOpacity(edge) {
+  if (edge.graph_export_status === 'narrative_subgraph_only') {
+    return 0.68;
+  }
   if (edge.kind === 'EVOLVES_TO' && edge.confidence === 'inferred') {
     return 0.9;
   }
@@ -478,6 +484,10 @@ export function GraphVisualization({
           <div className="text-slate-400">边类型</div>
           <div className="flex items-center gap-2">
             <span className="text-slate-300">→ 演化主线</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="w-6 h-0.5 border-t-2 border-dashed border-slate-300" />
+            <span className="text-slate-300">叙事叠层</span>
           </div>
           <div className="flex items-center gap-2">
             <span className="w-6 h-0.5 bg-slate-400" />

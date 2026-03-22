@@ -1,7 +1,7 @@
 {
   "version": "kg_v1_visualization",
   "subcategory": "PR",
-  "generated_at": "2026-03-22T19:22:48.930820",
+  "generated_at": "2026-03-22T20:22:57.738504",
   "metadata": {
     "domain_code": "math.PR",
     "export_presence": null,
@@ -30,40 +30,40 @@
   "nodes": {
     "topics": [
       {
-        "id": "global_392",
-        "label": "随机矩阵理论",
+        "id": "global_97",
+        "label": "随机图与树概率",
         "kind": "topic",
         "subcategory": "PR",
         "category": "math",
         "status": "transient",
-        "display_size": 30.9,
+        "display_size": 28.4,
         "active_periods": 1,
-        "total_papers": 64,
+        "total_papers": 39,
         "keywords": [
           "random",
-          "matrices",
-          "entries",
-          "matrix",
-          "hermitian"
+          "trees",
+          "graphs",
+          "graph",
+          "probability"
         ],
-        "hierarchy_depth": 3
+        "hierarchy_depth": 2
       },
       {
-        "id": "global_295",
-        "label": "期权波动率定价",
+        "id": "global_394",
+        "label": "随机麦基恩-朗之万方程",
         "kind": "topic",
         "subcategory": "PR",
         "category": "math",
         "status": "transient",
-        "display_size": 26.7,
+        "display_size": 27.0,
         "active_periods": 1,
-        "total_papers": 27,
+        "total_papers": 29,
         "keywords": [
-          "volatility",
-          "options",
-          "martingale",
-          "price",
-          "pricing"
+          "langevin",
+          "dissipation",
+          "stochastic",
+          "particle",
+          "mckean"
         ],
         "hierarchy_depth": 2
       },
@@ -87,192 +87,78 @@
         "hierarchy_depth": 4
       },
       {
-        "id": "global_209",
-        "label": "渗流对数多区制研究",
+        "id": "global_271",
+        "label": "渗流与随机行走临界性",
         "kind": "topic",
         "subcategory": "PR",
         "category": "math",
         "status": "transient",
-        "display_size": 25.5,
-        "active_periods": 1,
-        "total_papers": 21,
-        "keywords": [
-          "percolation",
-          "logarithmic",
-          "3α",
-          "η_m",
-          "regimes"
-        ],
-        "hierarchy_depth": 2
-      },
-      {
-        "id": "global_180",
-        "label": "聚合物热测量研究",
-        "kind": "topic",
-        "subcategory": "PR",
-        "category": "math",
-        "status": "transient",
-        "display_size": 22.8,
-        "active_periods": 1,
-        "total_papers": 12,
-        "keywords": [
-          "shf",
-          "polymer",
-          "μ_γ",
-          "heat",
-          "measure"
-        ],
-        "hierarchy_depth": 2
-      },
-      {
-        "id": "global_306",
-        "label": "遍历占位与布朗运动",
-        "kind": "topic",
-        "subcategory": "PR",
-        "category": "math",
-        "status": "transient",
-        "display_size": 22.8,
-        "active_periods": 1,
-        "total_papers": 12,
-        "keywords": [
-          "occupation",
-          "ehi",
-          "boldsymbol",
-          "brownian",
-          "ergodicity"
-        ],
-        "hierarchy_depth": 2
-      },
-      {
-        "id": "global_211",
-        "label": "种群适应与生态进化",
-        "kind": "topic",
-        "subcategory": "PR",
-        "category": "math",
-        "status": "transient",
-        "display_size": 37.8,
+        "display_size": 38.9,
         "active_periods": 2,
-        "total_papers": 94,
+        "total_papers": 118,
         "keywords": [
-          "growth",
-          "ecological",
-          "population",
-          "populations",
-          "competition"
-        ],
-        "hierarchy_depth": 2
-      },
-      {
-        "id": "global_99",
-        "label": "随机游走与分支",
-        "kind": "topic",
-        "subcategory": "PR",
-        "category": "math",
-        "status": "persistent",
-        "display_size": 41.0,
-        "active_periods": 3,
-        "total_papers": 179,
-        "keywords": [
-          "ruin",
-          "hawkes",
+          "coalescing",
           "percolation",
-          "gsaws",
-          "martingale"
+          "kpz",
+          "brownian",
+          "lattice"
         ],
-        "hierarchy_depth": 2
+        "hierarchy_depth": 4
       },
       {
-        "id": "global_196",
-        "label": "保险风险与分红策略",
+        "id": "global_87",
+        "label": "种群增长与等位基因溯祖",
         "kind": "topic",
         "subcategory": "PR",
         "category": "math",
         "status": "transient",
-        "display_size": 24.2,
+        "display_size": 22.8,
         "active_periods": 1,
-        "total_papers": 16,
+        "total_papers": 12,
         "keywords": [
-          "insurance",
-          "risk",
-          "reinsurance",
-          "dividend",
-          "ruin"
+          "population",
+          "coalescents",
+          "growth",
+          "allele",
+          "metapopulation"
         ],
         "hierarchy_depth": 2
       },
       {
-        "id": "global_278",
-        "label": "马尔可夫分支过程",
+        "id": "global_392",
+        "label": "随机矩阵理论",
         "kind": "topic",
         "subcategory": "PR",
         "category": "math",
         "status": "transient",
-        "display_size": 30.0,
+        "display_size": 30.9,
         "active_periods": 1,
-        "total_papers": 54,
-        "keywords": [
-          "markov",
-          "processes",
-          "chains",
-          "branching",
-          "poisson"
-        ],
-        "hierarchy_depth": 2
-      },
-      {
-        "id": "global_97",
-        "label": "随机图与树概率",
-        "kind": "topic",
-        "subcategory": "PR",
-        "category": "math",
-        "status": "transient",
-        "display_size": 28.4,
-        "active_periods": 1,
-        "total_papers": 39,
+        "total_papers": 64,
         "keywords": [
           "random",
-          "trees",
-          "graphs",
-          "graph",
-          "probability"
-        ],
-        "hierarchy_depth": 2
-      },
-      {
-        "id": "global_100",
-        "label": "随机矩阵系综累积量",
-        "kind": "topic",
-        "subcategory": "PR",
-        "category": "math",
-        "status": "transient",
-        "display_size": 36.8,
-        "active_periods": 2,
-        "total_papers": 78,
-        "keywords": [
-          "matrix",
-          "eigenvalues",
           "matrices",
-          "tensor",
-          "eigenvalue"
+          "entries",
+          "matrix",
+          "hermitian"
         ],
-        "hierarchy_depth": 2
+        "hierarchy_depth": 3
       },
       {
-        "id": "global_47",
-        "label": "伊辛相变与临界",
+        "id": "global_198",
+        "label": "分支随机移民游走",
         "kind": "topic",
         "subcategory": "PR",
         "category": "math",
         "status": "transient",
-        "display_size": 37.9,
-        "active_periods": 2,
-        "total_papers": 96,
+        "display_size": 27.6,
+        "active_periods": 1,
+        "total_papers": 33,
         "keywords": [
-          "scaling",
-          "potts",
-          "xy",
-          "spin",
-          "temperature"
+          "branching",
+          "random",
+          "immigration",
+          "markov",
+          "walk"
         ],
         "hierarchy_depth": 2
       },
@@ -296,116 +182,21 @@
         "hierarchy_depth": 2
       },
       {
-        "id": "global_222",
-        "label": "分数布朗过程与赫斯特指数",
-        "kind": "topic",
-        "subcategory": "PR",
-        "category": "math",
-        "status": "transient",
-        "display_size": 26.5,
-        "active_periods": 1,
-        "total_papers": 26,
-        "keywords": [
-          "rough",
-          "hurst",
-          "fractional",
-          "brownian",
-          "processes"
-        ],
-        "hierarchy_depth": 2
-      },
-      {
-        "id": "global_61",
-        "label": "重交通环形排队",
-        "kind": "topic",
-        "subcategory": "PR",
-        "category": "math",
-        "status": "transient",
-        "display_size": 31.7,
-        "active_periods": 2,
-        "total_papers": 27,
-        "keywords": [
-          "server",
-          "arrival",
-          "traffic",
-          "servers",
-          "queue"
-        ],
-        "hierarchy_depth": 2
-      },
-      {
-        "id": "global_39",
-        "label": "随机过程渗流方程",
+        "id": "global_99",
+        "label": "随机游走与分支",
         "kind": "topic",
         "subcategory": "PR",
         "category": "math",
         "status": "persistent",
-        "display_size": 45,
-        "active_periods": 4,
-        "total_papers": 1280,
+        "display_size": 41.0,
+        "active_periods": 3,
+        "total_papers": 179,
         "keywords": [
-          "convergence",
-          "stochastic",
+          "ruin",
+          "hawkes",
           "percolation",
-          "equations",
-          "time"
-        ],
-        "hierarchy_depth": 2
-      },
-      {
-        "id": "global_87",
-        "label": "种群增长与等位基因溯祖",
-        "kind": "topic",
-        "subcategory": "PR",
-        "category": "math",
-        "status": "transient",
-        "display_size": 22.8,
-        "active_periods": 1,
-        "total_papers": 12,
-        "keywords": [
-          "population",
-          "coalescents",
-          "growth",
-          "allele",
-          "metapopulation"
-        ],
-        "hierarchy_depth": 2
-      },
-      {
-        "id": "global_60",
-        "label": "贝叶斯高斯后验采样",
-        "kind": "topic",
-        "subcategory": "PR",
-        "category": "math",
-        "status": "transient",
-        "display_size": 32.3,
-        "active_periods": 1,
-        "total_papers": 86,
-        "keywords": [
-          "sampling",
-          "posterior",
-          "gaussian",
-          "bayesian",
-          "monte"
-        ],
-        "hierarchy_depth": 2
-      },
-      {
-        "id": "global_116",
-        "label": "强化随机游走渗流",
-        "kind": "topic",
-        "subcategory": "PR",
-        "category": "math",
-        "status": "transient",
-        "display_size": 35.9,
-        "active_periods": 2,
-        "total_papers": 65,
-        "keywords": [
-          "reinforced",
-          "markov",
-          "step",
-          "elephant",
-          "percolation"
+          "gsaws",
+          "martingale"
         ],
         "hierarchy_depth": 2
       },
@@ -429,116 +220,78 @@
         "hierarchy_depth": 2
       },
       {
-        "id": "global_198",
-        "label": "分支随机移民游走",
+        "id": "global_47",
+        "label": "伊辛相变与临界",
         "kind": "topic",
         "subcategory": "PR",
         "category": "math",
         "status": "transient",
-        "display_size": 27.6,
-        "active_periods": 1,
-        "total_papers": 33,
-        "keywords": [
-          "branching",
-          "random",
-          "immigration",
-          "markov",
-          "walk"
-        ],
-        "hierarchy_depth": 2
-      },
-      {
-        "id": "global_125",
-        "label": "种群谱系适合度溯祖",
-        "kind": "topic",
-        "subcategory": "PR",
-        "category": "math",
-        "status": "transient",
-        "display_size": 23.9,
-        "active_periods": 1,
-        "total_papers": 15,
-        "keywords": [
-          "population",
-          "growth",
-          "pedigree",
-          "coalescent",
-          "fitness"
-        ],
-        "hierarchy_depth": 2
-      },
-      {
-        "id": "global_271",
-        "label": "渗流与随机行走临界性",
-        "kind": "topic",
-        "subcategory": "PR",
-        "category": "math",
-        "status": "transient",
-        "display_size": 38.9,
+        "display_size": 37.9,
         "active_periods": 2,
-        "total_papers": 118,
+        "total_papers": 96,
         "keywords": [
-          "coalescing",
-          "percolation",
-          "kpz",
-          "brownian",
-          "lattice"
+          "scaling",
+          "potts",
+          "xy",
+          "spin",
+          "temperature"
         ],
-        "hierarchy_depth": 4
+        "hierarchy_depth": 2
       },
       {
-        "id": "global_394",
-        "label": "随机麦基恩-朗之万方程",
+        "id": "global_196",
+        "label": "保险风险与分红策略",
         "kind": "topic",
         "subcategory": "PR",
         "category": "math",
         "status": "transient",
-        "display_size": 27.0,
+        "display_size": 24.2,
         "active_periods": 1,
-        "total_papers": 29,
+        "total_papers": 16,
         "keywords": [
-          "langevin",
-          "dissipation",
-          "stochastic",
-          "particle",
-          "mckean"
+          "insurance",
+          "risk",
+          "reinsurance",
+          "dividend",
+          "ruin"
         ],
         "hierarchy_depth": 2
       },
       {
-        "id": "global_38",
-        "label": "随机极限与不等式",
-        "kind": "topic",
-        "subcategory": "PR",
-        "category": "math",
-        "status": "transient",
-        "display_size": 41.7,
-        "active_periods": 2,
-        "total_papers": 208,
-        "keywords": [
-          "convergence",
-          "g_n",
-          "matrices",
-          "walk",
-          "infty"
-        ],
-        "hierarchy_depth": 2
-      },
-      {
-        "id": "global_188",
-        "label": "随机粗糙McKean方程",
+        "id": "global_39",
+        "label": "随机过程渗流方程",
         "kind": "topic",
         "subcategory": "PR",
         "category": "math",
         "status": "persistent",
-        "display_size": 44.8,
+        "display_size": 45,
         "active_periods": 4,
-        "total_papers": 387,
+        "total_papers": 1280,
         "keywords": [
-          "jump",
-          "spdes",
+          "convergence",
           "stochastic",
-          "hawkes",
-          "equations"
+          "percolation",
+          "equations",
+          "time"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_60",
+        "label": "贝叶斯高斯后验采样",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 32.3,
+        "active_periods": 1,
+        "total_papers": 86,
+        "keywords": [
+          "sampling",
+          "posterior",
+          "gaussian",
+          "bayesian",
+          "monte"
         ],
         "hierarchy_depth": 2
       },
@@ -562,6 +315,196 @@
         "hierarchy_depth": 2
       },
       {
+        "id": "global_125",
+        "label": "种群谱系适合度溯祖",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 23.9,
+        "active_periods": 1,
+        "total_papers": 15,
+        "keywords": [
+          "population",
+          "growth",
+          "pedigree",
+          "coalescent",
+          "fitness"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_180",
+        "label": "聚合物热测量研究",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 22.8,
+        "active_periods": 1,
+        "total_papers": 12,
+        "keywords": [
+          "shf",
+          "polymer",
+          "μ_γ",
+          "heat",
+          "measure"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_61",
+        "label": "重交通环形排队",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 31.7,
+        "active_periods": 2,
+        "total_papers": 27,
+        "keywords": [
+          "server",
+          "arrival",
+          "traffic",
+          "servers",
+          "queue"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_209",
+        "label": "渗流对数多区制研究",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 25.5,
+        "active_periods": 1,
+        "total_papers": 21,
+        "keywords": [
+          "percolation",
+          "logarithmic",
+          "3α",
+          "η_m",
+          "regimes"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_278",
+        "label": "马尔可夫分支过程",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 30.0,
+        "active_periods": 1,
+        "total_papers": 54,
+        "keywords": [
+          "markov",
+          "processes",
+          "chains",
+          "branching",
+          "poisson"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_188",
+        "label": "随机粗糙McKean方程",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "persistent",
+        "display_size": 44.8,
+        "active_periods": 4,
+        "total_papers": 387,
+        "keywords": [
+          "jump",
+          "spdes",
+          "stochastic",
+          "hawkes",
+          "equations"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_38",
+        "label": "随机极限与不等式",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 41.7,
+        "active_periods": 2,
+        "total_papers": 208,
+        "keywords": [
+          "convergence",
+          "g_n",
+          "matrices",
+          "walk",
+          "infty"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_100",
+        "label": "随机矩阵系综累积量",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 36.8,
+        "active_periods": 2,
+        "total_papers": 78,
+        "keywords": [
+          "matrix",
+          "eigenvalues",
+          "matrices",
+          "tensor",
+          "eigenvalue"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_116",
+        "label": "强化随机游走渗流",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 35.9,
+        "active_periods": 2,
+        "total_papers": 65,
+        "keywords": [
+          "reinforced",
+          "markov",
+          "step",
+          "elephant",
+          "percolation"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_211",
+        "label": "种群适应与生态进化",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 37.8,
+        "active_periods": 2,
+        "total_papers": 94,
+        "keywords": [
+          "growth",
+          "ecological",
+          "population",
+          "populations",
+          "competition"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
         "id": "global_393",
         "label": "随机积分迭代理论",
         "kind": "topic",
@@ -579,6 +522,63 @@
           "stochastic"
         ],
         "hierarchy_depth": 4
+      },
+      {
+        "id": "global_295",
+        "label": "期权波动率定价",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 26.7,
+        "active_periods": 1,
+        "total_papers": 27,
+        "keywords": [
+          "volatility",
+          "options",
+          "martingale",
+          "price",
+          "pricing"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_306",
+        "label": "遍历占位与布朗运动",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 22.8,
+        "active_periods": 1,
+        "total_papers": 12,
+        "keywords": [
+          "occupation",
+          "ehi",
+          "boldsymbol",
+          "brownian",
+          "ergodicity"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_222",
+        "label": "分数布朗过程与赫斯特指数",
+        "kind": "topic",
+        "subcategory": "PR",
+        "category": "math",
+        "status": "transient",
+        "display_size": 26.5,
+        "active_periods": 1,
+        "total_papers": 26,
+        "keywords": [
+          "rough",
+          "hurst",
+          "fractional",
+          "brownian",
+          "processes"
+        ],
+        "hierarchy_depth": 2
       }
     ],
     "subcategory": {
@@ -598,168 +598,7 @@
   "edges": [
     {
       "source": "math.PR",
-      "target": "global_392",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.PR",
-      "target": "global_295",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.PR",
-      "target": "global_65",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.PR",
-      "target": "global_209",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.PR",
-      "target": "global_180",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.PR",
-      "target": "global_306",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.PR",
-      "target": "global_211",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.PR",
-      "target": "global_99",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.PR",
-      "target": "global_196",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.PR",
-      "target": "global_278",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.PR",
       "target": "global_97",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.PR",
-      "target": "global_100",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.PR",
-      "target": "global_47",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.PR",
-      "target": "global_156",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.PR",
-      "target": "global_222",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.PR",
-      "target": "global_61",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.PR",
-      "target": "global_39",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.PR",
-      "target": "global_87",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.PR",
-      "target": "global_60",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.PR",
-      "target": "global_116",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.PR",
-      "target": "global_241",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.PR",
-      "target": "global_198",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.PR",
-      "target": "global_125",
-      "kind": "CONTAINS_TOPIC",
-      "display_weight": 1.5,
-      "evidence_type": "data-derived"
-    },
-    {
-      "source": "math.PR",
-      "target": "global_271",
       "kind": "CONTAINS_TOPIC",
       "display_weight": 1.5,
       "evidence_type": "data-derived"
@@ -773,14 +612,84 @@
     },
     {
       "source": "math.PR",
-      "target": "global_38",
+      "target": "global_65",
       "kind": "CONTAINS_TOPIC",
       "display_weight": 1.5,
       "evidence_type": "data-derived"
     },
     {
       "source": "math.PR",
-      "target": "global_188",
+      "target": "global_271",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_87",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_392",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_198",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_156",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_99",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_241",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_47",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_196",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_39",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_60",
       "kind": "CONTAINS_TOPIC",
       "display_weight": 1.5,
       "evidence_type": "data-derived"
@@ -794,26 +703,117 @@
     },
     {
       "source": "math.PR",
+      "target": "global_125",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_180",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_61",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_209",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_278",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_188",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_38",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_100",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_116",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_211",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
       "target": "global_393",
       "kind": "CONTAINS_TOPIC",
       "display_weight": 1.5,
       "evidence_type": "data-derived"
     },
     {
-      "source": "global_392",
+      "source": "math.PR",
+      "target": "global_295",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_306",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "math.PR",
+      "target": "global_222",
+      "kind": "CONTAINS_TOPIC",
+      "display_weight": 1.5,
+      "evidence_type": "data-derived"
+    },
+    {
+      "source": "global_97",
+      "target": "2025-04",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 39
+    },
+    {
+      "source": "global_394",
       "target": "2026-02",
       "kind": "ACTIVE_IN",
       "display_weight": 1.0,
       "evidence_type": "data-derived",
-      "paper_count": 64
-    },
-    {
-      "source": "global_295",
-      "target": "2025-11",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 27
+      "paper_count": 29
     },
     {
       "source": "global_65",
@@ -848,44 +848,60 @@
       "paper_count": 100
     },
     {
-      "source": "global_209",
-      "target": "2025-08",
+      "source": "global_271",
+      "target": "2025-10",
       "kind": "ACTIVE_IN",
       "display_weight": 1.0,
       "evidence_type": "data-derived",
-      "paper_count": 21
+      "paper_count": 63
     },
     {
-      "source": "global_180",
-      "target": "2025-07",
+      "source": "global_271",
+      "target": "2026-02",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 55
+    },
+    {
+      "source": "global_87",
+      "target": "2025-04",
       "kind": "ACTIVE_IN",
       "display_weight": 1.0,
       "evidence_type": "data-derived",
       "paper_count": 12
     },
     {
-      "source": "global_306",
-      "target": "2025-11",
+      "source": "global_392",
+      "target": "2026-02",
       "kind": "ACTIVE_IN",
       "display_weight": 1.0,
       "evidence_type": "data-derived",
-      "paper_count": 12
+      "paper_count": 64
     },
     {
-      "source": "global_211",
+      "source": "global_198",
       "target": "2025-08",
       "kind": "ACTIVE_IN",
       "display_weight": 1.0,
       "evidence_type": "data-derived",
-      "paper_count": 42
+      "paper_count": 33
     },
     {
-      "source": "global_211",
-      "target": "2025-12",
+      "source": "global_156",
+      "target": "2025-06",
       "kind": "ACTIVE_IN",
       "display_weight": 1.0,
       "evidence_type": "data-derived",
-      "paper_count": 52
+      "paper_count": 28
+    },
+    {
+      "source": "global_156",
+      "target": "2025-09",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 50
     },
     {
       "source": "global_99",
@@ -912,44 +928,12 @@
       "paper_count": 25
     },
     {
-      "source": "global_196",
-      "target": "2025-08",
+      "source": "global_241",
+      "target": "2025-09",
       "kind": "ACTIVE_IN",
       "display_weight": 1.0,
       "evidence_type": "data-derived",
-      "paper_count": 16
-    },
-    {
-      "source": "global_278",
-      "target": "2025-10",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 54
-    },
-    {
-      "source": "global_97",
-      "target": "2025-04",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 39
-    },
-    {
-      "source": "global_100",
-      "target": "2025-04",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 44
-    },
-    {
-      "source": "global_100",
-      "target": "2025-07",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 34
+      "paper_count": 11
     },
     {
       "source": "global_47",
@@ -968,40 +952,8 @@
       "paper_count": 43
     },
     {
-      "source": "global_156",
-      "target": "2025-06",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 28
-    },
-    {
-      "source": "global_156",
-      "target": "2025-09",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 50
-    },
-    {
-      "source": "global_222",
-      "target": "2025-09",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 26
-    },
-    {
-      "source": "global_61",
-      "target": "2025-03",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 11
-    },
-    {
-      "source": "global_61",
-      "target": "2025-05",
+      "source": "global_196",
+      "target": "2025-08",
       "kind": "ACTIVE_IN",
       "display_weight": 1.0,
       "evidence_type": "data-derived",
@@ -1040,14 +992,6 @@
       "paper_count": 195
     },
     {
-      "source": "global_87",
-      "target": "2025-04",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 12
-    },
-    {
       "source": "global_60",
       "target": "2025-03",
       "kind": "ACTIVE_IN",
@@ -1056,36 +1000,12 @@
       "paper_count": 86
     },
     {
-      "source": "global_116",
-      "target": "2025-05",
+      "source": "global_147",
+      "target": "2025-06",
       "kind": "ACTIVE_IN",
       "display_weight": 1.0,
       "evidence_type": "data-derived",
-      "paper_count": 27
-    },
-    {
-      "source": "global_116",
-      "target": "2025-07",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 38
-    },
-    {
-      "source": "global_241",
-      "target": "2025-09",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 11
-    },
-    {
-      "source": "global_198",
-      "target": "2025-08",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 33
+      "paper_count": 10
     },
     {
       "source": "global_125",
@@ -1096,44 +1016,44 @@
       "paper_count": 15
     },
     {
-      "source": "global_271",
-      "target": "2025-10",
+      "source": "global_180",
+      "target": "2025-07",
       "kind": "ACTIVE_IN",
       "display_weight": 1.0,
       "evidence_type": "data-derived",
-      "paper_count": 63
+      "paper_count": 12
     },
     {
-      "source": "global_271",
-      "target": "2026-02",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 55
-    },
-    {
-      "source": "global_394",
-      "target": "2026-02",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 29
-    },
-    {
-      "source": "global_38",
-      "target": "2025-02",
-      "kind": "ACTIVE_IN",
-      "display_weight": 1.0,
-      "evidence_type": "data-derived",
-      "paper_count": 61
-    },
-    {
-      "source": "global_38",
+      "source": "global_61",
       "target": "2025-03",
       "kind": "ACTIVE_IN",
       "display_weight": 1.0,
       "evidence_type": "data-derived",
-      "paper_count": 147
+      "paper_count": 11
+    },
+    {
+      "source": "global_61",
+      "target": "2025-05",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 16
+    },
+    {
+      "source": "global_209",
+      "target": "2025-08",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 21
+    },
+    {
+      "source": "global_278",
+      "target": "2025-10",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 54
     },
     {
       "source": "global_188",
@@ -1168,12 +1088,68 @@
       "paper_count": 80
     },
     {
-      "source": "global_147",
-      "target": "2025-06",
+      "source": "global_38",
+      "target": "2025-02",
       "kind": "ACTIVE_IN",
       "display_weight": 1.0,
       "evidence_type": "data-derived",
-      "paper_count": 10
+      "paper_count": 61
+    },
+    {
+      "source": "global_38",
+      "target": "2025-03",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 147
+    },
+    {
+      "source": "global_100",
+      "target": "2025-04",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 44
+    },
+    {
+      "source": "global_100",
+      "target": "2025-07",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 34
+    },
+    {
+      "source": "global_116",
+      "target": "2025-05",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 27
+    },
+    {
+      "source": "global_116",
+      "target": "2025-07",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 38
+    },
+    {
+      "source": "global_211",
+      "target": "2025-08",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 42
+    },
+    {
+      "source": "global_211",
+      "target": "2025-12",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 52
     },
     {
       "source": "global_393",
@@ -1182,6 +1158,30 @@
       "display_weight": 1.0,
       "evidence_type": "data-derived",
       "paper_count": 23
+    },
+    {
+      "source": "global_295",
+      "target": "2025-11",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 27
+    },
+    {
+      "source": "global_306",
+      "target": "2025-11",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 12
+    },
+    {
+      "source": "global_222",
+      "target": "2025-09",
+      "kind": "ACTIVE_IN",
+      "display_weight": 1.0,
+      "evidence_type": "data-derived",
+      "paper_count": 26
     },
     {
       "source": "global_100",
@@ -2010,6 +2010,9 @@
       "narrative_level": "",
       "narrative_note": "",
       "graph_export_status": "",
+      "truth_scope": "",
+      "baseline_truth": true,
+      "source_doc": "",
       "is_bidirectional": false
     },
     {
@@ -2029,6 +2032,9 @@
       "narrative_level": "",
       "narrative_note": "",
       "graph_export_status": "",
+      "truth_scope": "",
+      "baseline_truth": true,
+      "source_doc": "",
       "is_bidirectional": false
     },
     {
@@ -2048,6 +2054,9 @@
       "narrative_level": "",
       "narrative_note": "",
       "graph_export_status": "",
+      "truth_scope": "",
+      "baseline_truth": true,
+      "source_doc": "",
       "is_bidirectional": false
     },
     {
@@ -2067,6 +2076,9 @@
       "narrative_level": "",
       "narrative_note": "",
       "graph_export_status": "",
+      "truth_scope": "",
+      "baseline_truth": true,
+      "source_doc": "",
       "is_bidirectional": false
     }
   ],

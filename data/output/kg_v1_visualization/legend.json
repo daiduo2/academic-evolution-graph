@@ -1,6 +1,6 @@
 {
   "version": "kg_v1_visualization",
-  "generated_at": "2026-03-22T19:22:48.920404",
+  "generated_at": "2026-03-22T20:22:57.725619",
   "node_kinds": {
     "topic": {
       "description": "Research topic from topic model",
@@ -79,6 +79,11 @@
       "description": "Curated inferred relation (conditional, requires paper review)",
       "badge": "⚑",
       "color": "#a855f7"
+    },
+    "docs-narrative": {
+      "description": "Docs-backed narrative relation exported as a non-baseline graph layer",
+      "badge": "◆",
+      "color": "#f97316"
     }
   },
   "integration_scopes": {
@@ -129,6 +134,9 @@
     },
     "docs_only_outside_export_scope": {
       "description": "Tracked in docs, but the domain is not part of the current baseline export scope"
+    },
+    "narrative_subgraph_only": {
+      "description": "Exported only inside a dedicated non-baseline narrative subgraph"
     }
   },
   "domain_export_presence": {
@@ -151,6 +159,12 @@
     },
     "visible_graph_bands": {
       "description": "Graph bands visible for this domain across encoded edges and metadata-only layers"
+    },
+    "graph_visible_layer_keys": {
+      "description": "Narrative-only layer keys promoted into a dedicated non-baseline graph-visible subgraph"
+    },
+    "metadata_only_layer_keys": {
+      "description": "Layer keys intentionally kept outside graph-visible subgraphs"
     }
   },
   "topology_statuses": {
@@ -159,6 +173,11 @@
     },
     "not_in_baseline_topology": {
       "description": "Domain is visible only through metadata; baseline topology remains unchanged"
+    }
+  },
+  "truth_scopes": {
+    "narrative_only": {
+      "description": "Graph-visible layer that must not be read as baseline truth"
     }
   },
   "confidence_levels": {

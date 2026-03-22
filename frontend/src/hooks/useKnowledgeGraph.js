@@ -69,12 +69,18 @@ export function useKnowledgeGraph({ sourceMode = 'baseline' } = {}) {
   const stats = data?.stats || {};
   const metadata = data?.metadata || {};
   const domainKnowledgeLayers = metadata?.domain_knowledge_layers || {};
+  const narrativeSubgraphs = data?.narrative_subgraphs || {};
 
   // Normalize raw bundle filters into UI-friendly shape
   const rawFilters = data?.filters || {};
+  const subcategoryCodes = [
+    ...(rawFilters.subcategories || []),
+    ...Object.keys(narrativeSubgraphs || {}),
+  ];
+  const uniqueSubcategoryCodes = [...new Set(subcategoryCodes)];
 
   const filters = {
-    subcategories: (rawFilters.subcategories || []).map((code) => ({
+    subcategories: uniqueSubcategoryCodes.map((code) => ({
       value: code,
       code,
       label: KNOWLEDGE_GRAPH_SUBCATEGORY_META[code]?.label || code,
@@ -106,6 +112,7 @@ export function useKnowledgeGraph({ sourceMode = 'baseline' } = {}) {
     stats,
     metadata,
     domainKnowledgeLayers,
+    narrativeSubgraphs,
 
     // Loading and error states
     loading,

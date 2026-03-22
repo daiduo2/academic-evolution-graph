@@ -1,0 +1,443 @@
+{
+  "version": "kg_v1_visualization",
+  "domain_code": "math.DS",
+  "generated_at": "2026-03-22T20:22:57.725807",
+  "metadata": {
+    "domain_code": "math.DS",
+    "export_presence": "docs_only_narrative",
+    "topology_status": "not_in_baseline_topology",
+    "graph_shape": "graph_visible_ergodic_entropy_skeleton_plus_boundary_review",
+    "summary": "DS stays outside the baseline topology, but its ergodic/entropy skeleton now has a graph-visible non-baseline subgraph with bridge, boundary, and review cases.",
+    "selected_rule": null,
+    "candidate_rule": "math_ds_ergodic_entropy_continuity",
+    "narrative_status": "benchmark_skeleton_ready",
+    "baseline_truth_layer_keys": [],
+    "narrative_only_layer_keys": [
+      "ergodic_entropy_skeleton",
+      "excluded_boundary",
+      "review_boundary"
+    ],
+    "graph_visible_layer_keys": [
+      "ergodic_entropy_skeleton",
+      "excluded_boundary",
+      "review_boundary"
+    ],
+    "metadata_only_layer_keys": [],
+    "visible_graph_bands": [
+      "bridge",
+      "boundary",
+      "review"
+    ],
+    "truth_scope": "narrative_only",
+    "narrative_layers": {
+      "ergodic_entropy_skeleton": {
+        "graph_band": "bridge",
+        "label": "ergodic/entropy skeleton",
+        "summary": "Bridge-level DS skeleton around ergodic/entropy continuity; graph-facing metadata only, not baseline topology.",
+        "case_ids": [
+          "ds-b1",
+          "ds-b2"
+        ],
+        "encoded_case_ids": [],
+        "graph_visible_case_ids": [
+          "ds-b1",
+          "ds-b2"
+        ],
+        "metadata_only_case_ids": [
+          "ds-b1",
+          "ds-b2"
+        ],
+        "case_count": 2,
+        "encoded_case_count": 0,
+        "metadata_only_case_count": 2
+      },
+      "excluded_boundary": {
+        "graph_band": "boundary",
+        "label": "excluded boundary",
+        "summary": "Boundary negatives that keep broad topological or measure overlap from becoming DS continuity truth.",
+        "case_ids": [
+          "ds-n1",
+          "ds-n2"
+        ],
+        "encoded_case_ids": [],
+        "graph_visible_case_ids": [
+          "ds-n1",
+          "ds-n2"
+        ],
+        "metadata_only_case_ids": [
+          "ds-n1",
+          "ds-n2"
+        ],
+        "case_count": 2,
+        "encoded_case_count": 0,
+        "metadata_only_case_count": 2
+      },
+      "review_boundary": {
+        "graph_band": "review",
+        "label": "review boundary",
+        "summary": "Near-miss case kept review-only while the DS ergodic/fractal boundary remains unsettled.",
+        "case_ids": [
+          "ds-a1"
+        ],
+        "encoded_case_ids": [],
+        "graph_visible_case_ids": [
+          "ds-a1"
+        ],
+        "metadata_only_case_ids": [
+          "ds-a1"
+        ],
+        "case_count": 1,
+        "encoded_case_count": 0,
+        "metadata_only_case_count": 1
+      }
+    },
+    "narrative_case_registry": [
+      {
+        "case_id": "ds-b1",
+        "anchor": "global_154",
+        "target": "global_186",
+        "expected_relation": "math_ds_ergodic_entropy_continuity",
+        "benchmark_status": "positive",
+        "confidence": "confirmed",
+        "level": "bridge-level",
+        "graph_band": "bridge",
+        "graph_layer": "ergodic_entropy_skeleton",
+        "graph_role": "ergodic_measure_bridge",
+        "narrative_note": "Bridge-level DS positive inside the ergodic/entropy neighborhood; stable enough for metadata, not for baseline topology.",
+        "source_doc": "docs/plans/2026-04-02-math-ds-benchmark.md",
+        "export_status": "narrative_subgraph_only",
+        "anchor_in_scope": false,
+        "target_in_scope": false
+      },
+      {
+        "case_id": "ds-b2",
+        "anchor": "global_154",
+        "target": "global_367",
+        "expected_relation": "math_ds_ergodic_entropy_continuity",
+        "benchmark_status": "positive",
+        "confidence": "confirmed",
+        "level": "bridge-level",
+        "graph_band": "bridge",
+        "graph_layer": "ergodic_entropy_skeleton",
+        "graph_role": "topological_entropy_extension",
+        "narrative_note": "Second bridge-level DS positive; exposes the local ergodic/entropy stretch without claiming event-level continuity.",
+        "source_doc": "docs/plans/2026-04-02-math-ds-benchmark.md",
+        "export_status": "narrative_subgraph_only",
+        "anchor_in_scope": false,
+        "target_in_scope": false
+      },
+      {
+        "case_id": "ds-n1",
+        "anchor": "global_119",
+        "target": "global_367",
+        "expected_relation": "none",
+        "benchmark_status": "negative",
+        "confidence": "negative",
+        "level": "boundary",
+        "graph_band": "boundary",
+        "graph_layer": "excluded_boundary",
+        "graph_role": "topological_term_boundary",
+        "narrative_note": "Shared topological vocabulary alone should not open the DS ergodic/entropy contract.",
+        "source_doc": "docs/plans/2026-04-02-math-ds-benchmark.md",
+        "export_status": "narrative_subgraph_only",
+        "anchor_in_scope": false,
+        "target_in_scope": false
+      },
+      {
+        "case_id": "ds-n2",
+        "anchor": "global_12",
+        "target": "global_154",
+        "expected_relation": "none",
+        "benchmark_status": "negative",
+        "confidence": "negative",
+        "level": "boundary",
+        "graph_band": "boundary",
+        "graph_layer": "excluded_boundary",
+        "graph_role": "measure_metric_boundary",
+        "narrative_note": "Broad measure/metric overlap should remain outside the DS continuity story.",
+        "source_doc": "docs/plans/2026-04-02-math-ds-benchmark.md",
+        "export_status": "narrative_subgraph_only",
+        "anchor_in_scope": false,
+        "target_in_scope": false
+      },
+      {
+        "case_id": "ds-a1",
+        "anchor": "global_49",
+        "target": "global_154",
+        "expected_relation": "review-needed",
+        "benchmark_status": "ambiguous",
+        "confidence": "ambiguous",
+        "level": "ambiguous",
+        "graph_band": "review",
+        "graph_layer": "review_boundary",
+        "graph_role": "fractal_entropy_near_miss",
+        "narrative_note": "Real DS near-miss between fractal/measure and ergodic/entropy branches; keep review-only.",
+        "source_doc": "docs/plans/2026-04-02-math-ds-benchmark.md",
+        "export_status": "narrative_subgraph_only",
+        "anchor_in_scope": false,
+        "target_in_scope": false
+      }
+    ],
+    "case_ids": [
+      "ds-b1",
+      "ds-b2",
+      "ds-n1",
+      "ds-n2",
+      "ds-a1"
+    ],
+    "layer_keys": [
+      "ergodic_entropy_skeleton",
+      "excluded_boundary",
+      "review_boundary"
+    ]
+  },
+  "nodes": {
+    "topics": [
+      {
+        "id": "global_119",
+        "label": "持续同调拓扑分析",
+        "kind": "topic",
+        "subcategory": "DS",
+        "category": "math",
+        "status": "transient",
+        "display_size": 26.1,
+        "active_periods": 1,
+        "total_papers": 24,
+        "keywords": [
+          "persistence",
+          "homology",
+          "topological",
+          "persistent",
+          "simplicial"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_12",
+        "label": "康托罗维奇最优输运",
+        "kind": "topic",
+        "subcategory": "DS",
+        "category": "math",
+        "status": "transient",
+        "display_size": 36.3,
+        "active_periods": 2,
+        "total_papers": 70,
+        "keywords": [
+          "entropic",
+          "transport",
+          "transportation",
+          "wasserstein",
+          "optimal"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_154",
+        "label": "遍历动力系统定理",
+        "kind": "topic",
+        "subcategory": "DS",
+        "category": "math",
+        "status": "persistent",
+        "display_size": 40.6,
+        "active_periods": 3,
+        "total_papers": 166,
+        "keywords": [
+          "maps",
+          "dynamical",
+          "systems",
+          "mixing",
+          "entropy"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_186",
+        "label": "遍历测度不等式",
+        "kind": "topic",
+        "subcategory": "DS",
+        "category": "math",
+        "status": "transient",
+        "display_size": 27.6,
+        "active_periods": 1,
+        "total_papers": 33,
+        "keywords": [
+          "ergodic",
+          "inequality",
+          "measurable",
+          "measures",
+          "selections"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_367",
+        "label": "奥野贝西科维奇拓扑熵",
+        "kind": "topic",
+        "subcategory": "DS",
+        "category": "math",
+        "status": "transient",
+        "display_size": 22.0,
+        "active_periods": 1,
+        "total_papers": 10,
+        "keywords": [
+          "ohno",
+          "besicovitch",
+          "c_λ",
+          "topological",
+          "pesin"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_49",
+        "label": "分形熵测度",
+        "kind": "topic",
+        "subcategory": "DS",
+        "category": "math",
+        "status": "transient",
+        "display_size": 27.6,
+        "active_periods": 1,
+        "total_papers": 33,
+        "keywords": [
+          "entropy",
+          "zooming",
+          "measure",
+          "fractal",
+          "hölder"
+        ],
+        "hierarchy_depth": 2
+      }
+    ],
+    "total_topics": 6
+  },
+  "edges": [
+    {
+      "source": "global_154",
+      "target": "global_186",
+      "kind": "EVOLVES_TO",
+      "display_weight": 1.0,
+      "evidence_type": "provisional",
+      "confidence": "inferred",
+      "benchmark_status": "positive",
+      "benchmark_case_id": "ds-b1",
+      "expected_relation": "math_ds_ergodic_entropy_continuity",
+      "subcategory": "math.DS",
+      "graph_band": "bridge",
+      "graph_layer": "ergodic_entropy_skeleton",
+      "graph_role": "ergodic_measure_bridge",
+      "narrative_level": "bridge-level",
+      "narrative_note": "Bridge-level DS positive inside the ergodic/entropy neighborhood; stable enough for metadata, not for baseline topology.",
+      "graph_export_status": "narrative_subgraph_only",
+      "truth_scope": "narrative_only",
+      "baseline_truth": false,
+      "source_doc": "docs/plans/2026-04-02-math-ds-benchmark.md",
+      "is_bidirectional": false
+    },
+    {
+      "source": "global_154",
+      "target": "global_367",
+      "kind": "EVOLVES_TO",
+      "display_weight": 1.0,
+      "evidence_type": "provisional",
+      "confidence": "inferred",
+      "benchmark_status": "positive",
+      "benchmark_case_id": "ds-b2",
+      "expected_relation": "math_ds_ergodic_entropy_continuity",
+      "subcategory": "math.DS",
+      "graph_band": "bridge",
+      "graph_layer": "ergodic_entropy_skeleton",
+      "graph_role": "topological_entropy_extension",
+      "narrative_level": "bridge-level",
+      "narrative_note": "Second bridge-level DS positive; exposes the local ergodic/entropy stretch without claiming event-level continuity.",
+      "graph_export_status": "narrative_subgraph_only",
+      "truth_scope": "narrative_only",
+      "baseline_truth": false,
+      "source_doc": "docs/plans/2026-04-02-math-ds-benchmark.md",
+      "is_bidirectional": false
+    },
+    {
+      "source": "global_119",
+      "target": "global_367",
+      "kind": "EVOLVES_TO",
+      "display_weight": 1.5,
+      "evidence_type": "provisional",
+      "confidence": "negative",
+      "benchmark_status": "negative",
+      "benchmark_case_id": "ds-n1",
+      "expected_relation": "none",
+      "subcategory": "math.DS",
+      "graph_band": "boundary",
+      "graph_layer": "excluded_boundary",
+      "graph_role": "topological_term_boundary",
+      "narrative_level": "boundary",
+      "narrative_note": "Shared topological vocabulary alone should not open the DS ergodic/entropy contract.",
+      "graph_export_status": "narrative_subgraph_only",
+      "truth_scope": "narrative_only",
+      "baseline_truth": false,
+      "source_doc": "docs/plans/2026-04-02-math-ds-benchmark.md",
+      "is_bidirectional": false
+    },
+    {
+      "source": "global_12",
+      "target": "global_154",
+      "kind": "EVOLVES_TO",
+      "display_weight": 1.5,
+      "evidence_type": "provisional",
+      "confidence": "negative",
+      "benchmark_status": "negative",
+      "benchmark_case_id": "ds-n2",
+      "expected_relation": "none",
+      "subcategory": "math.DS",
+      "graph_band": "boundary",
+      "graph_layer": "excluded_boundary",
+      "graph_role": "measure_metric_boundary",
+      "narrative_level": "boundary",
+      "narrative_note": "Broad measure/metric overlap should remain outside the DS continuity story.",
+      "graph_export_status": "narrative_subgraph_only",
+      "truth_scope": "narrative_only",
+      "baseline_truth": false,
+      "source_doc": "docs/plans/2026-04-02-math-ds-benchmark.md",
+      "is_bidirectional": false
+    },
+    {
+      "source": "global_49",
+      "target": "global_154",
+      "kind": "EVOLVES_TO",
+      "display_weight": 2.0,
+      "evidence_type": "provisional",
+      "confidence": "ambiguous",
+      "benchmark_status": "ambiguous",
+      "benchmark_case_id": "ds-a1",
+      "expected_relation": "review-needed",
+      "subcategory": "math.DS",
+      "graph_band": "review",
+      "graph_layer": "review_boundary",
+      "graph_role": "fractal_entropy_near_miss",
+      "narrative_level": "ambiguous",
+      "narrative_note": "Real DS near-miss between fractal/measure and ergodic/entropy branches; keep review-only.",
+      "graph_export_status": "narrative_subgraph_only",
+      "truth_scope": "narrative_only",
+      "baseline_truth": false,
+      "source_doc": "docs/plans/2026-04-02-math-ds-benchmark.md",
+      "is_bidirectional": false
+    }
+  ],
+  "stats": {
+    "topic_count": 6,
+    "edge_count": 5,
+    "case_count": 5,
+    "edges_by_graph_band": {
+      "bridge": 2,
+      "boundary": 2,
+      "review": 1
+    },
+    "edges_by_export_status": {
+      "narrative_subgraph_only": 5
+    },
+    "edges_by_benchmark_status": {
+      "positive": 2,
+      "negative": 2,
+      "ambiguous": 1
+    }
+  }
+}

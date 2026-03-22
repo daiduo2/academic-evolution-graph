@@ -1,0 +1,547 @@
+{
+  "version": "kg_v1_visualization",
+  "domain_code": "math.CO",
+  "generated_at": "2026-03-22T20:22:57.725782",
+  "metadata": {
+    "domain_code": "math.CO",
+    "export_presence": "docs_only_contract",
+    "topology_status": "not_in_baseline_topology",
+    "graph_shape": "matroid_mvp_contract_plus_supporting_bridge",
+    "summary": "CO stays outside the baseline topology; export metadata only exposes the landed matroid MVP, its supporting bridge, and its boundary cases.",
+    "selected_rule": "math_co_matroid_structure_continuity",
+    "candidate_rule": null,
+    "narrative_status": null,
+    "baseline_truth_layer_keys": [],
+    "narrative_only_layer_keys": [
+      "matroid_mvp",
+      "bridge_support",
+      "excluded_boundary",
+      "review_boundary",
+      "deferred_branch"
+    ],
+    "graph_visible_layer_keys": [
+      "matroid_mvp",
+      "bridge_support",
+      "excluded_boundary",
+      "review_boundary"
+    ],
+    "metadata_only_layer_keys": [
+      "deferred_branch"
+    ],
+    "visible_graph_bands": [
+      "bridge",
+      "boundary",
+      "review",
+      "contract"
+    ],
+    "truth_scope": "narrative_only",
+    "narrative_layers": {
+      "matroid_mvp": {
+        "graph_band": "contract",
+        "label": "matroid MVP",
+        "summary": "The landed matroid-family MVP contract. This is selected rule metadata, not baseline graph truth.",
+        "case_ids": [
+          "co-m1",
+          "co-m2"
+        ],
+        "encoded_case_ids": [],
+        "graph_visible_case_ids": [
+          "co-m1",
+          "co-m2"
+        ],
+        "metadata_only_case_ids": [
+          "co-m1",
+          "co-m2"
+        ],
+        "case_count": 2,
+        "encoded_case_count": 0,
+        "metadata_only_case_count": 2
+      },
+      "bridge_support": {
+        "graph_band": "bridge",
+        "label": "supporting bridge",
+        "summary": "Graph-facing matroid support kept outside the current MVP gate.",
+        "case_ids": [
+          "co-b2"
+        ],
+        "encoded_case_ids": [],
+        "graph_visible_case_ids": [
+          "co-b2"
+        ],
+        "metadata_only_case_ids": [
+          "co-b2"
+        ],
+        "case_count": 1,
+        "encoded_case_count": 0,
+        "metadata_only_case_count": 1
+      },
+      "excluded_boundary": {
+        "graph_band": "boundary",
+        "label": "excluded boundary",
+        "summary": "Boundary negatives that keep the matroid MVP conservative.",
+        "case_ids": [
+          "co-mn1",
+          "co-mn2"
+        ],
+        "encoded_case_ids": [],
+        "graph_visible_case_ids": [
+          "co-mn1",
+          "co-mn2"
+        ],
+        "metadata_only_case_ids": [
+          "co-mn1",
+          "co-mn2"
+        ],
+        "case_count": 2,
+        "encoded_case_count": 0,
+        "metadata_only_case_count": 2
+      },
+      "review_boundary": {
+        "graph_band": "review",
+        "label": "review near-miss",
+        "summary": "Near-miss cases parked outside the matroid MVP until a broader rule exists.",
+        "case_ids": [
+          "co-ma1"
+        ],
+        "encoded_case_ids": [],
+        "graph_visible_case_ids": [
+          "co-ma1"
+        ],
+        "metadata_only_case_ids": [
+          "co-ma1"
+        ],
+        "case_count": 1,
+        "encoded_case_count": 0,
+        "metadata_only_case_count": 1
+      }
+    },
+    "narrative_case_registry": [
+      {
+        "case_id": "co-b2",
+        "anchor": "global_16",
+        "target": "global_292",
+        "expected_relation": "math_co_matroid_structure_continuity",
+        "benchmark_status": "positive",
+        "confidence": "confirmed",
+        "level": "bridge-level",
+        "graph_band": "bridge",
+        "graph_layer": "bridge_support",
+        "graph_role": "matroid_supporting_bridge",
+        "narrative_note": "Supporting matroid bridge positive kept outside the landed MVP gate.",
+        "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md",
+        "export_status": "narrative_subgraph_only",
+        "anchor_in_scope": false,
+        "target_in_scope": false
+      },
+      {
+        "case_id": "co-m1",
+        "anchor": "global_292",
+        "target": "global_319",
+        "expected_relation": "math_co_matroid_structure_continuity",
+        "benchmark_status": "positive",
+        "confidence": "confirmed",
+        "level": "contract",
+        "graph_band": "contract",
+        "graph_layer": "matroid_mvp",
+        "graph_role": "mvp_positive",
+        "narrative_note": "Primary landed matroid MVP positive.",
+        "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md",
+        "export_status": "narrative_subgraph_only",
+        "anchor_in_scope": false,
+        "target_in_scope": false
+      },
+      {
+        "case_id": "co-m2",
+        "anchor": "global_118",
+        "target": "global_204",
+        "expected_relation": "math_co_matroid_structure_continuity",
+        "benchmark_status": "positive",
+        "confidence": "confirmed",
+        "level": "contract",
+        "graph_band": "contract",
+        "graph_layer": "matroid_mvp",
+        "graph_role": "supporting_positive",
+        "narrative_note": "Second landed matroid MVP positive inside the selected contract.",
+        "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md",
+        "export_status": "narrative_subgraph_only",
+        "anchor_in_scope": false,
+        "target_in_scope": false
+      },
+      {
+        "case_id": "co-mn1",
+        "anchor": "global_292",
+        "target": "global_324",
+        "expected_relation": "not math_co_matroid_structure_continuity",
+        "benchmark_status": "negative",
+        "confidence": "negative",
+        "level": "boundary",
+        "graph_band": "boundary",
+        "graph_layer": "excluded_boundary",
+        "graph_role": "rank_polynomial_boundary",
+        "narrative_note": "Rank/polynomial overlap boundary for the matroid MVP.",
+        "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md",
+        "export_status": "narrative_subgraph_only",
+        "anchor_in_scope": false,
+        "target_in_scope": false
+      },
+      {
+        "case_id": "co-mn2",
+        "anchor": "global_8",
+        "target": "global_319",
+        "expected_relation": "none",
+        "benchmark_status": "negative",
+        "confidence": "negative",
+        "level": "boundary",
+        "graph_band": "boundary",
+        "graph_layer": "excluded_boundary",
+        "graph_role": "graph_wide_term_boundary",
+        "narrative_note": "Generic graph-vocabulary boundary that must stay outside the matroid branch.",
+        "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md",
+        "export_status": "narrative_subgraph_only",
+        "anchor_in_scope": false,
+        "target_in_scope": false
+      },
+      {
+        "case_id": "co-ma1",
+        "anchor": "global_220",
+        "target": "global_292",
+        "expected_relation": "review-needed / near-miss",
+        "benchmark_status": "ambiguous",
+        "confidence": "ambiguous",
+        "level": "ambiguous",
+        "graph_band": "review",
+        "graph_layer": "review_boundary",
+        "graph_role": "polytope_only_near_miss",
+        "narrative_note": "Polytope-only near-miss that stays outside the first matroid rule.",
+        "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md",
+        "export_status": "narrative_subgraph_only",
+        "anchor_in_scope": false,
+        "target_in_scope": false
+      }
+    ],
+    "case_ids": [
+      "co-m1",
+      "co-m2",
+      "co-b2",
+      "co-mn1",
+      "co-mn2",
+      "co-ma1"
+    ],
+    "layer_keys": [
+      "matroid_mvp",
+      "bridge_support",
+      "excluded_boundary",
+      "review_boundary"
+    ]
+  },
+  "nodes": {
+    "topics": [
+      {
+        "id": "global_118",
+        "label": "拟阵热带偏序集",
+        "kind": "topic",
+        "subcategory": "CO",
+        "category": "math",
+        "status": "transient",
+        "display_size": 25.0,
+        "active_periods": 1,
+        "total_papers": 19,
+        "keywords": [
+          "matroids",
+          "matroid",
+          "mathfrak",
+          "tropical",
+          "posets"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_16",
+        "label": "拟阵与欧拉多项式",
+        "kind": "topic",
+        "subcategory": "CO",
+        "category": "math",
+        "status": "transient",
+        "display_size": 34.8,
+        "active_periods": 2,
+        "total_papers": 51,
+        "keywords": [
+          "mathcal",
+          "rank",
+          "polynomials",
+          "permutations",
+          "tutte"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_204",
+        "label": "拟阵偏序集及提升",
+        "kind": "topic",
+        "subcategory": "CO",
+        "category": "math",
+        "status": "transient",
+        "display_size": 26.8,
+        "active_periods": 1,
+        "total_papers": 28,
+        "keywords": [
+          "matroids",
+          "matroid",
+          "poset",
+          "promotion",
+          "posets"
+        ],
+        "hierarchy_depth": 4
+      },
+      {
+        "id": "global_220",
+        "label": "凸多胞形邻接性",
+        "kind": "topic",
+        "subcategory": "CO",
+        "category": "math",
+        "status": "transient",
+        "display_size": 27.2,
+        "active_periods": 1,
+        "total_papers": 30,
+        "keywords": [
+          "convex",
+          "polytopes",
+          "polytope",
+          "polyhedron",
+          "neighborly"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_292",
+        "label": "拟阵停车模式多面体",
+        "kind": "topic",
+        "subcategory": "CO",
+        "category": "math",
+        "status": "transient",
+        "display_size": 30.3,
+        "active_periods": 1,
+        "total_papers": 57,
+        "keywords": [
+          "matroids",
+          "matroid",
+          "polytopes",
+          "pattern",
+          "parking"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_319",
+        "label": "拟阵与多面体格",
+        "kind": "topic",
+        "subcategory": "CO",
+        "category": "math",
+        "status": "transient",
+        "display_size": 36.1,
+        "active_periods": 2,
+        "total_papers": 67,
+        "keywords": [
+          "mathcal",
+          "conjecture",
+          "lattice",
+          "matroids",
+          "graphs"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_324",
+        "label": "矩阵置换与积和式",
+        "kind": "topic",
+        "subcategory": "CO",
+        "category": "math",
+        "status": "transient",
+        "display_size": 29.0,
+        "active_periods": 1,
+        "total_papers": 44,
+        "keywords": [
+          "matrices",
+          "permutations",
+          "matrix",
+          "permanental",
+          "determinant"
+        ],
+        "hierarchy_depth": 2
+      },
+      {
+        "id": "global_8",
+        "label": "图与顶点条件研究",
+        "kind": "topic",
+        "subcategory": "CO",
+        "category": "math",
+        "status": "persistent",
+        "display_size": 45,
+        "active_periods": 9,
+        "total_papers": 2723,
+        "keywords": [
+          "mathcal",
+          "minimum",
+          "subgraph",
+          "number",
+          "vertices"
+        ],
+        "hierarchy_depth": 2
+      }
+    ],
+    "total_topics": 8
+  },
+  "edges": [
+    {
+      "source": "global_292",
+      "target": "global_319",
+      "kind": "EVOLVES_TO",
+      "display_weight": 3.0,
+      "evidence_type": "docs-narrative",
+      "confidence": "confirmed",
+      "benchmark_status": "positive",
+      "benchmark_case_id": "co-m1",
+      "expected_relation": "math_co_matroid_structure_continuity",
+      "subcategory": "math.CO",
+      "graph_band": "contract",
+      "graph_layer": "matroid_mvp",
+      "graph_role": "mvp_positive",
+      "narrative_level": "contract",
+      "narrative_note": "Primary landed matroid MVP positive.",
+      "graph_export_status": "narrative_subgraph_only",
+      "truth_scope": "narrative_only",
+      "baseline_truth": false,
+      "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md",
+      "is_bidirectional": false
+    },
+    {
+      "source": "global_118",
+      "target": "global_204",
+      "kind": "EVOLVES_TO",
+      "display_weight": 3.0,
+      "evidence_type": "docs-narrative",
+      "confidence": "confirmed",
+      "benchmark_status": "positive",
+      "benchmark_case_id": "co-m2",
+      "expected_relation": "math_co_matroid_structure_continuity",
+      "subcategory": "math.CO",
+      "graph_band": "contract",
+      "graph_layer": "matroid_mvp",
+      "graph_role": "supporting_positive",
+      "narrative_level": "contract",
+      "narrative_note": "Second landed matroid MVP positive inside the selected contract.",
+      "graph_export_status": "narrative_subgraph_only",
+      "truth_scope": "narrative_only",
+      "baseline_truth": false,
+      "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md",
+      "is_bidirectional": false
+    },
+    {
+      "source": "global_16",
+      "target": "global_292",
+      "kind": "EVOLVES_TO",
+      "display_weight": 3.0,
+      "evidence_type": "docs-narrative",
+      "confidence": "confirmed",
+      "benchmark_status": "positive",
+      "benchmark_case_id": "co-b2",
+      "expected_relation": "math_co_matroid_structure_continuity",
+      "subcategory": "math.CO",
+      "graph_band": "bridge",
+      "graph_layer": "bridge_support",
+      "graph_role": "matroid_supporting_bridge",
+      "narrative_level": "bridge-level",
+      "narrative_note": "Supporting matroid bridge positive kept outside the landed MVP gate.",
+      "graph_export_status": "narrative_subgraph_only",
+      "truth_scope": "narrative_only",
+      "baseline_truth": false,
+      "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md",
+      "is_bidirectional": false
+    },
+    {
+      "source": "global_292",
+      "target": "global_324",
+      "kind": "EVOLVES_TO",
+      "display_weight": 1.5,
+      "evidence_type": "docs-narrative",
+      "confidence": "negative",
+      "benchmark_status": "negative",
+      "benchmark_case_id": "co-mn1",
+      "expected_relation": "not math_co_matroid_structure_continuity",
+      "subcategory": "math.CO",
+      "graph_band": "boundary",
+      "graph_layer": "excluded_boundary",
+      "graph_role": "rank_polynomial_boundary",
+      "narrative_level": "boundary",
+      "narrative_note": "Rank/polynomial overlap boundary for the matroid MVP.",
+      "graph_export_status": "narrative_subgraph_only",
+      "truth_scope": "narrative_only",
+      "baseline_truth": false,
+      "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md",
+      "is_bidirectional": false
+    },
+    {
+      "source": "global_8",
+      "target": "global_319",
+      "kind": "EVOLVES_TO",
+      "display_weight": 1.5,
+      "evidence_type": "docs-narrative",
+      "confidence": "negative",
+      "benchmark_status": "negative",
+      "benchmark_case_id": "co-mn2",
+      "expected_relation": "none",
+      "subcategory": "math.CO",
+      "graph_band": "boundary",
+      "graph_layer": "excluded_boundary",
+      "graph_role": "graph_wide_term_boundary",
+      "narrative_level": "boundary",
+      "narrative_note": "Generic graph-vocabulary boundary that must stay outside the matroid branch.",
+      "graph_export_status": "narrative_subgraph_only",
+      "truth_scope": "narrative_only",
+      "baseline_truth": false,
+      "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md",
+      "is_bidirectional": false
+    },
+    {
+      "source": "global_220",
+      "target": "global_292",
+      "kind": "EVOLVES_TO",
+      "display_weight": 2.0,
+      "evidence_type": "docs-narrative",
+      "confidence": "ambiguous",
+      "benchmark_status": "ambiguous",
+      "benchmark_case_id": "co-ma1",
+      "expected_relation": "review-needed / near-miss",
+      "subcategory": "math.CO",
+      "graph_band": "review",
+      "graph_layer": "review_boundary",
+      "graph_role": "polytope_only_near_miss",
+      "narrative_level": "ambiguous",
+      "narrative_note": "Polytope-only near-miss that stays outside the first matroid rule.",
+      "graph_export_status": "narrative_subgraph_only",
+      "truth_scope": "narrative_only",
+      "baseline_truth": false,
+      "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md",
+      "is_bidirectional": false
+    }
+  ],
+  "stats": {
+    "topic_count": 8,
+    "edge_count": 6,
+    "case_count": 6,
+    "edges_by_graph_band": {
+      "bridge": 1,
+      "boundary": 2,
+      "review": 1,
+      "contract": 2
+    },
+    "edges_by_export_status": {
+      "narrative_subgraph_only": 6
+    },
+    "edges_by_benchmark_status": {
+      "positive": 3,
+      "negative": 2,
+      "ambiguous": 1
+    }
+  }
+}

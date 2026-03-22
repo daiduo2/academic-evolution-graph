@@ -1,6 +1,6 @@
 {
   "version": "kg_v1_pr_conditional",
-  "generated_at": "2026-03-22T19:19:57.075553",
+  "generated_at": "2026-03-22T20:22:52.687930",
   "source": {
     "input_file": "data/output/aligned_topics_hierarchy.json",
     "benchmark_lo": "docs/plans/2026-03-12-math-lo-benchmark.md",
@@ -53,6 +53,12 @@
         "boundary_negative",
         "review_boundary"
       ],
+      "graph_visible_layer_keys": [],
+      "metadata_only_layer_keys": [
+        "bridge_ring",
+        "boundary_negative",
+        "review_boundary"
+      ],
       "visible_graph_bands": [
         "baseline",
         "bridge",
@@ -70,6 +76,7 @@
           "encoded_case_ids": [
             "lo-b1"
           ],
+          "graph_visible_case_ids": [],
           "metadata_only_case_ids": [],
           "case_count": 1,
           "encoded_case_count": 1,
@@ -88,6 +95,7 @@
           "encoded_case_ids": [
             "lo-b3"
           ],
+          "graph_visible_case_ids": [],
           "metadata_only_case_ids": [
             "lo-b2",
             "lo-b4",
@@ -112,6 +120,7 @@
           "encoded_case_ids": [
             "lo-n1"
           ],
+          "graph_visible_case_ids": [],
           "metadata_only_case_ids": [
             "lo-n2",
             "lo-n3",
@@ -134,6 +143,7 @@
           "encoded_case_ids": [
             "lo-a2"
           ],
+          "graph_visible_case_ids": [],
           "metadata_only_case_ids": [
             "lo-a1"
           ],
@@ -148,6 +158,8 @@
           "anchor": "global_56",
           "target": "global_27",
           "expected_relation": "math_lo_modal_continuity",
+          "benchmark_status": "positive",
+          "confidence": "confirmed",
           "level": "event-level",
           "graph_band": "baseline",
           "graph_layer": "modal_baseline",
@@ -163,6 +175,8 @@
           "anchor": "global_56",
           "target": "global_980",
           "expected_relation": "math_lo_type_theory_continuity",
+          "benchmark_status": "positive",
+          "confidence": "confirmed",
           "level": "bridge-level",
           "graph_band": "bridge",
           "graph_layer": "bridge_ring",
@@ -178,6 +192,8 @@
           "anchor": "global_313",
           "target": "global_360",
           "expected_relation": "math_lo_set_theory_continuity",
+          "benchmark_status": "positive",
+          "confidence": "confirmed",
           "level": "bridge-level",
           "graph_band": "bridge",
           "graph_layer": "bridge_ring",
@@ -193,6 +209,8 @@
           "anchor": "global_51",
           "target": "global_951",
           "expected_relation": "math_lo_forcing_continuity",
+          "benchmark_status": "positive",
+          "confidence": "confirmed",
           "level": "bridge-level",
           "graph_band": "bridge",
           "graph_layer": "bridge_ring",
@@ -208,6 +226,8 @@
           "anchor": "global_75",
           "target": "global_778",
           "expected_relation": "math_lo_definability_continuity",
+          "benchmark_status": "positive",
+          "confidence": "confirmed",
           "level": "bridge-level",
           "graph_band": "bridge",
           "graph_layer": "bridge_ring",
@@ -223,6 +243,8 @@
           "anchor": "global_51",
           "target": "global_75",
           "expected_relation": "not math_lo_forcing_continuity",
+          "benchmark_status": "negative",
+          "confidence": "negative",
           "level": "boundary",
           "graph_band": "boundary",
           "graph_layer": "boundary_negative",
@@ -238,6 +260,8 @@
           "anchor": "global_339",
           "target": "global_951",
           "expected_relation": "none",
+          "benchmark_status": "negative",
+          "confidence": "negative",
           "level": "boundary",
           "graph_band": "boundary",
           "graph_layer": "boundary_negative",
@@ -253,6 +277,8 @@
           "anchor": "global_167",
           "target": "global_778",
           "expected_relation": "none",
+          "benchmark_status": "negative",
+          "confidence": "negative",
           "level": "boundary",
           "graph_band": "boundary",
           "graph_layer": "boundary_negative",
@@ -268,6 +294,8 @@
           "anchor": "global_361",
           "target": "global_778",
           "expected_relation": "none",
+          "benchmark_status": "negative",
+          "confidence": "negative",
           "level": "boundary",
           "graph_band": "boundary",
           "graph_layer": "boundary_negative",
@@ -283,6 +311,8 @@
           "anchor": "global_56",
           "target": "global_977",
           "expected_relation": "not math_lo_type_theory_continuity",
+          "benchmark_status": "negative",
+          "confidence": "negative",
           "level": "boundary",
           "graph_band": "boundary",
           "graph_layer": "boundary_negative",
@@ -298,6 +328,8 @@
           "anchor": "global_56",
           "target": "global_1155",
           "expected_relation": "not math_lo_type_theory_continuity",
+          "benchmark_status": "negative",
+          "confidence": "negative",
           "level": "boundary",
           "graph_band": "boundary",
           "graph_layer": "boundary_negative",
@@ -313,6 +345,8 @@
           "anchor": "global_75",
           "target": "global_951",
           "expected_relation": "review-needed",
+          "benchmark_status": "ambiguous",
+          "confidence": "ambiguous",
           "level": "ambiguous",
           "graph_band": "review",
           "graph_layer": "review_boundary",
@@ -328,6 +362,8 @@
           "anchor": "global_339",
           "target": "global_51",
           "expected_relation": "review-needed",
+          "benchmark_status": "ambiguous",
+          "confidence": "ambiguous",
           "level": "ambiguous",
           "graph_band": "review",
           "graph_layer": "review_boundary",
@@ -345,6 +381,8 @@
         "lo-n1",
         "lo-a2"
       ],
+      "graph_visible_case_ids": [],
+      "graph_visible_subgraph": null,
       "case_count": 13,
       "case_counts_by_graph_band": {
         "baseline": 1,
@@ -380,6 +418,12 @@
         "excluded_boundary",
         "review_boundary"
       ],
+      "graph_visible_layer_keys": [],
+      "metadata_only_layer_keys": [
+        "bridge_ring",
+        "excluded_boundary",
+        "review_boundary"
+      ],
       "visible_graph_bands": [
         "baseline",
         "bridge",
@@ -397,6 +441,7 @@
           "encoded_case_ids": [
             "ag-p1"
           ],
+          "graph_visible_case_ids": [],
           "metadata_only_case_ids": [],
           "case_count": 1,
           "encoded_case_count": 1,
@@ -411,6 +456,7 @@
             "ag-p3"
           ],
           "encoded_case_ids": [],
+          "graph_visible_case_ids": [],
           "metadata_only_case_ids": [
             "ag-p2",
             "ag-p3"
@@ -433,6 +479,7 @@
             "ag-n2",
             "ag-n3"
           ],
+          "graph_visible_case_ids": [],
           "metadata_only_case_ids": [],
           "case_count": 3,
           "encoded_case_count": 3,
@@ -448,6 +495,7 @@
           "encoded_case_ids": [
             "ag-amb1"
           ],
+          "graph_visible_case_ids": [],
           "metadata_only_case_ids": [],
           "case_count": 1,
           "encoded_case_count": 1,
@@ -460,6 +508,8 @@
           "anchor": "global_69",
           "target": "global_287",
           "expected_relation": "math_ag_object_continuity",
+          "benchmark_status": "positive",
+          "confidence": "confirmed",
           "level": "event-level",
           "graph_band": "baseline",
           "graph_layer": "confirmed_core",
@@ -475,6 +525,8 @@
           "anchor": "global_30",
           "target": "global_355",
           "expected_relation": "none",
+          "benchmark_status": "negative",
+          "confidence": "negative",
           "level": "bridge-level",
           "graph_band": "bridge",
           "graph_layer": "bridge_ring",
@@ -490,6 +542,8 @@
           "anchor": "global_355",
           "target": "global_117",
           "expected_relation": "none",
+          "benchmark_status": "negative",
+          "confidence": "negative",
           "level": "bridge-level",
           "graph_band": "bridge",
           "graph_layer": "bridge_ring",
@@ -505,6 +559,8 @@
           "anchor": "global_69",
           "target": "global_136",
           "expected_relation": "none",
+          "benchmark_status": "negative",
+          "confidence": "negative",
           "level": "boundary",
           "graph_band": "boundary",
           "graph_layer": "excluded_boundary",
@@ -520,6 +576,8 @@
           "anchor": "global_30",
           "target": "global_287",
           "expected_relation": "none",
+          "benchmark_status": "negative",
+          "confidence": "negative",
           "level": "boundary",
           "graph_band": "boundary",
           "graph_layer": "excluded_boundary",
@@ -535,6 +593,8 @@
           "anchor": "global_134",
           "target": "global_30",
           "expected_relation": "none",
+          "benchmark_status": "negative",
+          "confidence": "negative",
           "level": "boundary",
           "graph_band": "boundary",
           "graph_layer": "excluded_boundary",
@@ -550,6 +610,8 @@
           "anchor": "global_4",
           "target": "global_287",
           "expected_relation": "review-needed",
+          "benchmark_status": "ambiguous",
+          "confidence": "ambiguous",
           "level": "ambiguous",
           "graph_band": "review",
           "graph_layer": "review_boundary",
@@ -568,6 +630,8 @@
         "ag-n3",
         "ag-amb1"
       ],
+      "graph_visible_case_ids": [],
+      "graph_visible_subgraph": null,
       "case_count": 7,
       "case_counts_by_graph_band": {
         "baseline": 1,
@@ -603,6 +667,15 @@
         "review_boundary",
         "deferred_branch"
       ],
+      "graph_visible_layer_keys": [
+        "matroid_mvp",
+        "bridge_support",
+        "excluded_boundary",
+        "review_boundary"
+      ],
+      "metadata_only_layer_keys": [
+        "deferred_branch"
+      ],
       "visible_graph_bands": [
         "bridge",
         "boundary",
@@ -620,6 +693,10 @@
             "co-m2"
           ],
           "encoded_case_ids": [],
+          "graph_visible_case_ids": [
+            "co-m1",
+            "co-m2"
+          ],
           "metadata_only_case_ids": [
             "co-m1",
             "co-m2"
@@ -636,6 +713,9 @@
             "co-b2"
           ],
           "encoded_case_ids": [],
+          "graph_visible_case_ids": [
+            "co-b2"
+          ],
           "metadata_only_case_ids": [
             "co-b2"
           ],
@@ -652,6 +732,10 @@
             "co-mn2"
           ],
           "encoded_case_ids": [],
+          "graph_visible_case_ids": [
+            "co-mn1",
+            "co-mn2"
+          ],
           "metadata_only_case_ids": [
             "co-mn1",
             "co-mn2"
@@ -668,6 +752,9 @@
             "co-ma1"
           ],
           "encoded_case_ids": [],
+          "graph_visible_case_ids": [
+            "co-ma1"
+          ],
           "metadata_only_case_ids": [
             "co-ma1"
           ],
@@ -683,6 +770,7 @@
             "co-b1"
           ],
           "encoded_case_ids": [],
+          "graph_visible_case_ids": [],
           "metadata_only_case_ids": [
             "co-b1"
           ],
@@ -697,6 +785,8 @@
           "anchor": "global_63",
           "target": "global_308",
           "expected_relation": "math_co_random_process_continuity",
+          "benchmark_status": "positive",
+          "confidence": "confirmed",
           "level": "bridge-level",
           "graph_band": "deferred",
           "graph_layer": "deferred_branch",
@@ -712,13 +802,15 @@
           "anchor": "global_16",
           "target": "global_292",
           "expected_relation": "math_co_matroid_structure_continuity",
+          "benchmark_status": "positive",
+          "confidence": "confirmed",
           "level": "bridge-level",
           "graph_band": "bridge",
           "graph_layer": "bridge_support",
           "graph_role": "matroid_supporting_bridge",
           "narrative_note": "Supporting matroid bridge positive kept outside the landed MVP gate.",
           "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md",
-          "export_status": "docs_only_outside_export_scope",
+          "export_status": "narrative_subgraph_only",
           "anchor_in_scope": false,
           "target_in_scope": false
         },
@@ -727,13 +819,15 @@
           "anchor": "global_292",
           "target": "global_319",
           "expected_relation": "math_co_matroid_structure_continuity",
+          "benchmark_status": "positive",
+          "confidence": "confirmed",
           "level": "contract",
           "graph_band": "contract",
           "graph_layer": "matroid_mvp",
           "graph_role": "mvp_positive",
           "narrative_note": "Primary landed matroid MVP positive.",
           "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md",
-          "export_status": "docs_only_outside_export_scope",
+          "export_status": "narrative_subgraph_only",
           "anchor_in_scope": false,
           "target_in_scope": false
         },
@@ -742,13 +836,15 @@
           "anchor": "global_118",
           "target": "global_204",
           "expected_relation": "math_co_matroid_structure_continuity",
+          "benchmark_status": "positive",
+          "confidence": "confirmed",
           "level": "contract",
           "graph_band": "contract",
           "graph_layer": "matroid_mvp",
           "graph_role": "supporting_positive",
           "narrative_note": "Second landed matroid MVP positive inside the selected contract.",
           "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md",
-          "export_status": "docs_only_outside_export_scope",
+          "export_status": "narrative_subgraph_only",
           "anchor_in_scope": false,
           "target_in_scope": false
         },
@@ -757,13 +853,15 @@
           "anchor": "global_292",
           "target": "global_324",
           "expected_relation": "not math_co_matroid_structure_continuity",
+          "benchmark_status": "negative",
+          "confidence": "negative",
           "level": "boundary",
           "graph_band": "boundary",
           "graph_layer": "excluded_boundary",
           "graph_role": "rank_polynomial_boundary",
           "narrative_note": "Rank/polynomial overlap boundary for the matroid MVP.",
           "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md",
-          "export_status": "docs_only_outside_export_scope",
+          "export_status": "narrative_subgraph_only",
           "anchor_in_scope": false,
           "target_in_scope": false
         },
@@ -772,13 +870,15 @@
           "anchor": "global_8",
           "target": "global_319",
           "expected_relation": "none",
+          "benchmark_status": "negative",
+          "confidence": "negative",
           "level": "boundary",
           "graph_band": "boundary",
           "graph_layer": "excluded_boundary",
           "graph_role": "graph_wide_term_boundary",
           "narrative_note": "Generic graph-vocabulary boundary that must stay outside the matroid branch.",
           "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md",
-          "export_status": "docs_only_outside_export_scope",
+          "export_status": "narrative_subgraph_only",
           "anchor_in_scope": false,
           "target_in_scope": false
         },
@@ -787,18 +887,524 @@
           "anchor": "global_220",
           "target": "global_292",
           "expected_relation": "review-needed / near-miss",
+          "benchmark_status": "ambiguous",
+          "confidence": "ambiguous",
           "level": "ambiguous",
           "graph_band": "review",
           "graph_layer": "review_boundary",
           "graph_role": "polytope_only_near_miss",
           "narrative_note": "Polytope-only near-miss that stays outside the first matroid rule.",
           "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md",
-          "export_status": "docs_only_outside_export_scope",
+          "export_status": "narrative_subgraph_only",
           "anchor_in_scope": false,
           "target_in_scope": false
         }
       ],
       "encoded_case_ids": [],
+      "graph_visible_case_ids": [
+        "co-b2",
+        "co-m1",
+        "co-m2",
+        "co-mn1",
+        "co-mn2",
+        "co-ma1"
+      ],
+      "graph_visible_subgraph": {
+        "domain_code": "math.CO",
+        "truth_scope": "narrative_only",
+        "layer_keys": [
+          "matroid_mvp",
+          "bridge_support",
+          "excluded_boundary",
+          "review_boundary"
+        ],
+        "case_ids": [
+          "co-m1",
+          "co-m2",
+          "co-b2",
+          "co-mn1",
+          "co-mn2",
+          "co-ma1"
+        ],
+        "nodes": [
+          {
+            "id": "global_118",
+            "type": "topic",
+            "name": "拟阵热带偏序集",
+            "keywords": [
+              "matroids",
+              "matroid",
+              "mathfrak",
+              "tropical",
+              "posets",
+              "varchenko",
+              "ehrhart",
+              "rowmotion",
+              "panhandle",
+              "cubes"
+            ],
+            "category": "math",
+            "subcategory": "CO",
+            "topic_mode": "transient",
+            "total_papers": 19,
+            "active_periods": 1,
+            "history": [
+              {
+                "period": "2025-05",
+                "paper_count": 19
+              }
+            ],
+            "hierarchy_path": [
+              "math.CO研究",
+              "图论"
+            ],
+            "hierarchy_depth": 2,
+            "graph_visibility": "narrative_only"
+          },
+          {
+            "id": "global_16",
+            "type": "topic",
+            "name": "拟阵与欧拉多项式",
+            "keywords": [
+              "mathcal",
+              "rank",
+              "polynomials",
+              "permutations",
+              "tutte",
+              "matroids",
+              "polynomial",
+              "combinatorial",
+              "eulerian",
+              "matroid",
+              "columns",
+              "kazhdan",
+              "lusztig",
+              "catalan",
+              "varieties"
+            ],
+            "category": "math",
+            "subcategory": "CO",
+            "topic_mode": "transient",
+            "total_papers": 51,
+            "active_periods": 2,
+            "history": [
+              {
+                "period": "2025-02",
+                "paper_count": 38
+              },
+              {
+                "period": "2025-10",
+                "paper_count": 13
+              }
+            ],
+            "hierarchy_path": [
+              "math.CO研究",
+              "图论"
+            ],
+            "hierarchy_depth": 2,
+            "graph_visibility": "narrative_only"
+          },
+          {
+            "id": "global_204",
+            "type": "topic",
+            "name": "拟阵偏序集及提升",
+            "keywords": [
+              "matroids",
+              "matroid",
+              "poset",
+              "promotion",
+              "posets",
+              "representable",
+              "semimatroids",
+              "transversal",
+              "bases",
+              "polynomials"
+            ],
+            "category": "math",
+            "subcategory": "CO",
+            "topic_mode": "transient",
+            "total_papers": 28,
+            "active_periods": 1,
+            "history": [
+              {
+                "period": "2025-08",
+                "paper_count": 28
+              }
+            ],
+            "hierarchy_path": [
+              "math.CO研究",
+              "组合结构",
+              "拟阵理论",
+              "拟阵偏序集"
+            ],
+            "hierarchy_depth": 4,
+            "graph_visibility": "narrative_only"
+          },
+          {
+            "id": "global_220",
+            "type": "topic",
+            "name": "凸多胞形邻接性",
+            "keywords": [
+              "convex",
+              "polytopes",
+              "polytope",
+              "polyhedron",
+              "neighborly",
+              "hyperfields",
+              "theorem",
+              "faces",
+              "quadrangulations",
+              "proof"
+            ],
+            "category": "math",
+            "subcategory": "CO",
+            "topic_mode": "transient",
+            "total_papers": 30,
+            "active_periods": 1,
+            "history": [
+              {
+                "period": "2025-09",
+                "paper_count": 30
+              }
+            ],
+            "hierarchy_path": [
+              "math.CO研究",
+              "图论"
+            ],
+            "hierarchy_depth": 2,
+            "graph_visibility": "narrative_only"
+          },
+          {
+            "id": "global_292",
+            "type": "topic",
+            "name": "拟阵停车模式多面体",
+            "keywords": [
+              "matroids",
+              "matroid",
+              "polytopes",
+              "pattern",
+              "parking",
+              "rank",
+              "alcoved",
+              "polynomial",
+              "poset",
+              "forcing"
+            ],
+            "category": "math",
+            "subcategory": "CO",
+            "topic_mode": "transient",
+            "total_papers": 57,
+            "active_periods": 1,
+            "history": [
+              {
+                "period": "2025-11",
+                "paper_count": 57
+              }
+            ],
+            "hierarchy_path": [
+              "math.CO研究",
+              "图论"
+            ],
+            "hierarchy_depth": 2,
+            "graph_visibility": "narrative_only"
+          },
+          {
+            "id": "global_319",
+            "type": "topic",
+            "name": "拟阵与多面体格",
+            "keywords": [
+              "mathcal",
+              "conjecture",
+              "lattice",
+              "matroids",
+              "graphs",
+              "polymatroid",
+              "matroid",
+              "symplectic",
+              "polytopes",
+              "lattices",
+              "ranked",
+              "posets",
+              "polytope",
+              "greedoid",
+              "flats"
+            ],
+            "category": "math",
+            "subcategory": "CO",
+            "topic_mode": "transient",
+            "total_papers": 67,
+            "active_periods": 2,
+            "history": [
+              {
+                "period": "2025-12",
+                "paper_count": 45
+              },
+              {
+                "period": "2026-01",
+                "paper_count": 22
+              }
+            ],
+            "hierarchy_path": [
+              "math.CO研究",
+              "图论"
+            ],
+            "hierarchy_depth": 2,
+            "graph_visibility": "narrative_only"
+          },
+          {
+            "id": "global_324",
+            "type": "topic",
+            "name": "矩阵置换与积和式",
+            "keywords": [
+              "matrices",
+              "permutations",
+              "matrix",
+              "permanental",
+              "determinant",
+              "s_n",
+              "cullis",
+              "polynomial",
+              "rank",
+              "sos"
+            ],
+            "category": "math",
+            "subcategory": "CO",
+            "topic_mode": "transient",
+            "total_papers": 44,
+            "active_periods": 1,
+            "history": [
+              {
+                "period": "2025-12",
+                "paper_count": 44
+              }
+            ],
+            "hierarchy_path": [
+              "math.CO研究",
+              "图论"
+            ],
+            "hierarchy_depth": 2,
+            "graph_visibility": "narrative_only"
+          },
+          {
+            "id": "global_8",
+            "type": "topic",
+            "name": "图与顶点条件研究",
+            "keywords": [
+              "mathcal",
+              "minimum",
+              "subgraph",
+              "number",
+              "vertices",
+              "conjecture",
+              "treewidth",
+              "graphs",
+              "planar",
+              "edges",
+              "log",
+              "problem",
+              "if",
+              "edge",
+              "coloring"
+            ],
+            "category": "math",
+            "subcategory": "CO",
+            "topic_mode": "persistent",
+            "total_papers": 2723,
+            "active_periods": 9,
+            "history": [
+              {
+                "period": "2025-02",
+                "paper_count": 362
+              },
+              {
+                "period": "2025-04",
+                "paper_count": 153
+              },
+              {
+                "period": "2025-05",
+                "paper_count": 132
+              },
+              {
+                "period": "2025-06",
+                "paper_count": 192
+              },
+              {
+                "period": "2025-07",
+                "paper_count": 295
+              },
+              {
+                "period": "2025-09",
+                "paper_count": 263
+              },
+              {
+                "period": "2025-10",
+                "paper_count": 478
+              },
+              {
+                "period": "2025-12",
+                "paper_count": 477
+              },
+              {
+                "period": "2026-02",
+                "paper_count": 371
+              }
+            ],
+            "hierarchy_path": [
+              "math.CO研究",
+              "图论"
+            ],
+            "hierarchy_depth": 2,
+            "graph_visibility": "narrative_only"
+          }
+        ],
+        "edges": [
+          {
+            "source": "global_292",
+            "target": "global_319",
+            "type": "EVOLVES_TO",
+            "evidence_type": "docs-narrative",
+            "confidence": "confirmed",
+            "benchmark_case_id": "co-m1",
+            "benchmark_status": "positive",
+            "expected_relation": "math_co_matroid_structure_continuity",
+            "subcategory": "math.CO",
+            "graph_band": "contract",
+            "graph_layer": "matroid_mvp",
+            "graph_role": "mvp_positive",
+            "narrative_level": "contract",
+            "narrative_note": "Primary landed matroid MVP positive.",
+            "graph_export_status": "narrative_subgraph_only",
+            "truth_scope": "narrative_only",
+            "baseline_truth": false,
+            "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md"
+          },
+          {
+            "source": "global_118",
+            "target": "global_204",
+            "type": "EVOLVES_TO",
+            "evidence_type": "docs-narrative",
+            "confidence": "confirmed",
+            "benchmark_case_id": "co-m2",
+            "benchmark_status": "positive",
+            "expected_relation": "math_co_matroid_structure_continuity",
+            "subcategory": "math.CO",
+            "graph_band": "contract",
+            "graph_layer": "matroid_mvp",
+            "graph_role": "supporting_positive",
+            "narrative_level": "contract",
+            "narrative_note": "Second landed matroid MVP positive inside the selected contract.",
+            "graph_export_status": "narrative_subgraph_only",
+            "truth_scope": "narrative_only",
+            "baseline_truth": false,
+            "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md"
+          },
+          {
+            "source": "global_16",
+            "target": "global_292",
+            "type": "EVOLVES_TO",
+            "evidence_type": "docs-narrative",
+            "confidence": "confirmed",
+            "benchmark_case_id": "co-b2",
+            "benchmark_status": "positive",
+            "expected_relation": "math_co_matroid_structure_continuity",
+            "subcategory": "math.CO",
+            "graph_band": "bridge",
+            "graph_layer": "bridge_support",
+            "graph_role": "matroid_supporting_bridge",
+            "narrative_level": "bridge-level",
+            "narrative_note": "Supporting matroid bridge positive kept outside the landed MVP gate.",
+            "graph_export_status": "narrative_subgraph_only",
+            "truth_scope": "narrative_only",
+            "baseline_truth": false,
+            "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md"
+          },
+          {
+            "source": "global_292",
+            "target": "global_324",
+            "type": "EVOLVES_TO",
+            "evidence_type": "docs-narrative",
+            "confidence": "negative",
+            "benchmark_case_id": "co-mn1",
+            "benchmark_status": "negative",
+            "expected_relation": "not math_co_matroid_structure_continuity",
+            "subcategory": "math.CO",
+            "graph_band": "boundary",
+            "graph_layer": "excluded_boundary",
+            "graph_role": "rank_polynomial_boundary",
+            "narrative_level": "boundary",
+            "narrative_note": "Rank/polynomial overlap boundary for the matroid MVP.",
+            "graph_export_status": "narrative_subgraph_only",
+            "truth_scope": "narrative_only",
+            "baseline_truth": false,
+            "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md"
+          },
+          {
+            "source": "global_8",
+            "target": "global_319",
+            "type": "EVOLVES_TO",
+            "evidence_type": "docs-narrative",
+            "confidence": "negative",
+            "benchmark_case_id": "co-mn2",
+            "benchmark_status": "negative",
+            "expected_relation": "none",
+            "subcategory": "math.CO",
+            "graph_band": "boundary",
+            "graph_layer": "excluded_boundary",
+            "graph_role": "graph_wide_term_boundary",
+            "narrative_level": "boundary",
+            "narrative_note": "Generic graph-vocabulary boundary that must stay outside the matroid branch.",
+            "graph_export_status": "narrative_subgraph_only",
+            "truth_scope": "narrative_only",
+            "baseline_truth": false,
+            "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md"
+          },
+          {
+            "source": "global_220",
+            "target": "global_292",
+            "type": "EVOLVES_TO",
+            "evidence_type": "docs-narrative",
+            "confidence": "ambiguous",
+            "benchmark_case_id": "co-ma1",
+            "benchmark_status": "ambiguous",
+            "expected_relation": "review-needed / near-miss",
+            "subcategory": "math.CO",
+            "graph_band": "review",
+            "graph_layer": "review_boundary",
+            "graph_role": "polytope_only_near_miss",
+            "narrative_level": "ambiguous",
+            "narrative_note": "Polytope-only near-miss that stays outside the first matroid rule.",
+            "graph_export_status": "narrative_subgraph_only",
+            "truth_scope": "narrative_only",
+            "baseline_truth": false,
+            "source_doc": "docs/plans/2026-03-31-math-co-benchmark.md"
+          }
+        ],
+        "visible_graph_bands": [
+          "bridge",
+          "boundary",
+          "review",
+          "contract"
+        ],
+        "stats": {
+          "topic_count": 8,
+          "edge_count": 6,
+          "case_count": 6,
+          "edges_by_graph_band": {
+            "bridge": 1,
+            "boundary": 2,
+            "review": 1,
+            "contract": 2
+          },
+          "edges_by_export_status": {
+            "narrative_subgraph_only": 6
+          },
+          "edges_by_benchmark_status": {
+            "positive": 3,
+            "negative": 2,
+            "ambiguous": 1
+          }
+        }
+      },
       "case_count": 7,
       "case_counts_by_graph_band": {
         "bridge": 1,
@@ -808,7 +1414,8 @@
         "deferred": 1
       },
       "case_counts_by_export_status": {
-        "docs_only_outside_export_scope": 7
+        "docs_only_outside_export_scope": 1,
+        "narrative_subgraph_only": 6
       },
       "layer_counts_by_graph_band": {
         "bridge": 1,
@@ -822,8 +1429,8 @@
       "source_doc": "docs/plans/2026-04-02-math-ds-benchmark.md",
       "export_presence": "docs_only_narrative",
       "topology_status": "not_in_baseline_topology",
-      "graph_shape": "bridge_skeleton_plus_boundary_review",
-      "summary": "DS contributes only a bridge-level benchmark skeleton around ergodic/entropy continuity; no DS nodes or baseline EVOLVES_TO edges are exported yet.",
+      "graph_shape": "graph_visible_ergodic_entropy_skeleton_plus_boundary_review",
+      "summary": "DS stays outside the baseline topology, but its ergodic/entropy skeleton now has a graph-visible non-baseline subgraph with bridge, boundary, and review cases.",
       "selected_rule": null,
       "candidate_rule": "math_ds_ergodic_entropy_continuity",
       "narrative_status": "benchmark_skeleton_ready",
@@ -833,6 +1440,12 @@
         "excluded_boundary",
         "review_boundary"
       ],
+      "graph_visible_layer_keys": [
+        "ergodic_entropy_skeleton",
+        "excluded_boundary",
+        "review_boundary"
+      ],
+      "metadata_only_layer_keys": [],
       "visible_graph_bands": [
         "bridge",
         "boundary",
@@ -848,6 +1461,10 @@
             "ds-b2"
           ],
           "encoded_case_ids": [],
+          "graph_visible_case_ids": [
+            "ds-b1",
+            "ds-b2"
+          ],
           "metadata_only_case_ids": [
             "ds-b1",
             "ds-b2"
@@ -865,6 +1482,10 @@
             "ds-n2"
           ],
           "encoded_case_ids": [],
+          "graph_visible_case_ids": [
+            "ds-n1",
+            "ds-n2"
+          ],
           "metadata_only_case_ids": [
             "ds-n1",
             "ds-n2"
@@ -881,6 +1502,9 @@
             "ds-a1"
           ],
           "encoded_case_ids": [],
+          "graph_visible_case_ids": [
+            "ds-a1"
+          ],
           "metadata_only_case_ids": [
             "ds-a1"
           ],
@@ -895,13 +1519,15 @@
           "anchor": "global_154",
           "target": "global_186",
           "expected_relation": "math_ds_ergodic_entropy_continuity",
+          "benchmark_status": "positive",
+          "confidence": "confirmed",
           "level": "bridge-level",
           "graph_band": "bridge",
           "graph_layer": "ergodic_entropy_skeleton",
           "graph_role": "ergodic_measure_bridge",
           "narrative_note": "Bridge-level DS positive inside the ergodic/entropy neighborhood; stable enough for metadata, not for baseline topology.",
           "source_doc": "docs/plans/2026-04-02-math-ds-benchmark.md",
-          "export_status": "docs_only_outside_export_scope",
+          "export_status": "narrative_subgraph_only",
           "anchor_in_scope": false,
           "target_in_scope": false
         },
@@ -910,13 +1536,15 @@
           "anchor": "global_154",
           "target": "global_367",
           "expected_relation": "math_ds_ergodic_entropy_continuity",
+          "benchmark_status": "positive",
+          "confidence": "confirmed",
           "level": "bridge-level",
           "graph_band": "bridge",
           "graph_layer": "ergodic_entropy_skeleton",
           "graph_role": "topological_entropy_extension",
           "narrative_note": "Second bridge-level DS positive; exposes the local ergodic/entropy stretch without claiming event-level continuity.",
           "source_doc": "docs/plans/2026-04-02-math-ds-benchmark.md",
-          "export_status": "docs_only_outside_export_scope",
+          "export_status": "narrative_subgraph_only",
           "anchor_in_scope": false,
           "target_in_scope": false
         },
@@ -925,13 +1553,15 @@
           "anchor": "global_119",
           "target": "global_367",
           "expected_relation": "none",
+          "benchmark_status": "negative",
+          "confidence": "negative",
           "level": "boundary",
           "graph_band": "boundary",
           "graph_layer": "excluded_boundary",
           "graph_role": "topological_term_boundary",
           "narrative_note": "Shared topological vocabulary alone should not open the DS ergodic/entropy contract.",
           "source_doc": "docs/plans/2026-04-02-math-ds-benchmark.md",
-          "export_status": "docs_only_outside_export_scope",
+          "export_status": "narrative_subgraph_only",
           "anchor_in_scope": false,
           "target_in_scope": false
         },
@@ -940,13 +1570,15 @@
           "anchor": "global_12",
           "target": "global_154",
           "expected_relation": "none",
+          "benchmark_status": "negative",
+          "confidence": "negative",
           "level": "boundary",
           "graph_band": "boundary",
           "graph_layer": "excluded_boundary",
           "graph_role": "measure_metric_boundary",
           "narrative_note": "Broad measure/metric overlap should remain outside the DS continuity story.",
           "source_doc": "docs/plans/2026-04-02-math-ds-benchmark.md",
-          "export_status": "docs_only_outside_export_scope",
+          "export_status": "narrative_subgraph_only",
           "anchor_in_scope": false,
           "target_in_scope": false
         },
@@ -955,18 +1587,396 @@
           "anchor": "global_49",
           "target": "global_154",
           "expected_relation": "review-needed",
+          "benchmark_status": "ambiguous",
+          "confidence": "ambiguous",
           "level": "ambiguous",
           "graph_band": "review",
           "graph_layer": "review_boundary",
           "graph_role": "fractal_entropy_near_miss",
           "narrative_note": "Real DS near-miss between fractal/measure and ergodic/entropy branches; keep review-only.",
           "source_doc": "docs/plans/2026-04-02-math-ds-benchmark.md",
-          "export_status": "docs_only_outside_export_scope",
+          "export_status": "narrative_subgraph_only",
           "anchor_in_scope": false,
           "target_in_scope": false
         }
       ],
       "encoded_case_ids": [],
+      "graph_visible_case_ids": [
+        "ds-b1",
+        "ds-b2",
+        "ds-n1",
+        "ds-n2",
+        "ds-a1"
+      ],
+      "graph_visible_subgraph": {
+        "domain_code": "math.DS",
+        "truth_scope": "narrative_only",
+        "layer_keys": [
+          "ergodic_entropy_skeleton",
+          "excluded_boundary",
+          "review_boundary"
+        ],
+        "case_ids": [
+          "ds-b1",
+          "ds-b2",
+          "ds-n1",
+          "ds-n2",
+          "ds-a1"
+        ],
+        "nodes": [
+          {
+            "id": "global_119",
+            "type": "topic",
+            "name": "持续同调拓扑分析",
+            "keywords": [
+              "persistence",
+              "homology",
+              "topological",
+              "persistent",
+              "simplicial",
+              "tdabm",
+              "complexes",
+              "poset",
+              "betti",
+              "modules"
+            ],
+            "category": "math",
+            "subcategory": "DS",
+            "topic_mode": "transient",
+            "total_papers": 24,
+            "active_periods": 1,
+            "history": [
+              {
+                "period": "2025-05",
+                "paper_count": 24
+              }
+            ],
+            "hierarchy_path": [
+              "math.DS研究",
+              "遍历理论与熵"
+            ],
+            "hierarchy_depth": 2,
+            "graph_visibility": "narrative_only"
+          },
+          {
+            "id": "global_12",
+            "type": "topic",
+            "name": "康托罗维奇最优输运",
+            "keywords": [
+              "entropic",
+              "transport",
+              "transportation",
+              "wasserstein",
+              "optimal",
+              "cost",
+              "relative",
+              "problem",
+              "kantorovich",
+              "metric",
+              "rubinstein",
+              "measures",
+              "monge",
+              "inequalities",
+              "distance"
+            ],
+            "category": "math",
+            "subcategory": "DS",
+            "topic_mode": "transient",
+            "total_papers": 70,
+            "active_periods": 2,
+            "history": [
+              {
+                "period": "2025-02",
+                "paper_count": 15
+              },
+              {
+                "period": "2025-12",
+                "paper_count": 55
+              }
+            ],
+            "hierarchy_path": [
+              "math.DS研究",
+              "遍历理论与熵"
+            ],
+            "hierarchy_depth": 2,
+            "graph_visibility": "narrative_only"
+          },
+          {
+            "id": "global_154",
+            "type": "topic",
+            "name": "遍历动力系统定理",
+            "keywords": [
+              "maps",
+              "dynamical",
+              "systems",
+              "mixing",
+              "entropy",
+              "topological",
+              "topologically",
+              "rauzy",
+              "ergodic",
+              "theorem",
+              "metric",
+              "measure",
+              "homeomorphisms",
+              "random",
+              "measures"
+            ],
+            "category": "math",
+            "subcategory": "DS",
+            "topic_mode": "persistent",
+            "total_papers": 166,
+            "active_periods": 3,
+            "history": [
+              {
+                "period": "2025-06",
+                "paper_count": 32
+              },
+              {
+                "period": "2025-10",
+                "paper_count": 27
+              },
+              {
+                "period": "2026-01",
+                "paper_count": 107
+              }
+            ],
+            "hierarchy_path": [
+              "math.DS研究",
+              "遍历理论与熵"
+            ],
+            "hierarchy_depth": 2,
+            "graph_visibility": "narrative_only"
+          },
+          {
+            "id": "global_186",
+            "type": "topic",
+            "name": "遍历测度不等式",
+            "keywords": [
+              "ergodic",
+              "inequality",
+              "measurable",
+              "measures",
+              "selections",
+              "functions",
+              "entropy",
+              "inequalities",
+              "spaces",
+              "theorem"
+            ],
+            "category": "math",
+            "subcategory": "DS",
+            "topic_mode": "transient",
+            "total_papers": 33,
+            "active_periods": 1,
+            "history": [
+              {
+                "period": "2025-07",
+                "paper_count": 33
+              }
+            ],
+            "hierarchy_path": [
+              "math.DS研究",
+              "遍历理论与熵"
+            ],
+            "hierarchy_depth": 2,
+            "graph_visibility": "narrative_only"
+          },
+          {
+            "id": "global_367",
+            "type": "topic",
+            "name": "奥野贝西科维奇拓扑熵",
+            "keywords": [
+              "ohno",
+              "besicovitch",
+              "c_λ",
+              "topological",
+              "pesin",
+              "measure",
+              "pitskel",
+              "entropy",
+              "lebesgue",
+              "historic"
+            ],
+            "category": "math",
+            "subcategory": "DS",
+            "topic_mode": "transient",
+            "total_papers": 10,
+            "active_periods": 1,
+            "history": [
+              {
+                "period": "2026-02",
+                "paper_count": 10
+              }
+            ],
+            "hierarchy_path": [
+              "math.DS研究",
+              "遍历理论与熵"
+            ],
+            "hierarchy_depth": 2,
+            "graph_visibility": "narrative_only"
+          },
+          {
+            "id": "global_49",
+            "type": "topic",
+            "name": "分形熵测度",
+            "keywords": [
+              "entropy",
+              "zooming",
+              "measure",
+              "fractal",
+              "hölder",
+              "expansive",
+              "attractor",
+              "maps",
+              "spaces",
+              "potentials"
+            ],
+            "category": "math",
+            "subcategory": "DS",
+            "topic_mode": "transient",
+            "total_papers": 33,
+            "active_periods": 1,
+            "history": [
+              {
+                "period": "2025-03",
+                "paper_count": 33
+              }
+            ],
+            "hierarchy_path": [
+              "math.DS研究",
+              "遍历理论与熵"
+            ],
+            "hierarchy_depth": 2,
+            "graph_visibility": "narrative_only"
+          }
+        ],
+        "edges": [
+          {
+            "source": "global_154",
+            "target": "global_186",
+            "type": "EVOLVES_TO",
+            "evidence_type": "provisional",
+            "confidence": "inferred",
+            "benchmark_case_id": "ds-b1",
+            "benchmark_status": "positive",
+            "expected_relation": "math_ds_ergodic_entropy_continuity",
+            "subcategory": "math.DS",
+            "graph_band": "bridge",
+            "graph_layer": "ergodic_entropy_skeleton",
+            "graph_role": "ergodic_measure_bridge",
+            "narrative_level": "bridge-level",
+            "narrative_note": "Bridge-level DS positive inside the ergodic/entropy neighborhood; stable enough for metadata, not for baseline topology.",
+            "graph_export_status": "narrative_subgraph_only",
+            "truth_scope": "narrative_only",
+            "baseline_truth": false,
+            "source_doc": "docs/plans/2026-04-02-math-ds-benchmark.md"
+          },
+          {
+            "source": "global_154",
+            "target": "global_367",
+            "type": "EVOLVES_TO",
+            "evidence_type": "provisional",
+            "confidence": "inferred",
+            "benchmark_case_id": "ds-b2",
+            "benchmark_status": "positive",
+            "expected_relation": "math_ds_ergodic_entropy_continuity",
+            "subcategory": "math.DS",
+            "graph_band": "bridge",
+            "graph_layer": "ergodic_entropy_skeleton",
+            "graph_role": "topological_entropy_extension",
+            "narrative_level": "bridge-level",
+            "narrative_note": "Second bridge-level DS positive; exposes the local ergodic/entropy stretch without claiming event-level continuity.",
+            "graph_export_status": "narrative_subgraph_only",
+            "truth_scope": "narrative_only",
+            "baseline_truth": false,
+            "source_doc": "docs/plans/2026-04-02-math-ds-benchmark.md"
+          },
+          {
+            "source": "global_119",
+            "target": "global_367",
+            "type": "EVOLVES_TO",
+            "evidence_type": "provisional",
+            "confidence": "negative",
+            "benchmark_case_id": "ds-n1",
+            "benchmark_status": "negative",
+            "expected_relation": "none",
+            "subcategory": "math.DS",
+            "graph_band": "boundary",
+            "graph_layer": "excluded_boundary",
+            "graph_role": "topological_term_boundary",
+            "narrative_level": "boundary",
+            "narrative_note": "Shared topological vocabulary alone should not open the DS ergodic/entropy contract.",
+            "graph_export_status": "narrative_subgraph_only",
+            "truth_scope": "narrative_only",
+            "baseline_truth": false,
+            "source_doc": "docs/plans/2026-04-02-math-ds-benchmark.md"
+          },
+          {
+            "source": "global_12",
+            "target": "global_154",
+            "type": "EVOLVES_TO",
+            "evidence_type": "provisional",
+            "confidence": "negative",
+            "benchmark_case_id": "ds-n2",
+            "benchmark_status": "negative",
+            "expected_relation": "none",
+            "subcategory": "math.DS",
+            "graph_band": "boundary",
+            "graph_layer": "excluded_boundary",
+            "graph_role": "measure_metric_boundary",
+            "narrative_level": "boundary",
+            "narrative_note": "Broad measure/metric overlap should remain outside the DS continuity story.",
+            "graph_export_status": "narrative_subgraph_only",
+            "truth_scope": "narrative_only",
+            "baseline_truth": false,
+            "source_doc": "docs/plans/2026-04-02-math-ds-benchmark.md"
+          },
+          {
+            "source": "global_49",
+            "target": "global_154",
+            "type": "EVOLVES_TO",
+            "evidence_type": "provisional",
+            "confidence": "ambiguous",
+            "benchmark_case_id": "ds-a1",
+            "benchmark_status": "ambiguous",
+            "expected_relation": "review-needed",
+            "subcategory": "math.DS",
+            "graph_band": "review",
+            "graph_layer": "review_boundary",
+            "graph_role": "fractal_entropy_near_miss",
+            "narrative_level": "ambiguous",
+            "narrative_note": "Real DS near-miss between fractal/measure and ergodic/entropy branches; keep review-only.",
+            "graph_export_status": "narrative_subgraph_only",
+            "truth_scope": "narrative_only",
+            "baseline_truth": false,
+            "source_doc": "docs/plans/2026-04-02-math-ds-benchmark.md"
+          }
+        ],
+        "visible_graph_bands": [
+          "bridge",
+          "boundary",
+          "review"
+        ],
+        "stats": {
+          "topic_count": 6,
+          "edge_count": 5,
+          "case_count": 5,
+          "edges_by_graph_band": {
+            "bridge": 2,
+            "boundary": 2,
+            "review": 1
+          },
+          "edges_by_export_status": {
+            "narrative_subgraph_only": 5
+          },
+          "edges_by_benchmark_status": {
+            "positive": 2,
+            "negative": 2,
+            "ambiguous": 1
+          }
+        }
+      },
       "case_count": 5,
       "case_counts_by_graph_band": {
         "bridge": 2,
@@ -974,7 +1984,7 @@
         "review": 1
       },
       "case_counts_by_export_status": {
-        "docs_only_outside_export_scope": 5
+        "narrative_subgraph_only": 5
       },
       "layer_counts_by_graph_band": {
         "bridge": 1,
@@ -997,6 +2007,12 @@
         "excluded_boundary",
         "review_boundary"
       ],
+      "graph_visible_layer_keys": [],
+      "metadata_only_layer_keys": [
+        "krylov_iterative_skeleton",
+        "excluded_boundary",
+        "review_boundary"
+      ],
       "visible_graph_bands": [
         "bridge",
         "boundary",
@@ -1012,6 +2028,7 @@
             "na-b2"
           ],
           "encoded_case_ids": [],
+          "graph_visible_case_ids": [],
           "metadata_only_case_ids": [
             "na-b1",
             "na-b2"
@@ -1029,6 +2046,7 @@
             "na-n2"
           ],
           "encoded_case_ids": [],
+          "graph_visible_case_ids": [],
           "metadata_only_case_ids": [
             "na-n1",
             "na-n2"
@@ -1045,6 +2063,7 @@
             "na-a1"
           ],
           "encoded_case_ids": [],
+          "graph_visible_case_ids": [],
           "metadata_only_case_ids": [
             "na-a1"
           ],
@@ -1059,6 +2078,8 @@
           "anchor": "global_105",
           "target": "global_140",
           "expected_relation": "math_na_krylov_iterative_continuity",
+          "benchmark_status": "positive",
+          "confidence": "confirmed",
           "level": "bridge-level",
           "graph_band": "bridge",
           "graph_layer": "krylov_iterative_skeleton",
@@ -1074,6 +2095,8 @@
           "anchor": "global_140",
           "target": "global_9",
           "expected_relation": "math_na_krylov_iterative_continuity",
+          "benchmark_status": "positive",
+          "confidence": "confirmed",
           "level": "bridge-level",
           "graph_band": "bridge",
           "graph_layer": "krylov_iterative_skeleton",
@@ -1089,6 +2112,8 @@
           "anchor": "global_105",
           "target": "global_378",
           "expected_relation": "not math_na_krylov_iterative_continuity",
+          "benchmark_status": "negative",
+          "confidence": "negative",
           "level": "boundary",
           "graph_band": "boundary",
           "graph_layer": "excluded_boundary",
@@ -1104,6 +2129,8 @@
           "anchor": "global_140",
           "target": "global_90",
           "expected_relation": "none",
+          "benchmark_status": "negative",
+          "confidence": "negative",
           "level": "boundary",
           "graph_band": "boundary",
           "graph_layer": "excluded_boundary",
@@ -1119,6 +2146,8 @@
           "anchor": "global_86",
           "target": "global_307",
           "expected_relation": "review-needed",
+          "benchmark_status": "ambiguous",
+          "confidence": "ambiguous",
           "level": "ambiguous",
           "graph_band": "review",
           "graph_layer": "review_boundary",
@@ -1131,6 +2160,8 @@
         }
       ],
       "encoded_case_ids": [],
+      "graph_visible_case_ids": [],
+      "graph_visible_subgraph": null,
       "case_count": 5,
       "case_counts_by_graph_band": {
         "bridge": 2,

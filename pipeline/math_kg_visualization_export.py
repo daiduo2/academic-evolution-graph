@@ -156,6 +156,9 @@ def build_edge_display_attrs(edge: dict) -> dict:
             'narrative_level': edge.get('narrative_level', ''),
             'narrative_note': edge.get('narrative_note', ''),
             'graph_export_status': edge.get('graph_export_status', ''),
+            'truth_scope': edge.get('truth_scope', ''),
+            'baseline_truth': edge.get('baseline_truth', True),
+            'source_doc': edge.get('source_doc', ''),
             'display_weight': weight_map.get(confidence, 1.0),
             'is_bidirectional': False
         })
@@ -189,6 +192,67 @@ def build_edge_display_attrs(edge: dict) -> dict:
     return display
 
 
+def build_narrative_subgraph(domain_code: str, domain_meta: dict) -> Optional[dict]:
+    """Build a graph-visible but non-baseline narrative subgraph for one domain."""
+    raw_subgraph = domain_meta.get('graph_visible_subgraph')
+    if not raw_subgraph:
+        return None
+
+    case_ids = set(raw_subgraph.get('case_ids', []))
+    narrative_case_registry = [
+        case
+        for case in domain_meta.get('case_registry', [])
+        if case.get('case_id') in case_ids
+    ]
+    narrative_layers = {
+        layer_key: domain_meta.get('layers', {}).get(layer_key)
+        for layer_key in raw_subgraph.get('layer_keys', [])
+        if layer_key in domain_meta.get('layers', {})
+    }
+    nodes = [build_node_display_attrs(node) for node in raw_subgraph.get('nodes', [])]
+    edges = [build_edge_display_attrs(edge) for edge in raw_subgraph.get('edges', [])]
+    stats = raw_subgraph.get('stats', {})
+
+    return {
+        'version': 'kg_v1_visualization',
+        'domain_code': domain_code,
+        'generated_at': datetime.now().isoformat(),
+        'metadata': {
+            'domain_code': domain_code,
+            'export_presence': domain_meta.get('export_presence'),
+            'topology_status': domain_meta.get('topology_status'),
+            'graph_shape': domain_meta.get('graph_shape'),
+            'summary': domain_meta.get('summary'),
+            'selected_rule': domain_meta.get('selected_rule'),
+            'candidate_rule': domain_meta.get('candidate_rule'),
+            'narrative_status': domain_meta.get('narrative_status'),
+            'baseline_truth_layer_keys': domain_meta.get('baseline_truth_layer_keys', []),
+            'narrative_only_layer_keys': domain_meta.get('narrative_only_layer_keys', []),
+            'graph_visible_layer_keys': domain_meta.get('graph_visible_layer_keys', []),
+            'metadata_only_layer_keys': domain_meta.get('metadata_only_layer_keys', []),
+            'visible_graph_bands': raw_subgraph.get('visible_graph_bands', []),
+            'truth_scope': raw_subgraph.get('truth_scope', 'narrative_only'),
+            'narrative_layers': narrative_layers,
+            'narrative_case_registry': narrative_case_registry,
+            'case_ids': raw_subgraph.get('case_ids', []),
+            'layer_keys': raw_subgraph.get('layer_keys', []),
+        },
+        'nodes': {
+            'topics': nodes,
+            'total_topics': len(nodes),
+        },
+        'edges': edges,
+        'stats': {
+            'topic_count': len(nodes),
+            'edge_count': len(edges),
+            'case_count': stats.get('case_count', len(edges)),
+            'edges_by_graph_band': stats.get('edges_by_graph_band', {}),
+            'edges_by_export_status': stats.get('edges_by_export_status', {}),
+            'edges_by_benchmark_status': stats.get('edges_by_benchmark_status', {}),
+        },
+    }
+
+
 def build_graph_bundle(input_dir: str) -> dict:
     """Build the main graph bundle."""
     input_path = Path(input_dir)
@@ -213,6 +277,11 @@ def build_graph_bundle(input_dir: str) -> dict:
     display_topics = [build_node_display_attrs(t) for t in topics]
     display_subcategories = [build_node_display_attrs(s) for s in subcategories]
     display_periods = [build_node_display_attrs(p) for p in periods]
+    narrative_subgraphs = {
+        domain_code: narrative_subgraph
+        for domain_code, domain_meta in domain_layers.items()
+        if (narrative_subgraph := build_narrative_subgraph(domain_code, domain_meta)) is not None
+    }
 
     # Transform edges with display attrs
     all_edges = []
@@ -262,6 +331,7 @@ def build_graph_bundle(input_dir: str) -> dict:
     narrative_case_band_counts = []
     narrative_case_export_counts = []
     narrative_layer_band_counts = []
+    narrative_subgraph_band_counts = []
     topology_status_counts = {}
     for domain_meta in domain_layers.values():
         export_presence = domain_meta.get('export_presence')
@@ -273,12 +343,15 @@ def build_graph_bundle(input_dir: str) -> dict:
         narrative_case_band_counts.append(domain_meta.get('case_counts_by_graph_band', {}))
         narrative_case_export_counts.append(domain_meta.get('case_counts_by_export_status', {}))
         narrative_layer_band_counts.append(domain_meta.get('layer_counts_by_graph_band', {}))
+    for narrative_subgraph in narrative_subgraphs.values():
+        narrative_subgraph_band_counts.append(narrative_subgraph.get('stats', {}).get('edges_by_graph_band', {}))
 
     return {
         'version': 'kg_v1_visualization',
         'generated_at': datetime.now().isoformat(),
         'source': str(input_path),
         'metadata': metadata,
+        'narrative_subgraphs': narrative_subgraphs,
         'nodes': {
             'topics': display_topics,
             'subcategories': display_subcategories,
@@ -306,6 +379,7 @@ def build_graph_bundle(input_dir: str) -> dict:
             'domain_export_presences': sorted(domain_export_presences),
             'topology_statuses': sorted(topology_statuses),
             'narrative_statuses': sorted(narrative_statuses),
+            'narrative_subgraph_domains': sorted(narrative_subgraphs),
         },
         'stats': {
             'topic_count': len(topics),
@@ -326,6 +400,10 @@ def build_graph_bundle(input_dir: str) -> dict:
             'narrative_case_counts_by_graph_band': merge_count_maps(narrative_case_band_counts),
             'narrative_case_counts_by_export_status': merge_count_maps(narrative_case_export_counts),
             'narrative_layer_counts_by_graph_band': merge_count_maps(narrative_layer_band_counts),
+            'narrative_subgraph_domain_count': len(narrative_subgraphs),
+            'narrative_subgraph_edge_count': sum(subgraph.get('stats', {}).get('edge_count', 0) for subgraph in narrative_subgraphs.values()),
+            'narrative_subgraph_node_count': sum(subgraph.get('stats', {}).get('topic_count', 0) for subgraph in narrative_subgraphs.values()),
+            'narrative_subgraph_counts_by_graph_band': merge_count_maps(narrative_subgraph_band_counts),
         }
     }
 
@@ -518,6 +596,11 @@ def build_legend() -> dict:
                 'description': 'Curated inferred relation (conditional, requires paper review)',
                 'badge': '⚑',
                 'color': '#a855f7'
+            },
+            'docs-narrative': {
+                'description': 'Docs-backed narrative relation exported as a non-baseline graph layer',
+                'badge': '◆',
+                'color': '#f97316'
             }
         },
         'integration_scopes': {
@@ -568,6 +651,9 @@ def build_legend() -> dict:
             },
             'docs_only_outside_export_scope': {
                 'description': 'Tracked in docs, but the domain is not part of the current baseline export scope'
+            },
+            'narrative_subgraph_only': {
+                'description': 'Exported only inside a dedicated non-baseline narrative subgraph'
             }
         },
         'domain_export_presence': {
@@ -590,6 +676,12 @@ def build_legend() -> dict:
             },
             'visible_graph_bands': {
                 'description': 'Graph bands visible for this domain across encoded edges and metadata-only layers'
+            },
+            'graph_visible_layer_keys': {
+                'description': 'Narrative-only layer keys promoted into a dedicated non-baseline graph-visible subgraph'
+            },
+            'metadata_only_layer_keys': {
+                'description': 'Layer keys intentionally kept outside graph-visible subgraphs'
             }
         },
         'topology_statuses': {
@@ -598,6 +690,11 @@ def build_legend() -> dict:
             },
             'not_in_baseline_topology': {
                 'description': 'Domain is visible only through metadata; baseline topology remains unchanged'
+            }
+        },
+        'truth_scopes': {
+            'narrative_only': {
+                'description': 'Graph-visible layer that must not be read as baseline truth'
             }
         },
         'confidence_levels': {
@@ -669,6 +766,7 @@ def main():
     # Build subgraphs
     subgraph_lo = build_subgraph(bundle, 'LO')
     subgraph_ag = build_subgraph(bundle, 'AG')
+    narrative_subgraphs = bundle.get('narrative_subgraphs', {})
 
     # Detect PR topics and conditionally build subgraph_pr
     has_pr_topics = any(
@@ -693,6 +791,14 @@ def main():
 
     save_json(output_path / 'subgraph_ag.json', subgraph_ag)
     print(f"  Created subgraph_ag.json ({subgraph_ag['stats']['topic_count']} topics, {subgraph_ag['stats']['evolves_to_count']} evolves_to)")
+
+    for domain_code, narrative_subgraph in sorted(narrative_subgraphs.items()):
+        subgraph_name = domain_code.split('.')[-1].lower()
+        save_json(output_path / f'subgraph_{subgraph_name}.json', narrative_subgraph)
+        print(
+            f"  Created subgraph_{subgraph_name}.json "
+            f"({narrative_subgraph['stats']['topic_count']} topics, {narrative_subgraph['stats']['edge_count']} narrative edges)"
+        )
 
     if has_pr_topics:
         subgraph_pr = build_subgraph(bundle, 'PR')

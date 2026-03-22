@@ -660,6 +660,7 @@ DOMAIN_KNOWLEDGE_SPECS = {
         'selected_rule': 'math_co_matroid_structure_continuity',
         'baseline_truth_layer_keys': [],
         'narrative_only_layer_keys': ['matroid_mvp', 'bridge_support', 'excluded_boundary', 'review_boundary', 'deferred_branch'],
+        'graph_visible_layer_keys': ['matroid_mvp', 'bridge_support', 'excluded_boundary', 'review_boundary'],
         'layers': CO_KG_GRAPH_LAYERS,
         'case_registry': CO_GRAPH_CASE_REGISTRY,
     },
@@ -667,12 +668,17 @@ DOMAIN_KNOWLEDGE_SPECS = {
         'source_doc': 'docs/plans/2026-04-02-math-ds-benchmark.md',
         'export_presence': 'docs_only_narrative',
         'topology_status': 'not_in_baseline_topology',
-        'graph_shape': 'bridge_skeleton_plus_boundary_review',
-        'summary': 'DS contributes only a bridge-level benchmark skeleton around ergodic/entropy continuity; no DS nodes or baseline EVOLVES_TO edges are exported yet.',
+        'graph_shape': 'graph_visible_ergodic_entropy_skeleton_plus_boundary_review',
+        'summary': 'DS stays outside the baseline topology, but its ergodic/entropy skeleton now has a graph-visible non-baseline subgraph with bridge, boundary, and review cases.',
         'candidate_rule': 'math_ds_ergodic_entropy_continuity',
         'narrative_status': 'benchmark_skeleton_ready',
         'baseline_truth_layer_keys': [],
         'narrative_only_layer_keys': ['ergodic_entropy_skeleton', 'excluded_boundary', 'review_boundary'],
+        'graph_visible_layer_keys': ['ergodic_entropy_skeleton', 'excluded_boundary', 'review_boundary'],
+        'graph_visible_confidence_by_graph_band': {
+            'bridge': 'inferred',
+        },
+        'graph_visible_evidence_type': 'provisional',
         'layers': DS_KG_GRAPH_LAYERS,
         'case_registry': DS_GRAPH_CASE_REGISTRY,
     },
@@ -698,6 +704,139 @@ for _spec in DOMAIN_KNOWLEDGE_SPECS.values():
 
 def _sort_graph_bands(graph_bands: list[str]) -> list[str]:
     return sorted(graph_bands, key=lambda band: (GRAPH_BAND_ORDER.index(band) if band in GRAPH_BAND_ORDER else len(GRAPH_BAND_ORDER), band))
+
+
+def _infer_benchmark_status(case: dict) -> str:
+    expected_relation = case.get('expected_relation', '')
+    graph_band = case.get('graph_band', '')
+
+    if graph_band == 'boundary' or expected_relation == 'none' or expected_relation.startswith('not '):
+        return 'negative'
+    if graph_band == 'review' or 'review-needed' in expected_relation:
+        return 'ambiguous'
+    return 'positive'
+
+
+def _benchmark_status_to_confidence(benchmark_status: str) -> str:
+    return {
+        'positive': 'confirmed',
+        'negative': 'negative',
+        'ambiguous': 'ambiguous',
+    }.get(benchmark_status, 'confirmed')
+
+
+def _build_narrative_topic_snapshot(topic_catalog: dict[str, dict], topic_id: str) -> Optional[dict]:
+    topic = topic_catalog.get(topic_id)
+    if not topic:
+        return None
+
+    history = topic.get('history', [])
+    active_periods = len(history)
+    topic_mode = 'persistent' if active_periods >= 3 else 'transient'
+
+    return {
+        'id': topic_id,
+        'type': 'topic',
+        'name': topic.get('name', ''),
+        'keywords': topic.get('keywords', []),
+        'category': topic.get('category', 'math'),
+        'subcategory': topic.get('subcategory', ''),
+        'topic_mode': topic_mode,
+        'total_papers': topic.get('total_papers', 0),
+        'active_periods': active_periods,
+        'history': history,
+        'hierarchy_path': topic.get('hierarchy_path', []),
+        'hierarchy_depth': topic.get('hierarchy_depth', 1),
+        'graph_visibility': 'narrative_only',
+    }
+
+
+def _build_graph_visible_subgraph(
+    domain_code: str,
+    *,
+    case_by_id: dict[str, dict],
+    layer_entries: dict[str, dict],
+    spec: dict,
+    topic_catalog: dict[str, dict],
+) -> Optional[dict]:
+    graph_visible_layer_keys = [
+        layer_key
+        for layer_key in spec.get('graph_visible_layer_keys', [])
+        if layer_key in layer_entries
+    ]
+    if not graph_visible_layer_keys:
+        return None
+
+    graph_visible_confidence_by_band = spec.get('graph_visible_confidence_by_graph_band', {})
+    graph_visible_evidence_type = spec.get('graph_visible_evidence_type', 'docs-narrative')
+
+    graph_visible_cases = []
+    seen_case_ids = set()
+    for layer_key in graph_visible_layer_keys:
+        for case_id in layer_entries[layer_key]['case_ids']:
+            if case_id not in case_by_id or case_id in seen_case_ids:
+                continue
+            seen_case_ids.add(case_id)
+            graph_visible_cases.append(case_by_id[case_id])
+
+    graph_visible_nodes = []
+    for topic_id in sorted({case['anchor'] for case in graph_visible_cases} | {case['target'] for case in graph_visible_cases}):
+        topic_snapshot = _build_narrative_topic_snapshot(topic_catalog, topic_id)
+        if topic_snapshot:
+            graph_visible_nodes.append(topic_snapshot)
+
+    graph_visible_edges = []
+    edges_by_graph_band: dict[str, int] = {}
+    edges_by_export_status: dict[str, int] = {}
+    edges_by_benchmark_status: dict[str, int] = {}
+
+    for case in graph_visible_cases:
+        graph_visible_confidence = graph_visible_confidence_by_band.get(case['graph_band'], case['confidence'])
+        graph_visible_edges.append({
+            'source': case['anchor'],
+            'target': case['target'],
+            'type': 'EVOLVES_TO',
+            'evidence_type': graph_visible_evidence_type,
+            'confidence': graph_visible_confidence,
+            'benchmark_case_id': case['case_id'],
+            'benchmark_status': case['benchmark_status'],
+            'expected_relation': case['expected_relation'],
+            'subcategory': domain_code,
+            'graph_band': case['graph_band'],
+            'graph_layer': case['graph_layer'],
+            'graph_role': case['graph_role'],
+            'narrative_level': case.get('level', ''),
+            'narrative_note': case.get('narrative_note', ''),
+            'graph_export_status': case['export_status'],
+            'truth_scope': 'narrative_only',
+            'baseline_truth': False,
+            'source_doc': case.get('source_doc', spec['source_doc']),
+        })
+
+        edges_by_graph_band[case['graph_band']] = edges_by_graph_band.get(case['graph_band'], 0) + 1
+        edges_by_export_status[case['export_status']] = edges_by_export_status.get(case['export_status'], 0) + 1
+        edges_by_benchmark_status[case['benchmark_status']] = edges_by_benchmark_status.get(case['benchmark_status'], 0) + 1
+
+    return {
+        'domain_code': domain_code,
+        'truth_scope': 'narrative_only',
+        'layer_keys': graph_visible_layer_keys,
+        'case_ids': [case['case_id'] for case in graph_visible_cases],
+        'nodes': graph_visible_nodes,
+        'edges': graph_visible_edges,
+        'visible_graph_bands': _sort_graph_bands(list(edges_by_graph_band.keys())),
+        'stats': {
+            'topic_count': len(graph_visible_nodes),
+            'edge_count': len(graph_visible_edges),
+            'case_count': len(graph_visible_cases),
+            'edges_by_graph_band': {
+                band: edges_by_graph_band[band]
+                for band in _sort_graph_bands(list(edges_by_graph_band.keys()))
+            },
+            'edges_by_export_status': edges_by_export_status,
+            'edges_by_benchmark_status': edges_by_benchmark_status,
+        },
+    }
 
 
 def _build_case_snapshot(case: dict, *, status: str, confidence: str) -> dict:
@@ -730,6 +869,7 @@ def build_domain_knowledge_layers(
     topics: dict[str, dict],
     evolves_to_edges: list[dict],
     target_subcategories: set[str],
+    topic_catalog: dict[str, dict],
 ) -> dict[str, dict]:
     """Expose graph-facing domain narrative layers without changing topology."""
     encoded_case_ids = {
@@ -742,14 +882,28 @@ def build_domain_knowledge_layers(
 
     for domain_code, spec in DOMAIN_KNOWLEDGE_SPECS.items():
         case_registry = spec['case_registry']
+        graph_visible_layer_keys = [
+            layer_key
+            for layer_key in spec.get('graph_visible_layer_keys', [])
+            if layer_key in spec['layers']
+        ]
+        graph_visible_case_ids = {
+            case_id
+            for layer_key in graph_visible_layer_keys
+            for case_id in spec['layers'][layer_key]['case_ids']
+        }
         case_entries = []
         for case in case_registry.values():
             case_id = case['case_id']
             anchor_in_scope = case['anchor'] in topics
             target_in_scope = case['target'] in topics
+            benchmark_status = _infer_benchmark_status(case)
+            confidence = _benchmark_status_to_confidence(benchmark_status)
 
             if case_id in encoded_case_ids:
                 export_status = 'encoded_as_evolves_to'
+            elif case_id in graph_visible_case_ids:
+                export_status = 'narrative_subgraph_only'
             elif domain_code not in target_domain_codes:
                 export_status = 'docs_only_outside_export_scope'
             elif anchor_in_scope and target_in_scope:
@@ -762,6 +916,8 @@ def build_domain_knowledge_layers(
                 'anchor': case['anchor'],
                 'target': case['target'],
                 'expected_relation': case['expected_relation'],
+                'benchmark_status': benchmark_status,
+                'confidence': confidence,
                 'level': case.get('level', ''),
                 'graph_band': case['graph_band'],
                 'graph_layer': case['graph_layer'],
@@ -783,6 +939,7 @@ def build_domain_knowledge_layers(
                 'summary': layer['summary'],
                 'case_ids': layer['case_ids'],
                 'encoded_case_ids': [case['case_id'] for case in layer_cases if case['export_status'] == 'encoded_as_evolves_to'],
+                'graph_visible_case_ids': [case['case_id'] for case in layer_cases if case['export_status'] == 'narrative_subgraph_only'],
                 'metadata_only_case_ids': [
                     case['case_id']
                     for case in layer_cases
@@ -807,6 +964,18 @@ def build_domain_knowledge_layers(
             layer_counts_by_graph_band[graph_band] = layer_counts_by_graph_band.get(graph_band, 0) + 1
 
         visible_graph_bands = _sort_graph_bands(list(layer_counts_by_graph_band.keys()))
+        metadata_only_layer_keys = [
+            layer_key
+            for layer_key in spec.get('narrative_only_layer_keys', [])
+            if layer_key not in graph_visible_layer_keys
+        ]
+        graph_visible_subgraph = _build_graph_visible_subgraph(
+            domain_code,
+            case_by_id=case_by_id,
+            layer_entries=layer_entries,
+            spec=spec,
+            topic_catalog=topic_catalog,
+        )
 
         domain_layers[domain_code] = {
             'source_doc': spec['source_doc'],
@@ -819,10 +988,14 @@ def build_domain_knowledge_layers(
             'narrative_status': spec.get('narrative_status'),
             'baseline_truth_layer_keys': spec.get('baseline_truth_layer_keys', []),
             'narrative_only_layer_keys': spec.get('narrative_only_layer_keys', []),
+            'graph_visible_layer_keys': graph_visible_layer_keys,
+            'metadata_only_layer_keys': metadata_only_layer_keys,
             'visible_graph_bands': visible_graph_bands,
             'layers': layer_entries,
             'case_registry': case_entries,
             'encoded_case_ids': [case['case_id'] for case in case_entries if case['export_status'] == 'encoded_as_evolves_to'],
+            'graph_visible_case_ids': [case['case_id'] for case in case_entries if case['export_status'] == 'narrative_subgraph_only'],
+            'graph_visible_subgraph': graph_visible_subgraph,
             'case_count': len(case_entries),
             'case_counts_by_graph_band': {
                 band: case_counts_by_graph_band[band]
@@ -1414,7 +1587,12 @@ def main():
 
     evolves_to_edges = build_evolves_to_edges(all_cases, topics)
     print(f"  Created {len(evolves_to_edges)} EVOLVES_TO edges")
-    domain_knowledge_layers = build_domain_knowledge_layers(topics, evolves_to_edges, target_subcategories)
+    domain_knowledge_layers = build_domain_knowledge_layers(
+        topics,
+        evolves_to_edges,
+        target_subcategories,
+        data.get('trends', {}),
+    )
 
     # Prepare output
     output_dir = Path(args.output_dir)
