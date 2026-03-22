@@ -6,6 +6,8 @@ import {
   forceLink,
   forceManyBody,
   forceSimulation,
+  forceX,
+  forceY,
   select,
   zoom,
   zoomIdentity,
@@ -70,6 +72,19 @@ const SUBCATEGORY_LABELS = {
   NA: 'NA',
   PR: 'PR',
 };
+
+function getClusterCenter(subcategory, width, height) {
+  const clusterMap = {
+    LO: { x: width * 0.28, y: height * 0.35 },
+    AG: { x: width * 0.68, y: height * 0.34 },
+    CO: { x: width * 0.3, y: height * 0.72 },
+    DS: { x: width * 0.68, y: height * 0.7 },
+    NA: { x: width * 0.5, y: height * 0.82 },
+    PR: { x: width * 0.82, y: height * 0.58 },
+  };
+
+  return clusterMap[subcategory] || { x: width * 0.5, y: height * 0.5 };
+}
 
 function getEdgeDash(edge) {
   if (edge.graph_export_status === 'narrative_subgraph_only') {
@@ -232,8 +247,8 @@ export function GraphVisualization({
     // Create nodes with initial positions
     const nodes = filteredTopics.map((t) => ({
       ...t,
-      x: positionsRef.current.get(t.id)?.x ?? width / 2 + (Math.random() - 0.5) * 200,
-      y: positionsRef.current.get(t.id)?.y ?? height / 2 + (Math.random() - 0.5) * 200,
+      x: positionsRef.current.get(t.id)?.x ?? (getClusterCenter(t.subcategory, width, height).x + (Math.random() - 0.5) * 120),
+      y: positionsRef.current.get(t.id)?.y ?? (getClusterCenter(t.subcategory, width, height).y + (Math.random() - 0.5) * 120),
     }));
 
     // Create links
@@ -251,7 +266,9 @@ export function GraphVisualization({
       )
       .force('charge', forceManyBody().strength(-300))
       .force('center', forceCenter(width / 2, height / 2))
-      .force('collision', forceCollide().radius((d) => d.display_size || 20));
+      .force('collision', forceCollide().radius((d) => (d.display_size || 20) + (d.graph_visibility === 'narrative_only' ? 6 : 0)))
+      .force('clusterX', forceX((d) => getClusterCenter(d.subcategory, width, height).x).strength((d) => d.graph_visibility === 'narrative_only' ? 0.18 : 0.1))
+      .force('clusterY', forceY((d) => getClusterCenter(d.subcategory, width, height).y).strength((d) => d.graph_visibility === 'narrative_only' ? 0.18 : 0.1));
     simulation.alpha(0.35);
 
     simulationRef.current = simulation;
@@ -277,10 +294,10 @@ export function GraphVisualization({
       .data(nodes)
       .enter()
       .append('circle')
-      .attr('r', (d) => d.display_size || 20)
+      .attr('r', (d) => (d.display_size || 20) + (d.graph_visibility === 'narrative_only' ? 3 : 0))
       .attr('fill', (d) => SUBCATEGORY_COLORS[d.subcategory] || SUBCATEGORY_COLORS.default)
-      .attr('stroke', 'rgba(255,255,255,0.25)')
-      .attr('stroke-width', 1)
+      .attr('stroke', (d) => d.graph_visibility === 'narrative_only' ? 'rgba(255,255,255,0.85)' : 'rgba(255,255,255,0.25)')
+      .attr('stroke-width', (d) => d.graph_visibility === 'narrative_only' ? 2 : 1)
       .style('cursor', 'pointer')
       .call(drag()
         .on('start', (event, d) => {
